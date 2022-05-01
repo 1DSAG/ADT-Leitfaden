@@ -1,0 +1,34 @@
+{
+  "name": "dsag-adt-leitfaden",
+  "version": "0.0.1",
+  "description": "DSAG ADT Leitfaden",
+  "main": "--none",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1DSAG/ADT-Leitfaden.git"
+  },
+  "keywords": [
+    "UI5",
+    "DSAG",
+    "SAPUI5",
+    "openUI5"
+  ],
+  "author": "DSAG UI5 community",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1DSAG/ADT-Leitfaden/issues"
+  },
+  "homepage": "https://github.com/1DSAG/ADT-Leitfaden#readme",
+  "dependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^4.3.7",
+    "lint-staged": "^10.5.3"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  }
+}
