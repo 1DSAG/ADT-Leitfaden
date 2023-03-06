@@ -17,3 +17,5 @@ RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | s
 
 # [Optional] Uncomment if you want to install more global node modules
 # RUN su node -c "npm install -g <your-package-list-here>"
+# Grant write permission to the gem cache directory
+RUN mkdir -p /var/lib/gems/2.7.0/cache/ && chmod -R 777 /var/lib/gems/2.7.0/cache/
