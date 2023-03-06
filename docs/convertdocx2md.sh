@@ -1,0 +1,11 @@
+# find all files with the ending ".docx" in the current directory and loop over them
+for file in ./docs/*.docx; do
+    echo "Processing file: $file"
+    # extract the filename from the path
+    filename=$(basename "$file" .docx)
+    echo "Filename: $filename"
+    pandoc -f docx --extract-media "./docs/$filename" -s "./docs/$filename.docx" --wrap=none -t markdown -o "$filename.md"
+    # do something with the file, for example:
+    # convert it to a PDF
+    # libreoffice --convert-to pdf "$file"
+done
