@@ -15,7 +15,7 @@ In Eclipse gibt es zahlreiche Einstellungsmöglichkeiten, die das Leben als Entw
 
 Nach dem Öffnen der Einstellungen über das Menü (Window → Preferences) sehen Sie alle Einstellungen für Eclipse. Im Fenster auf der linken Seite befindet sich die Struktur mit Unterknoten für die Navigation, darüber ein Suchfeld, um nach Knoten oder Einstellungen zu suchen. Auf der rechten Seite befinden sich die Einstellungen zum gewählten Punkt.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image1.png){width="4.734375546806649in" height="4.1789457567804025in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image1.png)
 
 *Abbildung: Einstieg in die globalen Einstellungen*
 
@@ -27,7 +27,7 @@ In den folgenden Abschnitten zeigen wir unseren Vorschlag für diese Einstellung
 
 Viele Entwicklungsumgebungen bieten mittlerweile die Möglichkeit, mit einem hellen oder dunklen Theme zu arbeiten, um die Augen zu schonen oder einfach nur dem persönlichen Geschmack zu entsprechen.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image23.png){width="4.395833333333333in" height="1.2083333333333333in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image23.png)
 
 *Abbildung: Einstellung für das Dark-Theme*
 
@@ -37,7 +37,7 @@ Viele Entwicklungsumgebungen bieten mittlerweile die Möglichkeit, mit einem hel
 
 Beim Schreiben von ABAP Quellcode wird oft mit einer Tabulatorweite von 2 Leerzeichen gearbeitet, standardmäßig ist sie in Eclipse aber auf 4 eingestellt ("Displayed tab width"). Außerdem können Sie einstellen, ob statt einem Tabulator Leerzeichen eingefügt werden ("Insert spaces for tabs") und ob beim Löschen gleich ein ganzer Tabulator entfernt werden soll ("Remove multiple spaces on backspace/delete").
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image17.png){width="6.25in" height="2.5625in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image17.png)
 
 *Abbildung: Einstellung zur Einrückung des Quellcodes*
 
@@ -47,11 +47,11 @@ Beim Schreiben von ABAP Quellcode wird oft mit einer Tabulatorweite von 2 Leerze
 
 Fehlermeldungen tauchen als Ikonen links neben dem Quellcode auf. Um die Information zum Fehler zu erhalten, müssen Sie mit der Maus über die Ikone gehen. Über die Option „Show code minings for problem annotations" können Sie sich die gesamte Fehlermeldung auch direkt im Code anzeigen lassen. Wählen Sie dazu die Art der Meldung aus.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image11.png){width="4.802083333333333in" height="0.65625in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image11.png)
 
 *Abbildung: Beispiel für die Einstellung*
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image18.png){width="6.5in" height="1.3194444444444444in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image18.png)
 
 *Abbildung: Ergebnisbild im Quellcode*
 
@@ -85,7 +85,7 @@ Möglichkeit zur Festlegung der allgemeinen Debugger-Einstellungen, aber auch Ak
 
 Um wichtige Schlüsselwörter in Eclipse hervorzuheben, können Sie diese mit zusätzlichen Farbkombinationen hervorheben. Dazu können Sie einzelne Schlüsselwörter hervorheben oder alle ("Select all"). Damit lassen sich im Quellcode wichtige Passagen leichter identifizieren.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image2.png){width="6.5in" height="5.152777777777778in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image2.png)
 
 *Abbildung: Farbeinstellungen zur Hervorhebung der Schlüsselworte im Quellcode*
 
@@ -95,11 +95,11 @@ Um wichtige Schlüsselwörter in Eclipse hervorzuheben, können Sie diese mit zu
 
 Für häufig verwendete Code-Fragmente liefert SAP Vorlagen aus, die man nach Belieben an eigene Bedürfnisse anpassen kann. Auch neue Vorlagen sind möglich. Die Vorlagen werden im Coding durch Eingabe des Vorlagennamens und Autocomplete (**STRG+SPACE**) eingefügt.
 
-#### ![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image5.png){width="6.5in" height="4.513888888888889in"}
+#### ![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image5.png)
 
 *Abbildung: Verwaltung der ABAP Templates in den Einstellungen*
 
-#### ![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image7.png){width="6.5in" height="3.5in"}
+#### ![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image7.png)
 
 *Abbildung: Einfügen des Templates in den Quellcode*
 
@@ -125,7 +125,7 @@ Hier können Sie Einstellungen am Suchdialog (**STRG+SHIFT+A**) vornehmen, z. B.
 
 Sie finden die systemspezifischen Einstellungen mit einem Rechts-Klick auf das ABAP-Projekt unter "Properties". Der Aufbau des Fensters ist dem der globalen Einstellungen ähnlich und lässt sich gleich bedienen.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image4.png){width="6.5in" height="4.291666666666667in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image4.png)
 
 *Abbildung: Einstieg in die projektspezifischen Einstellungen*
 
@@ -143,7 +143,7 @@ Breakpoints in Eclipse sind automatisch für alle Zugriffsarten (SAP GUI, ABAP U
 
 Wie bei Pretty Printer nehmen Sie hier die Einstellungen der Formatierung vor, wenn der Code Formatter (**SHIFT+F1**) ausgeführt wird. Ein Standard hierfür wäre zum Beispiel:
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image13.png){width="3.7914730971128607in" height="2.463542213473316in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image13.png)
 
 *Abbildung: Mögliche Einstellungen für den Pretty Printer / ABAP Formatter*
 
@@ -159,13 +159,13 @@ Arbeiten mit den unterschiedlichen Views: siehe Kapitel 4
 
 Alle Informationen, die Sie sehen und mit denen Sie arbeiten, werden in Views ("Unterbilder" des Bildschirms) dargestellt, z. B. der Project Explorer oder der Editor. Views können dabei beliebig auf den Bildschirm verschoben werden, indem Sie den Tabellenreiter der View anfassen (Maustaste halten, "Drag") und ziehen.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image6.png){width="1.15625in" height="0.96875in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image6.png)
 
 *Abbildung: Verschieben des Views über die Bezeichnung/Reiter*
 
 Während des Verschiebens wird eine Vorschau des neuen Layouts angezeigt.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image21.png){width="5.135416666666667in" height="1.2604166666666667in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image21.png)
 
 *Abbildung: Die Markierungen deuten die Platzierbarkeit des Fensters an*
 
@@ -175,19 +175,19 @@ Views können auch außerhalb des Eclipse-Bildschirms platziert werden und dort 
 
 Wenn Sie die View neben einen anderen Tabellenreiter ziehen, werden die Views gestapelt, das heißt in einer View-Gruppe zusammengefasst.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image8.png){width="3.1770833333333335in" height="1.2395833333333333in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image8.png)
 
 *Abbildung: Darstellung von gestapelten Views*
 
 View-Gruppen können gemeinsam minimiert und wiederhergestellt werden.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image3.png){width="4.447916666666667in" height="1.1770833333333333in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image3.png)
 
 *Abbildung: Minimieren von View-Gruppen*
 
 Ergebnis ist, dass die View-Gruppe minimiert am Rand des Bildschirms angezeigt wird. Über den Druckknopf "Restore" können Sie die View-Gruppe wiederherstellen.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image12.png){width="0.7291666666666666in" height="0.96875in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image12.png)
 
 *Abbildung: Wiederherstellung der View-Gruppen*
 
@@ -195,13 +195,13 @@ Nach einem Doppelklick auf einen Tabellenreiter wird die View im Vollbild angeze
 
 Nicht mehr benötigte Views können über das Schließen-Symbol geschlossen werden -- so zum Beispiel auch der Feature-Explorer, nachdem Sie das Tutorial durchgearbeitet haben.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image9.png){width="2.1458333333333335in" height="1.1875in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image9.png)
 
 *Abbildung: Schließen eines Views*
 
 Neue oder versehentlich geschlossene Views können Sie nachträglich zu einer Perspektive hinzufügen.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image19.png){width="3.1875in" height="2.1979166666666665in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image19.png)
 
 *Abbildung: Einblenden einer View*
 
@@ -213,7 +213,7 @@ Die Anordnung aller Views auf dem Bildschirm wird in einer Perspektive gespeiche
 
 In den ABAP Development Tools werden hauptsächlich die Perspektiven ABAP und Debugging verwendet, zwischen den man beliebig wechseln kann.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image16.png){width="1.7604166666666667in" height="0.3645833333333333in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image16.png)
 
 *Abbildung: Wechseln zwischen verschiedenen Perspektiven*
 
@@ -221,7 +221,7 @@ In den ABAP Development Tools werden hauptsächlich die Perspektiven ABAP und De
 
 Wenn Sie Ihre Perspektive "zu sehr" angepasst haben, können Sie über das Menü den Auslieferungszustand der Perspektive wiederherstellen.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image22.png){width="4.416666666666667in" height="2.78125in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image22.png)
 
 *Abbildung: Zurücksetzen einer Perspektive*
 
@@ -229,15 +229,15 @@ Wenn Sie Ihre Perspektive "zu sehr" angepasst haben, können Sie über das Menü
 
 Sie können auch eigene Perspektiven definieren. Dies ist vor allem dann sinnvoll, wenn Sie mit verschiedenen Monitor-Konfigurationen arbeiten (z. B. zwei Monitoren). Dadurch kann die Größe und Anordnung der Views angepasst werden. Eine eigene Perspektive kann über "Save Perspektive As..." gespeichert werden.
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image14.png){width="4.28125in" height="2.8541666666666665in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image14.png)
 
 *Abbildung: Speichern einer Perspektive*
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image15.png){width="2.6145833333333335in" height="2.4270833333333335in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image15.png)
 
 *Abbildung: Benennung der neuen Perspektive*
 
-![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image10.png){width="6.28125in" height="3.2916666666666665in"}
+![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image10.png)
 
 *Abbildung: Neu Perspektive mit Name*
 
@@ -257,7 +257,7 @@ Sie können auch eigene Perspektiven definieren. Dies ist vor allem dann sinnvol
 
 Die Einrichtung eines virtuellen Arbeitsplatzes ist so individuell wie die eines realen. Neben den persönlichen Vorlieben kommt es z. B. auch auf die Größe des Monitors an, wie viele Views gleichzeitig sinnvoll angezeigt werden können. Es können deshalb hier nur sehr subjektive Vorschläge gemacht werden.
 
-| Project Explorer | Editor | Open Editors      | ![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image20.png){width="0.20833333333333334in" height="2.625in"} |
+| Project Explorer | Editor | Open Editors      | ![](./Kapitel 6 - Best Practices Eclipse-Konfiguration/media/image20.png) |
 |-----------|-------------------------------|-------------------------|-----|
 |                  |        | ABAP Element Info |                                                                                                                           |
 | Outline          |        | Minimap           |                                                                                                                           |

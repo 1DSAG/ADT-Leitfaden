@@ -73,7 +73,7 @@ File → New → ABAP Projekt
 
 angelegt.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image75.png){width="4.942708880139983in" height="4.019070428696413in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image75.png)
 
 *Abbildung: Erstellung eines ABAP-Projekts in Eclipse*
 
@@ -81,7 +81,7 @@ Bei Anlage eines ABAP-Projekts für On-Premise-Systeme wird die Liste der im SAP
 
 Das neu erstellte Projekt und damit das verbundene Entwicklungssystem wird im sogenannten [[Project Explore](#project-explorer)r] dargestellt.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image97.png){width="4.09375in" height="2.3854166666666665in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image97.png)
 
 *Abbildung: Der Project Explorer*
 
@@ -89,7 +89,7 @@ Der Project Explorer ist der zentrale Einstiegspunkt und Objektkatalog, nachdem 
 
 Der Hauptarbeitsbereich ist der Knoten [Favorite Packages](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec55bf96e391014adc9fffe4e204223.html). Um das Paket zu den Favorite Packages hinzuzufügen, in das die zu erstellende Klasse eingefügt werden soll, führen Sie den Befehl "Add Package" mittels des Kontextmenüs aus.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image35.png){width="6.5in" height="5.722222222222222in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image35.png)
 
 *Abbildung: Hinzufügen von Packages zu den Favoriten*
 
@@ -99,25 +99,25 @@ Zur [Erstellung einer neuen ABAP-Klasse](https://help.sap.com/docs/ABAP_PLATFORM
 
 New → ABAP Class
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image74.png){width="6.5in" height="3.4444444444444446in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image74.png)
 
 *Abbildung: Erstellen einer neuen ABAP-Klasse im Projekt Explorer*
 
 Es öffnet sich ein Fenster, in dem die Daten der Klasse angegeben werden können/müssen.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image81.png){width="5.463542213473316in" height="4.991642607174104in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image81.png)
 
 *Abbildung: Eigenschaftsdialog: Erstellung ABAP-Klasse*
 
 Hier können bei Bedarf bereits die Super-Klasse und zu referenzierende Interfaces angegeben werden. Dies kann aber auch später textbasiert direkt im Quellcode erfolgen. Es öffnet sich nach Klick auf "Next" das Fenster zur Auswahl bzw. Anlage des Transportauftrages.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image76.png){width="6.5in" height="5.930555555555555in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image76.png)
 
 *Abbildung: Transportauftragsdialog*
 
 Nach Klick auf "Finish" wird die Klasse angelegt, und diese findet sich sowohl im Project Explorer im Objektbaum als auch im Quellcode-Editor auf der rechten Seite der ADT.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image78.png){width="6.5in" height="5.305555555555555in"}*Abbildung: Anzeige der neuen Klasse in den ADT*
+![](./Kapitel 3 - Arbeiten mit ADT/media/image78.png)*Abbildung: Anzeige der neuen Klasse in den ADT*
 
 Alle weiteren Operationen an der Klasse werden nun im Quellcode durchgeführt, d. h. alle Typen, Datendefinitionen und Methoden werden textbasiert als Quellcode in der Klasse geschrieben. Dies erscheint anfangs kompliziert und ungewohnt, die ADT bieten aber einige Funktionen an, die die Ausarbeitung der Klasse sehr effizient gestalten.
 
@@ -135,7 +135,7 @@ CLASS \<c*lassname\>* DEFINITION
 
 und platziert den Cursor in den Sichtbarkeitsbereich der Klasse, in der die Methode zur Verfügung steht. In unserem Fall soll die Methode für andere Verwender sichtbar sein und daher im Bereich PUBLIC definiert werden. Die Definition der Methode wird mit dem Schlüsselwort METHODS eingeleitet.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image98.png){width="6.5in" height="5.305555555555555in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image98.png)
 
 *Abbildung: Bearbeiten der Klasse*
 
@@ -147,7 +147,7 @@ Da der Abschlusspunkt nicht vorhanden ist, zeigt ADT sowohl im linken Balken ein
 
 Wir schließen die Methodendefinition mit Erstellung der Parameter und des Abschlusspunkts ab. Durch die Nutzung der Code Completion wird uns die Arbeit dabei sehr erleichtert. Dazu geben wir jeweils nur die ersten zwei bis drei Buchstaben des gewünschten Schlüsselwortes an. Die Tastenkombination **STRG+LEERTASTE** zeigt uns die passenden Schlüsselworte an. Diese können daraufhin mittels **TAB+Pfeiltasten** aus der Vorschlagsliste ausgewählt werden. Zur weiteren Automatisierung der Code-Erstellung bietet sich die Nutzung von Templates an (s. Abschnitt [Code Template](#templates)).
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image80.png){width="5.182292213473316in" height="4.378310367454068in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image80.png)
 
 *Abbildung: Beispiel Code Completion für den Import-Parameter*
 
@@ -171,7 +171,7 @@ Dieses "Problem" lässt sich sehr effizient mit Hilfe der Quick Fixes beheben.
 
 Zur Methodenimplementierung nutzen Sie die [Quick-Fix](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec5668b6e391014adc9fffe4e204223.html)-Funktion, die sich über das Kontextmenü oder die Tastenkombination **STRG+1** aufrufen lässt.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image87.png){width="6.5in" height="5.5in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image87.png)
 
 *Abbildung: Nutzung des Quick Fix zur Methodenimplementierung*
 
@@ -195,7 +195,7 @@ Auch hier hilft die Verwendung der Code Completion, die mit der Tastenkombinatio
 
 Um den Returning-Parameter "r_f_free_seats" nicht ausschreiben zu müssen und Typinformationen zu bekommen, schreiben wir die Struktur und den Komponentenseparator "-" und bekommen mittels der Tastenkombination **STRG+LEERTASTE** die Komponenten angezeigt, die dann ausgewählt und in den Code eingefügt werden können.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image90.png){width="6.109375546806649in" height="4.706557305336833in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image90.png)
 
 *Abbildung: Auswahl der Komponente mittels Code Completion*
 
@@ -223,30 +223,30 @@ Zur Umbenennung der Parameter wird die Rename-Funktion aus dem Kontextmenü übe
 
 ausgeführt.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image100.png){width="6.380208880139983in" height="5.386476377952756in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image100.png)
 
 *Abbildung: Umbenennung von Methodenparametern*
 
 Zuerst muss der Code gespeichert werden. Falls dies nicht erfolgt ist, erscheint eine Abfrage zum Speichern, die bestätigt werden muss.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image84.png){width="4.733614391951006in" height="1.3341852580927385in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image84.png)
 
 *Abbildung: Abfragedialog zum Speichern des Code (File: 2023_01_Save_flight.png)*
 
 Es erscheint eine Dialog-Box zur Eingabe des Parameternamens.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image85.png){width="6.270833333333333in" height="3.0625in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image85.png)
 
 *Abbildung: Eingabe neuer Parametername*
 
 Sofern das Objekt bereits einem Transport zugeordnet ist, kann mit "Finish" die Umbenennung direkt durchgeführt werden.\
 Mit "Next" können weitere optionale Einstellungen, wie der zu verwendende Transport und die Aktivierungsoption, vorgenommen werden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image86.png){width="6.270833333333333in" height="3.0625in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image86.png)
 
 *Abbildung: Auswahl des Transports und Optionen*
 
-Vor der finalen Durchführung kann eine Vorschau auf die Änderung angezeigt werden.![](./Kapitel 3 - Arbeiten mit ADT/media/image62.png){width="6.5in" height="4.583333333333333in"}
+Vor der finalen Durchführung kann eine Vorschau auf die Änderung angezeigt werden.![](./Kapitel 3 - Arbeiten mit ADT/media/image62.png)
 
 *Abbildung: Vorschau der Umbenennung*
 
@@ -268,7 +268,7 @@ Nachdem ADT erfolgreich eingerichtet und ein Projekt, d. h. eine Verbindung zu e
 
 Als Hauptebene der Arbeitsstrukturierung und Ablage der Eclipse- und ADT-Konfiguration dienen die sogenannten Workspaces. Beim ersten Start von Eclipse erscheint die Abfrage, in welchem Verzeichnis der Workspaces abgelegt werden soll.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image91.png){width="6.4375in" height="2.8541666666666665in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image91.png)
 
 *Abbildung: Abfrage des Workspace-Verzeichnisses*
 
@@ -298,11 +298,11 @@ File → Switch Workspace → Other
 
 der Workspace-Dialog aufgerufen.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image92.png){width="5.401042213473316in" height="5.084534120734908in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image92.png)
 
 *Abbildung: Wechseln des Workspace*
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image93.png){width="5.703125546806649in" height="3.72825678040245in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image93.png)
 
 *Abbildung: Der Workspace-Dialog*
 
@@ -316,13 +316,13 @@ Der [Project Explorer](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b8254
 
 Für die tägliche Arbeit empfiehlt es sich, Pakete als Favoriten hinzuzufügen, in denen man regelmäßig tätig ist oder die in die persönliche Zuständigkeit fallen. Damit hat man eine gute Übersicht und findet schnell "seine" Objekte.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image35.png){width="6.5in" height="5.722222222222222in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image35.png)
 
 *Abbildung: Hinzufügen von Packages zu den Favoriten*
 
 Für eine Ablage und Organisation von Favoriten auf Objektebene kann das Plug-in "ABAP Favorites" empfohlen werden, das über den Plug-in-Installationsmechanismus in Eclipse installiert werden kann, siehe Kapitel 7 - Plug-ins.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image70.png){width="3.40625in" height="3.0104166666666665in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image70.png)
 
 *Abbildung: Detailbild Project Explorer mit Buttonleiste*
 
@@ -338,29 +338,29 @@ Wenn Sie als Entwickler mit mehreren Systemlinien arbeiten, empfehlen wir die Ve
 
 Über das Drei-Punkte-Icon in der rechten oberen Ecke des Project Explorer finden sich diverse Einstellungsmöglichkeiten. Unter anderem können hier die Working Sets erstellt und konfiguriert werden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image95.png){width="5.098958880139983in" height="2.7129068241469816in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image95.png)
 
 *Abbildung: Working-Sets-Einstellungen*
 
 Über den Dialog können nun Working Sets angelegt werden (New) und die Zuordnungen erfolgen (Edit).
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image55.png){width="3.0364588801399823in" height="3.55330271216098in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image55.png)
 
 *Abbildung: Anlage und Bearbeitung der Working Sets*
 
 Über den Edit-Button können im Folgedialog die gewünschten Projekte dem Working Set zugeordnet werden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image54.png){width="4.687425634295713in" height="4.494792213473316in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image54.png)
 
 *Abbildung: Zuordnung Projekt zu Working Set*
 
 Diese Funktion ermöglicht eine übersichtliche Strukturierung der Systeme nach Systemlandschaft oder ggf. nach Projekt bzw. Kunde. Abschließend muss noch die Anzeige der Top Level Elements auf Working Sets eingestellt werden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image56.png){width="3.7239588801399823in" height="2.8944510061242346in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image56.png)
 
 *Abbildung: Einstellung der Projekt-Explorer-Anzeige*
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image57.png){width="4.010416666666667in" height="1.53125in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image57.png)
 
 *Abbildung: Darstellung Projekte in Working Sets*
 
@@ -375,7 +375,7 @@ Die Suche nach Objekten in Eclipse ist zentraler Bestandteil der täglichen Arbe
 Um ein Objekt im System zu suchen bzw. zu öffnen, können Sie den Dialog\
 "Open ABAP Development Object" nutzen (erreichbar über die Tastenkombination **STRG+SHIFT+A**).
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image101.png){width="3.8125in" height="5.072916666666667in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image101.png)
 
 *Abbildung: Dialog zur Objektsuche*
 
@@ -385,19 +385,19 @@ Im Dialog haben Sie die Möglichkeit, im oberen Teil das ABAP-Projekt zu ändern
 
 In der Objektsuche haben Sie nun die Möglichkeit, mit Such-Strings und Pattern zu arbeiten, um die Ergebnismenge weiter einzuschränken. Das Feld unterstützt den "Content Assist" (**STRG+LEERTASTE**), um weitere Einschränkungen und Filter zu verwenden. Eine einfache Suche könnte wie folgt aussehen:
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image63.png){width="3.46875in" height="2.1041666666666665in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image63.png)
 
 *Abbildung: Ergebnis der Suche*
 
 Allerdings werden mehr als 50 Ergebnisse (Standardeinstellung) angezeigt und wahrscheinlich ist das gewünschte Ergebnis nicht mit in der Ergebnismenge erhalten. In diesem Fall können Sie den "Content Assist" aufrufen, um weitere Optionen zum Filtern zu erhalten.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image58.png){width="3.15625in" height="1.25in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image58.png)
 
 *Abbildung: Anzeige weiterer Suchoptionen*
 
 Wenn Sie zum Beispiel nun auf Tabellentypen einschränken möchten, dann würden Sie weiter nach dem Typ (TYPE) einschränken. Der "Content Assist" schlägt weiterhin auch die verschiedenen Typen von Objekten vor, sodass Sie auch den Tabellentyp (TTYP) finden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image65.png){width="3.46875in" height="2.09375in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image65.png)
 
 *Abbildung: Ergebnis mit Objekt- und Typfilter*
 
@@ -423,7 +423,7 @@ Das Objekt wird in einem neuen Tab innerhalb des Editors geöffnet, das Quellobj
 
 Dies kann analog auch mit den Pfeiltasten im Bereich der Drucktastenleiste durchgeführt werden. Im Bereich der Drucktastenleiste gibt es dafür auch verschiedene Optionen, um zum letzten verwendeten Tab (**ALT+Pfeil links**) zu gelangen.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image64.png){width="1.3125in" height="0.3125in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image64.png)
 
 *Abbildung: Navigations-Ikonen*
 
@@ -431,7 +431,7 @@ Dies kann analog auch mit den Pfeiltasten im Bereich der Drucktastenleiste durch
 
 Nachdem Sie ein Objekt gefunden haben, möchten Sie in vielen Fällen in diesem Paket weiter arbeiten oder recherchieren. Dazu können Sie sich den Objektbaum laden lassen, indem Sie im Project Explorer den doppelten Pfeil ("Link with Editor") aktivieren.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image88.png){width="3.6979166666666665in" height="0.2708333333333333in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image88.png)
 
 *Abbildung: Aktionen für den Project Explorer*
 
@@ -445,7 +445,7 @@ Die Arbeit mit dem Repository Tree ist detailliert im [[User-Guide] beschrieben]
 
 Der [ABAP Editor](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/79d78f0268484b59a1f6a0e7994316d3.html) ist ein einfacher Texteditor, der die rein textuelle Erstellung von ABAP-Artefakten ermöglicht. Über die Kontext-Funktion können dort die wichtigsten Funktionen wie Quick Fixes, Refactoring-Funktionen und Formatierungsfunktionen aufgerufen werden. Der Einstieg in den ABAP Editor ist im Abschnitt [Das Erstellen einer Klasse im Textmodus](#das-erstellen-einer-klasse-im-textmodus) näher beschrieben.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image45.png){width="6.447916666666667in" height="4.791666666666667in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image45.png)
 
 *Abbildung: ABAP Editor - Hauptfenster*
 
@@ -455,23 +455,23 @@ Der [ABAP Editor](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f94
 
 Über die Positionierung des Cursors auf einem Objekt und dem Shortcut **F2** erscheint ein Pop-up mit Zusatzinformationen. Hier am Beispiel einer Methode und eines Datenelements:
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image7.png){width="6.5in" height="1.5416666666666667in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image7.png)
 
 *Abbildung: Element Info für eine Methode*
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image42.png){width="6.5in" height="1.6944444444444444in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image42.png)
 
 *Abbildung: Element Info für ein Datenelement*
 
 In der [Element Info](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec724ce6e391014adc9fffe4e204223.html) sind somit direkt Details ersichtlich, für die man in der alten Welt noch im System navigieren musste. Zusätzlich lässt sich im Element Info weiter navigieren, um Details tieferer Ebenen zu sichten, z. B. die hinterlegte Domäne etc.
 
-Die ABAP Element Info existiert auch als eigenständige View. Diese kann über das Menü Windows → Show View → ABAP Element Info aktiviert werden. Danach wird über "[Link with Selection](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec5bb496e391014adc9fffe4e204223.html)" ![](./Kapitel 3 - Arbeiten mit ADT/media/image23.png){width="0.25in" height="0.21875in"} bei jedem Klick auf ein relevantes Entwicklungsobjekt automatisch dessen Element Info sowie die Dokumentation aus ABAP Doc angezeigt:
+Die ABAP Element Info existiert auch als eigenständige View. Diese kann über das Menü Windows → Show View → ABAP Element Info aktiviert werden. Danach wird über "[Link with Selection](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec5bb496e391014adc9fffe4e204223.html)" ![](./Kapitel 3 - Arbeiten mit ADT/media/image23.png) bei jedem Klick auf ein relevantes Entwicklungsobjekt automatisch dessen Element Info sowie die Dokumentation aus ABAP Doc angezeigt:
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image44.png){width="5.463542213473316in" height="5.349717847769029in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image44.png)
 
 *Abbildung: Anzeige der Element Info nach Auswahl des Objekts*
 
-Über "Pin this view" ![](./Kapitel 3 - Arbeiten mit ADT/media/image17.png){width="0.22916666666666666in" height="0.22916666666666666in"} wird die Information dauerhaft angezeigt, auch wenn auf ein anderes Element geklickt oder die Element Info per **F2** für ein anderes Entwicklungsobjekt geöffnet wird.
+Über "Pin this view" ![](./Kapitel 3 - Arbeiten mit ADT/media/image17.png) wird die Information dauerhaft angezeigt, auch wenn auf ein anderes Element geklickt oder die Element Info per **F2** für ein anderes Entwicklungsobjekt geöffnet wird.
 
 ### Quelltextformatierung mit dem ABAP Formatter
 
@@ -481,7 +481,7 @@ In der SAP GUI heißt das Werkzeug zum Formatieren des Quellcodes Pretty Printer
 
 oder über das Kontextmenü im Quelltext aufgerufen.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image9.png){width="6.5in" height="2.3194444444444446in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image9.png)
 
 *Abbildung: Kontextmenü für die Formatierung*
 
@@ -491,7 +491,7 @@ Damit der ABAP Formatter seinen Dienst leisten kann, muss er vorab konfiguriert 
 
 Falls die Einstellungen noch nicht vorgenommen wurden, erscheint ein Pop-up-Fenster mit der Meldung, dass dies zuvor erledigt werden muss. In diesem Pop-up-Fenster ist auch ein Link zu den Einstellungen enthalten. Alternativ kann man diese auch direkt über den Kontextmenü-Eintrag *Properties* des entsprechenden Projektes aufrufen. In der folgenden Abbildung sehen Sie die Position in den Einstellungen.
 
-*Abbildung: Einstellungen für den ABAP Formatter*![](./Kapitel 3 - Arbeiten mit ADT/media/image11.png){width="6.5in" height="4.319444444444445in"}
+*Abbildung: Einstellungen für den ABAP Formatter*![](./Kapitel 3 - Arbeiten mit ADT/media/image11.png)
 
 Die Einstellungen entsprechen denen in der SAP GUI. Wenn man die einzelnen Optionen durchprobiert, sieht man im Vorschaufenster das jeweilige Ergebnis. Neu ist die Möglichkeit, dass Camel-Case-Bezeichner beibehalten werden. Das ist gerade im Zusammenhang mit den CDS Views sehr praktisch, da diese im virtuellen Datenmodell von SAP (VDM) konsequent verwendet werden.
 
@@ -507,7 +507,7 @@ Quick Fixes liefern Funktionen für zwei Bereiche:
 
 -   Automatisches Verändern von bestehenden Objekten ohne Veränderung der Funktionalität (sog. Refactoring, z. B. "Methode extrahieren")
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image18.png){width="6.5in" height="1.7638888888888888in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image18.png)
 
 *Abbildung: Anzeige der Refactoring Optionen*
 
@@ -519,7 +519,7 @@ Aufgrund der Vielzahl an Quick Fixes und der ständigen Änderungen in diesem Be
 
 Programme und Funktionsgruppen werden in der Navigation des Project Explorers im Ordner *Source Code Library* angezeigt. Unter den entsprechenden Objekttypen werden alle Komponenten entsprechend der SAP GUI angezeigt.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image77.png){width="6.5in" height="3.1666666666666665in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image77.png)
 
 *Abbildung: Vergleich Funktionsgruppen im Project Explorer der ADT und in der SE80*
 
@@ -531,7 +531,7 @@ Es wird der gleiche Quelltexteditor wie für ABAP-Klassen verwendet. Damit sind 
 
 Die [Outline](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/706db06c6bf41014b5040bee4e204223.html) View liefert Informationen zum aktuell fokussierten Entwicklungsobjekt und löst Variablen, lokale Klassen, Typen etc. auf. Die View kann mit der SE80 verglichen werden, zeigt Ihnen aber immer nur den aktuellen Kontext des Objekts an. Im Screenshot sehen Sie eine Klasse, darunter die entsprechenden Methoden und zwei private Attribute der Klasse. Mit einem Klick auf einen Eintrag navigieren Sie an die entsprechende Stelle im Quellcode.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image38.png){width="4.041666666666667in" height="2.4583333333333335in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image38.png)
 
 *Abbildung: Anzeige der Eigenschaften in den Outlines*
 
@@ -549,15 +549,15 @@ Die [Problems View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f
 
 Dargestellt werden in der Standardkonfiguration dabei systemübergreifend alle Fehler in den eigenen geöffneten Objekten, nicht nur des aktuell in Bearbeitung befindlichen Objekts.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image2.png){width="6.5in" height="0.8472222222222222in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image2.png)
 
 *Abbildung: Anzeige der Meldungen im Problems View*
 
 Durch Doppelklick kann an die entsprechende Stelle im Source-Code navigiert werden.
 
-Über den Button ![](./Kapitel 3 - Arbeiten mit ADT/media/image31.png){width="0.16666666666666666in" height="0.25in"} kann der View weiter konfiguriert werden:
+Über den Button ![](./Kapitel 3 - Arbeiten mit ADT/media/image31.png) kann der View weiter konfiguriert werden:
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image59.png){width="2.0416666666666665in" height="1.3958333333333333in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image59.png)
 
 *Abbildung: Anzeige der Optionen des Views*
 
@@ -573,7 +573,7 @@ Durch Doppelklick kann an die entsprechende Stelle im Source-Code navigiert werd
 
 -   "Configure Columns" ermöglicht es, Spalten ein- und auszublenden sowie die Reihenfolge der Spalten zu ändern.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image99.png){width="6.5in" height="5.736111111111111in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image99.png)
 
 *Abbildung: Konfiguration der angezeigten Punkte*
 
@@ -587,7 +587,7 @@ Die [Properties View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b82542
 
 -   Paketzuordnung
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image36.png){width="6.5in" height="3.9583333333333335in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image36.png)
 
 *Abbildung: Properties View*
 
@@ -595,19 +595,19 @@ Im Bereich "Specific" werden objektspezifische Eigenschaften angezeigt und könn
 
 Im Bereich Transport ist eine Historie der Transportaufträge gelistet, in denen das Objekt enthalten ist.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image47.png){width="6.5in" height="0.6666666666666666in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image47.png)
 
 *Abbildung: Historie der Transporte*
 
 Über das Kontextmenü kann wiederum in den Transportauftrag zur weiteren Analyse verzweigt werden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image66.png){width="6.5in" height="2.4166666666666665in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image66.png)
 
 *Abbildung: Transport View*
 
 Abhängig vom Typ des geöffneten Entwicklungsobjektes existieren weitere Bereiche, die spezifische Informationen zum jeweiligen Objekt enthalten.
 
-Um mehrere Objekte parallel zu sichten, lassen sich über den Button ![](./Kapitel 3 - Arbeiten mit ADT/media/image31.png){width="0.16666666666666666in" height="0.25in"} auch mehrere Properties Views erzeugen.
+Um mehrere Objekte parallel zu sichten, lassen sich über den Button ![](./Kapitel 3 - Arbeiten mit ADT/media/image31.png) auch mehrere Properties Views erzeugen.
 
 Der Properties View hat im Vergleich zur klassischen SAP-GUI-Entwicklung mehrere Vorteile:
 
@@ -623,7 +623,7 @@ Der Properties View hat im Vergleich zur klassischen SAP-GUI-Entwicklung mehrere
 
 Templates werden über einen eigenen View zur Verfügung gestellt (Window → Show View → Templates) und können auch über die Einstellungen angepasst werden (General → ABAP Development → Editors → Source Code Editors → ABAP Templates).
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image69.png){width="6.21875in" height="4.510416666666667in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image69.png)
 
 *Abbildung: Template View Browser*
 
@@ -633,7 +633,7 @@ Der View besteht im oberen Bereich aus einer Button-Leiste, einer Liste der Code
 
 Das [Template](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecd257e6e391014adc9fffe4e204223.html) kann direkt im Quellcode verwendet werden. Beginnen Sie, den Namen zu tippen, und wählen Sie mit Hilfe des "Content Assist" das passende Template aus (hier die ersten beiden Einträge).
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image52.png){width="6.072916666666667in" height="2.28125in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image52.png)
 
 *Abbildung: Auswahl der Templates im Content Assist*
 
@@ -679,13 +679,13 @@ Der [Verwendungsnachweis](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b8
 
 erreichbar. Das Ergebnis wird im Reiter "Search" dargestellt:
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image43.png){width="4.885416666666667in" height="2.125in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image43.png)
 
 *Abbildung: Ergebnis des Verwendungsnachweises/Where-Used-List*
 
 Durch die Verwendung der Filterfunktion mit Hilfe des Filter-Icons kann hierbei auf Pakete, Objekttypen und Benutzer eingeschränkt werden. Auch hier kann per **STRG+SPACE** die automatische Vervollständigung genutzt werden, um Objekte schneller zu finden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image67.png){width="4.713542213473316in" height="2.892820428696413in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image67.png)
 
 *Abbildung: Filter für Where-Used-Search*
 
@@ -703,25 +703,25 @@ Durch die Verwendung der Filterfunktion mit Hilfe des Filter-Icons kann hierbei 
 
 Bookmarks können durch Rechtsklick auf die Liste neben dem Source-Code erstellt werden:
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image60.png){width="4.3125in" height="4.052083333333333in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image60.png)
 
 *Abbildung: Menü zur Erstellung des Bookmarks*
 
 Als Name wird per Standard das Coding der selektierten Zeile angegeben. Es bietet sich an, einen sprechenden und fachlich sinnvollen Namen zu vergeben, über den das Bookmark dann auch einfach wiedergefunden wird.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image8.png){width="4.916666666666667in" height="1.9791666666666667in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image8.png)
 
 *Abbildung: Eingabe eines Namens (Bookmark)*
 
 Innerhalb des Source-Code-Editors erscheint nun eine kleine blaue Fahne neben der selektierten Zeilennummer:
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image51.png){width="5.375in" height="1.3958333333333333in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image51.png)
 
 *Abbildung: Darstellung eines Bookmarks im Quellcode*
 
-Das Bookmark ist dann in der Liste verfügbar und kann durch Doppelklick aufgerufen werden. Über ![](./Kapitel 3 - Arbeiten mit ADT/media/image31.png){width="0.16666666666666666in" height="0.25in"} lassen sich zudem die Ansicht anpassen und Filterungen durchführen. Über das Kontextmenü ist ein Löschen des Bookmarks sowie das Editieren der Beschreibung möglich.
+Das Bookmark ist dann in der Liste verfügbar und kann durch Doppelklick aufgerufen werden. Über ![](./Kapitel 3 - Arbeiten mit ADT/media/image31.png) lassen sich zudem die Ansicht anpassen und Filterungen durchführen. Über das Kontextmenü ist ein Löschen des Bookmarks sowie das Editieren der Beschreibung möglich.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image32.png){width="6.5in" height="0.875in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image32.png)
 
 *Abbildung: Bookmarks View*
 
@@ -731,11 +731,11 @@ Im Entwickler-Alltag kommt es oft vor, dass gemeinsam über Code gesprochen werd
 
 ADT bietet die Möglichkeit, einen Link zu versenden, der den Empfänger direkt an die passende Code-Stelle führt, wenn er auf diesen klickt. Hierzu muss ein Bereich im Source-Code markiert und dann im Kontextmenü "Share Link" ausgewählt werden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image82.png){width="3.243099300087489in" height="7.695165135608049in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image82.png)
 
 *Abbildung: Teilen des Quellcodes als Link (Kontextmenü)*
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image49.png){width="5.666666666666667in" height="2.1770833333333335in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image49.png)
 
 *Abbildung: Dialog zum Teilen des Links*
 
@@ -751,13 +751,13 @@ Mehr Details sind im [User-Guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c2
 
 Die View [Type Hierarchy](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4eccd9066e391014adc9fffe4e204223.html) dient dazu, die Vererbungshierarchie von Klassen und Interfaces darzustellen. Um die View zu nutzen, braucht man nur den Cursor auf die Klasse oder das Interface zu setzen und den Shortcut **F4** zu drücken. Alternativ kann man über das Kontextmenü die ABAP Type Hierarchy öffnen.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image22.png){width="5.729166666666667in" height="2.1666666666666665in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image22.png)
 
 *Abbildung: Öffnen der ABAP Type Hierarchie*
 
 Die View zeigt die Hierarchie in einer Baumstruktur an.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image3.png){width="3.96875in" height="1.0520833333333333in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image3.png)
 
 *Abbildung: Anzeige der Type Hierarchy im View*
 
@@ -769,7 +769,7 @@ Per Doppelklick kann man das markierte Objekt im ABAP Editor öffnen. Über **ST
 
 Der [Transport Organizer](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecc6dd96e391014adc9fffe4e204223.html) zeigt eine Übersicht der geöffneten ABAP-Projekte. Unter den Systemen finden Sie die aktuellen Transporte im System. In der Standardeinstellung sehen Sie alle eigenen Transporte. Über einen Rechtsklick auf ein System und den Punkt "Configure Tree ..." können diese Einstellungen überschrieben und auch Transporte von anderen Entwicklern eingesehen werden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image68.png){width="6.5in" height="2.2777777777777777in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image68.png)
 
 *Abbildung: Transport Organizer View*
 
@@ -789,11 +789,11 @@ Der [Feed Reader](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f94
 
 -   Systemmeldungen
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image6.png){width="6.5in" height="1.7777777777777777in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image6.png)
 
 *Abbildung: Darstellung eines Laufzeitfehlers*
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image12.png){width="6.5in" height="1.5138888888888888in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image12.png)
 
 *Abbildung: Beispiel für Systemmeldung*
 
@@ -805,25 +805,25 @@ Details dazu findet man im User-Guide in den Hilfefunktionen von Eclipse. Der Ar
 
 Die View [ABAP Unit](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/08c60b52cb85444ea3069779274b43db.html) öffnet sich nach dem Ausführen von ABAP Unit Tests und listet die ausgeführten Testmethoden sowie deren Status auf. Die ABAP Unit Tests können per Shortcut **STRG+SHIFT+F10** oder über das Kontextmenü im ABAP Editor mit dem Menüpunkt *"Run As"* gestartet werden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image40.png){width="6.5in" height="2.0555555555555554in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image40.png)
 
 *Abbildung: Ausführung des ABAP Unit Test über das Kontextmenü*
 
 Innerhalb der View kann man die Liste nach Status filtern, Testfälle erneut ausführen und sich Details zu fehlerhaften Läufen anzeigen lassen. Letzteres erscheint durch Anklicken der betroffenen Testmethode.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image37.png){width="6.5in" height="1.5972222222222223in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image37.png)
 
 *Abbildung: Ergebnisanzeige des ABAP Unit Test*
 
 Den Umfang der auszuführenden Testmethoden kann man über verschiedene Möglichkeiten bestimmen. Zum einen hängt dies vom Kontext ab. Hat man zum Beispiel den Fokus auf einer einzelnen Testmethode, so wird auch nur diese Methode ausgeführt. Sitzt der Fokus auf der zu testenden Klasse, dann werden alle Testklassen (und Testmethoden) dazu ausgeführt. Man kann das Ganze sogar auf ein komplettes Paket ausweiten, indem man das Paket im Projekt Explorer markiert und die Unit Tests ausführt. Außerdem kann man in der View per Kontextmenü einzelne oder alle Tests erneut ausführen - je nachdem, welche Ebene man wählt. Zum Beispiel könnte man alle Testmethoden nur einer Testklasse ausführen. Diese Möglichkeit ist besonders hilfreich, wenn ein Testfall nicht erfolgreich ist und man das Verhalten analysieren muss.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image89.png){width="4.416666666666667in" height="2.1979166666666665in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image89.png)
 
 *Abbildung: Neustart der Ausführung*
 
 Zum anderen kann man über "ABAP Unit Test With..." festlegen, welche Art von Tests durchgeführt werden sollen.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image15.png){width="5.322916666666667in" height="3.6458333333333335in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image15.png)
 
 *Abbildung: Dialog zur Einstellung der Ausführung von ABAP Unit Tests*
 
@@ -835,17 +835,17 @@ Die View [ABAP Coverage](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b82
 \
 Diese Art der Ausführung kann per Shortcut **STRG+Shift+F11** oder über das Kontextmenü mit dem Menüpunkt "Coverage As" gestartet werden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image71.png){width="6.5in" height="0.625in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image71.png)
 
 *Abbildung: Durchführung der Abdeckungsmessung*
 
 Die View stellt den durchlaufenen Code in einer Baumstruktur dar und gibt Auskunft darüber, wie viele Statements absolut und relativ durch die ausgeführten Testmethoden ausgeführt wurden. Zusätzlich wird im ABAP Editor farblich markiert, welche Statements genau ausgeführt wurden (mit grün) und welche nicht (mit rot).
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image72.png){width="6.5in" height="3.8194444444444446in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image72.png)
 
 *Abbildung: Farbliche Hervorhebung von Quellcode nach Unit Test*
 
-Ist die farbliche Ansicht im Source-Code nicht sichtbar, so kann diese über das Icon ![](./Kapitel 3 - Arbeiten mit ADT/media/image34.png){width="0.22916666666666666in" height="0.20833333333333334in"} aktiviert werden.
+Ist die farbliche Ansicht im Source-Code nicht sichtbar, so kann diese über das Icon ![](./Kapitel 3 - Arbeiten mit ADT/media/image34.png) aktiviert werden.
 
 ### 
 
@@ -861,7 +861,7 @@ Das [ABAP Test Cockpit](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825
 
 Nach Ausführung der Prüfungen erhalten Sie die View für die "ATC Problems", also die Rückmeldungen über die gefundenen Meldungen durch die eingestellten Prüfungen.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image20.png){width="6.5in" height="3.4027777777777777in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image20.png)
 
 *Abbildung: Anzeige der Ergebnisse des ATC-Laufs*
 
@@ -869,13 +869,13 @@ Auf der linken Seite werden die Meldungen sortiert nach der Schwere des Fehlers 
 
 Mit einem Rechtsklick auf die Meldung kann über den Menü-Eintrag "Request Exemption" auch eine Ausnahme beantragt werden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image19.png){width="2.8958333333333335in" height="2.34375in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image19.png)
 
 *Abbildung: Beantragung von Ausnahmen über den ATC View*
 
 Das Formular entspricht von den Informationen her der SAP GUI und leitet Sie durch den Freigabeprozess. Am Ende kann die Anfrage wie gewohnt über das ATC Cockpit bearbeitet werden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image24.png){width="5.322916666666667in" height="4.895833333333333in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image24.png)
 
 *Abbildung: Dialog zur Klassifizierung der Ausnahme*
 
@@ -887,7 +887,7 @@ In jedem Quelltexteditor, beispielsweise für ABAP, CDS oder BDL, kann für das 
 
 Damit kann man jederzeit Unterstützung bekommen, falls man sich der exakten Syntax einer Anweisung nicht sicher ist.
 
-#### ![](./Kapitel 3 - Arbeiten mit ADT/media/image48.png){width="6.5in" height="5.333333333333333in"}
+#### ![](./Kapitel 3 - Arbeiten mit ADT/media/image48.png)
 
 *Abbildung: Aufruf der ABAP-Sprachhilfe über das Kontextmenü*
 
@@ -895,13 +895,13 @@ Damit kann man jederzeit Unterstützung bekommen, falls man sich der exakten Syn
 
 Die entsprechende Dokumentation wird im ABAP Language Help View als HTML-Dokument angezeigt. Damit ist eine Vorwärtsnavigation über Hyperlinks möglich.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image4.png){width="6.5in" height="3.1527777777777777in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image4.png)
 
 *Abbildung: ABAP Language Help View*
 
 Wie in vielen Views in Eclipse sind hier einige nützliche Standard-Buttons vorhanden.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image102.png){width="4.71875in" height="0.3541666666666667in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image102.png)
 
 *Abbildung: Button-Leiste des Views*
 
@@ -925,31 +925,31 @@ Neben der ABAP Keyword Documentation (bzw. ABAP Language Help) stellt SAP für j
 
 in der Menüleiste, um den Hilfe-Browser zu öffnen.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image41.png){width="6.5in" height="1.3472222222222223in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image41.png)
 
 *Abbildung: Navigation zum Help Content*
 
 Sie erkennen die Help Plug-ins von SAP an dem gelben Buch-Icon. Momentan gibt es die folgenden Help Plug-ins:
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image96.png){width="5.458333333333333in" height="5.25in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image96.png)
 
 *Abbildung: Übersicht der verfügbaren Hilfen und Dokumentationen*
 
 Mit Hilfe der Suche (Search) können Sie nach Stichworten suchen. Mittels Scope können Sie die Suche auf ein oder mehrere Help Plug-ins eingrenzen.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image25.png){width="5.348958880139983in" height="3.502159886264217in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image25.png)
 
 *Abbildung: Suche in der Hilfe*
 
 In Wizards, die die ?-Ikone anbieten, können sie die kontextsensitive Hilfe öffnen. Diese führt Sie direkt zu dem jeweiligen Hilfeinhalt, den es für den Wizard gibt.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image10.png){width="6.5in" height="4.208333333333333in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image10.png)
 
 *Abbildung: Weiterführende Hilfen und Dokumentationen*
 
 Sie können so genannte Active Links in einer Hilfeseite klicken, um aus der Hilfe heraus ein Eclipse-UI zu öffnen. Sie erkennen Active Links an der grünen Ikone mit dem weißen Pfeil.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image29.png){width="6.5in" height="2.8194444444444446in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image29.png)
 
 *Abbildung: Darstellung der Navigationspfade*
 
@@ -1005,7 +1005,7 @@ Weiterhin empfehlen die Autoren die Verwendung des Plug-ins "ABAP Quick Fix" (ht
 
 Hinter dem Kontextmenüpunkt "[Compare with](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/3fbf95542e784e4d9e01ce75386b642b.html)" verstecken sich einige der wichtigsten Features für die tägliche Arbeit. Diese funktionieren bei allen Quelltexteditoren in den ADT, nicht nur bei der Entwicklung von ABAP-Code.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image27.png){width="6.5in" height="1.9861111111111112in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image27.png)
 
 *Abbildung: Kontextmenü zum Vergleichen von Versionen*
 
@@ -1035,15 +1035,15 @@ In der Comparsion View kann man links den aktuellen Stand des Quelltextes sehen 
 
 -   Grau sind die Änderungen hinterlegt
 
-Mit den Buttons ![](./Kapitel 3 - Arbeiten mit ADT/media/image103.png){width="0.3951148293963255in" height="0.20833333333333334in"} kann der alte Zustand durch Kopieren von rechts nach links wiederhergestellt werden. Es ist aber auch möglich, dass man direkt in dieser Vergleichs-View auf der linken Seite Änderungen durchführt. Nach dem Speichern wird der Vergleich wiederholt.
+Mit den Buttons ![](./Kapitel 3 - Arbeiten mit ADT/media/image103.png) kann der alte Zustand durch Kopieren von rechts nach links wiederhergestellt werden. Es ist aber auch möglich, dass man direkt in dieser Vergleichs-View auf der linken Seite Änderungen durchführt. Nach dem Speichern wird der Vergleich wiederholt.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image14.png){width="6.5in" height="3.861111111111111in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image14.png)
 
 *Abbildung: Comparison View* -- *Vergleich von zwei Versionen*
 
 Wenn man eine alte Version vollständig übernehmen will, kann man aus dem Kontextmenü mittels *Replace With → Local History* direkt die passende Version auswählen.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image50.png){width="6.052083333333333in" height="1.1354166666666667in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image50.png)
 
 *Abbildung: Kontextmenü zum kompletten Übernehmen einer Version aus der lokalen Versionsverwaltung*
 
@@ -1053,7 +1053,7 @@ Wenn man eine alte Version vollständig übernehmen will, kann man aus dem Konte
 
 [ABAP Doc](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/a7b235922f6944bbaf3b36949e500b12.html) ermöglicht die Code-basierte Dokumentation wie z. B. von Methoden und deren Parametern.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image73.png){width="6.5in" height="5.805555555555555in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image73.png)
 
 *Abbildung: ABAP-Doc Dokumentation der Methode*
 
@@ -1089,17 +1089,17 @@ unter [ABAP Doc - ABAP-Schlüsselwortdokumentation (sap.com)](https://help.sap.c
 
 Auch in den ADT kann geöffneter Source-Code weiterhin komfortabel ausgeführt werden. Über F8 wird eine SAP-GUI-Instanz des jeweiligen Systems initialisiert und das geöffnete Entwicklungsobjekt ausgeführt. Bei Klassen entspricht dies beispielsweise der Funktion "Testen Klasse X", bei Reports wird normal der Report ausgeführt.
 
-![In Eclipse ausgeführte Klasse](./Kapitel 3 - Arbeiten mit ADT/media/image46.png){width="4.296875546806649in" height="3.383669072615923in"}
+![In Eclipse ausgeführte Klasse](./Kapitel 3 - Arbeiten mit ADT/media/image46.png)
 
 *Abbildung: Ausführung einer Klasse in SAP GUI*
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image1.png){width="4.921875546806649in" height="1.954002624671916in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image1.png)
 
 *Abbildung: Ergebnis der Ausführung*
 
 Soll ein beliebiges Entwicklungsobjekt ausgeführt werden, so kann mit **ALT+F8** ein Objekt über den Object Finder gesucht werden. Dabei kann ein beliebiges Projekt ausgewählt werden, d. h. ein an ADT angebundenes SAP-System. Dies muss nicht das System sein, in dem gerade entwickelt wird -- es kann auch ein Qualitätssicherungssystem sein. Wichtig ist hierbei, dass die ADT-Funktionen für dieses System freigeschaltet sind bzw. die entsprechenden Berechtigungen existieren.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image21.png){width="6.5in" height="4.166666666666667in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image21.png)
 
 *Abbildung: Auswahl des Projekts*
 
@@ -1109,7 +1109,7 @@ Klassen, die das Interface if_oo_adt_classrun implementieren, können ebenfalls 
 
 Reports, die eine Write-Ausgabe erzeugen, können über F9 ausgeführt werden. Die WRITE-Ausgabe wird dann ebenfalls in die Konsole umgeleitet.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image16.png){width="4.17903980752406in" height="6.236831802274716in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image16.png)
 
 *Abbildung: Ausgabe in die Console*
 
@@ -1117,7 +1117,7 @@ Reports, die eine Write-Ausgabe erzeugen, können über F9 ausgeführt werden. D
 
 Die View [Data Preview](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/2fd1241b187b4d6c989e1ff8b1f00ba1.html) kann man nutzen, um sich Daten von Datenbanktabellen und (CDS-)Views anzeigen zu lassen. Die View öffnet sich, indem man entweder im Project Explorer ein entsprechendes Objekt markiert und den Shortcut **F8** drückt, oder das Kontextmenü nutzt.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image61.png){width="6.5in" height="3.5833333333333335in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image61.png)
 
 *Abbildung: Starten des Data Preview über die Tabelle*
 
@@ -1125,7 +1125,7 @@ Der Shortcut **F8** funktioniert auch, wenn man ein entsprechendes Objekt geöff
 
 Die View führt beim Öffnen unverzüglich die Datenselektion aus und listet dann die selektierten Daten in Tabellenform auf. Zusätzlich zeigt sie die Anzahl der selektierten Zeilen und die benötigte Zeit dafür an.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image33.png){width="6.5in" height="1.0in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image33.png)
 
 *Abbildung: Anzeige des Data Preview*
 
@@ -1143,13 +1143,13 @@ Außerdem kann man nach einem Muster in den angezeigten Daten suchen (inkl. ? un
 
 Bei [CDS-Views mit Associations](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/d70c7d8e6e81438e836c96f1aa61a259.html) ist es möglich, den Associations zu folgen und somit die verknüpften Daten anzuzeigen. Dazu markiert man einen der Datensätze und wählt oben über den Pfeil die gewünschte Association aus.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image28.png){width="6.5in" height="1.4861111111111112in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image28.png)
 
 *Abbildung: Navigation über Assoziationen*
 
 Ein Highlight des Data Preview Views ist die [SQL Console](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/c672ec1c94964bb8837075f4f4ecea66.html). Anhand der selektierten Spalten, angegebenen Filtern und der Sortierung wird ein SQL Select Statement generiert, welches dann zur Selektion der Daten verwendet wird.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image26.png){width="6.5in" height="1.0833333333333333in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image26.png)
 
 *Abbildung: SQL Console*
 
@@ -1193,7 +1193,7 @@ Im Bereich der Core Data Services (CDS) gibt es unterschiedliche [Dateitypen](ht
 
 -   Behavior Definitions (BDEF) - Verhaltens-Definitionen für RAP-Business-Objekte
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image79.png){width="3.3958333333333335in" height="1.6770833333333333in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image79.png)
 
 *Abbildung: Objekttypen der CDS in der Navigation*
 
@@ -1209,7 +1209,7 @@ Ein Unterschied sind die Farben, die im Editor verwendet werden.
 
 Ein Grundproblem bei den Core Data Services ist, dass die Eigenschaften eines Objektes (z. B. einer CDS View Entity) aus mehreren Dateien und den Eigenschaften der Datenquellen zusammengesetzt sind.. Diese Dateien erklären jeweils ihre Zugehörigkeit, und die Datenquellen propagieren ihre Feldeigenschaften (Annotationen). Das ist für das Erweiterungskonzept sehr praktisch. Aber die Transparenz leidet darunter, denn die Dateien liegen nicht notwendigerweise im gleichen Entwicklungspaket.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image83.png){width="4.55in" height="4.275430883639545in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image83.png)
 
 *Abbildung: Unterschiedliche Dateien legen die Eigenschaften einer CDS View Entity fest*
 
@@ -1225,7 +1225,7 @@ Um ein vollständiges Bild eines CDS-Objektes unter Berücksichtigung aller Date
 
 Mit **F2**oder der separaten [Element Info View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/c2ffbc2fee0c4ceda3bb89bd843ee419.html) bekommen Sie für einen CDS View eine gute Übersicht über die Datenstruktur und Assoziationen, unabhängig davon, wo diese definiert wurden. Außerdem werden alle relevanten Erweiterungsdateien angezeigt.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image94.png){width="4.739583333333333in" height="5.145833333333333in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image94.png)
 
 *Abbildung: Übersicht über ein CDS View Entity mit Hilfe von Element Info*
 
@@ -1233,7 +1233,7 @@ Mit **F2**oder der separaten [Element Info View](https://help.sap.com/docs/ABAP_
 
 Der [Dependency Analyzer](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/bedc1723e35244e188c5a44a5f4f8340.html) bietet eine gute Übersicht über die Herkunft der Daten. Er wird über das Kontextmenü aufgerufen..
 
-### ![](./Kapitel 3 - Arbeiten mit ADT/media/image30.png){width="5.822916666666667in" height="1.6145833333333333in"}
+### ![](./Kapitel 3 - Arbeiten mit ADT/media/image30.png)
 
 *Abbildung: Aufruf des Dependency Analyzers über das Kontextmenü*
 
@@ -1241,19 +1241,19 @@ Der Dependency Analyzer hat drei Tab-Reiter, die Informationen über eine View a
 
 -   Der **SQL Dependency Tree** zeigt die hierarchische Struktur in Tabellenform an
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image53.png){width="6.5in" height="2.388888888888889in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image53.png)
 
 *Abbildung: SQL Dependency Tree*
 
 -   Der **SQL Dependency Graph** zeigt die gleichen Informationen grafisch an.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image13.png){width="4.541666666666667in" height="4.739583333333333in"}*\
+![](./Kapitel 3 - Arbeiten mit ADT/media/image13.png)*\
 Abbildung: SQL Dependency Graph*
 
 -   Der Tab-Reiter **Complexity Metrics** zeigt zusätzliche Informationen zur Gesamtkomplexität des CDS Views an, inklusive aller Quell-Views.\
     > Gerade bei Performance-Problemen lohnt hier ein Blick.
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image5.png){width="4.541666666666667in" height="4.0625in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image5.png)
 
 *Abbildung: Complexity Metrics*
 
@@ -1269,6 +1269,6 @@ Die [View Active Annotations](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545
 
 Manche Eigenschaften, z. B. Feldtexte, können schon durch die Datenelemente festgelegt und diese dann in die View propagiert werden. Dies ist in folgender Abbildung beispielhaft dargestellt:
 
-![](./Kapitel 3 - Arbeiten mit ADT/media/image39.png){width="6.5in" height="3.7222222222222223in"}
+![](./Kapitel 3 - Arbeiten mit ADT/media/image39.png)
 
 *Abbildung: Aktive Annotationen eines Views*

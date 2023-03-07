@@ -49,6 +49,6 @@ Schriftarten sind Geschmackssache, und die Installation benötigt einmalig Admin
 
 Beispiel
 
-![](./Kapitel 8 - Weiterführende Informationen/media/image1.png){width="6.5in" height="0.2916666666666667in"}
+![](./Kapitel 8 - Weiterführende Informationen/media/image1.png)
 
-![](./Kapitel 8 - Weiterführende Informationen/media/image2.png){width="1.7777777777777777in" height="0.875in"}
+![](./Kapitel 8 - Weiterführende Informationen/media/image2.png)
