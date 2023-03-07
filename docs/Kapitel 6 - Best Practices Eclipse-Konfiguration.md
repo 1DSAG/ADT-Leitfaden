@@ -69,9 +69,9 @@ Konfiguration der Tastenkombinationen in Eclipse, mit denen Sie Ihre Wunscheinst
 
 Siehe auch:
 
-Blog Post [[Useful Keyboard Shortcuts for ABAP in Eclipse]](https://blogs.sap.com/2013/11/21/useful-keyboard-shortcuts-for-abap-in-eclipse/)
+Blog Post [Useful Keyboard Shortcuts for ABAP in Eclipse](https://blogs.sap.com/2013/11/21/useful-keyboard-shortcuts-for-abap-in-eclipse/)
 
-SAP Help [[Keyboard Shortcuts for ABAP Development]](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec299d16e391014adc9fffe4e204223.html)
+SAP Help [Keyboard Shortcuts for ABAP Development](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec299d16e391014adc9fffe4e204223.html)
 
 #### Debugging
 
@@ -251,7 +251,7 @@ Sie können auch eigene Perspektiven definieren. Dies ist vor allem dann sinnvol
 
 Über Eclipse Marketplace installierbare Views
 
--   [[Open Editors]](https://marketplace.eclipse.org/content/open-editors)
+-   [Open Editors](https://marketplace.eclipse.org/content/open-editors)
 
 ## Vorschläge zur Verteilung
 

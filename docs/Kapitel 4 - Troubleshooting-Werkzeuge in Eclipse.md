@@ -7,7 +7,7 @@ nav_order: 4
 
 Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse
 
-Dieses Kapitel gibt einen Überblick über die Werkzeuge, die in den ABAP Development Tools zum [[Troubleshooting]](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecc7d3a6e391014adc9fffe4e204223.html) zur Verfügung stehen. Dazu zählt u. a. Debuggen von Entwicklungsartefakten, Performance-Analyse und weitere Analyse- und Fehlerfindungsmethoden.
+Dieses Kapitel gibt einen Überblick über die Werkzeuge, die in den ABAP Development Tools zum [Troubleshooting](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecc7d3a6e391014adc9fffe4e204223.html) zur Verfügung stehen. Dazu zählt u. a. Debuggen von Entwicklungsartefakten, Performance-Analyse und weitere Analyse- und Fehlerfindungsmethoden.
 
 Neben der Beschreibung der Tools geben wir Hinweise für den sinnvollen Einsatz. Für detaillierte Funktionsbeschreibungen empfehlen wir die offizielle Dokumentation und geben, sofern vorhanden, hilfreiche Links an.
 
@@ -23,7 +23,7 @@ Wenn man z. B. im SE80-Debugger sehr versiert ist, fällt einem der Umstieg schw
 
 # Der Debugger in den ABAP Development Tools
 
-Im Eclipse steht für Analysezwecke ein [[Debugger]](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec30fb66e391014adc9fffe4e204223.html) zur Verfügung. Dieser wird über die Schaltfläche ![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image14.jpg){width="2.7291666666666665in" height="0.3541666666666667in"} gestartet. Mit dem Starten wechselt die Perspektive in Eclipse automatisch auf die Perspektive des Debugger.
+Im Eclipse steht für Analysezwecke ein [Debugger](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec30fb66e391014adc9fffe4e204223.html) zur Verfügung. Dieser wird über die Schaltfläche ![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image14.jpg){width="2.7291666666666665in" height="0.3541666666666667in"} gestartet. Mit dem Starten wechselt die Perspektive in Eclipse automatisch auf die Perspektive des Debugger.
 
 ## Breakpoints und Soft-Breakpoints
 
@@ -67,7 +67,7 @@ Ein sehr hilfreiches Tool im Bereich der Fehleranalyse und Debugging sind die so
 
 -   ASSERT ID \[GRUPPENNAME\]
 
-im Code verankert. Für den detaillierte Syntax und die Optionen der Befehle verweisen wir auf die [[SAP-Hilfe]](https://help.sap.com/docs/ABAP_PLATFORM_NEW/ba879a6e2ea04d9bb94c7ccd7cdac446/491c002326bc14cde10000000a42189b.html?locale=en-US&version=202009.000&q=Checkpoint%20ID).
+im Code verankert. Für den detaillierte Syntax und die Optionen der Befehle verweisen wir auf die [SAP-Hilfe](https://help.sap.com/docs/ABAP_PLATFORM_NEW/ba879a6e2ea04d9bb94c7ccd7cdac446/491c002326bc14cde10000000a42189b.html?locale=en-US&version=202009.000&q=Checkpoint%20ID).
 
 Wie bereits im Debugger des SAP GUI können diese dynamischen Breakpoints für das Debuggen aktiviert bzw. zur Protokollierung genutzt werden. Der Hauptvorteil liegt hier darin, dass der Entwickler im Voraus wichtige Stellen im Code mit Breakpoints versehen kann. Falls der Code analysiert werden soll, muss die Checkpoint ID nur einmalig entsprechend aktiviert werden. Beim Aufruf der Einheit wird dann bei einem aktiven Breakpoint der Debugger an der betreffenden Stelle aufgerufen.
 
@@ -91,7 +91,7 @@ Sie können in dem Dialog entscheiden, was im Log aufgezeichnet werden soll, Sie
 
 *Abbildung: Log Points View in der Debugging Perspektive*
 
-Wir empfehlen, hierzu die SAP-Dokumentation ([[On-Premise]](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/02f4fac1e87244f2968bfbe6d3c37095.html)) zu studieren, um Details über die Anwendung zu erfahren. Einen guter Einstieg bietet hierzu auch dieser Blogeintrag: [[Dynamic Logpoints in ABAP \| SAP-Blogs]](https://blogs.sap.com/2015/10/22/dynamic-logpoints-in-abap/)
+Wir empfehlen, hierzu die SAP-Dokumentation ([On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/02f4fac1e87244f2968bfbe6d3c37095.html)) zu studieren, um Details über die Anwendung zu erfahren. Einen guter Einstieg bietet hierzu auch dieser Blogeintrag: [Dynamic Logpoints in ABAP \| SAP-Blogs](https://blogs.sap.com/2015/10/22/dynamic-logpoints-in-abap/)
 
 # Performance-Analyse 
 
@@ -165,7 +165,7 @@ Eclipse startet dann automatisch die richtige View, und im Tab-Executed-Plan ist
 
 *Abbildung: Anzeige des Abfrage-Ausführungsplans*
 
-Für die Entwicklung mit dem RAP (ABAP RESTful Application Programming Model) gibt es ein spezielles Trace-Werkzeug namens Cross Trace (Doku [[On-Premise]](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/290647b75cea46f491907889251ad067.html)/[[Cloud]](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-abap-cross-trace)), mit dem Sie Anfragen von Fiori-Apps über den RAP Softwarestack (SAP Gateway, BO Behavior, SADL, ABAP Core) hinweg analysieren können. Zur Benutzung ist eine entsprechende gesonderte Berechtigung nötig.
+Für die Entwicklung mit dem RAP (ABAP RESTful Application Programming Model) gibt es ein spezielles Trace-Werkzeug namens Cross Trace (Doku [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/290647b75cea46f491907889251ad067.html)/[Cloud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-abap-cross-trace)), mit dem Sie Anfragen von Fiori-Apps über den RAP Softwarestack (SAP Gateway, BO Behavior, SADL, ABAP Core) hinweg analysieren können. Zur Benutzung ist eine entsprechende gesonderte Berechtigung nötig.
 
 Zum Starten lassen Sie sich die View "ABAP Cross Trace" anzeigen. Diese View hat zwei Tabs. Im ersten Tab können Sie im Kontextmenü eines Systems eine neue Cross-Trace-Konfiguration erstellen. Eine Cross-Trace-Konfiguration kann mit einer Beschreibung zur Unterscheidung versehen werden, kann aktiv oder inaktiv sein, eine automatische Deaktivierung nach einer bestimmten Anzahl von Trace-Requests ist möglich, ebenso eine automatisierte Löschung zu einem bestimmten Zeitpunkt. Sie können entscheiden, ob nicht-sensitive oder sensitive Daten aufgezeichnet werden sollen. Sie können optional nach Benutzer, Zugriffsart und -ziel filtern (z. B. nur ein bestimmter OData-Service; hier ist auch \* für eine Wildcard-Filterung möglich), ebenso können Sie angeben, ob und mit welchem Trace-Level zu den jeweiligen Cross-Trace-Komponenten eine Aufzeichnung stattfinden soll.
 
@@ -185,7 +185,7 @@ Sie können direkt zur auslösenden Quellcodezeile springen, sich die Aufrufhier
 
 ## Hinweis zu HANA Studio und SAP HANA Tools
 
-HANA Studio wird von SAP nur begrenzt weiterentwickelt. Eine zukünftige Lösung für die visuelle Analyse der Query-Pläne innerhalb der ADT oder für die ABAP Cloud steht noch aus. Als eine Lösung außerhalb von Eclipse gibt es ein Visual Studio Code Plug-in, das ebenfalls \*.plv-Dateien öffnen und grafisch anzeigen kann, vgl. [[SQL Analyzer Extension]](https://help.sap.com/docs/HANA_SERVICE_CF/6a504812672d48ba865f4f4b268a881e/50bc09af2fa549c3ace4178b61056da8.html).
+HANA Studio wird von SAP nur begrenzt weiterentwickelt. Eine zukünftige Lösung für die visuelle Analyse der Query-Pläne innerhalb der ADT oder für die ABAP Cloud steht noch aus. Als eine Lösung außerhalb von Eclipse gibt es ein Visual Studio Code Plug-in, das ebenfalls \*.plv-Dateien öffnen und grafisch anzeigen kann, vgl. [SQL Analyzer Extension](https://help.sap.com/docs/HANA_SERVICE_CF/6a504812672d48ba865f4f4b268a881e/50bc09af2fa549c3ace4178b61056da8.html).
 
 Die SAP HANA Tools folgen einem anderen Release-Zyklus als die ADT und sind daher häufig nicht in der aktuellen bzw. der "latest" Update-Site enthalten. Beispielsweise waren die SAP HANA Tools im Januar 2023 in der aktuellsten Version nur auf der https://tools.hana.ondemand.com/2022-09 Site verfügbar.
 
@@ -193,7 +193,7 @@ Die SAP HANA Tools folgen einem anderen Release-Zyklus als die ADT und sind dahe
 
 Feeds ermöglichen ereignisbezogene Benachrichtigungen in den ADT inklusive Zugriff auf eine Liste der bisherigen Ereignisse. Die Feeds werden in einer eigenen View (vgl. Views und Perspektiven in Kapitel 3 - Arbeiten mit ADT) dargestellt. Diese finden Sie in der Liste der Views unterhalb von ABAP mit dem Titel "Feed Reader". Die einzelnen Quellen werden als Feeds bezeichnet und für jeden Feed kann eingestellt werden, wie oft dieser von der Quelle aktualisiert werden soll und ob Benachrichtigungsmeldungen in Eclipse angezeigt werden sollen.
 
-Neben den in der Doku unter "Getting Feeds" ([[On-Premise]](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec3b0cd6e391014adc9fffe4e204223.html)/[[Cloud]](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec3b0cd6e391014adc9fffe4e204223.html)) beschriebenen ABAP-Runtime-Errors/-Dumps und Systemnachrichten können insbesondere auch (abhängig vom Release-Stand des Quellsystems) folgende Informationen im Feed Reader angezeigt werden:
+Neben den in der Doku unter "Getting Feeds" ([On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec3b0cd6e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec3b0cd6e391014adc9fffe4e204223.html)) beschriebenen ABAP-Runtime-Errors/-Dumps und Systemnachrichten können insbesondere auch (abhängig vom Release-Stand des Quellsystems) folgende Informationen im Feed Reader angezeigt werden:
 
 -   Gateway/OData-Fehler (vielfältig filterbar, einschl. Benutzer)
 
@@ -229,7 +229,7 @@ Ein Beispiel mit mehreren Laufzeitfehlern in einem Feed:
 
 *Abbildung: Mehrere Laufzeitfehler innerhalb eines Feeds*
 
-Dokumentation zu den SAP Gateway Error Log Feeds findet sich im PDF-Dokument aus dem Hinweis [[1797736 - SAP Gateway Troubleshooting Guide]](https://me.sap.com/notes/1797736) und im Blog [[How to use the SAP Gateway Error Log in ADT]](https://blogs.sap.com/2020/07/22/how-to-use-the-sap-gateway-error-log-in-adt/).
+Dokumentation zu den SAP Gateway Error Log Feeds findet sich im PDF-Dokument aus dem Hinweis [1797736 - SAP Gateway Troubleshooting Guide](https://me.sap.com/notes/1797736) und im Blog [How to use the SAP Gateway Error Log in ADT](https://blogs.sap.com/2020/07/22/how-to-use-the-sap-gateway-error-log-in-adt/).
 
 Sie können Feeds mit verschiedenen Filtermöglichkeiten ergänzen, u.a. kann auch hier gemäß Benutzer, Service, Namensraum oder Paket gefiltert werden. Um auch mit vielen Einträgen zurechtzukommen, kann ein Blättern (Paging) aktiviert werden. In der Detailanzeige kann direkt in die Transaktion /IWFND/GW_CLIENT zum Replay gesprungen werden. Außerdem kann man direkt in den ADT-Quelltexteditor analog zu den Laufzeitfehlern navigieren, vgl. folgendes Beispiel:
 
@@ -239,9 +239,9 @@ Sie können Feeds mit verschiedenen Filtermöglichkeiten ergänzen, u.a. kann au
 
 Im Kontext von Enterprise Events können Sie Feeds zu Fehlern aus der Event Verarbeitung hinzufügen, z. B. um Fehler beim Weiterreichen der Events an den Event Mesh zu sehen. Dazu können Sie Kanal und Benutzer filtern.
 
-Sie können Feeds zu den ATC-Ergebnissen aus Prüfungen in einem zentralen ATC-Check-System anlegen, vgl. Doku ([[On-Premise]](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec57b9c6e391014adc9fffe4e204223.html)/[[Cloud]](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec57b9c6e391014adc9fffe4e204223.html)). Auch hier sind diverse Filtermöglichkeiten verfügbar. In der Feed-Liste können Sie zu den Details und zur Quellcodezeile eines Ergebnisses navigieren.
+Sie können Feeds zu den ATC-Ergebnissen aus Prüfungen in einem zentralen ATC-Check-System anlegen, vgl. Doku ([On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec57b9c6e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec57b9c6e391014adc9fffe4e204223.html)). Auch hier sind diverse Filtermöglichkeiten verfügbar. In der Feed-Liste können Sie zu den Details und zur Quellcodezeile eines Ergebnisses navigieren.
 
-Sofern Sie BW/S4HANA-Systeme haben, können Sie sich mit dem BW Job Repository Feed über den Status verschiedener Job-Typen (z. B. DATAFLOWCOPY oder DTP_LOAD) informieren lassen, vgl. [[Doku]](https://help.sap.com/docs/SAP_BW4HANA/107a6e8a38b74ede94c833ca3b7b6f51/976f6a8b97714ffaad08df0679ab0849.html). Von den Feed-Einträgen können Sie dann zur Anzeige der Job-Details verzweigen.
+Sofern Sie BW/S4HANA-Systeme haben, können Sie sich mit dem BW Job Repository Feed über den Status verschiedener Job-Typen (z. B. DATAFLOWCOPY oder DTP_LOAD) informieren lassen, vgl. [Doku](https://help.sap.com/docs/SAP_BW4HANA/107a6e8a38b74ede94c833ca3b7b6f51/976f6a8b97714ffaad08df0679ab0849.html). Von den Feed-Einträgen können Sie dann zur Anzeige der Job-Details verzweigen.
 
 Da der Feed Reader das ideale Tool für ein proaktives Monitoring von Anwendungen ist (z. B. bei und nach einem Go-live einer neuen Anwendung), ist es sinnvoll, die Berechtigung für die ADT nicht nur für die Entwicklungssysteme zu betrachten, sondern den Entwicklern mittels Berechtigungen zu ermöglichen, die Feeds auch von Test- und Produktivsystemen einzusammeln.
 
@@ -249,7 +249,7 @@ Da der Feed Reader das ideale Tool für ein proaktives Monitoring von Anwendunge
 
 # Doku-Links
 
-ABAP-Debugger-Konzept: [[https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec365a66e391014adc9fffe4e204223.html]](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec365a66e391014adc9fffe4e204223.html)
+ABAP-Debugger-Konzept: [https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec365a66e391014adc9fffe4e204223.html](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec365a66e391014adc9fffe4e204223.html)
 
 Troubleshooting-Tools: [https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ecc7d3a6e391014adc9fffe4e204223.html]
 

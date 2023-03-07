@@ -45,8 +45,8 @@ Da der Funktionsumfang der ABAP Development Tools fortlaufend durch SAP erweiter
 
 Für Cloud:
 
-[[https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/ab03dcd9072f4a2d85c945d05929d3fb.html]](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/ab03dcd9072f4a2d85c945d05929d3fb.html)
+[https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/ab03dcd9072f4a2d85c945d05929d3fb.html](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/ab03dcd9072f4a2d85c945d05929d3fb.html)
 
 Für On-Premise:
 
-[[https://help.sap.com/doc/2e9cf4a457d84c7a81f33d8c3fdd9694/Cloud/en-US/inst_guide_abap_development_tools.pdf]](https://help.sap.com/doc/2e9cf4a457d84c7a81f33d8c3fdd9694/Cloud/en-US/inst_guide_abap_development_tools.pdf)
+[https://help.sap.com/doc/2e9cf4a457d84c7a81f33d8c3fdd9694/Cloud/en-US/inst_guide_abap_development_tools.pdf](https://help.sap.com/doc/2e9cf4a457d84c7a81f33d8c3fdd9694/Cloud/en-US/inst_guide_abap_development_tools.pdf)

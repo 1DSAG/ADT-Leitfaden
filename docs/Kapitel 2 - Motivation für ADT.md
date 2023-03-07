@@ -19,7 +19,7 @@ Im Gegensatz dazu befinden sich die SAP-GUI-gebundenen Entwicklungswerkzeuge mit
 
 Dies ist vielleicht kurzfristig nicht der motivierendste Grund, allerdings wird dies jeden Entwickler im SAP-Umfeld eines Tages einholen. Daher empfehlen wir, den Einstieg und Umstieg in und auf die ABAP Development Tools lieber heute als morgen anzugehen.
 
-Aus diesem Grund empfiehlt SAP den Einsatz der ADT als Standardumgebung für die ABAP-Entwicklung, um mit jedem Release von neuen Funktionen und Korrekturen zu profitieren. Der tatsächlich vorhandene Funktionsumfang hängt vom Release-Stand des ABAP-Stacks der verwendeten SAP-Systeme ab. Eine grobe Übersicht und weitere Informationen hierzu finden sich im Abschnitt: [[Kapitel 1 - Einführung Eclipse und ADT]](https://docs.google.com/document/u/0/d/1_R0cnFWdcItzWNu9ta434iE7rT7ldiJFOiujvyJdj6w/edit).
+Aus diesem Grund empfiehlt SAP den Einsatz der ADT als Standardumgebung für die ABAP-Entwicklung, um mit jedem Release von neuen Funktionen und Korrekturen zu profitieren. Der tatsächlich vorhandene Funktionsumfang hängt vom Release-Stand des ABAP-Stacks der verwendeten SAP-Systeme ab. Eine grobe Übersicht und weitere Informationen hierzu finden sich im Abschnitt: [Kapitel 1 - Einführung Eclipse und ADT](https://docs.google.com/document/u/0/d/1_R0cnFWdcItzWNu9ta434iE7rT7ldiJFOiujvyJdj6w/edit).
 
 ## Sie möchten eine Entwicklungsumgebung für alles nutzen.
 
@@ -29,7 +29,7 @@ Mit den ABAP Development Tools (ADT) können Sie nicht nur für On-Premise Syste
 
 Dieser Umstand ist insbesondere für ABAP-Entwickler wichtig, die im SAP Cloud ABAP Environment ("Steampunk") entwickeln. In diesem Kontext können klassische, SAP-GUI-orientierte Entwicklungswerkzeuge nicht verwendet werden und Entwicklungen können nur mit den ADT durchgeführt werden.
 
-Eng damit verbunden ist auch die Arbeit mit einigen neuen Entwicklungsartefakten. Die Erstellung bzw. Pflege von [[CDS Views]](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/978e8e4d8ae14c76b4f6505023f0a019.html) ist nur mit ADT möglich. Und auch das neue Programmiermodell der SAP, das "RESTful Application Programming Model" (RAP) kann nur mit ADT verwendet werden.
+Eng damit verbunden ist auch die Arbeit mit einigen neuen Entwicklungsartefakten. Die Erstellung bzw. Pflege von [CDS Views](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/978e8e4d8ae14c76b4f6505023f0a019.html) ist nur mit ADT möglich. Und auch das neue Programmiermodell der SAP, das "RESTful Application Programming Model" (RAP) kann nur mit ADT verwendet werden.
 
 ### Entwicklung auf mehreren Systemlinien
 
@@ -79,11 +79,11 @@ Falls Ihnen der Funktionsumfang der von SAP bereitgestellten Funktionen nicht au
 
 Eine Auswahl dieser Plug-ins wird in Kapitel 7 - Plug-ins vorgestellt. Mit dem richtigen Know-how können Sie bei Bedarf auch eigene Plug-ins erstellen und der SAP Community zur Verfügung stellen.
 
-In der Vergangenheit haben verschiedene ABAP-Entwickler von dieser Möglichkeit bereits Gebrauch gemacht und eigene Plug-ins entwickelt, die sie der SAP-Community kostenlos zur Verfügung stellen. Ein Beispiel hierfür sind die [[ABAP Quick Fix]](https://marketplace.eclipse.org/content/abap-quick-fix). Dies ist eine Erweiterung der im Standard der ADT angebotenen Quick Fixes zur Unterstützung der automatischen Konvertierung der klassischen ABAP-Syntax in das jeweilige moderne ABAP-Syntax-Pendant.
+In der Vergangenheit haben verschiedene ABAP-Entwickler von dieser Möglichkeit bereits Gebrauch gemacht und eigene Plug-ins entwickelt, die sie der SAP-Community kostenlos zur Verfügung stellen. Ein Beispiel hierfür sind die [ABAP Quick Fix](https://marketplace.eclipse.org/content/abap-quick-fix). Dies ist eine Erweiterung der im Standard der ADT angebotenen Quick Fixes zur Unterstützung der automatischen Konvertierung der klassischen ABAP-Syntax in das jeweilige moderne ABAP-Syntax-Pendant.
 
 ## Sie kennen Eclipse bereits von anderen Programmiersprachen. Prima!
 
-Eclipse als Grundlage der ADT ist in verschiedenen Unternehmen bereits im Einsatz. Das liegt daran, dass es z. B. für JAVA eine der am weit verbreitetsten Entwicklungsumgebungen ist. JAVA wiederum ist eine häufig verwendete Programmiersprache (vgl. [[TIOBE-Index]](https://www.tiobe.com/tiobe-index/)) und spielt daher in vielen Entwicklungsprojekten eine Rolle. Daneben ist Eclipse aber auch für andere Entwicklungszwecke einsetzbar, z. B. für die Entwicklung in der Programmiersprache Python oder der Arbeit mit Daten im Extensible-Markup-Language-Format (XML).
+Eclipse als Grundlage der ADT ist in verschiedenen Unternehmen bereits im Einsatz. Das liegt daran, dass es z. B. für JAVA eine der am weit verbreitetsten Entwicklungsumgebungen ist. JAVA wiederum ist eine häufig verwendete Programmiersprache (vgl. [TIOBE-Index](https://www.tiobe.com/tiobe-index/)) und spielt daher in vielen Entwicklungsprojekten eine Rolle. Daneben ist Eclipse aber auch für andere Entwicklungszwecke einsetzbar, z. B. für die Entwicklung in der Programmiersprache Python oder der Arbeit mit Daten im Extensible-Markup-Language-Format (XML).
 
 Es besteht also eine gewisse Wahrscheinlichkeit, dass Entwickler und Unternehmen bereits Vorkenntnisse im Umgang mit Eclipse als Entwicklungsumgebung besitzen. Hierdurch gelingt der erweiterte Einsatz auf Basis der ADT einfacher und schneller, als wenn auf ein vollständig neues, möglicherweise gänzlich unbekanntes Entwicklungswerkzeug gesetzt wird.
 
