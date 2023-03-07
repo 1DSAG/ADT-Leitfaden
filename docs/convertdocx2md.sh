@@ -4,7 +4,7 @@ for file in ./*.docx; do
     # extract the filename from the path
     filename=$(basename "$file" .docx)
     echo "Filename: $filename"
-    pandoc -f docx --extract-media "./$filename" -s "./$filename.docx" --wrap=none -t markdown -o "$filename.md"
+    pandoc -f docx --extract-media "./$filename" -s "./$filename.docx" --wrap=none -t markdown-simple_tables-multiline_tables-grid_tables -o "$filename.md"
     # do something with the file, for example:
     # convert it to a PDF
     # libreoffice --convert-to pdf "$file"
