@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kapitel 2 - Motivation für ADT
-permalink: /kapitel2/
+permalink: /motivation-for-adt/
 nav_order: 2
 ---
 

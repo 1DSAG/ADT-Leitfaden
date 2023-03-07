@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kapitel 1 - Einführung Eclipse und ADT
-permalink: /kapitel1/
+permalink: /introduction-eclipse/
 nav_order: 1
 ---
 

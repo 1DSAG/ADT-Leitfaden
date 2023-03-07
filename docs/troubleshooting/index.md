@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse
-permalink: /kapitel4/
+permalink: /troubleshooting/
 nav_order: 4
 has_toc: true
 ---
@@ -28,7 +28,7 @@ Wenn man z. B. im SE80-Debugger sehr versiert ist, fällt einem der Umstieg schw
 
 # Der Debugger in den ABAP Development Tools
 
-Im Eclipse steht für Analysezwecke ein [Debugger](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec30fb66e391014adc9fffe4e204223.html) zur Verfügung. Dieser wird über die Schaltfläche ![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image14.jpg) gestartet. Mit dem Starten wechselt die Perspektive in Eclipse automatisch auf die Perspektive des Debugger.
+Im Eclipse steht für Analysezwecke ein [Debugger](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec30fb66e391014adc9fffe4e204223.html) zur Verfügung. Dieser wird über die Schaltfläche ![](./img/image14.jpg) gestartet. Mit dem Starten wechselt die Perspektive in Eclipse automatisch auf die Perspektive des Debugger.
 
 ## Breakpoints und Soft-Breakpoints
 
@@ -40,13 +40,13 @@ Die ABAP Development Tools bieten neben den normalen Breakpoints die Möglichkei
 
 ## Debugging-Perspektive
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image24.jpg)
+![](./img/image24.jpg)
 
 *Abbildung: Debugging Perspektive in Eclipse*
 
 Die Debugging-Perspektive in Eclipse bietet einen schnellen Überblick über den Programm-Code, Call-Stack, Variableninhalte und Inhalte von internen Tabellen. Die Variablen und interne Tabellen können mit Doppelklick im Programm-Code ausgewählt werden. Sie werden auf der rechten Seite angezeigt.
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image6.jpg)
+![](./img/image6.jpg)
 
 *Abbildung: Werte der Variablen in der Debugging Perspektive*
 
@@ -80,19 +80,19 @@ Um die Checkpoints effektiv einzusetzen, empfiehlt es sich, entsprechende Templa
 
 Während Checkpoint IDs auch im GUI-basierten Debugger genutzt werden können, bietet ADT für On-Premise-Systeme zusätzlich die Möglichkeit, dynamische Log Points im Debugger zu setzen, die zum Auslesen programm-interner Werte verwendet werden können. Diese Option ist dann hilfreich, wenn es nicht möglich ist, den Produktivcode zu ändern oder auch eine Analyse sehr zeitnah auf dem Produktivsystem durchgeführt werden muss.
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image13.png)
+![](./img/image13.png)
 
 *Abbildung: Erstellung eines Log Points über das Kontextmenü*
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image5.png)
+![](./img/image5.png)
 
 *Abbildung: Attribute beim Erstellen eines Log Points*
 
 Sie können in dem Dialog entscheiden, was im Log aufgezeichnet werden soll, Sie können dem dynamischen Logpoint eine Beschreibung mitgeben, die dann in der Log-Ausgabe verwendet wird, und Sie können verschiedene Kriterien mitgeben, ob (anhand einer Bedingung -- in der Bildschirmkopie verdeckt -- und/oder Benutzer/Server) und wie lange die Log-Ausgabe erfolgen soll. Erstellte Logpoints werden im Editor am linken Rand und am rechten Rand neben der vertikalen Scroll-Leiste angezeigt sowie im View "Logpoints" aufgelistet:
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image3.png)
+![](./img/image3.png)
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image8.png)
+![](./img/image8.png)
 
 *Abbildung: Log Points View in der Debugging Perspektive*
 
@@ -106,7 +106,7 @@ Wenn Sie ein ausführbares Programm (nur On-Premise), eine Konsolenanwendung (nu
 
 Für den Fall, dass man einen anderen Startpunkt benötigt, kann man mit Trace-Requests Anforderungen für den Start des Profiler erstellen. Dazu zuerst die View "ABAP Trace Requests" (diese finden Sie in der View-Liste unterhalb von ABAP, vgl. Views und Perspektiven in Kapitel 3 - Arbeiten mit ADT) einblenden. In dieser View bekommen Sie nach Auswahl eines Systems mit dem Create-Trace-Request-Icon einen Wizard. Mit diesem können Sie verschiedene Trigger für den Start des Profiler auswählen. Wird mit HTTP(S)-Zugriffen direkt auf das System zugegriffen (Achtung: Das ist in einer Hub/FES-Konfiguration im Backend normalerweise nicht der Fall), kann ein Muster für die URL verwendet werden, z. B. der Name des OData-Services mit vor- und nachgestelltem Stern. Des Weiteren können ein RFC-Aufruf eines Funktionsbausteins oder der Start eines Hintergrund-Jobs und diverse weitere Trigger für den Start des Trace verwendet werden. In der SAP-Fiori-Entwicklung kann in einer Hub/FES-Konfiguration für OData-Zugriffe im Backend-System der Funktionsbaustein /IWBEP/FM_MGW_HANDLE_REQUEST als Trigger verwendet werden. Die Anzahl der Trigger-Aktivierungen kann begrenzt werden, ebenso gibt es eine Möglichkeit zur zeitlichen Limitierung. Über verschiedene Einstellungen können Sie den Umfang der Datenermittlung steuern. Über das Kontextmenü in der Liste können Trace-Requests gelöscht werden.
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image17.png)
+![](./img/image17.png)
 
 *Abbildung: ABAP Trace Requests in der Debugging Perspektive*
 
@@ -114,59 +114,59 @@ Darüber hinaus gibt es noch die Möglichkeit, aus dem ADT-Debugger heraus den T
 
 Im Falle der Trace-Requests kann über das Aktualisierungs-Icon im Trace-Request-View die Anzahl der pro Anforderung bereits erzeugten Traces aktualisiert werden. Über das Kontextmenü bzw. per Doppelklick kann in die View mit der Liste der Traces gesprungen werden. Von dort kann die Anzeige eines Trace geöffnet werden. Entweder kann über das Kontextmenü gezielt in die verschiedenen Tabs der Analyse oder per Doppelklick in die Übersichtsseite gesprungen werden.
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image26.png)
+![](./img/image26.png)
 
 *Abbildung: Kontextmenü eines Traces*
 
 Die Übersichtsseite bietet neben einem knappen Überblick über die Laufzeit ebenfalls direkte Absprungpunkte in die verschiedenen Tabs.
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image7.png)
+![](./img/image7.png)
 
 *Abbildung: Übersicht über die Eigenschaften eines Traces*
 
 Insbesondere die graphische Analyse der Timeline ist nur in den ADT verfügbar und erleichtert eine Analyse. Bewegt man den Mauszeiger über die Blöcke, bekommt man direkt Details angezeigt und kann über das Kontextmenü auch direkt in den Quellcode navigieren.
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image11.png)
+![](./img/image11.png)
 
 *Abbildung: Aggregierte Übersicht eines Trace-Verlaufs*
 
 Der SQL-Trace, der insbesondere bei HANA als Datenbank die PLV-Dateien für eine visuelle Analyse der Query-Pläne liefert, kann im Kontextmenü eines Systems im Project Explorer gestartet werden (funktioniert auch im ABAP Environment). Die Ergebnisdarstellung erfolgt dann aber in einer Webanwendung außerhalb der ADT (oder in der Transaktion ST05).
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image15.png)
+![](./img/image15.png)
 
 *Abbildung: Absprung in den SQL Trace*
 
 Sie können für die visuelle Analyse aktuell noch die SAP HANA Administration Tools aus dem HANA Studio zusätzlich in der ADT-Eclipse (oder das komplette SAP HANA Studio parallel) installieren und somit den automatischen Start der visuellen Analyse aus der Transaktion heraus konfigurieren. Dazu setzen Sie den Benutzerparameter HDB_OPEN_STUDIO auf X
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image4.png)
+![](./img/image4.png)
 
 *Abbildung: Einstieg in die Verwaltung der Benutzerparameter*
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image22.png)
+![](./img/image22.png)
 
 *Abbildung: Setzen des Benutzerparameters HDB_OPEN_STUDIO*
 
 und verknüpfen im Betriebssystem das Öffnen von \*.plv-Dateien mit der richtigen eclipse.exe. Beispielsweise gibt es unter Windows dafür im Datei-Explorer im Kontextmenü der Datei die Option "Öffnen mit..." und dort findet sich dann ganz unten die Option "Andere App auf diesem PC suchen", nach Klick müssen Sie die "eclipse.exe" ihrer Eclipse/ADT-Installation suchen und auswählen sowie die Option "Immer diese App ... verwenden" auswählen.
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image19.png)
+![](./img/image19.png)
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image16.png)
+![](./img/image16.png)
 
 *Abbildung: Auswahl der eclipse.exe als neue Möglichkeit zur Anzeige von \*.plv Dateien*
 
 Nach Auswählen einer Zeile in den SQL-Trace-Liste der ST05 oder in Auswahl eines Trace-Record und eines SQL-Statement in der SQL-Trace-Analysis des Technical-Monitoring-Cockpit kann man die HANA-PlanViz-Query-Plan-Visualisierung anfordern:
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image20.png)
+![](./img/image20.png)
 
 *Abbildung: Auswahl einer konkreten Selektion*
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image21.png)
+![](./img/image21.png)
 
 *Abbildung: Download der \*.plv Datei*
 
 Eclipse startet dann automatisch die richtige View, und im Tab-Executed-Plan ist die visuelle Analyse des Query-Plans zu sehen.
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image25.png)
+![](./img/image25.png)
 
 *Abbildung: Anzeige des Abfrage-Ausführungsplans*
 
@@ -174,15 +174,15 @@ Für die Entwicklung mit dem RAP (ABAP RESTful Application Programming Model) gi
 
 Zum Starten lassen Sie sich die View "ABAP Cross Trace" anzeigen. Diese View hat zwei Tabs. Im ersten Tab können Sie im Kontextmenü eines Systems eine neue Cross-Trace-Konfiguration erstellen. Eine Cross-Trace-Konfiguration kann mit einer Beschreibung zur Unterscheidung versehen werden, kann aktiv oder inaktiv sein, eine automatische Deaktivierung nach einer bestimmten Anzahl von Trace-Requests ist möglich, ebenso eine automatisierte Löschung zu einem bestimmten Zeitpunkt. Sie können entscheiden, ob nicht-sensitive oder sensitive Daten aufgezeichnet werden sollen. Sie können optional nach Benutzer, Zugriffsart und -ziel filtern (z. B. nur ein bestimmter OData-Service; hier ist auch \* für eine Wildcard-Filterung möglich), ebenso können Sie angeben, ob und mit welchem Trace-Level zu den jeweiligen Cross-Trace-Komponenten eine Aufzeichnung stattfinden soll.
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image23.png)
+![](./img/image23.png)
 
 *Abbildung: Erstellung von ABAP Cross Traces*
 
 Nach Bestätigung mit OK wird die Konfiguration im View angezeigt, hier kann auch der aktuelle Zustand (aktiv/inaktiv), die Beschreibung und die Anzahl der verbliebenen aufzuzeichnenden Zugriffe eingesehen werden. Im Kontextmenü kann eine Konfiguration editiert sowie aktiviert/deaktiviert/gelöscht/aktualisiert werden. Eine globale Aktualisierung ist rechts oben im View möglich. Zur Ergebnisanzeige wechseln Sie auf den zweiten Tab der View. Hier sehen Sie je einzelnem Zugriff einen Trace. Im Kontextmenü können Sie einen Trace öffnen (und löschen usw.). Der Trace öffnet sich dann in einer weiteren View. Dort sehen Sie den Weg des Zugriffs durch die einzelnen Komponenten hindurch und können die angezeigten Zeilen filtern bzw. eine Textsuche starten. Anhand der Offset-Spalte können Sie den zeitlichen Verlauf des Zugriffs nachvollziehen. Zu jeder Zeile werden in der Properties View Details angezeigt.
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image2.png)
+![](./img/image2.png)
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image18.png)
+![](./img/image18.png)
 
 *Abbildung: Detaillierte Ansicht der Operationen*
 
@@ -214,9 +214,9 @@ Dazu werden die Ereignisse im Pull-Verfahren im Hintergrund abgefragt. Damit die
 
 Daneben können auch beliebige Atom-/RSS-Feeds abonniert werden, das kann beispielsweise der RSS-Feed für die letzten Blog-Posts zu einem Tag auf blogs.sap.com sein:
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image1.png)
+![](./img/image1.png)
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image9.png)
+![](./img/image9.png)
 
 *Abbildung: Abonnieren populärer RSS Feeds*
 
@@ -230,7 +230,7 @@ Sie können Feeds zu Laufzeitfehlern (ST22-Dumps) mit verschiedenen Filtermögli
 
 Ein Beispiel mit mehreren Laufzeitfehlern in einem Feed:
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image10.png)
+![](./img/image10.png)
 
 *Abbildung: Mehrere Laufzeitfehler innerhalb eines Feeds*
 
@@ -238,7 +238,7 @@ Dokumentation zu den SAP Gateway Error Log Feeds findet sich im PDF-Dokument aus
 
 Sie können Feeds mit verschiedenen Filtermöglichkeiten ergänzen, u.a. kann auch hier gemäß Benutzer, Service, Namensraum oder Paket gefiltert werden. Um auch mit vielen Einträgen zurechtzukommen, kann ein Blättern (Paging) aktiviert werden. In der Detailanzeige kann direkt in die Transaktion /IWFND/GW_CLIENT zum Replay gesprungen werden. Außerdem kann man direkt in den ADT-Quelltexteditor analog zu den Laufzeitfehlern navigieren, vgl. folgendes Beispiel:
 
-![](./Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse/media/image12.png)
+![](./img/image12.png)
 
 *Abbildung: Ansicht eines SAP Gateway Fehlers aus dem Error Log*
 

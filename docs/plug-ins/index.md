@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kapitel 7 - Plug-ins
-permalink: /kapitel7/
+permalink: /plug-ins/
 nav_order: 7
 ---
 
@@ -25,7 +25,7 @@ Solche Plug-ins können aus reinem UI-Code bestehen, wie z. B. das ABAP Favorite
 
 Bietet eine neue View, die alle geöffneten Editoren in Eclipse anzeigt. Diese View bietet auch die Möglichkeit, die Sortierreihenfolge der Editoren anzupassen.
 
-![](./Kapitel 7 - Plug-ins/media/image1.png)
+![](./img/image1.png)
 
 *Abbildung: Dialog zur Anpassung der Sortierreihenfolge von geöffneten Editoren*
 
@@ -61,7 +61,7 @@ Zusätzlich bietet das Plug-in auch viele Möglichkeiten zum Vergleichen von Tex
 
 Alle möglichen Operationen stehen über das Kontextmenü eines Editors zur Verfügung.
 
-![](./Kapitel 7 - Plug-ins/media/image4.png)
+![](./img/image4.png)
 
 *Abbildung: Beispiele für verfügbare Operationen im Kontextmenü*
 
@@ -91,7 +91,7 @@ Es gibt jedoch Features, die auch außerhalb der Plug-in-Entwicklung hilfreich s
 
 -   Direkter Start eines neuen Eclipse-Fensters mit einem bestimmten Workspace
 
-![](./Kapitel 7 - Plug-ins/media/image7.png)
+![](./img/image7.png)
 
 *Abbildung: Historie für Zwischenablage (Tastenkürzel Strg+Shift+V)*
 
@@ -113,13 +113,13 @@ Der Unterschied der beiden Views liegt in den Möglichkeiten zur Erstellung der 
 
 Vergleicht man den "Standard"- mit dem "DevObject"-Ordner liegt neben den auswählbaren Objekttypen der größte Unterschied darin, dass bei "Standard" durch einen Doppelklick die Objekte ausgeführt werden. Ein Doppelklick in einem "DevObject"-Ordner bewirkt das Öffnen des ausgewählten Objekts.
 
-![](./Kapitel 7 - Plug-ins/media/image5.png)
+![](./img/image5.png)
 
 *Abbildung: ABAP Favorites View*
 
 Um neue Objekte den Favoriten hinzuzufügen, können die Kontextmenüs der Favorites View, des ABAP Editors oder des Project Explorers genutzt werden.
 
-![](./Kapitel 7 - Plug-ins/media/image8.png)
+![](./img/image8.png)
 
 *Abbildung: Kontextmenü eines Ordners im ABAP Favorites View*
 
@@ -155,11 +155,11 @@ Das Plug-in stellt folgende Funktionen bereit:
 
 -   Auslösen von Jenkins aus Eclipse (experimentell)
 
-![](./Kapitel 7 - Plug-ins/media/image10.png)
+![](./img/image10.png)
 
 *Abbildung: Farbige Hervorhebung der Statusleiste pro Projekt + Teststatus*
 
-![](./Kapitel 7 - Plug-ins/media/image29.png)
+![](./img/image29.png)
 
 *Abbildung: Verwaltung von Paketen, für die Unittests und/oder ATC-Prüfläufe eingeplant sind*
 
@@ -187,7 +187,7 @@ Dieses Plug-in erweitert die ADT um mehrere zusätzliche Funktionalitäten.
 
 Die Funktionalität "Automatisches Einloggen" ermöglicht dem Entwickler, seine Benutzer/Passwort-Kombinationen innerhalb des Secure Storage von Java zu verwalten. Sicherheitstechnisch sollten diese verschlüsselt werden.
 
-![](./Kapitel 7 - Plug-ins/media/image9.png)
+![](./img/image9.png)
 
 *Abbildung: View zur Verwaltung der hinterlegten Zugangsdaten von ABAP Systemen*
 
@@ -197,7 +197,7 @@ Abhängig von den Einstellungen des Plug-in kann man sich in jedes der ausgewäh
 
 Durch das Kontextmenü des Project Explorers können für ABAP/BW-Projekte die Projektattribute (Client, User, Sprache) geändert werden. Zudem können die Breakpoint-User gesetzt werden.
 
-![](./Kapitel 7 - Plug-ins/media/image27.png)
+![](./img/image27.png)
 
 *Abbildung: Kontextmenü auf Projekt im Project Explorer*
 
@@ -205,7 +205,7 @@ Durch das Kontextmenü des Project Explorers können für ABAP/BW-Projekte die P
 
 Nach der Installation erscheint in Eclipse im unteren rechten Bereich eine Toolbar mit einem Eingabefeld für Transaktions-Codes. Das Feld kann per Maus oder über den Shortcut **Shift+F8** bedient werden. Nach der Eingabe des Codes und dem Bestätigen per Enter wird die Transaktion im momentan aktiven Projekt ausgeführt.
 
-![](./Kapitel 7 - Plug-ins/media/image20.png)
+![](./img/image20.png)
 
 *Abbildung: Statusleiste im Eclipse-Fenster*
 
@@ -225,7 +225,7 @@ Links:
 
 Dieses Plug-in fügt Ihrer Oberfläche eine neue View namens "Classic Outline" hinzu, die gewissermaßen die SE80-Objektliste abbildet. In den meisten Fällen kann diese Ansicht die eingebaute ADT Outline ersetzen. Die angezeigte Objektliste kann gefiltert werden und erlaubt die Ansicht der Objektattribute, ähnlich der eingebauten ADT Outline. Durch einen Doppelklick (bzw. einfachen Klick abhängig von den Einstellungen) kann in das selektierte Objekt navigiert werden.
 
-![](./Kapitel 7 - Plug-ins/media/image13.png)
+![](./img/image13.png)
 
 *Abbildung: Classic Outline View*
 
@@ -253,11 +253,11 @@ Links:
 
 Quick Fixes sind Teil der Eclipse IDE. Im ADT-Standard werden sie im Backend-System verarbeitet und können vom Nutzer bei Bedarf mittels Shortcut **CTRL+1** verwendet werden. Das ABAP Quick Fix Plug-in bietet zusätzliche Quick Fixes, die direkt von der Eclipse-Umgebung prozessiert werden.
 
-![](./Kapitel 7 - Plug-ins/media/image17.png)
+![](./img/image17.png)
 
 *Abbildung: ABAP Code vor Quick-Fix-Ausführung*
 
-![](./Kapitel 7 - Plug-ins/media/image21.png)
+![](./img/image21.png)
 
 *Abbildung: ABAP Code nach Quick-Fix-Ausführung*
 
@@ -311,11 +311,11 @@ Dieses Plug-in ist ein sehr schönes Beispiel für die Zusammenarbeit von Entwic
 
 -   Transformiere MOVE_CORRESPONDING nach CORRESPONDING #( )
 
-![](./Kapitel 7 - Plug-ins/media/image25.png)
+![](./img/image25.png)
 
 *Abbildung: Beispiel für Quick-Fix-Verfügbarkeit bei einer SELECT-Anweisung*
 
-![](./Kapitel 7 - Plug-ins/media/image24.png)
+![](./img/image24.png)
 
 *Abbildung: SELECT-Anweisung nach Anwendung des Quick Fix*
 
@@ -339,13 +339,13 @@ Links:
 
 Das ABAP Tags Plug-in ermöglicht es, Tags zu erstellen, welche dann zu beliebigen Entwicklungsobjekten hinzugefügt werden können. Die Tags und deren zugeordneten Objekte werden dabei auf dem jeweiligen ABAP-System persistiert. Dies erleichtert den Zugriff auf getaggte Objekte durch andere Benutzer. Generell erlaubt das Plug-in, Tags entweder im globalen oder im benutzerspezifischen Geltungsbereich anzulegen. Benutzerspezifische Tags können dabei auch mit anderen geteilt werden und dadurch die Zusammenarbeit erleichtern.
 
-![](./Kapitel 7 - Plug-ins/media/image28.png)
+![](./img/image28.png)
 
 *Abbildung: View "Tag Manager"*
 
 Das Taggen von Objekten ist intuitiv über das Kontextmenü aus dem Editor oder dem Project Explorer heraus möglich. Die getaggten Objekte können dann entweder aus dem View "Tag Manager" mittels Kontextmenü-Aktion, oder über die in den "Search"-Dialog integrierten "ABAP Tagged Object Search" gesucht und angezeigt werden.
 
-![](./Kapitel 7 - Plug-ins/media/image32.png)
+![](./img/image32.png)
 
 *Abbildung: Search-Dialog mit Seite "ABAP Object Search"*
 
@@ -381,7 +381,7 @@ Dieses Plug-in erweitert die ADT um weitere Such- und Analysefunktionen für die
 
 Die Suchfunktionen sind in den Eclipse-Search-Dialog integriert (**Strg+H**). Die Bedienung ist dabei ähnlich wie beim Dialog "Open ABAP Development Object" (**Strg+Shift+A**). Den Objekttyp kann man mittels Dropdown ändern. Dieser steuert unter anderem die verfügbaren Filter im Feld "Search Filters".
 
-![](./Kapitel 7 - Plug-ins/media/image31.png)
+![](./img/image31.png)
 
 *Abbildung: Search-Dialog auf Seite "ABAP Object Search"*
 
@@ -399,7 +399,7 @@ Zusätzlich zu den Suchfunktionen stellt das Plug-in noch den View "CDS Analyzer
 
     -   Bottom-up (Verwendung eines Feldes in Feldern anderer CDS Views)
 
-![](./Kapitel 7 - Plug-ins/media/image26.png)
+![](./img/image26.png)
 
 *Abbildung: View "CDS Analyzer" - Top-Down-Analyse*
 
@@ -435,7 +435,7 @@ Dieses Plug-in bringt die bekannte SAP-GUI-Transaktion CODE_SCANNER nach Eclipse
 
 -   Tags können zur Objektauswahl verwendet werden → erfordert Installation des ABAP Tags Plug-in
 
-![](./Kapitel 7 - Plug-ins/media/image22.png)
+![](./img/image22.png)
 
 *Abbildung: Search-Dialog mit "ABAP Code Search"-Seite*
 
@@ -495,7 +495,7 @@ Da Plug-ins für Eclipse in Java zu entwickeln sind, empfiehlt es sich, dort sch
 
 Um Plug-ins für Eclipse zu entwickeln, benötigt man eine bestimmte Variante der Eclipse-Plattform: *Eclipse IDE for RCP and RAP Developers* (RAP = Remote Application Platform). Diese Variante bietet ein vollständiges Toolset, um sowohl Plug-ins für Eclipse als auch Rich-Client-Anwendungen (RCP) auf Basis von Eclipse zu entwickeln. Sie kann direkt von [eclipse.org](https://www.eclipse.org/downloads/packages/) bezogen werden.
 
-![](./Kapitel 7 - Plug-ins/media/image2.png)
+![](./img/image2.png)
 
 *Abbildung: Eclipse Bundle "Eclipse IDE for RCP and RAP Developers"*
 
@@ -559,7 +559,7 @@ Update-Sites werden verwendet, um Features zu organisieren und zu exportieren, d
 
 Ein neues Plug-in-Projekt kann über File → New → Plug-in Project erstellt werden. Daraufhin öffnet sich der Plug-in Project Wizard:
 
-![](./Kapitel 7 - Plug-ins/media/image6.png)
+![](./img/image6.png)
 
 *Abbildung: Plug-in Project Wizard - Einstieg*
 
@@ -571,7 +571,7 @@ Da in diesem Guide explizit auf die Plug-in-Entwicklung für Eclipse eingegangen
 
 Durch den Klick auf *Next* geht es auf die nächste Seite des Wizards.
 
-![](./Kapitel 7 - Plug-ins/media/image11.png)
+![](./img/image11.png)
 
 *Abbildung: Plug-in Project Wizard - Inhalt*
 
@@ -591,7 +591,7 @@ Nach Abschluss des Wizard mittels *Finish* wird das Plug-in-Projekt an der ausge
 
 Ein Plug-in-Projekt hat immer den folgenden Aufbau. Die Datei *plugin.xml* und der Ordner *OSGI-INF* sind dabei optional und existieren nur, wenn die Notwendigkeit besteht.
 
-![](./Kapitel 7 - Plug-ins/media/image15.png)
+![](./img/image15.png)
 
 *Abbildung: Plug-in-Projekt im Project Explorer View*
 
@@ -627,7 +627,7 @@ Die wichtigsten Dateien sind *manifest.mf*, *build.properties* und *plugin.xml*.
 
 Ein neues Feature-Projekt kann über File → New → Feature Project erstellt werden. Daraufhin öffnet sich der Feature Project Wizard:
 
-![](./Kapitel 7 - Plug-ins/media/image19.png)
+![](./img/image19.png)
 
 *Abbildung: Feature Project Wizard - Einstieg*
 
@@ -635,7 +635,7 @@ Die Eigenschaften bei einem Feature-Projekt sind ähnlich wie beim Plug-in-Proje
 
 Nun kann der Wizard beendet werden oder man navigiert zur nächsten Seite, auf der man gleich die Plug-ins selektieren kann, die in diesem Feature enthalten sein sollen:
 
-![](./Kapitel 7 - Plug-ins/media/image23.png)
+![](./img/image23.png)
 
 *Abbildung: Feature Project Wizard - Plug-in-Auswahl*
 
@@ -675,7 +675,7 @@ Dieser ist in die folgenden Sektionen unterteilt:
 
 Ein neues Update-Site-Projekt kann über File → New → Project... → Plug-in Development →\> Update Site Project erstellt werden. Daraufhin öffnet sich der Update Site Project Wizard:
 
-![](./Kapitel 7 - Plug-ins/media/image14.png)
+![](./img/image14.png)
 
 *Abbildung: Update Site Wizard*
 
@@ -687,7 +687,7 @@ Nachdem der Inhalt der Update-Site fertig konfiguriert ist, kann diese über den
 
 **WICHTIG**: Bevor man nun die Update-Site erstellt, sollte man nochmal die Java-Compiler-Einstellungen über Window → Preferences → Java → Compiler prüfen. Diese sollten auf die gleiche Java-Version eingestellt sein, die bei den Plug-ins als minimale Voraussetzung definiert wurde:
 
-![](./Kapitel 7 - Plug-ins/media/image12.png)
+![](./img/image12.png)
 
 *Abbildung: Compiler-Einstellungen im Eclipse-Einstellungsdialog*
 
@@ -707,7 +707,7 @@ Zusätzlich kann auch noch ein Archiv mit dem Namen *logs.zip* erstellt worden s
 
 Bevor die erstellte Site nun auf einem Webserver hochgeladen wird, möchte man diese vorher eventuell noch testen. Dazu sollte man sich eine neue Eclipse-Installation besorgen. Hierfür ist die Variante *Eclipse IDE for Java Developers* völlig ausreichend. In dieser Installation werden nun erst die ADT installiert, nach einem Neustart fügt man jetzt die neue -- bis jetzt noch lokale -- Update-Site über Help → Install New Software... → Add*...* hinzu:
 
-![](./Kapitel 7 - Plug-ins/media/image30.png)
+![](./img/image30.png)
 
 *Abbildung: Dialog zum Hinzufügen einer Update-Site*
 
@@ -717,7 +717,7 @@ Bevor die erstellte Site nun auf einem Webserver hochgeladen wird, möchte man d
 
 Wenn der Test der Update-Site erfolgreich war, kann diese nun auf einem Webserver hochgeladen werden, um die Artefakte für andere bereitzustellen. Sollte man die Kosten für einen eigenen Webserver scheuen, gibt es zum Beispiel über GitHub Pages eine kostenlose Möglichkeit, seine Update-Site bereitzustellen. Dazu initialisiert man im Projektverzeichnis der Update-Site ein neues Git Repository und veröffentlicht dieses in einem öffentlichen Repository auf GitHub. Im Anschluss kann in den Repository-Einstellungen auf GitHub die Option "GitHub Pages" aktiviert werden:
 
-![](./Kapitel 7 - Plug-ins/media/image3.png)
+![](./img/image3.png)
 
 *Abbildung: GitHub-Repository-Einstellungen für GitHub Pages*
 
@@ -733,13 +733,13 @@ Somit steht es jedem offen, entweder, wie im Guide beschrieben, eigene RESTful A
 
 Vor allem bei kleineren Plug-ins mag die BAdI-Methode als ziemlicher Overhead wirken, sowohl auf ABAP- als auch auf Java-Seite. Jedoch hat der BAdI-Ansatz auch seine Vorteile. Vor allem durch den Einsatz von EMF (Eclipse Modelling Framework) besteht die Möglichkeit, einen von ABAP nach XML serialisierten String ganz einfach in Objekte in Java umzuwandeln. Einfach beschrieben benötigt man dafür auf der ABAP-Seite eine "Simple Transformation" (Objekttyp XSLT), um ABAP-Daten nach XML zu transformieren.
 
-![](./Kapitel 7 - Plug-ins/media/image18.png)
+![](./img/image18.png)
 
 *Abbildung: Beispiel für eine Simple Transformation zur Transformation von ABAP \<-\> XML*
 
 Und seitens Java ist ein EMF-Modell notwendig.
 
-![](./Kapitel 7 - Plug-ins/media/image16.png)
+![](./img/image16.png)
 
 *Abbildung: Beispiel für EMF-Modell zur Serialisierung von XML- \<-\> Java-Objekt*
 

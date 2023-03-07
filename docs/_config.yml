@@ -27,6 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: _dsag
 github_username:  DSAGadmin
 markdown: kramdown
+color_scheme: dsag
 logo: "/assets/images/DSAGLogo.svg"
 
 # Build settings
