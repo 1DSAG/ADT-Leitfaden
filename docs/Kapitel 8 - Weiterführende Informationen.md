@@ -45,7 +45,7 @@ Wir werden das Kapitel in GitHub überführen und uns um die Vervollständigung 
 
 **(General → Appearance → Colors and Fonts → Text Font)**
 
-Schriftarten sind Geschmackssache, und die Installation benötigt einmalig Administratorrechte. Ein sehr schöner Font, der sogenannte \"Ligatures\" verwendet, bei dem mehrere Zeichen zu einem vereint werden, ist \"Fira Code\" (siehe [**[GitHub - tonsky/FiraCode: Free monospaced font with programming ligatures]{.underline}**](https://github.com/tonsky/FiraCode)).
+Schriftarten sind Geschmackssache, und die Installation benötigt einmalig Administratorrechte. Ein sehr schöner Font, der sogenannte \"Ligatures\" verwendet, bei dem mehrere Zeichen zu einem vereint werden, ist \"Fira Code\" (siehe [**[GitHub - tonsky/FiraCode: Free monospaced font with programming ligatures]**](https://github.com/tonsky/FiraCode)).
 
 Beispiel
 

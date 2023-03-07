@@ -13,7 +13,7 @@ Die ADT basieren auf dem quelloffenen und vor allem in anderen Programmiersprach
 
 ### Installation Guide von SAP
 
-SAP veröffentlicht einen eigenen Installationsleitfaden ([[Link]{.underline}](https://help.sap.com/doc/2e9cf4a457d84c7a81f33d8c3fdd9694/Cloud/en-US/inst_guide_abap_development_tools.pdf)). Dieser führt neben dem hier ebenfalls aufgeführten manuellen Installationsweg auch weitere Varianten für abgeriegelte Umgebungen mit sehr begrenztem Internet-Zugriff auf. Da es sich hierbei um Lösungen für spezielle Situationen handelt, wird auf diese in den folgenden Abschnitten nicht mehr eingegangen.
+SAP veröffentlicht einen eigenen Installationsleitfaden ([[Link]](https://help.sap.com/doc/2e9cf4a457d84c7a81f33d8c3fdd9694/Cloud/en-US/inst_guide_abap_development_tools.pdf)). Dieser führt neben dem hier ebenfalls aufgeführten manuellen Installationsweg auch weitere Varianten für abgeriegelte Umgebungen mit sehr begrenztem Internet-Zugriff auf. Da es sich hierbei um Lösungen für spezielle Situationen handelt, wird auf diese in den folgenden Abschnitten nicht mehr eingegangen.
 
 #### Andere Werkzeuge mit identischem Installationsweg
 
@@ -31,7 +31,7 @@ Zu beachten ist dabei, dass Eclipse mittlerweile standardmäßig als 64-Bit-Anwe
 
 ### Backend
 
-Neben der lokalen ADT-Installation muss im Falle der Entwicklung auf einem On-Premise-System auch selbiges für die Verbindung mit ADT vorbereitet werden. Diese Schritte werden ebenfalls im offiziellen [[SAP ADT Configuration Guide]{.underline}](http://help.sap.com/download/netweaver/adt/SAP_ADT_Configuration_Guide_Backend_en.pdf) beschrieben. Zwei essentielle Schritte werden darin jedoch gerne übersehen, weshalb hier noch einmal explizit darauf hingewiesen werden soll.
+Neben der lokalen ADT-Installation muss im Falle der Entwicklung auf einem On-Premise-System auch selbiges für die Verbindung mit ADT vorbereitet werden. Diese Schritte werden ebenfalls im offiziellen [[SAP ADT Configuration Guide]](http://help.sap.com/download/netweaver/adt/SAP_ADT_Configuration_Guide_Backend_en.pdf) beschrieben. Zwei essentielle Schritte werden darin jedoch gerne übersehen, weshalb hier noch einmal explizit darauf hingewiesen werden soll.
 
 #### Web-Services
 
@@ -69,7 +69,7 @@ SAP liefert hierzu zwei Rollen als Vorlage aus:
 
 2.  *SAP_BC_DWB_WBDISPLAY* → Anzeigeberechtigungen für alle Features
 
-Details bezüglich der darin verbauten Berechtigungen und deren Zweck können dem [[SAP ADT Configuration Guide]{.underline}](http://help.sap.com/download/netweaver/adt/SAP_ADT_Configuration_Guide_Backend_en.pdf) entnommen werden.
+Details bezüglich der darin verbauten Berechtigungen und deren Zweck können dem [[SAP ADT Configuration Guide]](http://help.sap.com/download/netweaver/adt/SAP_ADT_Configuration_Guide_Backend_en.pdf) entnommen werden.
 
 ### SAP-GUI-Installation
 
@@ -247,7 +247,7 @@ Erstinstallation</strong></th>
 
 In dieser Variante wird eine Standard-Eclipse-Installation neu heruntergeladen und mittels weniger Klicks installiert. Da es keinen vorgefertigten Installer für ABAP gibt, werden die ADT einzeln nachinstalliert. Ohne Plug-ins, Einstellungen und Perspective-Anpassungen ist hier nach ungefähr 15 Minuten eine benutzbare Installation vorhanden.
 
-SAP hat auf seiner Lernplattform eine bebilderte Anleitung zur Verfügung gestellt: [[https://developers.sap.com/tutorials/abap-install-adt.html]{.underline}](https://developers.sap.com/tutorials/abap-install-adt.html).
+SAP hat auf seiner Lernplattform eine bebilderte Anleitung zur Verfügung gestellt: [[https://developers.sap.com/tutorials/abap-install-adt.html]](https://developers.sap.com/tutorials/abap-install-adt.html).
 
 Ist diese Installation abgeschlossen, müssen die gewünschten Einstellungen vorgenommen und die Systemverbindungen hinzugefügt werden. Sollten weitere Plug-ins zum Einsatz kommen (siehe Kapitel 7 \"Plug-ins\"), müssen auch diese nachinstalliert werden.
 
@@ -273,7 +273,7 @@ Lediglich der Eclipse Installer muss dann noch beispielsweise per Software-Verte
 
 Der Nachteil dieser Variante ist der vergleichsweise hohe zentrale Aufwand. Sie ist somit nicht für einzelne/wenige Standardinstallationen geeignet.
 
-Das Oomph-Projekt hat eine umfangreiche englischsprachige Dokumentation zur Verfügung gestellt, welche sich gut als Nachschlagewerk eignet: [[Link]{.underline}](https://wiki.eclipse.org/Eclipse_Oomph_Authoring).
+Das Oomph-Projekt hat eine umfangreiche englischsprachige Dokumentation zur Verfügung gestellt, welche sich gut als Nachschlagewerk eignet: [[Link]](https://wiki.eclipse.org/Eclipse_Oomph_Authoring).
 
 #### Administratorinformationen
 
@@ -371,7 +371,7 @@ Ein Product-Catalog listet verschiedene Products. Er enthält darüber hinaus au
 
 -   Definition von Variablen, die später pro Product (Version) oder Project anders gefüllt werden können (beispielsweise für versionsspezifische Update-Sites)
 
--   die Installation des Oomph Client für die spätere Verteilung von Aktualisierungen der in den Products und Projects festgelegten Einstellungen, Oomph Recorder (siehe Abschnitt [[Anwenderinformationen]{.underline}](#anwenderinformationen)).
+-   die Installation des Oomph Client für die spätere Verteilung von Aktualisierungen der in den Products und Projects festgelegten Einstellungen, Oomph Recorder (siehe Abschnitt [[Anwenderinformationen]](#anwenderinformationen)).
 
 Auf allen Ebenen (Product-Catalog, Product und Product-Version) können folgende Eigenschaften hinterlegt werden:
 
@@ -417,9 +417,9 @@ Für eine minimale ADT-Installation wird Folgendes benötigt:
 
     -   Repository-URLs für die Eclipse Platform Packages
 
-        -   [[https://download.eclipse.org/releases/2202-03/202203161000]{.underline}](https://download.eclipse.org/releases/2202-03/202203161000) (Link Release-abhängig!)
+        -   [[https://download.eclipse.org/releases/2202-03/202203161000]](https://download.eclipse.org/releases/2202-03/202203161000) (Link Release-abhängig!)
 
-        -   [[https://download.eclipse.org/technology/epp/packages/2022-03/202203101200]{.underline}](https://download.eclipse.org/technology/epp/packages/2022-03/202203101200) (Link Release-abhängig!)
+        -   [[https://download.eclipse.org/technology/epp/packages/2022-03/202203101200]](https://download.eclipse.org/technology/epp/packages/2022-03/202203101200) (Link Release-abhängig!)
 
 ![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image7.png){width="6.5in" height="1.6527777777777777in"}
 
@@ -464,7 +464,7 @@ Für eine minimale ADT-Installation wird benötigt:
 
 *Abbildung: Komponenten einer minimalen ADT-Installation*
 
-Zu beachten ist, dass ein Plug-in für Eclipse aus mehreren Feature Groups bestehen kann. Wie man diese herausfinden kann, wird im Abschnitt [[Zusätzliches Plug-in installieren]{.underline}](#zusätzliches-plug-in-installieren) erklärt.
+Zu beachten ist, dass ein Plug-in für Eclipse aus mehreren Feature Groups bestehen kann. Wie man diese herausfinden kann, wird im Abschnitt [[Zusätzliches Plug-in installieren]](#zusätzliches-plug-in-installieren) erklärt.
 
 ##### Verteilung des Installer und Konfiguration
 
@@ -482,13 +482,13 @@ Beispiel einer Indexliste:
 
 *xmi:version="2.0"*
 
-*xmlns:xmi="[[http://www.omg.org/XMI]{.underline}](http://www.omg.org/XMI)"*
+*xmlns:xmi="[[http://www.omg.org/XMI]](http://www.omg.org/XMI)"*
 
-*xmlns:base="[[http://www.eclipse.org/oomph/base/1.0]{.underline}](http://www.eclipse.org/oomph/base/1.0)"*
+*xmlns:base="[[http://www.eclipse.org/oomph/base/1.0]](http://www.eclipse.org/oomph/base/1.0)"*
 
 *source="IndexLocations"\>*
 
-*\<detail key="[[https://pages.github.com/path/subpath/myFirst.setup]{.underline}](https://pages.github.com/path/subpath/myFirst.setup)"\>*
+*\<detail key="[[https://pages.github.com/path/subpath/myFirst.setup]](https://pages.github.com/path/subpath/myFirst.setup)"\>*
 
 *\<value\>Description of my first Oomph Catalog\</value\>*
 
@@ -524,7 +524,7 @@ Neben der Installation von ADT ist die Voreinstellung diverser Einstellungen fü
 
 Alle zu vergebenden Einstellungen kommen in den Compound/Ordner *User-Preferences* des Oomph Projects. Darunter gibt es dann einzelne Unterordner pro Feature (als Teil einer Feature Group) und darin dann die Einstellungen. Hierbei ist es jedoch jedem Feature selbst überlassen, in welcher Darstellung es seine Einstellungen speichert. Einige Einstellungen sind als direkte Werte abgelegt (klassische Checkboxen), andere beispielsweise als ein großes XML pro Einstellungsseite. Gerade bei letzterem können dann nur alle Einstellungen der Seite oder keine vorgegeben werden. Ein Beispiel für die XML-Darstellung sind die Code Templates der SAP ADT.
 
-Da diese nicht einheitliche Darstellung unpraktisch zu administrieren ist und die Namen der Features in der Regel auch nicht bekannt sind, existieren auch hier Hilfswerkzeuge: In den Einstellungen wird ein Oomph Recorder installiert. Näheres zur Verwendung als Anwender kann dem Abschnitt [[Oomph Recorder]{.underline}](#oomph-recorder) entnommen werden. Der Oomph Recorder zeichnet den letzten Stand aller geänderten Einstellungen auf Benutzerebene auf (also übergreifend über Eclipse-Installationen) und fragt nach dem Schließen der Einstellungen, ob diese immer/einmal/nie gespeichert werden sollen. Ebenso wird damit ein Button in der Button-Leiste von Eclipse verfügbar, um sich die bereits gespeicherten Einstellungen anzuschauen.
+Da diese nicht einheitliche Darstellung unpraktisch zu administrieren ist und die Namen der Features in der Regel auch nicht bekannt sind, existieren auch hier Hilfswerkzeuge: In den Einstellungen wird ein Oomph Recorder installiert. Näheres zur Verwendung als Anwender kann dem Abschnitt [[Oomph Recorder]](#oomph-recorder) entnommen werden. Der Oomph Recorder zeichnet den letzten Stand aller geänderten Einstellungen auf Benutzerebene auf (also übergreifend über Eclipse-Installationen) und fragt nach dem Schließen der Einstellungen, ob diese immer/einmal/nie gespeichert werden sollen. Ebenso wird damit ein Button in der Button-Leiste von Eclipse verfügbar, um sich die bereits gespeicherten Einstellungen anzuschauen.
 
 ![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image11.png){width="2.2083333333333335in" height="0.8125in"}
 
@@ -651,24 +651,24 @@ In älteren Blog-Einträgen werden noch die Kerberos-Bibliotheken von Windows em
 
 ### "No repository found containing"
 
-[[https://launchpad.support.sap.com/#/notes/2186770]{.underline}](https://launchpad.support.sap.com/#/notes/2186770)
+[[https://launchpad.support.sap.com/#/notes/2186770]](https://launchpad.support.sap.com/#/notes/2186770)
 
 Ab und zu scheint es Probleme zu geben, die ADT zu aktualisieren. Im Protokoll erscheinen mehrere Fehler "No repository found containing: ...". Der Hinweis empfiehlt, die Update-Site zu entfernen, Eclipse neu zu starten und dann die Update-Site neu hinzuzufügen.
 
 ### PKIX - Certificate Error
 
-[[https://launchpad.support.sap.com/#/notes/3131747]{.underline}](https://launchpad.support.sap.com/#/notes/3131747)
+[[https://launchpad.support.sap.com/#/notes/3131747]](https://launchpad.support.sap.com/#/notes/3131747)
 
 Hier handelt es sich um einen Zertifikatsfehler. Zur Update-Site wird eine verschlüsselte Verbindung aufgebaut (HTTPS). Wenn im Unternehmensnetzwerk SSL-Verbindungen aufgebrochen werden oder es keinen gemeinsamen Keystore für interne und externe Update-Sites gibt, dann kann es zu diesem Fehler kommen. Der Hinweis gibt eine mögliche Lösung hierfür. Eine andere Möglichkeit ist die Verteilung eigener angepasster JDK.
 
 ### macOS aarch64 support & SAP GUI for Java
 
-[[https://launchpad.support.sap.com/#/notes/3251738]{.underline}](https://launchpad.support.sap.com/#/notes/3251738)
+[[https://launchpad.support.sap.com/#/notes/3251738]](https://launchpad.support.sap.com/#/notes/3251738)
 
 Die Architektur von SAP GUI und Eclipse-Installation sollte grundsätzlich mit derselben Prozessorarchitektur installiert werden. Gerade bei Apple M1 und folgend könnte es hier zu Abweichungen kommen.
 
 ### Offline-Installation -- Download ADT-Abhängigkeiten
 
-[[https://launchpad.support.sap.com/#/notes/2369308]{.underline}](https://launchpad.support.sap.com/#/notes/2369308)
+[[https://launchpad.support.sap.com/#/notes/2369308]](https://launchpad.support.sap.com/#/notes/2369308)
 
 Soll ADT offline installiert werden, müssen diverse Abhängigkeiten beachtet werden. Dieser Hinweis gibt einige Möglichkeiten für Abhilfe in diesem Fall.
