@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kapitel 8 - Weiterführende Informationen
-permalink: /kapitel8/
+permalink: /further-information/
 nav_order: 8
 ---
 
@@ -49,6 +49,6 @@ Schriftarten sind Geschmackssache, und die Installation benötigt einmalig Admin
 
 Beispiel
 
-![](./Kapitel 8 - Weiterführende Informationen/media/image1.png)
+![](./img/image1.png)
 
-![](./Kapitel 8 - Weiterführende Informationen/media/image2.png)
+![](./img/image2.png)

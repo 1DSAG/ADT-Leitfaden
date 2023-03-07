@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kapitel 0 - Einleitung
-permalink: /kapitel0/
+permalink: /introduction/
 nav_order: 0
 ---
 

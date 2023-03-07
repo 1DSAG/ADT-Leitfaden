@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kapitel 5 - Installation, Verteilungs- und Update-Strategien
-permalink: /kapitel5/
+permalink: /install-distribute-update-strategies/
 nav_order: 5
 ---
 
@@ -127,13 +127,13 @@ Plug-ins wie die ADT können über die Angabe der Update-Site im Dialog Help →
 
 Der Eclipse Marketplace ist im Help-Menü versteckt.
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image8.png)
+![](./img/image8.png)
 
 *Abbildung: Einstieg in den Eclipse Marketplace*
 
 Hier kann dann nach Plug-ins gesucht werden. Das Suchwort *ABAP* lieferte Stand 2022 in diesem Beispiel 11 Treffer.
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image13.png)
+![](./img/image13.png)
 
 *Abbildung: Exemplarische Suche nach Plug-ins im Eclipse Marketplace*
 
@@ -143,13 +143,13 @@ Jedes Plug-in besitzt auf der rechten Seite einen eigenen *Install*-Button. Gege
 
 Kennt man die Update-Site eines Plug-ins oder ist es nicht auf dem Eclipse Marketplace gelistet, kann auch der klassische Installationsweg verwendet werden.
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image4.png)
+![](./img/image4.png)
 
 *Abbildung: Installation neuer Software über das Kontextmenü*
 
 Im Feld *Work with* wird die Update-Site eingetragen. Ist diese gültig, werden unten die dort verfügbaren Plug-ins angezeigt. Neben Webseiten kann auch eine heruntergeladene Version des Plug-ins in einer zip-Datei eine Update-Site sein. In letzterem Fall müssen Updates jedoch händisch mit einem weiteren Download durchgeführt werden.
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image14.png)
+![](./img/image14.png)
 
 *Abbildung: Eintragen der Update-Site*
 
@@ -298,21 +298,21 @@ Liest man sich die Dokumentation von Oomph durch, so wird man erst einmal mit vi
 <th><strong>Beschreibung</strong></th>
 </tr>
 <tr class="odd">
-<th><strong>Setup-Model</strong></th>
-<th>Die Oomph-Konfigurationen sind, wie in den meisten Programmiersprachen, dateibasiert. Ein Satz dieser Dateien mit spezifischem Format heißt Setup-Model.</th>
+<td><strong>Setup-Model</strong></td>
+<td>Die Oomph-Konfigurationen sind, wie in den meisten Programmiersprachen, dateibasiert. Ein Satz dieser Dateien mit spezifischem Format heißt Setup-Model.</td>
 </tr>
 <tr class="header">
-<th><strong>Product</strong></th>
-<th>Eine Konfiguration auf Installationsebene (Plattform mit bestimmter Version + Plug-ins)</th>
+<td><strong>Product</strong></td>
+<td>Eine Konfiguration auf Installationsebene (Plattform mit bestimmter Version + Plug-ins)</td>
 </tr>
 <tr class="odd">
-<th><strong>Project</strong></th>
-<th><p>Projektspezifische Einstellungen. In der git-basierten Welt kann dies beispielsweise die Vorgabe von Standard-Repositories sein.</p>
-<p>Konfiguration auf Workspace-Ebene.</p></th>
+<td><strong>Project</strong></td>
+<td><p>Projektspezifische Einstellungen. In der git-basierten Welt kann dies beispielsweise die Vorgabe von Standard-Repositories sein.</p>
+<p>Konfiguration auf Workspace-Ebene.</p></td>
 </tr>
 <tr class="header">
-<th><strong>Index</strong></th>
-<th>Die Bibliothek an verfügbaren Konfigurationen, die im Eclipse Installer ausgewählt werden können.</th>
+<td><strong>Index</strong></td>
+<td>Die Bibliothek an verfügbaren Konfigurationen, die im Eclipse Installer ausgewählt werden können.</td>
 </tr>
 </thead>
 <tbody>
@@ -363,7 +363,7 @@ Folgend der Aufbau eines Index:
 
 In der erweiterten Ansicht des Eclipse Installer hat man dann auch die Möglichkeit, zwischen mehreren verfügbaren Indizes zu wechseln.
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image15.png)
+![](./img/image15.png)
 
 *Abbildung: Wechsel zwischen Indizes*
 
@@ -379,7 +379,7 @@ Ein Product-Catalog listet verschiedene Products. Er enthält darüber hinaus au
 
 Auf allen Ebenen (Product-Catalog, Product und Product-Version) können folgende Eigenschaften hinterlegt werden:
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image3.png)
+![](./img/image3.png)
 
 *Abbildung: Hinzufügen und Festlegen von Eigenschaften*
 
@@ -425,7 +425,7 @@ Für eine minimale ADT-Installation wird Folgendes benötigt:
 
         -   [https://download.eclipse.org/technology/epp/packages/2022-03/202203101200](https://download.eclipse.org/technology/epp/packages/2022-03/202203101200) (Link Release-abhängig!)
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image7.png)
+![](./img/image7.png)
 
 *Abbildung: Komponenten einer "minimalen" ADT-Installation*
 
@@ -464,7 +464,7 @@ Für eine minimale ADT-Installation wird benötigt:
 
 -   Einen leeren Stream, standardmäßig "Master"
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image6.png)
+![](./img/image6.png)
 
 *Abbildung: Komponenten einer minimalen ADT-Installation*
 
@@ -518,7 +518,7 @@ Nun besteht ein Plug-in aus mindestens einer Feature Group. Im Oomph Project mus
 
 Stand Oktober 2022 sieht die Abfrage der SAP-Update-Site wie folgt aus:
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image10.png)
+![](./img/image10.png)
 
 *Abbildung: Bestandteile der SAP Update Site*
 
@@ -530,11 +530,11 @@ Alle zu vergebenden Einstellungen kommen in den Compound/Ordner *User-Preference
 
 Da diese nicht einheitliche Darstellung unpraktisch zu administrieren ist und die Namen der Features in der Regel auch nicht bekannt sind, existieren auch hier Hilfswerkzeuge: In den Einstellungen wird ein Oomph Recorder installiert. Näheres zur Verwendung als Anwender kann dem Abschnitt [Oomph Recorder](#oomph-recorder) entnommen werden. Der Oomph Recorder zeichnet den letzten Stand aller geänderten Einstellungen auf Benutzerebene auf (also übergreifend über Eclipse-Installationen) und fragt nach dem Schließen der Einstellungen, ob diese immer/einmal/nie gespeichert werden sollen. Ebenso wird damit ein Button in der Button-Leiste von Eclipse verfügbar, um sich die bereits gespeicherten Einstellungen anzuschauen.
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image11.png)
+![](./img/image11.png)
 
 *Abbildung: Möglichkeit zur Anzeige der bereits gespeicherten Einstellungen*
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image5.png)
+![](./img/image5.png)
 
 *Abbildung: Bereits gespeicherte Einstellungen*
 
@@ -575,19 +575,19 @@ Das Erzwingen einer Start-Perspective ist eine Startoption in der Eclipse.ini. E
 
 Beim ersten Start des Eclipse Installer kann es sein, dass dieser im einfachen Modus startet. Für die Verwendung eigener Konfigurationen ist jedoch der erweiterte Modus nötig. Über das Menü oben rechts kann in diesen gewechselt werden ("Advanced Mode").
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image9.png)
+![](./img/image9.png)
 
 *Abbildung: Wechsel in den "Advanced Mode"*
 
 Nun sieht man eine Liste an verfügbaren Products. Dies ist der Inhalt des ersten referenzierten Index in der Indices.xmi. Oben rechts kann zwischen allen gelisteten Indizes gewechselt werden.
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image16.png)
+![](./img/image16.png)
 
 *Abbildung: Wechsel zwischen Indizes*
 
 Hier wählt man einen passenden Eintrag aus. Sobald dies geschehen ist, wird unten die verfügbare Produktversion auswählbar.
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image12.png)
+![](./img/image12.png)
 
 *Abbildung: Auswahl der Product-Version*
 
@@ -595,13 +595,13 @@ Im nächsten Bild sind die Projects auswählbar. Hier können theoretisch mehrer
 
 Zu einem Project muss dann auch zwingend ein Stream gewählt werden. Wurde nur einer definiert, ist dieser bereits vorausgewählt.
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image1.png)
+![](./img/image1.png)
 
 *Abbildung: Auswahl des Streams*
 
 Nun werden noch definierte und verwendete, aber nicht gefüllte Variablen abgefragt. Dies können beispielsweise die Pfade zu Installation und Workspace sein.
 
-![](./Kapitel 5 - Installation, Verteilungs- und Update-Strategien/media/image2.png)
+![](./img/image2.png)
 
 *Abbildung: Abfrage weiterer Variablen*
 
