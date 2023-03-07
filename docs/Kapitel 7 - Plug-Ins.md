@@ -896,7 +896,7 @@ IStatus logonStatus = AdtLogonServiceUIFactory.createLogonServiceUI()
 
 .ensureLoggedOn(abapProject.getDestinationData(), PlatformUI.getWorkbench()
 
-.getProgressService())
+.getProgressService()
 
 .isOK();
 
