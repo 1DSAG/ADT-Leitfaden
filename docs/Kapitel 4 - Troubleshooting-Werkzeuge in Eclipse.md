@@ -3,9 +3,14 @@ layout: page
 title: Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse
 permalink: /kapitel4/
 nav_order: 4
+has_toc: true
 ---
 
-Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse
+
+# Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse
+
+1. TOC
+{:toc} 
 
 Dieses Kapitel gibt einen Überblick über die Werkzeuge, die in den ABAP Development Tools zum [Troubleshooting](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecc7d3a6e391014adc9fffe4e204223.html) zur Verfügung stehen. Dazu zählt u. a. Debuggen von Entwicklungsartefakten, Performance-Analyse und weitere Analyse- und Fehlerfindungsmethoden.
 

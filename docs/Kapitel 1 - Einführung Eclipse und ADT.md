@@ -7,6 +7,10 @@ nav_order: 1
 
 ## Kapitel 1 - Einführung Eclipse und ADT
 
+1. TOC
+{:toc} 
+
+
 ## Warum eigentlich Eclipse?
 
 Warum ist Eclipse die richtige Plattform für ADT-Tools und nicht VSCode, NetBeans oder irgendeine andere Entwicklungsumgebung? Eine vollumfassende Antwort wird hier nicht möglich sein. Fakt ist jedoch, dass SAP sich strategisch für den Einsatz von Eclipse als Grundlage für die zukünftige ABAP-Entwicklungsumgebung (als Nachfolger der klassischen ABAP Workbench) entschieden hat und plant, diesen Ansatz auch weiter zu verfolgen. Das ist so auch aus den Roadmaps der ABAP-Plattform ersichtlich und kann dort nachgelesen werden.

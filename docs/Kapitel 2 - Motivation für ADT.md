@@ -5,7 +5,11 @@ permalink: /kapitel2/
 nav_order: 2
 ---
 
-Kapitel 2 - Motivation für ADT
+# Kapitel 2 - Motivation für ADT
+
+1. TOC
+{:toc} 
+
 
 In diesem Kapitel stellen wir Ihnen mehrere Gründe vor, die für den Einsatz der ABAP Development Tools (ADT) als Entwicklungsumgebung sprechen. Am Ende gehen wir auch auf den mitunter größten "Knackpunkt" für langjährige ABAP-Entwickler ein und geben Hinweise, warum dieser manchmal als Nachteil betrachtete Punkt in Wirklichkeit ein Vorteil ist.
 

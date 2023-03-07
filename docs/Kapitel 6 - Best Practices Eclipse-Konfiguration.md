@@ -5,7 +5,11 @@ permalink: /kapitel6/
 nav_order: 6
 ---
 
-Kapitel 6 - Best Practices Eclipse-Konfiguration
+# Kapitel 6 - Best Practices Eclipse-Konfiguration
+
+1. TOC
+{:toc} 
+
 
 ## Einstellungen in Eclipse
 
