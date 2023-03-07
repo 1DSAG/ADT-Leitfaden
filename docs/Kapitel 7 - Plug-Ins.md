@@ -5,9 +5,11 @@ permalink: /kapitel7/
 nav_order: 7
 ---
 
----
-title: "[]{#_heading=h.gjdgxs .anchor}Kapitel 7 - Plug-ins"
----
+# Kapitel 7 - Plug-ins
+
+
+1. TOC
+{:toc} 
 
 # Einführung
 
@@ -33,9 +35,9 @@ Voraussetzungen Eclipse:
 
 Links:
 
--   Source-Code auf GitHub(https://github.com/dbickley/OpenEditors)
+-   Source-Code auf [GitHub](https://github.com/dbickley/OpenEditors)
 
--   Eclipse Marketplace(https://marketplace.eclipse.org/content/open-editors)
+-   [Eclipse Marketplace](https://marketplace.eclipse.org/content/open-editors)
 
 ## AnyEdit Tools
 
@@ -69,9 +71,9 @@ Voraussetzungen Eclipse:
 
 Links
 
--   Source-Code auf GitHub(https://github.com/iloveeclipse/anyedittools)
+-   Source-Code auf [GitHub](https://github.com/iloveeclipse/anyedittools)
 
--   Eclipse Marketplace(https://marketplace.eclipse.org/content/anyedit-tools)
+-   [Eclipse Marketplace](https://marketplace.eclipse.org/content/anyedit-tools)
 
 ## PDE Tools 
 
@@ -95,9 +97,9 @@ Es gibt jedoch Features, die auch außerhalb der Plug-in-Entwicklung hilfreich s
 
 Links:
 
--   Source-Code auf GitHub(https://github.com/jeeeyul/pde-tools)
+-   Source-Code auf [GitHub](https://github.com/jeeeyul/pde-tools)
 
--   Eclipse Marketplace(https://marketplace.eclipse.org/content/pde-tools)
+-   [Eclipse Marketplace](https://marketplace.eclipse.org/content/pde-tools)
 
 # Nützliche Open Source ADT Plugins
 
@@ -129,9 +131,9 @@ Voraussetzungen:
 
 Links:
 
--   Source-Code auf GitHub(https://github.com/fidley/ABAPFavorites)
+-   Source-Code auf [GitHub](https://github.com/fidley/ABAPFavorites)
 
--   Eclipse Marketplace(https://marketplace.eclipse.org/content/abap-favorites)
+-   [Eclipse Marketplace](https://marketplace.eclipse.org/content/abap-favorites)
 
 ## ABAP Continuous Integration
 
@@ -165,15 +167,15 @@ Weitere Informationen können im GitHub Repository nachgelesen werden.
 
 Voraussetzungen:
 
--   Eclipse IDE for Java Developers ( \<= 2022-06, Installation mit neueren Versionen aktuell nur mit Workaround möglich; siehe Issue(https://github.com/andau/abapCI/issues/34) auf GitHub)
+-   Eclipse IDE for Java Developers ( \<= 2022-06, Installation mit neueren Versionen aktuell nur mit Workaround möglich; siehe [Issue](https://github.com/andau/abapCI/issues/34) auf GitHub)
 
 -   ADT
 
 Links:
 
--   Source-Code auf GitHub(https://github.com/andau/abapCI)
+-   Source-Code auf [GitHub](https://github.com/andau/abapCI)
 
--   Eclipse Marketplace(https://marketplace.eclipse.org/content/abap-continuous-integration)
+-   [Eclipse Marketplace](https://marketplace.eclipse.org/content/abap-continuous-integration)
 
 ## 
 
@@ -215,9 +217,9 @@ Voraussetzungen:
 
 Links:
 
--   Source-Code auf GitHub(https://github.com/fidley/ABAP-Project-Extensions)
+-   Source-Code auf [GitHub](https://github.com/fidley/ABAP-Project-Extensions)
 
--   Eclipse Marketplace(https://marketplace.eclipse.org/content/abap-adt-extensions)
+-   [Eclipse Marketplace](https://marketplace.eclipse.org/content/abap-adt-extensions)
 
 ## ADT Classic Outline
 
@@ -237,13 +239,13 @@ Voraussetzungen ABAP:
 
 -   SAP NetWeaver 7.40 SP08 oder neuer
 
--   abapGit repository ADT Classic Outline Backend(https://github.com/fidley/ADT-Classic-Outline-Backend.git) muss installiert sein
+-   abapGit repository [ADT Classic Outline Backend](https://github.com/fidley/ADT-Classic-Outline-Backend.git) muss installiert sein
 
 Links:
 
--   Source-Code auf GitHub: Frontend(https://github.com/fidley/ADT-Classic-Outline-Frontend) und Backend(https://github.com/fidley/ADT-Classic-Outline-Backend)
+-   Source-Code auf GitHub: [Frontend](https://github.com/fidley/ADT-Classic-Outline-Frontend) und [Backend](https://github.com/fidley/ADT-Classic-Outline-Backend)
 
--   Eclipse Marketplace(https://marketplace.eclipse.org/content/adt-classic-outline)
+-   [Eclipse Marketplace](https://marketplace.eclipse.org/content/adt-classic-outline)
 
 ## 
 
@@ -289,9 +291,9 @@ Voraussetzungen:
 
 Links:
 
--   Source-Code auf GitHub(https://github.com/fidley/ABAPQuickFix)
+-   Source-Code auf [GitHub](https://github.com/fidley/ABAPQuickFix)
 
--   Eclipse Marketplace(https://marketplace.eclipse.org/content/abap-quick-fix)
+-   [Eclipse Marketplace](https://marketplace.eclipse.org/content/abap-quick-fix)
 
 ## 
 
@@ -327,9 +329,9 @@ Voraussetzungen:
 
 Links:
 
--   Source-Code auf GitHub(https://github.com/lc-leuc/ABAPQuickFixS4Conversion)
+-   Source-Code auf [GitHub](https://github.com/lc-leuc/ABAPQuickFixS4Conversion)
 
--   Eclipse Marketplace(https://marketplace.eclipse.org/content/abap-quickfix-s4-conversion)
+-   [Eclipse Marketplace](https://marketplace.eclipse.org/content/abap-quickfix-s4-conversion)
 
 ## 
 
@@ -357,13 +359,13 @@ Voraussetzungen ABAP:
 
 -   SAP NetWeaver 7.40 SP08 oder neuer
 
--   abapGit repository abap-tags-backend(https://github.com/stockbal/abap-tags-backend) muss installiert sein
+-   abapGit repository [abap-tags-backend](https://github.com/stockbal/abap-tags-backend) muss installiert sein
 
 Links:
 
--   Source-Code auf GitHub(https://github.com/stockbal/abap-tags-ui)
+-   Source-Code auf [GitHub](https://github.com/stockbal/abap-tags-ui)
 
--   Eclipse Marketplace(https://marketplace.eclipse.org/content/abap-tags) (Marketplace Client muss installiert sein)
+-   [Eclipse Marketplace](https://marketplace.eclipse.org/content/abap-tags) (Marketplace Client muss installiert sein)
 
 ## 
 
@@ -411,13 +413,13 @@ Voraussetzungen ABAP:
 
 -   SAP NetWeaver 7.40 SP08 oder neuer
 
--   abapGit repository abap-search-tools(https://github.com/stockbal/abap-search-tools) muss installiert sein
+-   abapGit repository [abap-search-tools](https://github.com/stockbal/abap-search-tools) muss installiert sein
 
 Links:
 
--   Source-Code auf GitHub(https://github.com/stockbal/abap-search-tools-ui)
+-   Source-Code auf [GitHub](https://github.com/stockbal/abap-search-tools-ui)
 
--   Eclipse Marketplace(https://marketplace.eclipse.org/content/abap-search-and-analysis-tools) (Marketplace Client muss installiert sein)
+-   [Eclipse Marketplace](https://marketplace.eclipse.org/content/abap-search-and-analysis-tools) (Marketplace Client muss installiert sein)
 
 ## 
 
@@ -447,13 +449,13 @@ Voraussetzungen ABAP:
 
 -   SAP NetWeaver 7.40 SP08 oder neuer
 
--   abapGit repository abap-code-search-tools(https://github.com/stockbal/abap-code-search-tools) muss installiert sein
+-   abapGit repository [abap-code-search-tools](https://github.com/stockbal/abap-code-search-tools) muss installiert sein
 
 Links:
 
--   Source-Code auf GitHub(https://github.com/stockbal/abap-code-search-tools)
+-   Source-Code auf [GitHub](https://github.com/stockbal/abap-code-search-tools)
 
--   Eclipse Marketplace(https://marketplace.eclipse.org/content/abap-code-search) (Marketplace Client muss installiert sein)
+-   [Eclipse Marketplace](https://marketplace.eclipse.org/content/abap-code-search) (Marketplace Client muss installiert sein)
 
 ## 
 
@@ -471,15 +473,15 @@ Voraussetzungen ABAP:
 
 -   SAP NetWeaver 7.50 oder neuer
 
--   Vollständige abapGit(https://github.com/abapGit/abapGit) Installation
+-   Vollständige [abapGit](https://github.com/abapGit/abapGit) Installation
 
--   abapGit repository ADT_Backend(https://github.com/abapGit/ADT_Backend) muss installiert sein
+-   abapGit repository [ADT_Backend](https://github.com/abapGit/ADT_Backend) muss installiert sein
 
 Links:
 
--   Source-Code auf GitHub(https://github.com/abapGit/ADT_Frontend)
+-   Source-Code auf [GitHub](https://github.com/abapGit/ADT_Frontend)
 
--   Installation über Update-Site https://eclipse.abapgit.org/updatesite/(https://eclipse.abapgit.org/updatesite/)
+-   Installation über Update-Site [https://eclipse.abapgit.org/updatesite/](https://eclipse.abapgit.org/updatesite/)
 
 # Eigene ADT Plug-ins entwickeln
 
@@ -491,7 +493,7 @@ Da Plug-ins für Eclipse in Java zu entwickeln sind, empfiehlt es sich, dort sch
 
 ### Installation Eclipse for RCP/RAP Development
 
-Um Plug-ins für Eclipse zu entwickeln, benötigt man eine bestimmte Variante der Eclipse-Plattform: *Eclipse IDE for RCP and RAP Developers* (RAP = Remote Application Platform). Diese Variante bietet ein vollständiges Toolset, um sowohl Plug-ins für Eclipse als auch Rich-Client-Anwendungen (RCP) auf Basis von Eclipse zu entwickeln. Sie kann direkt von eclipse.org(https://www.eclipse.org/downloads/packages/) bezogen werden.
+Um Plug-ins für Eclipse zu entwickeln, benötigt man eine bestimmte Variante der Eclipse-Plattform: *Eclipse IDE for RCP and RAP Developers* (RAP = Remote Application Platform). Diese Variante bietet ein vollständiges Toolset, um sowohl Plug-ins für Eclipse als auch Rich-Client-Anwendungen (RCP) auf Basis von Eclipse zu entwickeln. Sie kann direkt von [eclipse.org](https://www.eclipse.org/downloads/packages/) bezogen werden.
 
 ![](./Kapitel 7 - Plug-ins/media/image2.png)
 
@@ -499,11 +501,11 @@ Um Plug-ins für Eclipse zu entwickeln, benötigt man eine bestimmte Variante de
 
 Des Weiteren wird eine Installation des Java Development Kits (JDK) benötigt. Dieses kann z. B. von den folgenden Quellen bezogen werden:
 
--   https://adoptium.net/de/(https://adoptium.net/de/)
+-   [https://adoptium.net/de/](https://adoptium.net/de/)
 
--   https://openjdk.org/(https://openjdk.org/)
+-   [https://openjdk.org/](https://openjdk.org/)
 
--   https://sap.github.io/SapMachine/(https://sap.github.io/SapMachine/)
+-   [https://sap.github.io/SapMachine/](https://sap.github.io/SapMachine/)
 
 **Hinweis**: In den aktuelleren Eclipse-Versionen wird dieses bereits mitgeliefert.
 
@@ -515,7 +517,7 @@ Seit Eclipse v2020-09 bzw. ADT v3.16 ist Java 11 die Mindestvoraussetzung, und s
 
 Als nächsten Schritt muss ADT in Eclipse installiert werden, da sonst nicht gegen das ADT SDK entwickelt werden kann.
 
-Um die bestmögliche Kompatibilität zu haben, empfiehlt es sich, ADT immer in der gleichen Version wie Eclipse zu installieren. Die neueste ADT-Version kann hierbei über https://tools.hana.ondemand.com/latest(https://tools.hana.ondemand.com/latest) bezogen werden. Für ältere Versionen von ADT muss einfach das *latest* im Pfad gegen die gewünschte Eclipse-Version ausgetauscht werden (für Eclipse 2020-09 wäre es z. B.: https://tools.hana.ondemand.com/2020-09(https://tools.hana.ondemand.com/2020-09].
+Um die bestmögliche Kompatibilität zu haben, empfiehlt es sich, ADT immer in der gleichen Version wie Eclipse zu installieren. Die neueste ADT-Version kann hierbei über [https://tools.hana.ondemand.com/latest](https://tools.hana.ondemand.com/latest) bezogen werden. Für ältere Versionen von ADT muss einfach das *latest* im Pfad gegen die gewünschte Eclipse-Version ausgetauscht werden (für Eclipse 2020-09 wäre es z. B.: [https://tools.hana.ondemand.com/2020-09](https://tools.hana.ondemand.com/2020-09)).
 
 ### Installation nützlicher Plug-ins (optional)
 
@@ -523,19 +525,19 @@ Neben der Eclipse-Installation empfiehlt es sich, noch folgende Plug-ins zu inst
 
 #### Enhanced Class Decompiler 
 
-Marketplace Link: https://marketplace.eclipse.org/content/enhanced-class-decompiler(https://marketplace.eclipse.org/content/enhanced-class-decompiler).
+Marketplace Link: [https://marketplace.eclipse.org/content/enhanced-class-decompiler](https://marketplace.eclipse.org/content/enhanced-class-decompiler).
 
 Dieses Plug-in erlaubt es, kompilierten Source-Code lesbar anzuzeigen. Es ist sogar möglich, in solchen de-kompilierten Klassen Haltepunkte zu setzen und den Code zur Laufzeit zu analysieren.
 
 #### Web Developer Tools
 
-Marketplace Link: https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0/promo(https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0/promo).
+Marketplace Link: [https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0/promo](https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0/promo).
 
 Wenn man für sein Plug-in auch eine Hilfe anbieten möchte, erweitert dieses Plug-in Eclipse um Editoren mit Syntax-Highlighting für die typischen Web-Dateiendungen (css, html etc.).
 
 #### WindowBuilder
 
-Marketplace Link: https://www.eclipse.org/windowbuilder/(https://www.eclipse.org/windowbuilder/)
+Marketplace Link: [https://www.eclipse.org/windowbuilder/](https://www.eclipse.org/windowbuilder/)
 
 Das Erstellen von GUI-Elementen, wie z. B. Dialoge oder eigene Sichten, kann zeitweise sehr aufwendig sein. Der WindowBuilder kann dabei Abhilfe schaffen und erlaubt es, GUI-Elemente mit Hilfe eines grafischen Editors zu erstellen.
 
@@ -723,7 +725,7 @@ Nachdem das Erstellen der GitHub-Pages-Seite durch GitHub abgeschlossen ist, kan
 
 ## Erweiterung des ADT Backends mit ABAP Code
 
-Für die Kommunikation von Eclipse zum ABAP Server verwenden die ADT RESTful APIs. Wie man solche APIs selbst entwickelt, kann in dem SAP Guide How To\... Create RESTful APIs and consume them in ADT(https://assets.cdn.sap.com/sapcom/docs/2013/04/12289ce1-527c-0010-82c7-eda71af511fa.pdf) nachgelesen werden.
+Für die Kommunikation von Eclipse zum ABAP Server verwenden die ADT RESTful APIs. Wie man solche APIs selbst entwickelt, kann in dem SAP Guide [How To\... Create RESTful APIs and consume them in ADT](https://assets.cdn.sap.com/sapcom/docs/2013/04/12289ce1-527c-0010-82c7-eda71af511fa.pdf) nachgelesen werden.
 
 Obwohl hier die Rede von RESTful APIs ist, findet von ADT aus keine Kommunikation mittels HTTP statt. Sie erfolgt mit dem RFC-Protokoll. In der untersten Ebene der Kommunikationsschicht von ADT findet somit ein RFC-Aufruf statt, der einen bestimmten RFC-Funktionsbaustein auf dem ABAP Server aufruft.
 
@@ -894,10 +896,10 @@ IStatus logonStatus = AdtLogonServiceUIFactory.createLogonServiceUI()
 
 .ensureLoggedOn(abapProject.getDestinationData(), PlatformUI.getWorkbench()
 
-.getProgressService(]
+.getProgressService())
 
 .isOK();
 
 ## Projekt-Set-up mit Maven
 
-Neben den Standardmöglichkeiten zur Entwicklung von Plug-ins, Features und Update-Sites, welche mit der *Eclipse IDE for RCP and RAP Developers* geliefert werden, gibt es auch noch die Option, Eclipse Tycho zu verwenden. Eclipse Tycho ist eine Sammlung von Plug-ins für Apache Maven. Weitere Informationen können der Projektseite(https://github.com/eclipse-tycho/tycho) von Tycho entnommen werden. Ein Tutorial zur Plug-in-Entwicklung mit Tycho gibt es hier(https://github.com/eclipse-tycho/tycho).
+Neben den Standardmöglichkeiten zur Entwicklung von Plug-ins, Features und Update-Sites, welche mit der *Eclipse IDE for RCP and RAP Developers* geliefert werden, gibt es auch noch die Option, Eclipse Tycho zu verwenden. Eclipse Tycho ist eine Sammlung von Plug-ins für Apache Maven. Weitere Informationen können der [Projektseite](https://github.com/eclipse-tycho/tycho) von Tycho entnommen werden. Ein Tutorial zur Plug-in-Entwicklung mit Tycho gibt es [hier](https://github.com/eclipse-tycho/tycho).
