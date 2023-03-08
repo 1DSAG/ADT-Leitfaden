@@ -127,15 +127,17 @@ Plug-ins wie die ADT können über die Angabe der Update-Site im Dialog Help →
 
 Der Eclipse Marketplace ist im Help-Menü versteckt.
 
-![](./img/image8.png)
-
+![](./img/image8.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Einstieg in den Eclipse Marketplace*
+</span>
 
 Hier kann dann nach Plug-ins gesucht werden. Das Suchwort *ABAP* lieferte Stand 2022 in diesem Beispiel 11 Treffer.
 
-![](./img/image13.png)
-
+![](./img/image13.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Exemplarische Suche nach Plug-ins im Eclipse Marketplace*
+</span>
 
 Jedes Plug-in besitzt auf der rechten Seite einen eigenen *Install*-Button. Gegebenenfalls müssen noch eine Lizenz bestätigt und Zertifikaten vertraut werden. Abschließend ist ein Neustart von Eclipse notwendig.
 
@@ -143,15 +145,17 @@ Jedes Plug-in besitzt auf der rechten Seite einen eigenen *Install*-Button. Gege
 
 Kennt man die Update-Site eines Plug-ins oder ist es nicht auf dem Eclipse Marketplace gelistet, kann auch der klassische Installationsweg verwendet werden.
 
-![](./img/image4.png)
-
+![](./img/image4.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Installation neuer Software über das Kontextmenü*
+</span>
 
 Im Feld *Work with* wird die Update-Site eingetragen. Ist diese gültig, werden unten die dort verfügbaren Plug-ins angezeigt. Neben Webseiten kann auch eine heruntergeladene Version des Plug-ins in einer zip-Datei eine Update-Site sein. In letzterem Fall müssen Updates jedoch händisch mit einem weiteren Download durchgeführt werden.
 
-![](./img/image14.png)
-
+![](./img/image14.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Eintragen der Update-Site*
+</span>
 
 Auch hier müssen gegebenenfalls Lizenzen akzeptiert und Zertifikaten vertraut werden. Nach einem Neustart steht das Plug-in zur Verfügung.
 
@@ -363,9 +367,10 @@ Folgend der Aufbau eines Index:
 
 In der erweiterten Ansicht des Eclipse Installer hat man dann auch die Möglichkeit, zwischen mehreren verfügbaren Indizes zu wechseln.
 
-![](./img/image15.png)
-
+![](./img/image15.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Wechsel zwischen Indizes*
+</span>
 
 ###### Product-Catalog und Product
 
@@ -379,9 +384,10 @@ Ein Product-Catalog listet verschiedene Products. Er enthält darüber hinaus au
 
 Auf allen Ebenen (Product-Catalog, Product und Product-Version) können folgende Eigenschaften hinterlegt werden:
 
-![](./img/image3.png)
-
+![](./img/image3.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Hinzufügen und Festlegen von Eigenschaften*
+</span>
 
 Die meist benötigten Elemente sind:
 
@@ -425,9 +431,10 @@ Für eine minimale ADT-Installation wird Folgendes benötigt:
 
         -   [https://download.eclipse.org/technology/epp/packages/2022-03/202203101200](https://download.eclipse.org/technology/epp/packages/2022-03/202203101200) (Link Release-abhängig!)
 
-![](./img/image7.png)
-
+![](./img/image7.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Komponenten einer "minimalen" ADT-Installation*
+</span>
 
 ###### Project-Catalog und Project
 
@@ -464,9 +471,10 @@ Für eine minimale ADT-Installation wird benötigt:
 
 -   Einen leeren Stream, standardmäßig "Master"
 
-![](./img/image6.png)
-
+![](./img/image6.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Komponenten einer minimalen ADT-Installation*
+</span>
 
 Zu beachten ist, dass ein Plug-in für Eclipse aus mehreren Feature Groups bestehen kann. Wie man diese herausfinden kann, wird im Abschnitt [Zusätzliches Plug-in installieren](#zusätzliches-plug-in-installieren) erklärt.
 
@@ -518,9 +526,10 @@ Nun besteht ein Plug-in aus mindestens einer Feature Group. Im Oomph Project mus
 
 Stand Oktober 2022 sieht die Abfrage der SAP-Update-Site wie folgt aus:
 
-![](./img/image10.png)
-
+![](./img/image10.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Bestandteile der SAP Update Site*
+</span>
 
 ###### Vorgeben von Einstellungen
 
@@ -530,13 +539,15 @@ Alle zu vergebenden Einstellungen kommen in den Compound/Ordner *User-Preference
 
 Da diese nicht einheitliche Darstellung unpraktisch zu administrieren ist und die Namen der Features in der Regel auch nicht bekannt sind, existieren auch hier Hilfswerkzeuge: In den Einstellungen wird ein Oomph Recorder installiert. Näheres zur Verwendung als Anwender kann dem Abschnitt [Oomph Recorder](#oomph-recorder) entnommen werden. Der Oomph Recorder zeichnet den letzten Stand aller geänderten Einstellungen auf Benutzerebene auf (also übergreifend über Eclipse-Installationen) und fragt nach dem Schließen der Einstellungen, ob diese immer/einmal/nie gespeichert werden sollen. Ebenso wird damit ein Button in der Button-Leiste von Eclipse verfügbar, um sich die bereits gespeicherten Einstellungen anzuschauen.
 
-![](./img/image11.png)
-
+![](./img/image11.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Möglichkeit zur Anzeige der bereits gespeicherten Einstellungen*
+</span>
 
-![](./img/image5.png)
-
+![](./img/image5.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Bereits gespeicherte Einstellungen*
+</span>
 
 Hierbei handelt es sich wieder um setup-Dateien. Somit können auch hier wieder die aufgezeichneten Einstellungen mit Drag-and-drop oder **STRG+C** und **STRG+V** in das Oomph Project übernommen werden.
 
@@ -575,35 +586,40 @@ Das Erzwingen einer Start-Perspective ist eine Startoption in der Eclipse.ini. E
 
 Beim ersten Start des Eclipse Installer kann es sein, dass dieser im einfachen Modus startet. Für die Verwendung eigener Konfigurationen ist jedoch der erweiterte Modus nötig. Über das Menü oben rechts kann in diesen gewechselt werden ("Advanced Mode").
 
-![](./img/image9.png)
-
+![](./img/image9.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Wechsel in den "Advanced Mode"*
+</span>
 
 Nun sieht man eine Liste an verfügbaren Products. Dies ist der Inhalt des ersten referenzierten Index in der Indices.xmi. Oben rechts kann zwischen allen gelisteten Indizes gewechselt werden.
 
-![](./img/image16.png)
-
+![](./img/image16.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Wechsel zwischen Indizes*
+</span>
 
 Hier wählt man einen passenden Eintrag aus. Sobald dies geschehen ist, wird unten die verfügbare Produktversion auswählbar.
 
-![](./img/image12.png)
-
+![](./img/image12.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Auswahl der Product-Version*
+</span>
 
 Im nächsten Bild sind die Projects auswählbar. Hier können theoretisch mehrere Projects für eine Installation gewählt werden. Jedoch kann es passieren, dass diese Projects dann konkurrierende Einstellungen vornehmen, und es kommt zu Problemen.
 
 Zu einem Project muss dann auch zwingend ein Stream gewählt werden. Wurde nur einer definiert, ist dieser bereits vorausgewählt.
 
-![](./img/image1.png)
-
+![](./img/image1.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Auswahl des Streams*
+</span>
 
 Nun werden noch definierte und verwendete, aber nicht gefüllte Variablen abgefragt. Dies können beispielsweise die Pfade zu Installation und Workspace sein.
 
-![](./img/image2.png)
-
+![](./img/image2.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Abfrage weiterer Variablen*
+</span>
 
 Zuletzt wird noch eine Bestätigungsseite angezeigt, die aber in der Regel keine neuen Informationen enthält.
 

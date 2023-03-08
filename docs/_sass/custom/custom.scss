@@ -1,21 +1,30 @@
 .goodExample {
-    color:#22863a;
-    background-color:#f0fff4
+  color: #22863a;
+  background-color: #f0fff4;
 }
 
 .badExample {
-    color:#b31d28;
-    background-color:#ffeef0
+  color: #b31d28;
+  background-color: #ffeef0;
 }
 .badExample h3 {
-    color:#b31d28;
-    margin-left: 0.5rem;
+  color: #b31d28;
+  margin-left: 0.5rem;
 }
 .goodExample h3 {
-    color:#22863a;
-    margin-left: 0.5rem;
+  color: #22863a;
+  margin-left: 0.5rem;
 }
 
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+.img-caption {
+  font-size: 0.8em;
+}
+
+:not([class="inline-img"]) {
+  > img {
+    box-shadow: 5px 5px 12px #0000006b;
   }
+}
