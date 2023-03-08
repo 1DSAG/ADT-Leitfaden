@@ -5,7 +5,7 @@ permalink: /authors/
 nav_order: 9
 ---
 
-# Anhang Autorenvorstellung
+# Autorenvorstellung
 
 Abschließend wollen wir uns als Autorenteam und kontinuierliche Ansprechpartner bzgl. jeglicher Fragen im Kontext der ABAP Development Tools gerne noch vorstellen.
 
