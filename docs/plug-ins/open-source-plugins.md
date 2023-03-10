@@ -6,12 +6,12 @@ permalink: /plug-ins/open-source-plug-ins/
 nav_order: 1
 ---
 
+# Nützliche Open-Source-Plug-ins
+
 1. TOC
 {:toc}
 
-# Nützliche Open-Source-Plug-ins
-
-## Open Editors 
+## Open Editors
 
 Bietet eine neue View, die alle geöffneten Editoren in Eclipse anzeigt. Diese View bietet auch die Möglichkeit, die Sortierreihenfolge der Editoren anzupassen.
 
