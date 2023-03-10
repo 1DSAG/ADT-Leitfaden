@@ -7,6 +7,7 @@ nav_order: 2
 ---
 
 
+{: .no_toc}
 # Nützliche Open Source ADT Plugins 
 
 1. TOC

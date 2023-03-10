@@ -6,6 +6,7 @@ permalink: /plug-ins/develop-plug-ins/
 nav_order: 3
 ---
 
+{: .no_toc}
 # Eigene ADT Plug-ins entwickeln
 
 1. TOC

@@ -6,6 +6,7 @@ permalink: /plug-ins/open-source-plug-ins/
 nav_order: 1
 ---
 
+{: .no_toc}
 # Nützliche Open-Source-Plug-ins
 
 1. TOC
