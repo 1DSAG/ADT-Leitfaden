@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Kapitel 1 - Einführung Eclipse und ADT
+title: Einführung Eclipse und ADT
 permalink: /introduction-eclipse/
 nav_order: 1
 ---
 
-## Kapitel 1 - Einführung Eclipse und ADT
+## Einführung Eclipse und ADT
 
 1. TOC
 {:toc} 
@@ -35,13 +35,13 @@ Ein wichtiges Merkmal von Eclipse besteht in der Anpassbarkeit. Hierauf wird in 
 
 Eine Sicht (oft auch View genannt) ist ein eigenständiger Programmteil, der entweder bereits in der Basisinstallation enthalten ist oder per Erweiterung Eclipse nachträglich hinzugefügt wurde. Diese Sicht kann vom Benutzer an verschiedenen Positionen innerhalb der Entwicklungsumgebung angeordnet werden.
 
-Eine Perspektive beinhaltet ein spezifisches Layout von Eclipse, also alle angezeigten Sichten und deren Position. Perspektiven geben Ihnen damit den Fokus für eine Tätigkeit mit allen Sichten, die Sie hierfür benötigen. Details hierzu finden Sie im Kapitel 3 - Arbeiten mit ADT.
+Eine Perspektive beinhaltet ein spezifisches Layout von Eclipse, also alle angezeigten Sichten und deren Position. Perspektiven geben Ihnen damit den Fokus für eine Tätigkeit mit allen Sichten, die Sie hierfür benötigen. Details hierzu finden Sie im Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt).
 
 Die Kenntnis der Begrifflichkeiten ist essentiell, um effizient mit Eclipse arbeiten zu können. Dokumentationen aller Art nutzen diese Terminologie, um Funktionen zu erklären. Das gilt auch für diesen ADT-Leitfaden.
 
 ## Die Macht der Tastenkürzel
 
-Ein prägnantes Merkmal von Eclipse liegt in der Verwendung von Tastenkürzeln. Sie werden am Anfang viel Zeit damit verbringen, die Funktionalitäten, die Sie von der klassischen ABAP-Workbench (Transaktion: SE80) gewohnt sind, wiederzufinden und sich einzuprägen. Im Gegensatz zur SE80 ist Eclipse jedoch dahingehend optimiert, mit Tastenkürzeln bedient zu werden. Behalten Sie das im Hinterkopf und nutzen Sie die Möglichkeiten, sich die Tastenkürzel zu verinnerlichen. Weitere Informationen hierzu finden Sie auch in Kapitel 3 - Arbeiten mit ADT.
+Ein prägnantes Merkmal von Eclipse liegt in der Verwendung von Tastenkürzeln. Sie werden am Anfang viel Zeit damit verbringen, die Funktionalitäten, die Sie von der klassischen ABAP-Workbench (Transaktion: SE80) gewohnt sind, wiederzufinden und sich einzuprägen. Im Gegensatz zur SE80 ist Eclipse jedoch dahingehend optimiert, mit Tastenkürzeln bedient zu werden. Behalten Sie das im Hinterkopf und nutzen Sie die Möglichkeiten, sich die Tastenkürzel zu verinnerlichen. Weitere Informationen hierzu finden Sie auch in Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt).
 
 ## Ab wann ist welche Funktion mit Eclipse verfügbar?
 

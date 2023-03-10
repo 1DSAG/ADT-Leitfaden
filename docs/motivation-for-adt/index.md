@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Kapitel 2 - Motivation für ADT
+title: Motivation für ADT
 permalink: /motivation-for-adt/
 nav_order: 2
 ---
 
-# Kapitel 2 - Motivation für ADT
+{: .no_toc}
+# Motivation für ADT
 
 1. TOC
-{:toc} 
-
+{:toc}
 
 In diesem Kapitel stellen wir Ihnen mehrere Gründe vor, die für den Einsatz der ABAP Development Tools (ADT) als Entwicklungsumgebung sprechen. Am Ende gehen wir auch auf den mitunter größten "Knackpunkt" für langjährige ABAP-Entwickler ein und geben Hinweise, warum dieser manchmal als Nachteil betrachtete Punkt in Wirklichkeit ein Vorteil ist.
 
@@ -23,7 +23,7 @@ Im Gegensatz dazu befinden sich die SAP-GUI-gebundenen Entwicklungswerkzeuge mit
 
 Dies ist vielleicht kurzfristig nicht der motivierendste Grund, allerdings wird dies jeden Entwickler im SAP-Umfeld eines Tages einholen. Daher empfehlen wir, den Einstieg und Umstieg in und auf die ABAP Development Tools lieber heute als morgen anzugehen.
 
-Aus diesem Grund empfiehlt SAP den Einsatz der ADT als Standardumgebung für die ABAP-Entwicklung, um mit jedem Release von neuen Funktionen und Korrekturen zu profitieren. Der tatsächlich vorhandene Funktionsumfang hängt vom Release-Stand des ABAP-Stacks der verwendeten SAP-Systeme ab. Eine grobe Übersicht und weitere Informationen hierzu finden sich im Abschnitt: [Kapitel 1 - Einführung Eclipse und ADT](https://docs.google.com/document/u/0/d/1_R0cnFWdcItzWNu9ta434iE7rT7ldiJFOiujvyJdj6w/edit).
+Aus diesem Grund empfiehlt SAP den Einsatz der ADT als Standardumgebung für die ABAP-Entwicklung, um mit jedem Release von neuen Funktionen und Korrekturen zu profitieren. Der tatsächlich vorhandene Funktionsumfang hängt vom Release-Stand des ABAP-Stacks der verwendeten SAP-Systeme ab. Eine grobe Übersicht und weitere Informationen hierzu finden sich im Abschnitt: [Einführung in Eclipse](/ADT-Leitfaden/introduction-eclipse).
 
 ## Sie möchten eine Entwicklungsumgebung für alles nutzen.
 
@@ -37,7 +37,7 @@ Eng damit verbunden ist auch die Arbeit mit einigen neuen Entwicklungsartefakten
 
 ### Entwicklung auf mehreren Systemlinien
 
-Eine Entwicklungsumgebung für alles gilt bei den ADT aber auch für den Fall, dass Sie auf mehreren Entwicklungssystemen arbeiten dürfen oder müssen. In der Eclipse-Umgebung sind verschiedene Systeme als Projekte aufgeführt, und Sie können hierüber sehr komfortabel und übersichtlich auf diese zugreifen. Mittels der Working Sets (siehe Kapitel 3 - "Arbeiten mit ADT") können die Systeme in Überbegriffen gruppiert und sogar mittels zusätzlichen Plug-ins (siehe Kapitel 7) farblich gekennzeichnet werden. Das Öffnen der Systeme aus dem SAP Logon Pad, Anmelden am System und Öffnen der SE80, entfällt. Daraus ergeben sich zahlreiche weitere Synergien bei der Arbeit, die in diesem Leitfaden beschrieben werden.
+Eine Entwicklungsumgebung für alles gilt bei den ADT aber auch für den Fall, dass Sie auf mehreren Entwicklungssystemen arbeiten dürfen oder müssen. In der Eclipse-Umgebung sind verschiedene Systeme als Projekte aufgeführt, und Sie können hierüber sehr komfortabel und übersichtlich auf diese zugreifen. Mittels der Working Sets (siehe Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt)) können die Systeme in Überbegriffen gruppiert und sogar mittels zusätzlichen Plug-ins (siehe Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins)) farblich gekennzeichnet werden. Das Öffnen der Systeme aus dem SAP Logon Pad, Anmelden am System und Öffnen der SE80, entfällt. Daraus ergeben sich zahlreiche weitere Synergien bei der Arbeit, die in diesem Leitfaden beschrieben werden.
 
 ## Sie möchten sich von technischen Einschränkungen des SAP GUI lösen.
 
@@ -63,25 +63,25 @@ Sollten größere Probleme im Netzwerk auftreten, kann der Code notfalls einfach
 
 Die Wartbarkeit von Entwicklungsartefakten ist eine zentrale Herausforderung der Software-Entwicklung. Um eine gute Wartbarkeit zu erreichen, orientiert sich das Vorgehen beim Entwickeln häufig an Clean-Code-Prinzipien (vgl. Clean ABAP). Zur Einhaltung der Clean-Code-Prinzipien ist ein wiederholtes Überarbeiten von Entwicklungsartefakten, auch Refactoring genannt, unabdingbar.
 
-Die ADT unterstützen typische Refactoring-Aufgaben mit Hilfe der [[Quick Assists](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec1d7ba6e391014adc9fffe4e204223.html)-]Funktionen, zu denen auch die Quick Fixes gehören. Die Quick Assists sind kontextsensitiv. Sie können beispielsweise komplexe Quelltextabschnitte in kleinere, neue und vor allem eigenständige Methoden auslagern, was die Verständlichkeit und damit die Wartbarkeit deutlich erhöht. Ohne Unterstützung durch die Quick Assists ist ein solches iteratives Vorgehen deutlich arbeitsintensiver und auch fehleranfälliger.
+Die ADT unterstützen typische Refactoring-Aufgaben mit Hilfe der [Quick Assists](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec1d7ba6e391014adc9fffe4e204223.html)-Funktionen, zu denen auch die Quick Fixes gehören. Die Quick Assists sind kontextsensitiv. Sie können beispielsweise komplexe Quelltextabschnitte in kleinere, neue und vor allem eigenständige Methoden auslagern, was die Verständlichkeit und damit die Wartbarkeit deutlich erhöht. Ohne Unterstützung durch die Quick Assists ist ein solches iteratives Vorgehen deutlich arbeitsintensiver und auch fehleranfälliger.
 
-Weitere und detailliertere Informationen zum Refactoring und Werkzeugen, die Ihnen in den ADT dafür zur Verfügung gestellt werden, finden Sie in Kapitel 3 - Arbeiten mit ADT.
+Weitere und detailliertere Informationen zum Refactoring und Werkzeugen, die Ihnen in den ADT dafür zur Verfügung gestellt werden, finden Sie in Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt).
 
 ## Sie passen die Darstellung Ihrer Entwicklungsumgebung gerne Ihren Wünschen an.
 
-Die ADT basieren auf Eclipse, einer weit verbreiteten Open-Source-Entwicklungsumgebung. Stärken dieser Entwicklungsumgebung sind u. a. die vielfältigen Anpassungsmöglichkeiten wie bspw. an der Darstellung (vgl. Views und Perspektiven in Kapitel 3 - Arbeiten mit ADT) oder an den Shortcuts ([[Tastaturkürzel](https://docs.google.com/document/u/0/d/1_R0cnFWdcItzWNu9ta434iE7rT7ldiJFOiujvyJdj6w/edit)n]) und der Unterstützung durch hilfreiche Funktionen wie bspw. einer umfassenden Suche.
+Die ADT basieren auf Eclipse, einer weit verbreiteten Open-Source-Entwicklungsumgebung. Stärken dieser Entwicklungsumgebung sind u. a. die vielfältigen Anpassungsmöglichkeiten wie bspw. an der Darstellung (vgl. Views und Perspektiven in Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt)) oder an den Shortcuts ([Tastaturkürzel](/ADT-Leitfaden/introduction-eclipse/#die-macht-der-tastenkürzel)) und der Unterstützung durch hilfreiche Funktionen wie bspw. einer umfassenden Suche.
 
 Als Nutzer von Eclipse können Sie die Entwicklungsumgebung daher auf vielfältige Art individualisieren und verwenden, was jedem Anwender eine bessere Unterstützung seiner bevorzugten Arbeitsweise erlaubt.
 
 Da die ADT den Zugriff auf verschiedene SAP-Systeme gleichzeitig ermöglichen, können Sie über alle Systeme hinweg einheitlich arbeiten. Dies steht im Kontrast zur Arbeit mit SAP-GUI-gebundenen Entwicklungswerkzeugen wie der ABAP Workbench, die in jedem System separat individualisiert werden müssen.
 
-Mit den sogenannten Workspaces haben Sie die Möglichkeit, verschiedene Konfigurationen der Arbeitsumgebung abzuspeichern. Zum Beispiel sind hier verschiedene Projekte, verschiedene Favorite-Packages, welche Sichten und Objekte geöffnet sind und sogar die Stelle im Code, an der zuletzt gearbeitet wurde, im jeweiligen Working-Set gespeichert. Zusätzlich können verschiedene Workspaces in mehreren parallel laufenden Eclipse-Instanzen geöffnet werden. Damit haben Sie die Möglichkeit, abhängig von Projekt, Kunde oder Aufgabe, sich jeweils die effizienteste Umgebung zusammenzustellen. In Kapitel 3 - Arbeiten mit ADT und in Kapitel 6 - Best Practices Eclipse-Konfiguration finden Sie Informationen, wie Workspaces zu verwenden sind.
+Mit den sogenannten Workspaces haben Sie die Möglichkeit, verschiedene Konfigurationen der Arbeitsumgebung abzuspeichern. Zum Beispiel sind hier verschiedene Projekte, verschiedene Favorite-Packages, welche Sichten und Objekte geöffnet sind und sogar die Stelle im Code, an der zuletzt gearbeitet wurde, im jeweiligen Working-Set gespeichert. Zusätzlich können verschiedene Workspaces in mehreren parallel laufenden Eclipse-Instanzen geöffnet werden. Damit haben Sie die Möglichkeit, abhängig von Projekt, Kunde oder Aufgabe, sich jeweils die effizienteste Umgebung zusammenzustellen. In Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt) und in Kapitel [Best Practices Eclipse-Konfiguration](/ADT-Leitfaden/best-practices-configuration) finden Sie Informationen, wie Workspaces zu verwenden sind.
 
 ## Sie möchten noch mehr Tool-basierte Unterstützung?
 
 Falls Ihnen der Funktionsumfang der von SAP bereitgestellten Funktionen nicht ausreicht, können Sie den Funktionsumfang durch weitere Plug-ins, die es als Ergänzung zu den ADT gibt, erweitern.
 
-Eine Auswahl dieser Plug-ins wird in Kapitel 7 - Plug-ins vorgestellt. Mit dem richtigen Know-how können Sie bei Bedarf auch eigene Plug-ins erstellen und der SAP Community zur Verfügung stellen.
+Eine Auswahl dieser Plug-ins wird in Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins) vorgestellt. Mit dem richtigen Know-how können Sie bei Bedarf auch eigene Plug-ins erstellen und der SAP Community zur Verfügung stellen.
 
 In der Vergangenheit haben verschiedene ABAP-Entwickler von dieser Möglichkeit bereits Gebrauch gemacht und eigene Plug-ins entwickelt, die sie der SAP-Community kostenlos zur Verfügung stellen. Ein Beispiel hierfür sind die [ABAP Quick Fix](https://marketplace.eclipse.org/content/abap-quick-fix). Dies ist eine Erweiterung der im Standard der ADT angebotenen Quick Fixes zur Unterstützung der automatischen Konvertierung der klassischen ABAP-Syntax in das jeweilige moderne ABAP-Syntax-Pendant.
 
@@ -109,23 +109,20 @@ Neben der höheren Effizienz der Entwickler, u. a. durch bessere Tool-Unterstüt
 
 Um den Einsatz für den einzelnen Entwickler reibungsfrei zu ermöglichen und um Hemmnisse in Bezug auf einen Umstieg von Anfang an zu vermeiden, und damit einen breiten Einsatz der ADT zu erreichen, müssen folgende Themen zentral geklärt und in Form von allgemein verfügbaren Dokumentationen den Entwicklern bereitgestellt werden:
 
--   Rahmenbedingungen und generelle Informationen zu ADT
-
--   Installation von Eclipse
-
--   Zugriff von Eclipse auf Ressourcen im Internet (Updates und Plug-in-Installationen)
-
--   Berechtigungen der Entwickler für ADT-Objekte im Backend (S_RFC for ADT\*)
+- Rahmenbedingungen und generelle Informationen zu ADT
+- Installation von Eclipse
+- Zugriff von Eclipse auf Ressourcen im Internet (Updates und Plug-in-Installationen)
+- Berechtigungen der Entwickler für ADT-Objekte im Backend (S_RFC for ADT\*)
 
 Dies stellt auch hier wieder zuerst eine Investition dar, die sich aber auszahlt, sobald die Entwickler-Teams einheitlich mit ADT arbeiten und die Vorteile der Entwicklungsumgebung in der täglichen Arbeit voll ausgenutzt werden können.
 
-Zahlreiche Informationen, Hilfestellungen und Best Practices hierzu finden Sie in Kapitel 5 - Installation, Verteilungs- und Update-Strategien.
+Zahlreiche Informationen, Hilfestellungen und Best Practices hierzu finden Sie in Kapitel [Installation, Verteilungs- und Update-Strategien](/ADT-Leitfaden/install-distribute-update-strategies).
 
 ## Ihnen fehlt der formularbasierte Editor
 
 Die ADT nutzen an vielen Stellen eine textorientierte Darstellung von Entwicklungsartefakten, was Ihnen von anderen Entwicklungsumgebungen wie beispielsweise Microsoft Visual Studio Code (VSCode) bekannt ist. Damit wird auf die bisherige, formularbasierte Darstellung, die Sie von den SAP-GUI-orientierten Entwicklungswerkzeugen kennen, verzichtet.
 
-Dies ist sicher eine der größten Hürden für eingefleischte ABAP-Entwickler, die von GUI-basierten Werkzeugen auf Eclipse umsteigen wollen oder sollen. Um diese Hürde zu überwinden, finden Sie einen ausführlichen Einstieg in die Arbeit mit den ADT in Kapitel 3 - Arbeiten mit ADT.
+Dies ist sicher eine der größten Hürden für eingefleischte ABAP-Entwickler, die von GUI-basierten Werkzeugen auf Eclipse umsteigen wollen oder sollen. Um diese Hürde zu überwinden, finden Sie einen ausführlichen Einstieg in die Arbeit mit den ADT in Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt).
 
 Mit dieser Veränderung in der Darstellung geht auch eine gewisse Veränderung der Arbeitsweise einher. Der häufige Wechsel zwischen verschiedenen SAP-GUI-Oberflächen, die in einem bestimmten Kontext stehen, entfällt. Stattdessen gibt es oftmals "nur" Text -- also Anweisungen, die eingegeben bzw. gelesen werden. Das führt zu einer starken Konzentration auf die eigentlichen Anweisungen, ihre Wirkungen und Zusammenhänge (Syntax und Semantik).
 

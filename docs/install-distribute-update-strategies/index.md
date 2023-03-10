@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Kapitel 5 - Installation, Verteilungs- und Update-Strategien
+title: Installation, Verteilungs- und Update-Strategien
 permalink: /install-distribute-update-strategies/
 nav_order: 5
 ---
 
-# Kapitel 5 - Installation, Verteilungs- und Update-Strategien
+{: .no_toc}
+# Installation, Verteilungs- und Update-Strategien
 
 1. TOC
-{:toc} 
-
+{:toc}
 
 Die ADT basieren auf dem quelloffenen und vor allem in anderen Programmiersprachen sehr bekannten Eclipse Framework. Für die Installation und Verteilung hat das den Vorteil, dass das Rad nicht neu erfunden werden muss. Je nach Unternehmensgröße und Heterogenität der IT-Landschaft eines Unternehmens ist es sogar möglich, dass Eclipse-basierte Entwicklungsumgebungen schon im Unternehmen eingesetzt und verteilt werden. In diesem Fall empfiehlt es sich, die bestehende Infrastruktur weiter zu verwenden. Auch kann dies etwaige Aufwände der ein oder anderen Lösung reduzieren.
 
@@ -29,7 +29,7 @@ Für jede ADT-Installation (teilweise auch Eclipse ohne ADT) gibt es gewisse Vor
 
 ### Java Development Kit und Java Runtime Environment
 
-Wird mit der Installation lediglich ABAP entwickelt (und insbesondere kein Java, d. h. auch keine Plug-in-Entwicklung zur Ergänzung der ADT, siehe Kapitel 7 Plug-Ins), so ist auch kein Java Development Kit (JDK) notwendig. Ein Java Runtime Environment (JRE) reicht aus. Wird der offizielle Installer von Eclipse als Basis verwendet (siehe Kapitel 6 Installation, Verteilungs- und Update-Strategien), kommt dies automatisch mit.
+Wird mit der Installation lediglich ABAP entwickelt (und insbesondere kein Java, d. h. auch keine Plug-in-Entwicklung zur Ergänzung der ADT, siehe Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins)), so ist auch kein Java Development Kit (JDK) notwendig. Ein Java Runtime Environment (JRE) reicht aus. Wird der offizielle Installer von Eclipse als Basis verwendet (siehe Kapitel [Installation, Verteilungs- und Update-Strategien](/ADT-Leitfaden/install-distribute-update-strategies)), kommt dies automatisch mit.
 
 Zu beachten ist dabei, dass Eclipse mittlerweile standardmäßig als 64-Bit-Anwendung installiert wird (oft auch als *x64* oder *x86_64* bezeichnet). Da das JRE dieselbe Architektur verwenden muss wie die Eclipse-Installation, wird auch eine 64-Bit-JRE installiert.
 
@@ -102,7 +102,7 @@ Diesem Beispiel liegt die Annahme zu Grunde, dass die Eclipse-Installation über
 
 Da die Workspaces mit aufsteigenden Versionen in die jeweils neue Version konvertiert werden, sollten die Workspaces pro Version kopiert werden, um bei Bedarf die älteren Versionen weiterhin verwenden zu können.
 
-Inwiefern Workspaces sinnvoll eingesetzt werden, wird in Kapitel 3 "Arbeiten mit Eclipse" detaillierter erläutert.
+Inwiefern Workspaces sinnvoll eingesetzt werden, wird in Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt) detaillierter erläutert.
 
 ## Plug-ins
 
@@ -159,26 +159,12 @@ In den folgenden Kapiteln wird auf diese Mechanismen im Detail eingegangen. Nebe
 Zunächst sollen die näher betrachteten Varianten jedoch einmal in einer Übersicht verglichen werden. Die dabei verwendeten Symbole *+ (gut)*, ∘ *(mittel)* und *- (schlecht)* sind als Rangfolge zu verstehen und nicht als absolute Werte am Anfang, Mitte und Ende des jeweiligen Spektrums. Grund hierfür ist, dass beispielsweise ein Aufwand sehr individuell wahrgenommen wird. So kann ein mit *-* *(schlecht)* gekennzeichneter hoher Aufwand für eine Person trotzdem akzeptabel sein. Wohl jedoch stellen diese Symbole eine Reihenfolge dar, da messbare Unterschiede existieren.
 
 <table>
-	<colgroup>
-		<col style="width: 26%"/>
-		<col style="width: 23%"/>
-		<col style="width: 25%"/>
-		<col style="width: 25%"/>
-	</colgroup>
 	<thead>
 		<tr class="header">
-			<td>
-				<strong>Kriterium</strong>
-			</td>
-			<td>
-				<strong>Manuelle Installation</strong>
-			</td>
-			<td>
-				<strong>Vorkonfigurierte<br/>Erstinstallation</strong>
-			</td>
-			<td>
-				<strong>Eclipse Installer</strong>
-			</td>
+			<th style="text-align: left">Kriterium</th>
+			<th style="text-align: left">Manuelle Installation</th>
+			<th style="text-align: left">Vorkonfigurierte<br/>Erstinstallation</th>
+			<th style="text-align: left">Eclipse Installer</th>
 		</tr>
 		<tr class="odd">
 			<td>
@@ -289,7 +275,7 @@ In dieser Variante wird eine Standard-Eclipse-Installation neu heruntergeladen u
 
 SAP hat auf seiner Lernplattform eine bebilderte Anleitung zur Verfügung gestellt: [https://developers.sap.com/tutorials/abap-install-adt.html](https://developers.sap.com/tutorials/abap-install-adt.html).
 
-Ist diese Installation abgeschlossen, müssen die gewünschten Einstellungen vorgenommen und die Systemverbindungen hinzugefügt werden. Sollten weitere Plug-ins zum Einsatz kommen (siehe Kapitel 7 \"Plug-ins\"), müssen auch diese nachinstalliert werden.
+Ist diese Installation abgeschlossen, müssen die gewünschten Einstellungen vorgenommen und die Systemverbindungen hinzugefügt werden. Sollten weitere Plug-ins zum Einsatz kommen (siehe Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins)), müssen auch diese nachinstalliert werden.
 
 ### Vorkonfigurierte Erstinstallation
 
@@ -324,14 +310,10 @@ In den folgenden Abschnitten wird die Anlage und Anpassung der Oomph-Konfigurati
 Liest man sich die Dokumentation von Oomph durch, so wird man erst einmal mit vielen neuen Begriffen erschlagen. Daher hier vorab die wichtigsten Begriffe, die in den folgenden Abschnitten verwendet werden. Es werden hier bewusst die englischen Originalbegriffe verwendet, um Wiedererkennungswert zu schaffen.
 
 <table>
-<colgroup>
-<col style="width: 30%" />
-<col style="width: 69%" />
-</colgroup>
 <thead>
 <tr class="header">
-<th><strong>Begriff</strong></th>
-<th><strong>Beschreibung</strong></th>
+<th style="text-align: left">Begriff</th>
+<th style="text-align: left">Beschreibung</th>
 </tr>
 <tr class="odd">
 <td><strong>Setup-Model</strong></td>
@@ -355,7 +337,9 @@ Liest man sich die Dokumentation von Oomph durch, so wird man erst einmal mit vi
 </tbody>
 </table>
 
+<span class="table-caption">
 *Tabelle: Begrifflichkeiten in Oomph*
+</span>
 
 Eine Installation mittels Eclipse/Oomph Installer installiert somit immer eine Plattform, die Plug-ins, Oomph Updater, Oomph Recorder und zuletzt die Projekteinstellungen im Workspace.
 
@@ -449,7 +433,7 @@ Der Project-Catalog listet verfügbare Projects. Letztere enthalten Anweisungen 
 
 Die wichtigsten Elemente in einem Project sind:
 
-| **P2 Director** | Gruppiert Requirements und Repositories                                                                                       |
+| P2 Director | Gruppiert Requirements und Repositories                                                                                       |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | **Requirement** | Zu installierende Feature Group                                                                                               |
 | **Repository**  | Update-Site-URL                                                                                                               |
@@ -458,7 +442,9 @@ Die wichtigsten Elemente in einem Project sind:
 | **Eclipse ini** | Veränderungen der Eclipse.ini                                                                                                 |
 | **Preference**  | Voreingestellte Veränderung der Einstellungen (Window → Preferences).                                                         |
 
+<span class="table-caption">
 *Tabelle: Wichtigste Elemente eines Projects*
+</span>
 
 Für eine minimale ADT-Installation wird benötigt:
 

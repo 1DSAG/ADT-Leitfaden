@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Kapitel 0 - Einleitung
+title: Einleitung
 permalink: /introduction/
 nav_order: 0
 ---
 
-## Kapitel 0 - Einleitung
+{: .no_toc}
+# Einleitung
 
 1. TOC
-{:toc} 
-
+{:toc}
 
 ## Warum ein DSAG-Leitfaden über ABAP Development Tools (ADT) in Eclipse?
 

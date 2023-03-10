@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Kapitel 6 - Best Practices Eclipse-Konfiguration
+title: Best Practices Eclipse-Konfiguration
 permalink: /best-practices-configuration/
 nav_order: 6
 ---
 
-# Kapitel 6 - Best Practices Eclipse-Konfiguration
+{: .no_toc}
+# Best Practices Eclipse-Konfiguration
 
 1. TOC
 {:toc} 
@@ -78,9 +79,8 @@ Konfiguration der Tastenkombinationen in Eclipse, mit denen Sie Ihre Wunscheinst
 
 Siehe auch:
 
-Blog Post [Useful Keyboard Shortcuts for ABAP in Eclipse](https://blogs.sap.com/2013/11/21/useful-keyboard-shortcuts-for-abap-in-eclipse/)
-
-SAP Help [Keyboard Shortcuts for ABAP Development](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec299d16e391014adc9fffe4e204223.html)
+- Blog Post [Useful Keyboard Shortcuts for ABAP in Eclipse](https://blogs.sap.com/2013/11/21/useful-keyboard-shortcuts-for-abap-in-eclipse/)
+- SAP Help [Keyboard Shortcuts for ABAP Development](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec299d16e391014adc9fffe4e204223.html)
 
 #### Debugging
 
@@ -165,9 +165,9 @@ Wie bei Pretty Printer nehmen Sie hier die Einstellungen der Formatierung vor, w
 
 ## Views und Perspektiven
 
-Begriffsdefinitionen: siehe Kapitel 1
+Begriffsdefinitionen: siehe Kapitel [Einführung in Eclipse](/ADT-Leitfaden/introduction-eclipse)
 
-Arbeiten mit den unterschiedlichen Views: siehe Kapitel 4
+Arbeiten mit den unterschiedlichen Views: siehe Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt)
 
 ### Views
 
@@ -271,28 +271,23 @@ Sie können auch eigene Perspektiven definieren. Dies ist vor allem dann sinnvol
 
 Über Eclipse bzw. ABAP Development Tools bereits installierte Views:
 
--   ABAP Element Info
-
--   Minimap
+- ABAP Element Info
+- Minimap
 
 Über Eclipse Marketplace installierbare Views
 
--   [Open Editors](https://marketplace.eclipse.org/content/open-editors)
+- [Open Editors](https://marketplace.eclipse.org/content/open-editors)
 
 ## Vorschläge zur Verteilung
 
 Die Einrichtung eines virtuellen Arbeitsplatzes ist so individuell wie die eines realen. Neben den persönlichen Vorlieben kommt es z. B. auch auf die Größe des Monitors an, wie viele Views gleichzeitig sinnvoll angezeigt werden können. Es können deshalb hier nur sehr subjektive Vorschläge gemacht werden.
 
-| Project Explorer | Editor | Open Editors      | ![](./img/image20.png) |
-|-----------|-------------------------------|-------------------------|-----|
-|                  |        | ABAP Element Info |                                                                                                                           |
-| Outline          |        | Minimap           |                                                                                                                           |
-
+![](./img/abap_perspective.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Mögliche Einstellung der ABAP Perspektive*
+</span>
 
-| Project Explorer | Editor           | Variablen           |
-|------------------|------------------|---------------------|
-|                  |                  | Callstack ("Debug") |
-|                  | Interne Tabellen |                     |
-
+![](./img/debugger_perspective.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Mögliche Einstellung der Debugger Perspektive*
+</span>

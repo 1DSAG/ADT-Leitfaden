@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Eigene Plug-ins entwickeln
-parent: Kapitel 7 - Plug-ins
+parent: Plug-ins
 permalink: /plug-ins/develop-plug-ins/
 nav_order: 3
 ---
