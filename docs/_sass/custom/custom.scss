@@ -1,21 +1,40 @@
 .goodExample {
-    color:#22863a;
-    background-color:#f0fff4
+  color: #22863a;
+  background-color: #f0fff4;
 }
 
 .badExample {
-    color:#b31d28;
-    background-color:#ffeef0
+  color: #b31d28;
+  background-color: #ffeef0;
 }
 .badExample h3 {
-    color:#b31d28;
-    margin-left: 0.5rem;
+  color: #b31d28;
+  margin-left: 0.5rem;
 }
 .goodExample h3 {
-    color:#22863a;
-    margin-left: 0.5rem;
+  color: #22863a;
+  margin-left: 0.5rem;
 }
 
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline #eb5c3f !important;
+}
+
+.img-caption {
+  font-size: 0.8em;
+}
+
+:not([class="inline-img"]) {
+  > img {
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 12%), 0 3px 10px rgb(0 0 0 / 8%);
   }
+}
+
+td.centered {
+  text-align: center;
+}

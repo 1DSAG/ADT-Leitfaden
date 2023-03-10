@@ -43,25 +43,16 @@ Für die Kommunikation nutzen die ADT spezielle Web-Services auf dem Backend, di
 
 Zum Zeitpunkt dieses Dokuments sind dies die folgenden Services:
 
--   ABAP Docu (notwendig)
-
-    -   *default_host → sap → public → bc → abap → docu*
-
-    -   *default_host → sap → bc → abap → docu*
-
--   Fehlertexte und Element Info (notwendig)
-
-    -   *default_host → sap → public → bc → abap → toolsdocu*
-
-    -   *default_host → sap → bc → abap → toolsdocu*
-
--   Teilen von HTTP-Links (optional)
-
-    -   *default_host → sap → bc → adt*
-
--   Web Dynpro (nur notwendig für WD-Entwickler)
-
-    -   *default_host → sap → bc → webdynpro → sap → wdy_aie_vd_preview*
+- ABAP Docu (notwendig)
+  - *default_host → sap → public → bc → abap → docu*
+  - *default_host → sap → bc → abap → docu*
+- Fehlertexte und Element Info (notwendig)
+  - *default_host → sap → public → bc → abap → toolsdocu*
+  - *default_host → sap → bc → abap → toolsdocu*
+- Teilen von HTTP-Links (optional)
+  - *default_host → sap → bc → adt*
+- Web Dynpro (nur notwendig für WD-Entwickler)
+  - *default_host → sap → bc → webdynpro → sap → wdy_aie_vd_preview*
 
 #### Berechtigungen
 
@@ -69,9 +60,8 @@ Um die genannten Web-Services nutzen zu dürfen, müssen die User berechtigt wer
 
 SAP liefert hierzu zwei Rollen als Vorlage aus:
 
-1.  *SAP_BC_DWB_ABAPDEVELOPER* → Entwicklerrolle mit allen Features
-
-2.  *SAP_BC_DWB_WBDISPLAY* → Anzeigeberechtigungen für alle Features
+1. *SAP_BC_DWB_ABAPDEVELOPER* → Entwicklerrolle mit allen Features
+2. *SAP_BC_DWB_WBDISPLAY* → Anzeigeberechtigungen für alle Features
 
 Details bezüglich der darin verbauten Berechtigungen und deren Zweck können dem [SAP ADT Configuration Guide](http://help.sap.com/download/netweaver/adt/SAP_ADT_Configuration_Guide_Backend_en.pdf) entnommen werden.
 
@@ -87,31 +77,26 @@ Unter Windows wird zudem das Visual-Studio-2013 (VC++ 12.0)-Redistributable-Pake
 
 Wie bereits vorhergegangenen Kapiteln erwähnt, besteht eine Eclipse-Installation aus den folgenden Komponenten:
 
--   Installationsordner (reine Software-Pakete und eclipse.exe)
-
--   User-Settings oder Configuration-Area (Plug-ins, Teile der Konfiguration)
-
--   Workspace (benutzerspezifischer Teil: Einstellungen, Ansichten, Systemverbindungen etc.)
+- Installationsordner (reine Software-Pakete und eclipse.exe)
+- User-Settings oder Configuration-Area (Plug-ins, Teile der Konfiguration)
+- Workspace (benutzerspezifischer Teil: Einstellungen, Ansichten, Systemverbindungen etc.)
 
 Die Installation von Eclipse legt den Installationsordner und User-Settings an. Mittels fortgeschrittener Techniken können auch schon Teile des Workspace vorbelegt werden.
 
-Aufgrund diverser Probleme empfiehlt es sich, alle Komponenten in einen mit normalen Benutzerrechten beschreibbaren Ordner abzulegen (also **nicht** C:\\Program Files\\).
+Aufgrund diverser Probleme empfiehlt es sich, alle Komponenten in einen mit normalen Benutzerrechten beschreibbaren Ordner abzulegen (also **nicht** `C:\Program Files\`).
 
 Beispielsweise könnte eine Verzeichnisstruktur für die Eclipse-Installation wie folgt aussehen:
 
-C:\\ADT\\ Gesamtverzeichnis für ADT
+|Pfad|Beschreibung|
+|:--|:--|
+|`C:\ADT\` | Gesamtverzeichnis für ADT|
+|`C:\ADT\IDE` | Verzeichnis für Ablage der verschiedenen Eclipse-Versionen|
+|`C:\ADT\IDE\2022-12` | entpackte Dateien der Eclipse-Version 2022-12|
+|`C:\ADT\IDE\2023-03` | entpackte Dateien der Eclipse-Version 2023-03|
+|`C:\ADT\WS` | Verzeichnis zur Ablage der verschiedenen Workspaces|
+|`C:\ADT\WS\2022-12` | Verzeichnis für Workspaces der Version 2022-12|
+|... | |
 
-C:\\ADT\\IDE Verzeichnis für Ablage der verschiedenen Eclipse-Versionen
-
-C:\\ADT\\IDE\\2022-12 entpackte Dateien der Eclipse-Version 2022-12
-
-C:\\ADT\\IDE\\2023-03 entpackte Dateien der Eclipse-Version 2023-03
-
-C:\\ADT\\WS Verzeichnis zur Ablage der verschiedenen Workspaces
-
-C:\\ADT\\WS\\2022-12 Verzeichnis für Workspaces der Version 2022-12
-
-...
 
 Diesem Beispiel liegt die Annahme zu Grunde, dass die Eclipse-Installation über das Entpacken der zip-Files erfolgt und die Versionen parallel verwendet werden sollen.
 
@@ -127,15 +112,17 @@ Plug-ins wie die ADT können über die Angabe der Update-Site im Dialog Help →
 
 Der Eclipse Marketplace ist im Help-Menü versteckt.
 
-![](./img/image8.png)
-
+![](./img/image8.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Einstieg in den Eclipse Marketplace*
+</span>
 
 Hier kann dann nach Plug-ins gesucht werden. Das Suchwort *ABAP* lieferte Stand 2022 in diesem Beispiel 11 Treffer.
 
-![](./img/image13.png)
-
+![](./img/image13.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Exemplarische Suche nach Plug-ins im Eclipse Marketplace*
+</span>
 
 Jedes Plug-in besitzt auf der rechten Seite einen eigenen *Install*-Button. Gegebenenfalls müssen noch eine Lizenz bestätigt und Zertifikaten vertraut werden. Abschließend ist ein Neustart von Eclipse notwendig.
 
@@ -143,15 +130,17 @@ Jedes Plug-in besitzt auf der rechten Seite einen eigenen *Install*-Button. Gege
 
 Kennt man die Update-Site eines Plug-ins oder ist es nicht auf dem Eclipse Marketplace gelistet, kann auch der klassische Installationsweg verwendet werden.
 
-![](./img/image4.png)
-
+![](./img/image4.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Installation neuer Software über das Kontextmenü*
+</span>
 
 Im Feld *Work with* wird die Update-Site eingetragen. Ist diese gültig, werden unten die dort verfügbaren Plug-ins angezeigt. Neben Webseiten kann auch eine heruntergeladene Version des Plug-ins in einer zip-Datei eine Update-Site sein. In letzterem Fall müssen Updates jedoch händisch mit einem weiteren Download durchgeführt werden.
 
-![](./img/image14.png)
-
+![](./img/image14.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Eintragen der Update-Site*
+</span>
 
 Auch hier müssen gegebenenfalls Lizenzen akzeptiert und Zertifikaten vertraut werden. Nach einem Neustart steht das Plug-in zur Verfügung.
 
@@ -161,87 +150,134 @@ Auch hier müssen gegebenenfalls Lizenzen akzeptiert und Zertifikaten vertraut w
 
 Da die ADT erst vergleichsweise spät dem Eclipse-Ökosystem hinzugefügt wurden, haben sich außerhalb des SAP-Umfelds bereits diverse Installations-Strategien für Eclipse-basierte Entwicklungsumgebungen etabliert. Die verbreitetsten sind:
 
-1.  Komplett manuelle Einrichtung
-
-2.  Vorkonfigurierte Erstinstallation
-
-3.  Eclipse Installer (Oomph)
+1. Komplett manuelle Einrichtung
+2. Vorkonfigurierte Erstinstallation
+3. Eclipse Installer (Oomph)
 
 In den folgenden Kapiteln wird auf diese Mechanismen im Detail eingegangen. Neben diesen existieren noch viele weitere Möglichkeiten, die entweder für eher ungewöhnliche Situationen (z. B. fehlender Internetzugriff) konzipiert wurden oder mittlerweile durch komfortable Varianten verdrängt wurden.
 
 Zunächst sollen die näher betrachteten Varianten jedoch einmal in einer Übersicht verglichen werden. Die dabei verwendeten Symbole *+ (gut)*, ∘ *(mittel)* und *- (schlecht)* sind als Rangfolge zu verstehen und nicht als absolute Werte am Anfang, Mitte und Ende des jeweiligen Spektrums. Grund hierfür ist, dass beispielsweise ein Aufwand sehr individuell wahrgenommen wird. So kann ein mit *-* *(schlecht)* gekennzeichneter hoher Aufwand für eine Person trotzdem akzeptabel sein. Wohl jedoch stellen diese Symbole eine Reihenfolge dar, da messbare Unterschiede existieren.
 
 <table>
-<colgroup>
-<col style="width: 26%" />
-<col style="width: 23%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Kriterium</strong></th>
-<th><strong>Manuelle Installation</strong></th>
-<th><strong>Vorkonfigurierte<br />
-Erstinstallation</strong></th>
-<th><strong>Eclipse Installer</strong></th>
-</tr>
-<tr class="odd">
-<th><strong>Aufwand Anwender</strong></th>
-<th><em>-</em></th>
-<th>∘</th>
-<th><em>+</em></th>
-</tr>
-<tr class="header">
-<th><strong>Notwendiges Wissen Anwender</strong></th>
-<th><em>-</em></th>
-<th>∘</th>
-<th><em>+</em></th>
-</tr>
-<tr class="odd">
-<th><strong>Aufwand zentrale Verwaltung</strong></th>
-<th><em>+<br />
-(keiner)</em></th>
-<th>∘</th>
-<th><em>-</em></th>
-</tr>
-<tr class="header">
-<th><strong>Benötigte zentrale Infrastruktur</strong></th>
-<th><em>+<br />
-(keine)</em></th>
-<th>∘</th>
-<th><em>-</em></th>
-</tr>
-<tr class="odd">
-<th><strong>Aufwand Anwender bei Update/Upgrade</strong></th>
-<th><em>∘</em></th>
-<th>∘</th>
-<th>∘</th>
-</tr>
-<tr class="header">
-<th><strong>Aufwand zentrale Verwaltung bei Update/Upgrade</strong></th>
-<th><em>+<br />
-(keiner)</em></th>
-<th>-</th>
-<th>∘</th>
-</tr>
-<tr class="odd">
-<th><strong>Automatische Verteilung Add-ons, Einstellungen</strong></th>
-<th><em>-<br />
-(unmöglich)</em></th>
-<th>∘<br />
-<em>(einmalig)</em></th>
-<th><em>+<br />
-(kontinuierlich)</em></th>
-</tr>
-<tr class="header">
-<th><strong>Empfohlen für Unternehmensgröße</strong></th>
-<th><em>Einzelpersonen/ kleine Unternehmen</em></th>
-<th><em>Mittlere und große Unternehmen</em></th>
-<th><em>Große Unternehmen</em></th>
-</tr>
-</thead>
-<tbody>
+	<colgroup>
+		<col style="width: 26%"/>
+		<col style="width: 23%"/>
+		<col style="width: 25%"/>
+		<col style="width: 25%"/>
+	</colgroup>
+	<thead>
+		<tr class="header">
+			<td>
+				<strong>Kriterium</strong>
+			</td>
+			<td>
+				<strong>Manuelle Installation</strong>
+			</td>
+			<td>
+				<strong>Vorkonfigurierte<br/>Erstinstallation</strong>
+			</td>
+			<td>
+				<strong>Eclipse Installer</strong>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>
+				<strong>Aufwand Anwender</strong>
+			</td>
+			<td class="centered">
+				<em>-</em>
+			</td>
+			<td class="centered">∘</td>
+			<td class="centered">
+				<em>+</em>
+			</td>
+		</tr>
+		<tr class="header">
+			<td>
+				<strong>Notwendiges Wissen Anwender</strong>
+			</td>
+			<td class="centered">
+				<em>-</em>
+			</td>
+			<td class="centered">∘</td>
+			<td class="centered">
+				<em>+</em>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>
+				<strong>Aufwand zentrale Verwaltung</strong>
+			</td>
+			<td class="centered">
+				<em>+<br/>(keiner)</em>
+			</td>
+			<td class="centered">∘</td>
+			<td class="centered">
+				<em>-</em>
+			</td>
+		</tr>
+		<tr class="header">
+			<td>
+				<strong>Benötigte zentrale Infrastruktur</strong>
+			</td>
+			<td class="centered">
+				<em>+<br/>(keine)</em>
+			</td>
+			<td class="centered">∘</td>
+			<td class="centered">
+				<em>-</em>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>
+				<strong>Aufwand Anwender bei Update/Upgrade</strong>
+			</td>
+			<td class="centered">
+				<em>∘</em>
+			</td>
+			<td class="centered">∘</td>
+			<td class="centered">∘</td>
+		</tr>
+		<tr class="header">
+			<td>
+				<strong>Aufwand zentrale Verwaltung bei Update/Upgrade</strong>
+			</td>
+			<td class="centered">
+				<em>+<br/>(keiner)</em>
+			</td>
+			<td class="centered">-</td>
+			<td class="centered">∘</td>
+		</tr>
+		<tr class="odd">
+			<td>
+				<strong>Automatische Verteilung Add-ons, Einstellungen</strong>
+			</td>
+			<td class="centered">
+				<em>-<br/>(unmöglich)</em>
+			</td>
+			<td class="centered">∘<br/>
+				<em>(einmalig)</em>
+			</td>
+			<td class="centered">
+				<em>+<br/>(kontinuierlich)</em>
+			</td>
+		</tr>
+		<tr class="header">
+			<td>
+				<strong>Empfohlen für Unternehmensgröße</strong>
+			</td>
+			<td class="centered">
+				<em>Einzelpersonen/ kleine Unternehmen</em>
+			</td>
+			<td class="centered">
+				<em>Mittlere und große Unternehmen</em>
+			</td>
+			<td class="centered">
+				<em>Große Unternehmen</em>
+			</td>
+		</tr>
+	</thead>
+	<tbody>
 </tbody>
 </table>
 
@@ -337,56 +373,45 @@ Das bedeutet, man legt zuerst einen *Index* an. Ein Index verweist auf verfügba
 
 Folgend der Aufbau eines Index:
 
-*\<?xml version=\"1.0\" encoding=\"UTF-8\"?\>*
-
-*\<setup:Index*
-
-*xmi:version=\"2.0\"*
-
-*xmlns:xmi=\"http://www.omg.org/XMI\"*
-
-*xmlns:setup=\"http://www.eclipse.org/oomph/setup/1.0\"*
-
-*name=\"myCompany Eclipse Setups\"*
-
-*label=\"index\"\>*
-
-*\<productCatalog*
-
-*href=\"myCompany.products.setup#/\"/\>*
-
-*\<projectCatalog*
-
-*href=\"myCompany.projects.setup#/\"/\>*
-
-*\</setup:Index\>*
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<setup:Index
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
+    name="myCompany Eclipse Setups"
+    label="index">
+  <productCatalog href="myCompany.products.setup#/"/>
+  <projectCatalog href="myCompany.projects.setup#/"/>
+</setup:Index>
+```
 
 In der erweiterten Ansicht des Eclipse Installer hat man dann auch die Möglichkeit, zwischen mehreren verfügbaren Indizes zu wechseln.
 
-![](./img/image15.png)
-
+![](./img/image15.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Wechsel zwischen Indizes*
+</span>
 
 ###### Product-Catalog und Product
 
 Ein Product-Catalog listet verschiedene Products. Er enthält darüber hinaus auch übergreifende Einstellungen, wie beispielsweise:
 
--   interne Umleitungen von Update-Sites auf lokale Caches
-
--   Definition von Variablen, die später pro Product (Version) oder Project anders gefüllt werden können (beispielsweise für versionsspezifische Update-Sites)
-
--   die Installation des Oomph Client für die spätere Verteilung von Aktualisierungen der in den Products und Projects festgelegten Einstellungen, Oomph Recorder (siehe Abschnitt [Anwenderinformationen](#anwenderinformationen)).
+- interne Umleitungen von Update-Sites auf lokale Caches
+- Definition von Variablen, die später pro Product (Version) oder Project anders gefüllt werden können (beispielsweise für versionsspezifische Update-Sites)
+- die Installation des Oomph Client für die spätere Verteilung von Aktualisierungen der in den Products und Projects festgelegten Einstellungen, Oomph Recorder (siehe Abschnitt [Anwenderinformationen](#anwenderinformationen)).
 
 Auf allen Ebenen (Product-Catalog, Product und Product-Version) können folgende Eigenschaften hinterlegt werden:
 
-![](./img/image3.png)
-
+![](./img/image3.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Hinzufügen und Festlegen von Eigenschaften*
+</span>
 
 Die meist benötigten Elemente sind:
 
-| **Product**         | Fügt ein Product dem Product-Catalog hinzu (z. B. IDE for JAVA Developers). Kann nur auf Ebene Product-Catalog hinzugefügt werden.                             |
-|------------------|------------------------------------------------------|
+| Product             | Fügt ein Product dem Product-Catalog hinzu (z. B. IDE for JAVA Developers). Kann nur auf Ebene Product-Catalog hinzugefügt werden.                             |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Product-Version** | Fügt einem Product eine Version hinzu, in der dann versionsspezifische Einstellungen vorgenommen werden können. Kann nur auf Ebene Product hinzugefügt werden. |
 | **Compound**        | Dies ist eine Art Ordner, in dem später Einstellungen gruppiert werden können.                                                                                 |
 | **Eclipse ini**     | Fügt der Eclipse.ini eine Option hinzu.                                                                                                                        |
@@ -399,35 +424,24 @@ Die meist benötigten Elemente sind:
 
 Für eine minimale ADT-Installation wird Folgendes benötigt:
 
--   Ein Product, z. B. "SAP"
+- Ein Product, z. B. "SAP"
+- Eine Product-Version, z. B. "2022-03 (4.23)"
+- Ein P2 Director Task mit:
+  - Eclipse Platform Packages
+    - epp.package.java (Value-Range beginnt bei gewünschtem Release → 4.23)
+    - org.eclipse.platform (Value-Range beginnt bei gewünschtem Release → 4.23)
+    - org.eclipse.rcp (Value-Range beginnt bei gewünschtem Release → 4.23)
+    - org.eclipse.buildship
+    - org.eclipse.tips.feature
+    - org.eclipse.epp.mpc
+  - Repository-URLs für die Eclipse Platform Packages
+    - [https://download.eclipse.org/releases/2202-03/202203161000](https://download.eclipse.org/releases/2202-03/202203161000) (Link Release-abhängig!)
+    - [https://download.eclipse.org/technology/epp/packages/2022-03/202203101200](https://download.eclipse.org/technology/epp/packages/2022-03/202203101200) (Link Release-abhängig!)
 
--   Eine Product-Version, z. B. "2022-03 (4.23)"
-
--   Ein P2 Director Task mit:
-
-    -   Eclipse Platform Packages
-
-        -   epp.package.java (Value-Range beginnt bei gewünschtem Release → 4.23)
-
-        -   org.eclipse.platform (Value-Range beginnt bei gewünschtem Release → 4.23)
-
-        -   org.eclipse.rcp (Value-Range beginnt bei gewünschtem Release → 4.23)
-
-        -   org.eclipse.buildship
-
-        -   org.eclipse.tips.feature
-
-        -   org.eclipse.epp.mpc
-
-    -   Repository-URLs für die Eclipse Platform Packages
-
-        -   [https://download.eclipse.org/releases/2202-03/202203161000](https://download.eclipse.org/releases/2202-03/202203161000) (Link Release-abhängig!)
-
-        -   [https://download.eclipse.org/technology/epp/packages/2022-03/202203101200](https://download.eclipse.org/technology/epp/packages/2022-03/202203101200) (Link Release-abhängig!)
-
-![](./img/image7.png)
-
+![](./img/image7.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Komponenten einer "minimalen" ADT-Installation*
+</span>
 
 ###### Project-Catalog und Project
 
@@ -436,7 +450,7 @@ Der Project-Catalog listet verfügbare Projects. Letztere enthalten Anweisungen 
 Die wichtigsten Elemente in einem Project sind:
 
 | **P2 Director** | Gruppiert Requirements und Repositories                                                                                       |
-|-------------------|-----------------------------------------------------|
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | **Requirement** | Zu installierende Feature Group                                                                                               |
 | **Repository**  | Update-Site-URL                                                                                                               |
 | **Stream**      | Verpflichtendes Objekt. Unterschiedliche Konfigurationen pro Stream möglich. Kann mit Namen, aber ohne Inhalt vorhanden sein. |
@@ -448,25 +462,19 @@ Die wichtigsten Elemente in einem Project sind:
 
 Für eine minimale ADT-Installation wird benötigt:
 
--   P2-Director-Knoten
+- P2-Director-Knoten
+  - ADT Feature Groups
+    - com.sap.adt.tools.hana.devedition
+    - com.sap.core.devedition
+  - Repository für ADT
+    - <https://tools.hana> .ondemand.com/latest
+    - Alternativ: \${Variable} → z. B. \${sap.repository.url}
+- Einen leeren Stream, standardmäßig "Master"
 
-    -   ADT Feature Groups
-
-        -   com.sap.adt.tools.hana.devedition
-
-        -   com.sap.core.devedition
-
-    -   Repository für ADT
-
-        -   https://tools.hana .ondemand.com/latest
-
-        -   Alternativ: \${Variable} → z. B. \${sap.repository.url}
-
--   Einen leeren Stream, standardmäßig "Master"
-
-![](./img/image6.png)
-
+![](./img/image6.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Komponenten einer minimalen ADT-Installation*
+</span>
 
 Zu beachten ist, dass ein Plug-in für Eclipse aus mehreren Feature Groups bestehen kann. Wie man diese herausfinden kann, wird im Abschnitt [Zusätzliches Plug-in installieren](#zusätzliches-plug-in-installieren) erklärt.
 
@@ -476,29 +484,17 @@ Der Eclipse Installer ist dieselbe exe-Datei, die man von der Eclipse-Startseite
 
 Die Verteilung der Konfiguration erfolgt über die Anlage/Anpassung einer Datei mit festgelegtem Namen und Pfad:
 
-*C:\\Users\\\<currentUser\>\\.eclipse\\org.eclipse.oomph.setup\\setups\\indices.xmi*
-
-Beispiel einer Indexliste:
-
-*\<?xml version="1.0" encoding="UTF-8" ?\>*
-
-*\<base:Annotation*
-
-*xmi:version="2.0"*
-
-*xmlns:xmi="[http://www.omg.org/XMI](http://www.omg.org/XMI)"*
-
-*xmlns:base="[http://www.eclipse.org/oomph/base/1.0](http://www.eclipse.org/oomph/base/1.0)"*
-
-*source="IndexLocations"\>*
-
-*\<detail key="[https://pages.github.com/path/subpath/myFirst.setup](https://pages.github.com/path/subpath/myFirst.setup)"\>*
-
-*\<value\>Description of my first Oomph Catalog\</value\>*
-
-*\</detail\>*
-
-*\</base:Annotation\>*
+```xml
+<?xml version=”1.0” encoding=”UTF-8” ?>
+<base:Annotation xmi:version=”2.0” 
+                 xmlns:xmi=”http://www.omg.org/XMI” 
+                 xmlns:base=”http://www.eclipse.org/oomph/base/1.0” 
+                 source=”IndexLocations”>
+   <detail key=”https://pages.github.com/path/subpath/myFirst.setup”>
+     <value>Description of my first Oomph Catalog</value>
+   </detail>
+</base:Annotation>
+```
 
 Hierbei ist der Pfad zu einem oder mehreren Indizes anzugeben. Der Pfad kann auch ein Weblink oder git-Repository-Pfad sein. Die verlinkten Dateien werden dann bei jedem Start des Eclipse Installer heruntergeladen/aktualisiert.
 
@@ -518,9 +514,10 @@ Nun besteht ein Plug-in aus mindestens einer Feature Group. Im Oomph Project mus
 
 Stand Oktober 2022 sieht die Abfrage der SAP-Update-Site wie folgt aus:
 
-![](./img/image10.png)
-
+![](./img/image10.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Bestandteile der SAP Update Site*
+</span>
 
 ###### Vorgeben von Einstellungen
 
@@ -530,27 +527,25 @@ Alle zu vergebenden Einstellungen kommen in den Compound/Ordner *User-Preference
 
 Da diese nicht einheitliche Darstellung unpraktisch zu administrieren ist und die Namen der Features in der Regel auch nicht bekannt sind, existieren auch hier Hilfswerkzeuge: In den Einstellungen wird ein Oomph Recorder installiert. Näheres zur Verwendung als Anwender kann dem Abschnitt [Oomph Recorder](#oomph-recorder) entnommen werden. Der Oomph Recorder zeichnet den letzten Stand aller geänderten Einstellungen auf Benutzerebene auf (also übergreifend über Eclipse-Installationen) und fragt nach dem Schließen der Einstellungen, ob diese immer/einmal/nie gespeichert werden sollen. Ebenso wird damit ein Button in der Button-Leiste von Eclipse verfügbar, um sich die bereits gespeicherten Einstellungen anzuschauen.
 
-![](./img/image11.png)
-
+![](./img/image11.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Möglichkeit zur Anzeige der bereits gespeicherten Einstellungen*
+</span>
 
-![](./img/image5.png)
-
+![](./img/image5.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Bereits gespeicherte Einstellungen*
+</span>
 
 Hierbei handelt es sich wieder um setup-Dateien. Somit können auch hier wieder die aufgezeichneten Einstellungen mit Drag-and-drop oder **STRG+C** und **STRG+V** in das Oomph Project übernommen werden.
 
 Folgend ein paar Beispiele für allgemein verteilte Einstellungen. Hier finden sich einige der ADT-exklusiven Features, die SAP leider nicht alle standardmäßig aktiviert.
 
--   Code Templates
-
--   Aktivierung der zusätzlichen Code-Highlights in ABAP (verschiedene Farben)
-
--   Kontinuierliche Syntaxprüfung aktivieren
-
--   Aktivieren des Occurrence Marker
-
--   Einheitliche Darstellung von Einrückungen (Tabs oder Leerzeichen, Breite der Einrückung)
+- Code Templates
+- Aktivierung der zusätzlichen Code-Highlights in ABAP (verschiedene Farben)
+- Kontinuierliche Syntaxprüfung aktivieren
+- Aktivieren des Occurrence Marker
+- Einheitliche Darstellung von Einrückungen (Tabs oder Leerzeichen, Breite der Einrückung)
 
 ###### Grenzen Arbeitsspeicher anheben
 
@@ -565,7 +560,7 @@ Werden die SAP ADT installiert, so sind die Standard-Perspectives zunächst nur 
 Das Erzwingen einer Start-Perspective ist eine Startoption in der Eclipse.ini. Es muss somit ein Eclipse Ini Task mit den folgenden Eigenschaften angelegt werden:
 
 | Option | -perspective                   |
-|--------|--------------------------------|
+| ------ | ------------------------------ |
 | Value  | com.sap.adt.ui.AbapPerspective |
 | VM     | false                          |
 
@@ -575,35 +570,40 @@ Das Erzwingen einer Start-Perspective ist eine Startoption in der Eclipse.ini. E
 
 Beim ersten Start des Eclipse Installer kann es sein, dass dieser im einfachen Modus startet. Für die Verwendung eigener Konfigurationen ist jedoch der erweiterte Modus nötig. Über das Menü oben rechts kann in diesen gewechselt werden ("Advanced Mode").
 
-![](./img/image9.png)
-
+![](./img/image9.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Wechsel in den "Advanced Mode"*
+</span>
 
 Nun sieht man eine Liste an verfügbaren Products. Dies ist der Inhalt des ersten referenzierten Index in der Indices.xmi. Oben rechts kann zwischen allen gelisteten Indizes gewechselt werden.
 
-![](./img/image16.png)
-
+![](./img/image16.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Wechsel zwischen Indizes*
+</span>
 
 Hier wählt man einen passenden Eintrag aus. Sobald dies geschehen ist, wird unten die verfügbare Produktversion auswählbar.
 
-![](./img/image12.png)
-
+![](./img/image12.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Auswahl der Product-Version*
+</span>
 
 Im nächsten Bild sind die Projects auswählbar. Hier können theoretisch mehrere Projects für eine Installation gewählt werden. Jedoch kann es passieren, dass diese Projects dann konkurrierende Einstellungen vornehmen, und es kommt zu Problemen.
 
 Zu einem Project muss dann auch zwingend ein Stream gewählt werden. Wurde nur einer definiert, ist dieser bereits vorausgewählt.
 
-![](./img/image1.png)
-
+![](./img/image1.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Auswahl des Streams*
+</span>
 
 Nun werden noch definierte und verwendete, aber nicht gefüllte Variablen abgefragt. Dies können beispielsweise die Pfade zu Installation und Workspace sein.
 
-![](./img/image2.png)
-
+![](./img/image2.png)  
+<span class="img-caption" markdown=1>
 *Abbildung: Abfrage weiterer Variablen*
+</span>
 
 Zuletzt wird noch eine Bestätigungsseite angezeigt, die aber in der Regel keine neuen Informationen enthält.
 
@@ -629,11 +629,9 @@ Bei der Durchführung eines Updates oder Upgrades kann es vorkommen, dass die In
 
 Eine Installation läuft in der Regel in den folgenden Phasen ab:
 
-1.  Zielversionen aller Komponenten und deren Pakete berechnen, inklusive Beachtung der Abhängigkeiten
-
-2.  Pakete herunterladen
-
-3.  Pakete installieren
+1. Zielversionen aller Komponenten und deren Pakete berechnen, inklusive Beachtung der Abhängigkeiten
+2. Pakete herunterladen
+3. Pakete installieren
 
 Die erfahrungsgemäß häufigste Fehlerursache bei der Berechnung der Zielversionen sind nicht erfüllbare Abhängigkeiten.
 
