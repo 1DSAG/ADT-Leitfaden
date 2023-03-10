@@ -31,7 +31,7 @@ a:hover {
 :not([class="inline-img"]) {
   > img {
     border-radius: 4px;
-    box-shadow: 0 1px 2px rgb(0 0 0 / 12%), 0 3px 10px rgb(0 0 0 / 8%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0 ,0.08);
   }
 }
 
