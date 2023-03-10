@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Kapitel 5 - Installation, Verteilungs- und Update-Strategien
+title: Installation, Verteilungs- und Update-Strategien
 permalink: /install-distribute-update-strategies/
 nav_order: 5
 ---
 
 {: .no_toc}
-# Kapitel 5 - Installation, Verteilungs- und Update-Strategien
+# Installation, Verteilungs- und Update-Strategien
 
 1. TOC
 {:toc}
@@ -29,7 +29,7 @@ Für jede ADT-Installation (teilweise auch Eclipse ohne ADT) gibt es gewisse Vor
 
 ### Java Development Kit und Java Runtime Environment
 
-Wird mit der Installation lediglich ABAP entwickelt (und insbesondere kein Java, d. h. auch keine Plug-in-Entwicklung zur Ergänzung der ADT, siehe Kapitel 7 Plug-Ins), so ist auch kein Java Development Kit (JDK) notwendig. Ein Java Runtime Environment (JRE) reicht aus. Wird der offizielle Installer von Eclipse als Basis verwendet (siehe Kapitel 6 Installation, Verteilungs- und Update-Strategien), kommt dies automatisch mit.
+Wird mit der Installation lediglich ABAP entwickelt (und insbesondere kein Java, d. h. auch keine Plug-in-Entwicklung zur Ergänzung der ADT, siehe Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins)), so ist auch kein Java Development Kit (JDK) notwendig. Ein Java Runtime Environment (JRE) reicht aus. Wird der offizielle Installer von Eclipse als Basis verwendet (siehe Kapitel [Installation, Verteilungs- und Update-Strategien](/ADT-Leitfaden/install-distribute-update-strategies)), kommt dies automatisch mit.
 
 Zu beachten ist dabei, dass Eclipse mittlerweile standardmäßig als 64-Bit-Anwendung installiert wird (oft auch als *x64* oder *x86_64* bezeichnet). Da das JRE dieselbe Architektur verwenden muss wie die Eclipse-Installation, wird auch eine 64-Bit-JRE installiert.
 
@@ -102,7 +102,7 @@ Diesem Beispiel liegt die Annahme zu Grunde, dass die Eclipse-Installation über
 
 Da die Workspaces mit aufsteigenden Versionen in die jeweils neue Version konvertiert werden, sollten die Workspaces pro Version kopiert werden, um bei Bedarf die älteren Versionen weiterhin verwenden zu können.
 
-Inwiefern Workspaces sinnvoll eingesetzt werden, wird in Kapitel 3 "Arbeiten mit Eclipse" detaillierter erläutert.
+Inwiefern Workspaces sinnvoll eingesetzt werden, wird in Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt) detaillierter erläutert.
 
 ## Plug-ins
 
@@ -275,7 +275,7 @@ In dieser Variante wird eine Standard-Eclipse-Installation neu heruntergeladen u
 
 SAP hat auf seiner Lernplattform eine bebilderte Anleitung zur Verfügung gestellt: [https://developers.sap.com/tutorials/abap-install-adt.html](https://developers.sap.com/tutorials/abap-install-adt.html).
 
-Ist diese Installation abgeschlossen, müssen die gewünschten Einstellungen vorgenommen und die Systemverbindungen hinzugefügt werden. Sollten weitere Plug-ins zum Einsatz kommen (siehe Kapitel 7 \"Plug-ins\"), müssen auch diese nachinstalliert werden.
+Ist diese Installation abgeschlossen, müssen die gewünschten Einstellungen vorgenommen und die Systemverbindungen hinzugefügt werden. Sollten weitere Plug-ins zum Einsatz kommen (siehe Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins)), müssen auch diese nachinstalliert werden.
 
 ### Vorkonfigurierte Erstinstallation
 

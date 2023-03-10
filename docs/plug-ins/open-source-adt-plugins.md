@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Nützliche Open Source ADT Plugins
-parent: Kapitel 7 - Plug-ins
+parent: Plug-ins
 permalink: /plug-ins/open-source-adt-plugins/
 nav_order: 2
 ---

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Kapitel 6 - Best Practices Eclipse-Konfiguration
+title: Best Practices Eclipse-Konfiguration
 permalink: /best-practices-configuration/
 nav_order: 6
 ---
 
 {: .no_toc}
-# Kapitel 6 - Best Practices Eclipse-Konfiguration
+# Best Practices Eclipse-Konfiguration
 
 1. TOC
 {:toc} 
@@ -165,9 +165,9 @@ Wie bei Pretty Printer nehmen Sie hier die Einstellungen der Formatierung vor, w
 
 ## Views und Perspektiven
 
-Begriffsdefinitionen: siehe Kapitel 1
+Begriffsdefinitionen: siehe Kapitel [Einführung in Eclipse](/ADT-Leitfaden/introduction-eclipse)
 
-Arbeiten mit den unterschiedlichen Views: siehe Kapitel 4
+Arbeiten mit den unterschiedlichen Views: siehe Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt)
 
 ### Views
 

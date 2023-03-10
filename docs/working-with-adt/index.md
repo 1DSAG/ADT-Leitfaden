@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Kapitel 3 - Arbeiten mit ADT
+title: Arbeiten mit ADT
 permalink: /working-with-adt/
 nav_order: 3
 ---
 
 {: .no_toc}
 
-# Kapitel 3 - Arbeiten mit ADT
+# Arbeiten mit ADT
 
 1. TOC
 {:toc}
@@ -293,7 +293,7 @@ Als Hauptebene der Arbeitsstrukturierung und Ablage der Eclipse- und ADT-Konfigu
 *Abbildung: Abfrage des Workspace-Verzeichnisses*
 </span>
 
-Eine Möglichkeit, wie die Verzeichnisstruktur gestaltet sein kann, findet sich in Kapitel 6 - Best Practices Eclipse Konfiguration.
+Eine Möglichkeit, wie die Verzeichnisstruktur gestaltet sein kann, findet sich in Kapitel [Best Practices Eclipse-Konfiguration](/ADT-Leitfaden/best-practices-configuration).
 
 In diesem Verzeichnis werden zahlreiche Konfigurationseinstellungen abgelegt. Dies sind u.a.
 
@@ -341,7 +341,7 @@ Für die tägliche Arbeit empfiehlt es sich, Pakete als Favoriten hinzuzufügen,
 *Abbildung: Hinzufügen von Packages zu den Favoriten*
 </span>
 
-Für eine Ablage und Organisation von Favoriten auf Objektebene kann das Plug-in "ABAP Favorites" empfohlen werden, das über den Plug-in-Installationsmechanismus in Eclipse installiert werden kann, siehe Kapitel 7 - Plug-ins.
+Für eine Ablage und Organisation von Favoriten auf Objektebene kann das Plug-in "ABAP Favorites" empfohlen werden, das über den Plug-in-Installationsmechanismus in Eclipse installiert werden kann, siehe Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins).
 
 ![](./img/image70.png)  
 <span class="img-caption" markdown=1>
@@ -571,7 +571,7 @@ In der Button-Leiste gibt es weitere verschiedene Funktionen für den View:
 - "Sort" -- Sortierung der Einträge nach Alphabet oder nach Typ und Alphabet
 - "Hide Non-Public Members" -- Es werden nur Attribute und Methoden angezeigt, die auch von außen verwendbar sind (Thema Sichtbarkeit)
 
-Hinweis: Im Kapitel 7 - Plug-ins finden Sie weitere Informationen zum Plug-in "Classic Outlines", welches die Outlines erweitert.
+Hinweis: Im Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins) finden Sie weitere Informationen zum Plug-in "Classic Outlines", welches die Outlines erweitert.
 
 ### Problems
 
@@ -994,7 +994,7 @@ Der identische Hilfeinhalt, wie er Ihnen im ADT Client zur Verfügung steht, ist
 
 ## Refactoring von Code mit ADT
 
-Wie bereits im Kapitel 2 - Motivation für ADT kurz erwähnt, ermöglichen die zahlreichen Funktionen in ADT auch das Refactoring von Code. Doch was ist [Refactoring](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/b2ffd9b6ac5c41d2b0cda4858d4a6c9b.html), welche Vorteile bietet es und welche Funktionen werden hierfür von ADT bereitgestellt? Diese Fragen sollen im folgenden Abschnitt detailliert beantwortet werden.
+Wie bereits im Kapitel [Motivation für ADT](/ADT-Leitfaden/motivation-for-adt) kurz erwähnt, ermöglichen die zahlreichen Funktionen in ADT auch das Refactoring von Code. Doch was ist [Refactoring](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/b2ffd9b6ac5c41d2b0cda4858d4a6c9b.html), welche Vorteile bietet es und welche Funktionen werden hierfür von ADT bereitgestellt? Diese Fragen sollen im folgenden Abschnitt detailliert beantwortet werden.
 
 Refactoring bezeichnet die Veränderung von Source-Code, um dessen Struktur und Lesbarkeit zu verbessern, ohne dabei die Funktionen zu ändern. Dies bedeutet, es kommen keine neuen Funktionalitäten hinzu, es fallen keine Funktionalitäten weg und es bleibt die Korrektheit der Lösung erhalten, d. h. sie liefert weiterhin das korrekte Ergebnis. Es werden keine neuen Bugs eingeführt.
 
@@ -1028,7 +1028,7 @@ Da z. B. die Rename-Funktion Identifier nicht nur innerhalb der Einheit, sondern
 
 Die Extract-Funktion analysiert den markierten Code, bietet Hilfestellung bei der Parametervergabe und ersetzt die Stelle des Codes mit dem Aufruf der neu erstellten Methode. Wenn die zu extrahierende Methode mit einem Kommentar versehen ist, wird dieser als Vorschlag für die Benennung der Methode herangezogen.
 
-Weiterhin empfehlen die Autoren die Verwendung des Plug-ins [ABAP Quick Fix](https://marketplace.eclipse.org/content/abap-quick-fix) von Lukasz Pegiel, welches im Kapitel 7 - Plug-ins beschrieben wird. Generell bieten die mittels Quick Fixes bereitgestellten Refactoring Tools in ADT sowohl bei der Erstellung als auch bei der Überarbeitung von bestehendem Code eine enorme Hilfe. Die Nutzung dieses hilfreichen Plug-ins verbessert auf diese Weise einerseits den aktuell bearbeiteten Code, hilft aber auch bei der Erstellung von neuem Code, die neueren Sprachkonstrukte selbst anzuwenden, falls man darin noch wenig geübt ist.
+Weiterhin empfehlen die Autoren die Verwendung des Plug-ins [ABAP Quick Fix](https://marketplace.eclipse.org/content/abap-quick-fix) von Lukasz Pegiel, welches im Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins) beschrieben wird. Generell bieten die mittels Quick Fixes bereitgestellten Refactoring Tools in ADT sowohl bei der Erstellung als auch bei der Überarbeitung von bestehendem Code eine enorme Hilfe. Die Nutzung dieses hilfreichen Plug-ins verbessert auf diese Weise einerseits den aktuell bearbeiteten Code, hilft aber auch bei der Erstellung von neuem Code, die neueren Sprachkonstrukte selbst anzuwenden, falls man darin noch wenig geübt ist.
 
 ## Versionsverwaltung und Vergleichen
 

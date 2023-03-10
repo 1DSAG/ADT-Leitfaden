@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Nützliche Open-Source-Plug-ins
-parent: Kapitel 7 - Plug-ins
+parent: Plug-ins
 permalink: /plug-ins/open-source-plug-ins/
 nav_order: 1
 ---

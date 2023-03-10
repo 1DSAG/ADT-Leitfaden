@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Kapitel 7 - Plug-ins
+title: Plug-ins
 permalink: /plug-ins/
 has_children: true
 nav_order: 7
 ---
 
-# Kapitel 7 - Plug-ins
+# Plug-ins
 
 ## Einführung
 

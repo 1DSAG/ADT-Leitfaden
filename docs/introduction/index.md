@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Kapitel 0 - Einleitung
+title: Einleitung
 permalink: /introduction/
 nav_order: 0
 ---
 
 {: .no_toc}
-# Kapitel 0 - Einleitung
+# Einleitung
 
 1. TOC
 {:toc}

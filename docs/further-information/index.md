@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kapitel 8 - Weiterführende Informationen
+title: Weiterführende Informationen
 permalink: /further-information/
 nav_order: 8
 nav_exclude: true
@@ -18,7 +18,7 @@ WIP
 <th style="text-align: left">Link</th>
 </tr>
 <tr class="odd">
-<td>Kapitel 3 - Best Practices Eclipse Konfiguration</td>
+<td>Kapitel <a href="/ADT-Leitfaden/best-practices-configuration">Best Practices Eclipse-Konfiguration</a></td>
 <td><p>Blog Post <a href="https://blogs.sap.com/2013/11/21/useful-keyboard-shortcuts-for-abap-in-eclipse/">Useful Keyboard Shortcuts for ABAP in Eclipse</a></p>
 <p>SAP Help <a href="https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec299d16e391014adc9fffe4e204223.html">Keyboard Shortcuts for ABAP Development</a></p>
 <p>View <a href="https://marketplace.eclipse.org/content/open-editors">Open Editors</a></p></td>
