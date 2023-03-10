@@ -10,7 +10,7 @@ has_toc: true
 # Kapitel 4 - Troubleshooting-Werkzeuge in Eclipse
 
 1. TOC
-{:toc} 
+{:toc}
 
 Dieses Kapitel gibt einen Überblick über die Werkzeuge, die in den ABAP Development Tools zum [Troubleshooting](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecc7d3a6e391014adc9fffe4e204223.html) zur Verfügung stehen. Dazu zählt u. a. Debuggen von Entwicklungsartefakten, Performance-Analyse und weitere Analyse- und Fehlerfindungsmethoden.
 
@@ -60,19 +60,16 @@ Im Debugger der ABAP Development Tools ist es möglich, den Code direkt zu modif
 
 Weitere Besonderheiten über Debugging mit den ABAP Development Tools in Eclipse finden sich in den SAP-Blogs. Hervorzuheben sind dabei die folgenden beiden. Sie beschreiben Fälle und Lösungen, die beim Arbeiten mit dem Debugger auftreten können.
 
-[https://blogs.sap.com/2020/04/21/adt-abap-debugger-what-to-do-if-your-program-does-not-stop-at-breakpoints/]
+- [https://blogs.sap.com/2020/04/21/adt-abap-debugger-what-to-do-if-your-program-does-not-stop-at-breakpoints/](https://blogs.sap.com/2020/04/21/adt-abap-debugger-what-to-do-if-your-program-does-not-stop-at-breakpoints/)
+- [https://blogs.sap.com/2015/11/02/breakpoint-validity-scope-and-activation-conflicts-in-abap-development-tools-adt/](https://blogs.sap.com/2015/11/02/breakpoint-validity-scope-and-activation-conflicts-in-abap-development-tools-adt/)
 
-[https://blogs.sap.com/2015/11/02/breakpoint-validity-scope-and-activation-conflicts-in-abap-development-tools-adt/]
-
-# Checkpoint IDs und dynamische Logpoints 
+# Checkpoint IDs und dynamische Logpoints
 
 Ein sehr hilfreiches Tool im Bereich der Fehleranalyse und Debugging sind die sogenannten Checkpoint IDs. Diese können über die Transaktion SAAB oder in ADT unter "others" angelegt werden. Diese IDs werden mittels der Befehle:
 
--   BREAK POINT ID \[GRUPPENNAME\]
-
--   LOG POINT ID \[GRUPPENNAME\]
-
--   ASSERT ID \[GRUPPENNAME\]
+- BREAK POINT ID \[GRUPPENNAME\]
+- LOG POINT ID \[GRUPPENNAME\]
+- ASSERT ID \[GRUPPENNAME\]
 
 im Code verankert. Für den detaillierte Syntax und die Optionen der Befehle verweisen wir auf die [SAP-Hilfe](https://help.sap.com/docs/ABAP_PLATFORM_NEW/ba879a6e2ea04d9bb94c7ccd7cdac446/491c002326bc14cde10000000a42189b.html?locale=en-US&version=202009.000&q=Checkpoint%20ID).
 
@@ -103,9 +100,9 @@ Sie können in dem Dialog entscheiden, was im Log aufgezeichnet werden soll, Sie
 
 Wir empfehlen, hierzu die SAP-Dokumentation ([On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/02f4fac1e87244f2968bfbe6d3c37095.html)) zu studieren, um Details über die Anwendung zu erfahren. Einen guter Einstieg bietet hierzu auch dieser Blogeintrag: [Dynamic Logpoints in ABAP \| SAP-Blogs](https://blogs.sap.com/2015/10/22/dynamic-logpoints-in-abap/)
 
-# Performance-Analyse 
+# Performance-Analyse
 
-Für eine integrierte und graphische Performance-Analyse bieten Ihnen die ADT einen komfortablen Zugang zum ABAP Profiler ([[On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec41bbe6e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec41bbe6e391014adc9fffe4e204223.html)]) als Nachfolger u.a. der Transaktion SAT. Zum Starten des Profiler gibt es verschiedene Möglichkeiten:
+Für eine integrierte und graphische Performance-Analyse bieten Ihnen die ADT einen komfortablen Zugang zum ABAP Profiler ([On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec41bbe6e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec41bbe6e391014adc9fffe4e204223.html)) als Nachfolger u.a. der Transaktion SAT. Zum Starten des Profiler gibt es verschiedene Möglichkeiten:
 
 Wenn Sie ein ausführbares Programm (nur On-Premise), eine Konsolenanwendung (nur ABAP Cloud) oder ein Artefakt mit zugeordneten Unit-Tests geöffnet haben, können Sie den Profiler direkt über das Kontextmenü "Profile as" starten. Alternativ dazu kann auch der Wizard verwendet werden, der über das Run-Menü erreichbar ist.
 
@@ -210,23 +207,19 @@ Sie können direkt zur auslösenden Quellcodezeile springen, sich die Aufrufhier
 
 HANA Studio wird von SAP nur begrenzt weiterentwickelt. Eine zukünftige Lösung für die visuelle Analyse der Query-Pläne innerhalb der ADT oder für die ABAP Cloud steht noch aus. Als eine Lösung außerhalb von Eclipse gibt es ein Visual Studio Code Plug-in, das ebenfalls \*.plv-Dateien öffnen und grafisch anzeigen kann, vgl. [SQL Analyzer Extension](https://help.sap.com/docs/HANA_SERVICE_CF/6a504812672d48ba865f4f4b268a881e/50bc09af2fa549c3ace4178b61056da8.html).
 
-Die SAP HANA Tools folgen einem anderen Release-Zyklus als die ADT und sind daher häufig nicht in der aktuellen bzw. der "latest" Update-Site enthalten. Beispielsweise waren die SAP HANA Tools im Januar 2023 in der aktuellsten Version nur auf der https://tools.hana.ondemand.com/2022-09 Site verfügbar.
+Die SAP HANA Tools folgen einem anderen Release-Zyklus als die ADT und sind daher häufig nicht in der aktuellen bzw. der "latest" Update-Site enthalten. Beispielsweise waren die SAP HANA Tools im Januar 2023 in der aktuellsten Version nur auf der <https://tools.hana.ondemand.com/2022-09> Site verfügbar.
 
-# Feed Reader 
+# Feed Reader
 
 Feeds ermöglichen ereignisbezogene Benachrichtigungen in den ADT inklusive Zugriff auf eine Liste der bisherigen Ereignisse. Die Feeds werden in einer eigenen View (vgl. Views und Perspektiven in Kapitel 3 - Arbeiten mit ADT) dargestellt. Diese finden Sie in der Liste der Views unterhalb von ABAP mit dem Titel "Feed Reader". Die einzelnen Quellen werden als Feeds bezeichnet und für jeden Feed kann eingestellt werden, wie oft dieser von der Quelle aktualisiert werden soll und ob Benachrichtigungsmeldungen in Eclipse angezeigt werden sollen.
 
 Neben den in der Doku unter "Getting Feeds" ([On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec3b0cd6e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec3b0cd6e391014adc9fffe4e204223.html)) beschriebenen ABAP-Runtime-Errors/-Dumps und Systemnachrichten können insbesondere auch (abhängig vom Release-Stand des Quellsystems) folgende Informationen im Feed Reader angezeigt werden:
 
--   Gateway/OData-Fehler (vielfältig filterbar, einschl. Benutzer)
-
--   ATC-Ergebnisse (vielfältig filterbar, einschl. Benutzer)
-
--   Enterprise-Event-Fehler (filterbar nach Kanal und Benutzer)
-
--   BW Job Repository (vielfältig filterbar, einschl. Benutzer)
-
--   URI Creation Error (nur für die ADT-Entwickler relevant)
+- Gateway/OData-Fehler (vielfältig filterbar, einschl. Benutzer)
+- ATC-Ergebnisse (vielfältig filterbar, einschl. Benutzer)
+- Enterprise-Event-Fehler (filterbar nach Kanal und Benutzer)
+- BW Job Repository (vielfältig filterbar, einschl. Benutzer)
+- URI Creation Error (nur für die ADT-Entwickler relevant)
 
 Dazu werden die Ereignisse im Pull-Verfahren im Hintergrund abgefragt. Damit die Hintergrundabfrage aus SAP-Systemen funktioniert, müssen Sie allerdings nach einem Eclipse-Start mindestens einmal in irgendeiner Form (das können Sie auch durch Klick auf einen Feed auslösen) auf die gewünschten Systeme zugegriffen und dabei die Anmeldeprozedur durchlaufen haben.
 
@@ -271,12 +264,8 @@ Sofern Sie BW/S4HANA-Systeme haben, können Sie sich mit dem BW Job Repository F
 
 Da der Feed Reader das ideale Tool für ein proaktives Monitoring von Anwendungen ist (z. B. bei und nach einem Go-live einer neuen Anwendung), ist es sinnvoll, die Berechtigung für die ADT nicht nur für die Entwicklungssysteme zu betrachten, sondern den Entwicklern mittels Berechtigungen zu ermöglichen, die Feeds auch von Test- und Produktivsystemen einzusammeln.
 
-# 
-
 # Doku-Links
 
-ABAP-Debugger-Konzept: [https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec365a66e391014adc9fffe4e204223.html](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec365a66e391014adc9fffe4e204223.html)
-
-Troubleshooting-Tools: [https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ecc7d3a6e391014adc9fffe4e204223.html]
-
-Syntax für Breakpoint-Bedingungen: [https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/d878e676fe904eba9f4bb79193154092.html]
+- [ABAP-Debugger-Konzept](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec365a66e391014adc9fffe4e204223.html)
+- [Troubleshooting-Tools](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ecc7d3a6e391014adc9fffe4e204223.html)
+- [Syntax für Breakpoint-Bedingungen](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/d878e676fe904eba9f4bb79193154092.html)

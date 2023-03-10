@@ -14,16 +14,11 @@ Doch zunächst gilt unser spezieller Dank an dieser Stelle **Marc Zimmek** (Claa
 Darüber hinaus wollen wir es nicht verpassen, auch die enge, konstruktive und unkomplizierte Zusammenarbeit mit Kollegen der SAP herauszuheben. Herzlichen Dank an **Thomas Fiedler** (Product Owner ADT), **Wolfgang Wöhrle** (ADT Dokumentation inkl. Konfiguration und Installation), **Yannic Soethoff** und **Sebastian Ratz** (beide ADT unter Mac OS).
 
 <table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 22%" />
-<col style="width: 51%" />
-</colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Firma und Jobbezeichnung</th>
-<th>Kurzbeschreibung eurer Tätigkeiten und Erfahrungen mit ADT</th>
+<th style="text-align: left">Name</th>
+<th style="text-align: left">Firma und Jobbezeichnung</th>
+<th style="text-align: left">Kurzbeschreibung eurer Tätigkeiten und Erfahrungen mit ADT</th>
 </tr>
 <tr class="odd">
 <td>Michael Biber</td>

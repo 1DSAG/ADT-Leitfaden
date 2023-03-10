@@ -5,11 +5,12 @@ permalink: /working-with-adt/
 nav_order: 3
 ---
 
+{: .no_toc}
+
 # Kapitel 3 - Arbeiten mit ADT
 
 1. TOC
-{:toc} 
-
+{:toc}
 
 Die ABAP Development Tools bieten sehr viele Funktionen, die auch entsprechend zahlreiche Möglichkeiten der Nutzung bieten. Dies kann für Entwickler, die noch nicht mit den ADT vertraut sind, verwirrend sein.
 
@@ -21,7 +22,7 @@ Neben den ADT-Einsteigern werden aber auch in ADT erfahrene Entwickler viele nü
 
 Mit dem [SAP ABAP Development User Guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4b190c90ceba4d02a99e0a2286b89358.html), im Folgenden User-Guide genannt, stellt SAP die offizielle Dokumentation zu den ADT zur Verfügung. Für weitergehende Informationen zu einzelnen Funktionen sind die Links zu dem entsprechenden Abschnitt im User-Guide vermerkt.
 
-# Einführung: Grundlagen der Arbeit mit ADT 
+# Einführung: Grundlagen der Arbeit mit ADT
 
 ## Der Einstieg in das Arbeiten mit den ABAP Development Tools
 
@@ -29,13 +30,10 @@ Dieser Abschnitt richtet sich an Entwickler, die bisher noch nicht mit den ADT g
 
 Folgende Arbeitsschritte werden hierbei Schritt für Schritt beschrieben:
 
--   Einrichtung des Projekts
-
--   Einrichtung der Favoritenpakete
-
--   Erstellung einer Klasse mit einer Methode
-
--   Arbeiten am Code und Refactoring
+- Einrichtung des Projekts
+- Einrichtung der Favoritenpakete
+- Erstellung einer Klasse mit einer Methode
+- Arbeiten am Code und Refactoring
 
 Zum Zweck der generellen Nachvollziehbarkeit werden die hier gezeigten Beispiele in einer Instanz des BTP Trial Accounts dargestellt, diese können aber in gängigen On-Premise-Systemen problemlos angewendet werden.
 
@@ -51,17 +49,15 @@ Dies stellt für den Einstieg mitunter auch die größte Hürde dar, da lang ein
 
 Der Einstieg und die Umstellung erfordert also erstmal Zeit und Bedarf der Einübung. Doch der anfängliche Mehraufwand zahlt sich bereits nach kurzer Zeit wieder aus. Denn nach etwas Eingewöhnung und Übung stellen die beschriebenen Punkte kein Problem mehr dar. Die zahlreichen Funktionen, die die ABAP Development Tools bieten, erleichtern das Schreiben und Überarbeiten von ABAP Code und erhöhen damit die Effizienz beim Entwickeln. Daher sollte der Umstieg von SE80 & Co. auf ADT in Eclipse als ein persönliches Investment in eine effiziente und zukunftsfähige Arbeitsweise betrachtet werden.
 
-## Kontext des hier gezeigten Übungsbeispiels:
+## Kontext des hier gezeigten Übungsbeispiels
 
 Das hier gezeigte Beispiel ist bewusst einfach gewählt, da vorrangig die grundlegenden Funktionen und Arbeitsweisen der ADT dargestellt werden sollen.
 
 Wir möchten eine kleine Klasse anlegen, die folgende Funktionen anbietet:
 
-1.  Ermittlung von Flügen aus der Tabelle ***/DMO/FLIGHT*** gemäß Eingabe.
-
-2.  Berechnung der verfügbaren Plätze des Fluges.
-
-3.  Berechnung des Flugpreises auf Basis einer zusätzlichen prozentualen Gebühr.
+1. Ermittlung von Flügen aus der Tabelle ***/DMO/FLIGHT*** gemäß Eingabe.
+2. Berechnung der verfügbaren Plätze des Fluges.
+3. Berechnung des Flugpreises auf Basis einer zusätzlichen prozentualen Gebühr.
 
 Die Klasse dient als interne Service-Klasse und bietet keine UI bzw. Ausgabe von Daten an.
 
@@ -100,7 +96,7 @@ Der Hauptarbeitsbereich ist der Knoten [Favorite Packages](https://help.sap.com/
 *Abbildung: Hinzufügen von Packages zu den Favoriten*
 </span>
 
-## Das Erstellen einer Klasse im Textmodus 
+## Das Erstellen einer Klasse im Textmodus
 
 Zur [Erstellung einer neuen ABAP-Klasse](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec66fda6e391014adc9fffe4e204223.html) navigieren Sie im Project Explorer in das gewünschte Paket, erreichen das Kontextmenü mittels der rechten Maustaste und finden dort den Befehl
 
@@ -134,7 +130,7 @@ Nach Klick auf "Finish" wird die Klasse angelegt, und diese findet sich sowohl i
 
 Alle weiteren Operationen an der Klasse werden nun im Quellcode durchgeführt, d. h. alle Typen, Datendefinitionen und Methoden werden textbasiert als Quellcode in der Klasse geschrieben. Dies erscheint anfangs kompliziert und ungewohnt, die ADT bieten aber einige Funktionen an, die die Ausarbeitung der Klasse sehr effizient gestalten.
 
-## Definition einer Methode in der Klasse 
+## Definition einer Methode in der Klasse
 
 Nun möchten wir die erste Methode der Klasse erstellen, die Daten aus der Tabelle /DMO/FLIGHTS liest und die Anzahl der freien Plätze zu einem definierten Flug ausgibt.
 
@@ -168,9 +164,9 @@ Wir schließen die Methodendefinition mit Erstellung der Parameter und des Absch
 
 Nachdem die Import-Parameter und der Return-Parameter definiert sind, wird der Cursor im Textbereich des Codes positioniert und die Formatierung des Codes mittels des Kontextmenüs\
 Rechte Maustaste → Source Code → Format bzw. der Tastenkombination\
-**Shift+F1\
-**ausgeführt. Dies entspricht dem Pretty Printer in den GUI-Transaktionen. Anschließend wird der Code mittels**\
-STRG+S**\
+**Shift+F1**\
+ausgeführt. Dies entspricht dem Pretty Printer in den GUI-Transaktionen. Anschließend wird der Code mittels\
+**STRG+S**\
 gespeichert.
 
 Sollte ein Syntaxfehler vorliegen, zeigt das Problem-View und die farbliche Markierung im Code den Fehler an. Ist der Code syntaktisch korrekt, kann das Artefakt anschließend mittels **STRG+F3** aktiviert werden.
@@ -180,7 +176,7 @@ Nach Einübung der neuen, vor allem Tastatur-basierten, Arbeitsweise entsteht na
 ## Implementierung der Methode mittels Quick-Fix
 
 Die Methode ist nun definiert, aufgrund der fehlenden Implementierung zeigt ADT im Problems-View folgenden Fehler an:\
-"Implementation missing for method \"CALC_FREE_SEATS_FOR_FLIGHT\".
+`"Implementation missing for method \"CALC_FREE_SEATS_FOR_FLIGHT\"`.
 
 Dieses "Problem" lässt sich sehr effizient mit Hilfe der Quick Fixes beheben.
 
@@ -195,9 +191,11 @@ Sie wählen "Add Implementation for ..." aus und bestätigen mit ENTER. Zum Ausf
 
 Die Methodenimplementierung bedeutet hier, dass automatisiert die Sektion
 
-> **METHOD**
->
-> **ENDMETHOD**
+```abap
+METHOD
+
+ENDMETHOD
+```
 
 im Bereich der "Class Implementation\" durch ADT erstellt wird und somit eine leere Methodenimplementierung vorhanden ist. Die Ausprägung der Methodenlogik innerhalb dieses Bereiches ist dann Ihre Aufgabe als Entwickler.
 
@@ -222,7 +220,7 @@ Wir haben damit die Klasse mit der ersten Methode in ADT definiert und implement
 
 ## Umbenennung von Parametern -- Refactoring
 
-Die laufende Optimierung von bestehenden Code ist eine wichtige Aufgabe jedes Entwicklers. Dies wird von ADT bestens unterstützt. Die verschiedenen Möglichkeiten des Refactoring werden im Abschnitt: [Refactoring von Code mit ADT](#refactoring-von-code-mit-adt) ausführlich erläutert. Weitere Informationen finden sich auch im [[User-Guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec859406e391014adc9fffe4e204223.html).]
+Die laufende Optimierung von bestehenden Code ist eine wichtige Aufgabe jedes Entwicklers. Dies wird von ADT bestens unterstützt. Die verschiedenen Möglichkeiten des Refactoring werden im Abschnitt: [Refactoring von Code mit ADT](#refactoring-von-code-mit-adt) ausführlich erläutert. Weitere Informationen finden sich auch im [User-Guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec859406e391014adc9fffe4e204223.html).
 
 Wir möchten die generelle Vorgehensweise des Refactoring anhand einer Umbenennung im Detail darstellen.
 
@@ -299,13 +297,10 @@ Eine Möglichkeit, wie die Verzeichnisstruktur gestaltet sein kann, findet sich 
 
 In diesem Verzeichnis werden zahlreiche Konfigurationseinstellungen abgelegt. Dies sind u.a.
 
--   die Projekte und damit zugreifbaren SAP-Systeme,
-
--   welche Favorite-Packages in den Projekten verwendet werden,
-
--   welche Perspektiven verwendet werden,
-
--   welche Sichten und Objekte geöffnet sind.
+- die Projekte und damit zugreifbaren SAP-Systeme,
+- welche Favorite-Packages in den Projekten verwendet werden,
+- welche Perspektiven verwendet werden,
+- welche Sichten und Objekte geöffnet sind.
 
 Wer mit einem Workspace auskommt, kann den Haken bei "Use this as default ..." anklicken, damit zukünftig dieser Workspace ohne Nachfrage verwendet wird. Diese Einstellung ist in den Einstellungen jederzeit änderbar.
 
@@ -333,7 +328,7 @@ der Workspace-Dialog aufgerufen.
 
 Wenn Sie einen neuen Workspace anlegen möchten, geben Sie im Feld Workspace einen neuen Namen ein. Dadurch wird nach Klick auf Launch ein neuer Workspace mit den aktuellen Einstellungen angelegt. Welche Settings aus dem Quell-Workspace übernommen werden sollen, legen Sie mittels der Copy Settings fest. Alternativ können Sie hier einen der angezeigten Workspaces unter Recent Workspaces direkt über das Anklicken der blau hinterlegten Links aufrufen.
 
-### Project Explorer 
+### Project Explorer
 
 Der [Project Explorer](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/7135530f575b4f87bff9ae9f0fde4488.html) ist ein zentraler Bestandteil zur Navigation in den eingebundenen Systemen. Sobald Sie ein neues System als "ABAP Project" einbinden, taucht es in der Liste auf. Wenn Sie sich an einem System anmelden und aufklappen, erhalten Sie je nach System weitere Informationen zu freigegebenen Objekten, Favoriten, inaktiven Objekten etc. Diese [Repository Trees](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/c5660c7ea8ae4955bc565a6256ea061d.html) können frei definiert und angepasst werden. Auf Ebene des Pakets verhält sich der View wie die SE80 und bildet Objekt-Hierarchien ab, durch die Sie navigieren können.
 
@@ -355,9 +350,8 @@ Für eine Ablage und Organisation von Favoriten auf Objektebene kann das Plug-in
 
 In der Buttonleiste gibt es noch einige nützliche Funktionen, mit denen Sie Einstellungen an der View vornehmen können:
 
--   Doppelpfeil (Link with Editor) - Objekte, die im Editor im Fokus sind, werden im Project Explorer angezeigt, es wird dazu die Hierarchie geladen.
-
--   Drei Punkte (View Menü) - Weitere Einstellungen der Views, um zum Beispiel Working Sets anzulegen. Hierbei handelt es sich um Ordner, mit denen man Systeme gruppieren kann (siehe Screenshot oben).
+- Doppelpfeil (Link with Editor) - Objekte, die im Editor im Fokus sind, werden im Project Explorer angezeigt, es wird dazu die Hierarchie geladen.
+- Drei Punkte (View Menü) - Weitere Einstellungen der Views, um zum Beispiel Working Sets anzulegen. Hierbei handelt es sich um Ordner, mit denen man Systeme gruppieren kann (siehe Screenshot oben).
 
 ### Working Sets
 
@@ -396,9 +390,7 @@ Diese Funktion ermöglicht eine übersichtliche Strukturierung der Systeme nach 
 *Abbildung: Darstellung Projekte in Working Sets*
 </span>
 
-##  
-
-## Suche und Navigation 
+## Suche und Navigation
 
 Die Suche nach Objekten in Eclipse ist zentraler Bestandteil der täglichen Arbeit, ebenso wie die Navigation zwischen den Objekten oder auch die Vorwärtsnavigation. In diesem Abschnitt erfahren Sie mehr über die Suche und Navigation zwischen ABAP-Objekten.
 
@@ -445,17 +437,14 @@ Um die Suche zu beschleunigen, empfiehlt es sich, den Typ des gewünschten Objek
 
 In der ABAP Workbench funktioniert die [Navigation](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/ec2da130ce43409fbb2f6a072f9ba07c.html) zum nächsten Objekt über einen Doppelklick auf den entsprechenden Ausdruck im Quellcode. In Eclipse wird hier lediglich der Quelltext markiert. Um die Vorwärtsnavigation auszulösen, gibt es drei Möglichkeiten:
 
--   Cursor auf dem Objekt platzieren, F3 drücken
-
--   Mit gedrückter **STRG**-Taste das Objekt anklicken
-
--   In der Oberfläche wird ein klickbarer Link angeboten (z. B. Datenelement → Domäne)
+- Cursor auf dem Objekt platzieren, F3 drücken
+- Mit gedrückter **STRG**-Taste das Objekt anklicken
+- In der Oberfläche wird ein klickbarer Link angeboten (z. B. Datenelement → Domäne)
 
 Das Objekt wird in einem neuen Tab innerhalb des Editors geöffnet, das Quellobjekt bleibt weiterhin geöffnet und Sie können zwischen den zuletzt geänderten Objekten sehr einfach über die Tastenkombinationen navigieren:
 
--   **ALT+Pfeil rechts**: vorwärts
-
--   **ALT+Pfeil links**: rückwärts
+- **ALT+Pfeil rechts**: vorwärts
+- **ALT+Pfeil links**: rückwärts
 
 Dies kann analog auch mit den Pfeiltasten im Bereich der Drucktastenleiste durchgeführt werden. Im Bereich der Drucktastenleiste gibt es dafür auch verschiedene Optionen, um zum letzten verwendeten Tab (**ALT+Pfeil links**) zu gelangen.
 
@@ -477,8 +466,6 @@ In diesem Fall wird die Pakethierarchie zu dem im Editor fokussierten Objekt gel
 
 Die Arbeit mit dem Repository Tree ist detailliert im [[User-Guide] beschrieben](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/f831fc6e18984a8a864da4c0591e996b.html).
 
-##  
-
 ## ABAP Editor
 
 Der [ABAP Editor](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/79d78f0268484b59a1f6a0e7994316d3.html) ist ein einfacher Texteditor, der die rein textuelle Erstellung von ABAP-Artefakten ermöglicht. Über die Kontext-Funktion können dort die wichtigsten Funktionen wie Quick Fixes, Refactoring-Funktionen und Formatierungsfunktionen aufgerufen werden. Der Einstieg in den ABAP Editor ist im Abschnitt [Das Erstellen einer Klasse im Textmodus](#das-erstellen-einer-klasse-im-textmodus) näher beschrieben.
@@ -488,9 +475,7 @@ Der [ABAP Editor](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f94
 *Abbildung: ABAP Editor - Hauptfenster*
 </span>
 
-### 
-
-### Element Info 
+### Element Info
 
 Über die Positionierung des Cursors auf einem Objekt und dem Shortcut **F2** erscheint ein Pop-up mit Zusatzinformationen. Hier am Beispiel einer Methode und eines Datenelements:
 
@@ -541,17 +526,14 @@ Falls die Einstellungen noch nicht vorgenommen wurden, erscheint ein Pop-up-Fens
 
 Die Einstellungen entsprechen denen in der SAP GUI. Wenn man die einzelnen Optionen durchprobiert, sieht man im Vorschaufenster das jeweilige Ergebnis. Neu ist die Möglichkeit, dass Camel-Case-Bezeichner beibehalten werden. Das ist gerade im Zusammenhang mit den CDS Views sehr praktisch, da diese im virtuellen Datenmodell von SAP (VDM) konsequent verwendet werden.
 
-### 
-
 ### Quick Fixes
 
 Quick Fixes sind automatisierte Lösungen für gängige Probleme im Rahmen der Software-Entwicklung mit ABAP. Quick Fixes werden dabei nativ durch die ADT angeboten, können aber auch durch verschiedene Plug-ins erweitert werden. Die Verwendung durch die Vielzahl der verfügbaren Quick Fixes macht das Arbeiten mit den ADT wesentlich effizienter als mit der SE80. Zusätzlich wird das Risiko von Fehlern durch manuelle Anpassungen reduziert. Die ADT erledigen die Anpassungen automatisiert und immer identisch.
 
 Quick Fixes liefern Funktionen für zwei Bereiche:
 
--   Automatisches Anlegen von nicht vorhandenen Objekten (z. B. Methodenimplementierungen)
-
--   Automatisches Verändern von bestehenden Objekten ohne Veränderung der Funktionalität (sog. Refactoring, z. B. "Methode extrahieren")
+- Automatisches Anlegen von nicht vorhandenen Objekten (z. B. Methodenimplementierungen)
+- Automatisches Verändern von bestehenden Objekten ohne Veränderung der Funktionalität (sog. Refactoring, z. B. "Methode extrahieren")
 
 ![](./img/image18.png)  
 <span class="img-caption" markdown=1>
@@ -560,7 +542,7 @@ Quick Fixes liefern Funktionen für zwei Bereiche:
 
 Aufgrund der Vielzahl an Quick Fixes und der ständigen Änderungen in diesem Bereich werden die einzelnen Quick Fixes hier nicht beschrieben. Ein Überblick ist in der [Dokumentation](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/ce178e5425364f51994f2c7f634cb56c.html) zu finden.
 
-## Andere Objekttypen 
+## Andere Objekttypen
 
 ### Programme und Funktionsgruppen
 
@@ -586,9 +568,8 @@ Die [Outline](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829
 
 In der Button-Leiste gibt es weitere verschiedene Funktionen für den View:
 
--   "Sort" -- Sortierung der Einträge nach Alphabet oder nach Typ und Alphabet
-
--   "Hide Non-Public Members" -- Es werden nur Attribute und Methoden angezeigt, die auch von außen verwendbar sind (Thema Sichtbarkeit)
+- "Sort" -- Sortierung der Einträge nach Alphabet oder nach Typ und Alphabet
+- "Hide Non-Public Members" -- Es werden nur Attribute und Methoden angezeigt, die auch von außen verwendbar sind (Thema Sichtbarkeit)
 
 Hinweis: Im Kapitel 7 - Plug-ins finden Sie weitere Informationen zum Plug-in "Classic Outlines", welches die Outlines erweitert.
 
@@ -612,17 +593,12 @@ Durch Doppelklick kann an die entsprechende Stelle im Source-Code navigiert werd
 *Abbildung: Anzeige der Optionen des Views*
 </span>
 
--   Unter "Show" kann konfiguriert werden, welche Fehler/Warnungen in der Problems View angezeigt werden, z. B. nur die des aktuell in Bearbeitung befindlichen Entwicklungsobjekts oder alle.
-
--   "Group by" ermöglicht eine Gruppierung nach verschiedenen Kriterien, üblicherweise wird hier nach "Severity", d. h. Fehler/Warnung/Info gruppiert.
-
--   Über "Sort By" kann die Reihenfolge der Darstellung verändert werden.
-
--   "New Problems View" dupliziert die View.
-
--   "Filters" ermöglicht, die Ergebnisliste noch einmal im Detail bis hinunter auf den Entwicklungsobjekttyp zu filtern.
-
--   "Configure Columns" ermöglicht es, Spalten ein- und auszublenden sowie die Reihenfolge der Spalten zu ändern.
+- Unter "Show" kann konfiguriert werden, welche Fehler/Warnungen in der Problems View angezeigt werden, z. B. nur die des aktuell in Bearbeitung befindlichen Entwicklungsobjekts oder alle.
+- "Group by" ermöglicht eine Gruppierung nach verschiedenen Kriterien, üblicherweise wird hier nach "Severity", d. h. Fehler/Warnung/Info gruppiert.
+- Über "Sort By" kann die Reihenfolge der Darstellung verändert werden.
+- "New Problems View" dupliziert die View.
+- "Filters" ermöglicht, die Ergebnisliste noch einmal im Detail bis hinunter auf den Entwicklungsobjekttyp zu filtern.
+- "Configure Columns" ermöglicht es, Spalten ein- und auszublenden sowie die Reihenfolge der Spalten zu ändern.
 
 ![](./img/image99.png)  
 <span class="img-caption" markdown=1>
@@ -633,11 +609,9 @@ Durch Doppelklick kann an die entsprechende Stelle im Source-Code navigiert werd
 
 Die [Properties View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec739dd6e391014adc9fffe4e204223.html) sammelt Informationen, die in der klassischen SAP GUI unter "Eigenschaften" dargestellt werden. Dazu zählen beispielsweise:
 
--   Zustand Entwicklungsobjekt (aktiv/inaktiv)
-
--   Erstellungs- und Änderungsinformationen
-
--   Paketzuordnung
+- Zustand Entwicklungsobjekt (aktiv/inaktiv)
+- Erstellungs- und Änderungsinformationen
+- Paketzuordnung
 
 ![](./img/image36.png)  
 <span class="img-caption" markdown=1>
@@ -666,9 +640,8 @@ Um mehrere Objekte parallel zu sichten, lassen sich über den Button <span class
 
 Der Properties View hat im Vergleich zur klassischen SAP-GUI-Entwicklung mehrere Vorteile:
 
--   Er ist (in der Regel) ständig eingeblendet und verfügbar, so dass nicht aufwendig navigiert werden muss.
-
--   Er aggregiert Informationen, die zuvor nur über mehrere Transaktionen/Tabs/Reiter identifizierbar waren.
+- Er ist (in der Regel) ständig eingeblendet und verfügbar, so dass nicht aufwendig navigiert werden muss.
+- Er aggregiert Informationen, die zuvor nur über mehrere Transaktionen/Tabs/Reiter identifizierbar waren.
 
 ### Templates
 
@@ -698,11 +671,9 @@ Das gesamte Template wird eingefügt, und Sie können damit beginnen, die Platzh
 
 Häufig verwendete Templates zur Nutzung sind beispielsweise:
 
--   **lcl** - Anlage einer lokalen Klasse
-
--   **testClass** - Anlage einer Testklasse
-
--   **functionModuleParameter** - Beispielschnittstelle für Funktionsbausteine
+- **lcl** - Anlage einer lokalen Klasse
+- **testClass** - Anlage einer Testklasse
+- **functionModuleParameter** - Beispielschnittstelle für Funktionsbausteine
 
 Die Anlage von eigenen Templates eignet sich sehr gut zur Einsparung von Entwicklungsaufwand bei wiederholenden Aufgaben oder ähnlichen Code-Abschnitten. Weiterhin können sie in Schulungen hilfreich sein, wenn Sie größere Code-Abschnitte einfügen möchten, ohne per Copy-and-paste zu arbeiten.
 
@@ -710,17 +681,12 @@ Die Anlage von eigenen Templates eignet sich sehr gut zur Einsparung von Entwick
 
 Ein Template kann grundsätzlich mit allen in ABAP verwendeten Sprachbefehlen definiert werden (Quellcode, Kommentare). Variable Teile des Templates können Sie mit Platzhaltern versehen ("\${placeholder}"). Zur Ableitung von kontextspezifischen Informationen stehen auch Variablen zur Verfügung. Diese gibt es für die folgenden Szenarien:
 
--   Name des Objekts
-
--   Name des Pakets
-
--   ID des Systems
-
--   User, Datum und Uhrzeit
-
--   Aktuelles Jahr
-
--   Cursor-Position nach dem Einfügen
+- Name des Objekts
+- Name des Pakets
+- ID des Systems
+- User, Datum und Uhrzeit
+- Aktuelles Jahr
+- Cursor-Position nach dem Einfügen
 
 Gleichnamige Platzhalter werden nach dem Einfügen immer einheitlich angepasst (z. B. der Name der Klasse).
 
@@ -754,11 +720,9 @@ Durch die Verwendung der Filterfunktion mit Hilfe des Filter-Icons kann hierbei 
 
 [Bookmarks](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecd34b46e391014adc9fffe4e204223.html) sind "Lesezeichen" zu im System definierten Entwicklungsobjekten. Oft ergeben sich Schlüsselstellen, an denen des Öfteren Anpassungen notwendig sind. Das kann verschiedene Gründe haben, beispielsweise:
 
--   Ein großer historisch gewachsener Include, an dem immer wieder Erweiterungen stattfinden.
-
--   Eine Klasse mit komplexer Logik, die sich als fehleranfällig herausstellt.
-
--   Objekte, an denen regelmäßig gearbeitet wird.
+- Ein großer historisch gewachsener Include, an dem immer wieder Erweiterungen stattfinden.
+- Eine Klasse mit komplexer Logik, die sich als fehleranfällig herausstellt.
+- Objekte, an denen regelmäßig gearbeitet wird.
 
 Bookmarks können durch Rechtsklick auf die Liste neben dem Source-Code erstellt werden:
 
@@ -812,7 +776,7 @@ Aufbau eines ADT-Links (URI):
 
 Mehr Details sind im [User-Guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec63adf6e391014adc9fffe4e204223.html) zu finden.
 
-### ABAP Type Hierarchy 
+### ABAP Type Hierarchy
 
 Die View [Type Hierarchy](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4eccd9066e391014adc9fffe4e204223.html) dient dazu, die Vererbungshierarchie von Klassen und Interfaces darzustellen. Um die View zu nutzen, braucht man nur den Cursor auf die Klasse oder das Interface zu setzen und den Shortcut **F4** zu drücken. Alternativ kann man über das Kontextmenü die ABAP Type Hierarchy öffnen.
 
@@ -830,9 +794,7 @@ Die View zeigt die Hierarchie in einer Baumstruktur an.
 
 Per Doppelklick kann man das markierte Objekt im ABAP Editor öffnen. Über **STRG+T** lässt sich auch inline im Code die [Quick Type Hierarchy](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/aafadb177a1a4cac8117b7b079c2596b.html) öffnen.
 
-### 
-
-### Transport Organizer 
+### Transport Organizer
 
 Der [Transport Organizer](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecc6dd96e391014adc9fffe4e204223.html) zeigt eine Übersicht der geöffneten ABAP-Projekte. Unter den Systemen finden Sie die aktuellen Transporte im System. In der Standardeinstellung sehen Sie alle eigenen Transporte. Über einen Rechtsklick auf ein System und den Punkt "Configure Tree ..." können diese Einstellungen überschrieben und auch Transporte von anderen Entwicklern eingesehen werden.
 
@@ -843,19 +805,16 @@ Der [Transport Organizer](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b8
 
 Es stehen alle Funktionen des Transport Organizer (SE09/SE10) aus der SAP GUI zur Verfügung:
 
--   Doppelklick - Details zu Auftrag/Aufgabe in eigenem View anzeigen
+- Doppelklick - Details zu Auftrag/Aufgabe in eigenem View anzeigen
+- Rechtsklick - Verschiedene Funktionen wie zum Beispiel: Benutzer ändern, Konsistenzprüfung, Freigeben
 
--   Rechtsklick - Verschiedene Funktionen wie zum Beispiel: Benutzer ändern, Konsistenzprüfung, Freigeben
-
-### Feed Reader 
+### Feed Reader
 
 Der [Feed Reader](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec3b0cd6e391014adc9fffe4e204223.html) kann im Zusammenhang mit ADT genutzt werden, um bestimmte Benachrichtigungen vom SAP-System zu erhalten. Standardmäßig werden bei einem ABAP-Projekt folgende Benachrichtigungen konsumiert:
 
--   Laufzeitfehler (Dump) verursacht durch den eigenen User
-
--   Laufzeitfehler für Objekte, für die der eigene User verantwortlich ist
-
--   Systemmeldungen
+- Laufzeitfehler (Dump) verursacht durch den eigenen User
+- Laufzeitfehler für Objekte, für die der eigene User verantwortlich ist
+- Systemmeldungen
 
 ![](./img/image6.png)  
 <span class="img-caption" markdown=1>
@@ -923,17 +882,13 @@ Die View stellt den durchlaufenen Code in einer Baumstruktur dar und gibt Auskun
 
 Ist die farbliche Ansicht im Source-Code nicht sichtbar, so kann diese über das Icon <span class="inline-img">![](./img/image34.png)</span> aktiviert werden.
 
-### 
-
 ### ATC und Exemption
 
 Das [ABAP Test Cockpit](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec5711c6e391014adc9fffe4e204223.html) kann in ADT ebenso wie in der SAP GUI ausgeführt werden. Dabei haben Sie verschiedene Möglichkeiten, wie Sie die Prüfung starten können:
 
--   Über die Tastenkombination **STRG+SHIFT+F2**
-
--   Rechtsklick im Projekt Explorer unter dem Punkt "Run As"
-
--   Im Menüband oben, unter dem Button zum Starten des Objekts
+- Über die Tastenkombination **STRG+SHIFT+F2**
+- Rechtsklick im Projekt Explorer unter dem Punkt "Run As"
+- Im Menüband oben, unter dem Button zum Starten des Objekts
 
 Nach Ausführung der Prüfungen erhalten Sie die View für die "ATC Problems", also die Rückmeldungen über die gefundenen Meldungen durch die eingestellten Prüfungen.
 
@@ -971,7 +926,7 @@ Damit kann man jederzeit Unterstützung bekommen, falls man sich der exakten Syn
 *Abbildung: Aufruf der ABAP-Sprachhilfe über das Kontextmenü*
 </span>
 
-### Der ABAP Language Help View 
+### Der ABAP Language Help View
 
 Die entsprechende Dokumentation wird im ABAP Language Help View als HTML-Dokument angezeigt. Damit ist eine Vorwärtsnavigation über Hyperlinks möglich.
 
@@ -987,17 +942,12 @@ Wie in vielen Views in Eclipse sind hier einige nützliche Standard-Buttons vorh
 *Abbildung: Button-Leiste des Views*
 </span>
 
--   Der gelbe Doppelpfeil koppelt die View mit dem aktiven Editor. Damit zeigt die View stets die passende Hilfe für eine Anweisung an, auf der der Cursor momentan steht.
-
--   Der grüne Pin hält den Inhalt des Views fest. Wenn ein weiteres Mal mit F1 eine Hilfe angefordert wird, öffnet sich eine neue View für die ABAP Language Help.
-
--   Die gelben Pfeile nach rechts und links dienen der Navigation (analog eines Web-Browsers).
-
--   Mit Hilfe des Drucker-Symbols kann man mit entsprechender Hardware eine papierhafte Kopie der ABAP-Hilfe anfertigen.
-
--   Die beiden Symbole A mit den Pfeilen nach oben und unten sind für die Änderung der Schriftgröße zuständig.
-
--   Mit dem Suchfeld kann die komplette ABAP-Hilfe, einschließlich der anderen Sprachen wie CDS oder BDL, durchsucht werden.
+- Der gelbe Doppelpfeil koppelt die View mit dem aktiven Editor. Damit zeigt die View stets die passende Hilfe für eine Anweisung an, auf der der Cursor momentan steht.
+- Der grüne Pin hält den Inhalt des Views fest. Wenn ein weiteres Mal mit F1 eine Hilfe angefordert wird, öffnet sich eine neue View für die ABAP Language Help.
+- Die gelben Pfeile nach rechts und links dienen der Navigation (analog eines Web-Browsers).
+- Mit Hilfe des Drucker-Symbols kann man mit entsprechender Hardware eine papierhafte Kopie der ABAP-Hilfe anfertigen.
+- Die beiden Symbole A mit den Pfeilen nach oben und unten sind für die Änderung der Schriftgröße zuständig.
+- Mit dem Suchfeld kann die komplette ABAP-Hilfe, einschließlich der anderen Sprachen wie CDS oder BDL, durchsucht werden.
 
 ### Application Help
 
@@ -1052,13 +1002,10 @@ Die Erhaltung der Korrektheit ist hierbei sicherlich der wichtigste und auch in 
 
 Darüber hinaus gibt es noch weitere Gründe für ein Refactoring:
 
--   Erhöhung der Verständlichkeit des Codes ("Clean Code")
-
--   Verbesserung der Anpassbarkeit des Codes für Erweiterungen
-
--   Abbau von technischen Schulden
-
--   Aktualisierungen von veralteten Befehlen/Modulen
+- Erhöhung der Verständlichkeit des Codes ("Clean Code")
+- Verbesserung der Anpassbarkeit des Codes für Erweiterungen
+- Abbau von technischen Schulden
+- Aktualisierungen von veralteten Befehlen/Modulen
 
 Refactoring ist ein integraler Bestandteil der Software-Entwicklung und sollte beim täglichen Entwickeln durchgeführt werden, um einen gewissen Qualitätsstandard zu halten. Es ist davon abzuraten, spezielle "Refactoring Sprints" o. ä. durchzuführen, da diese oft von Geldgebern skeptisch betrachtet oder gar nicht genehmigt werden. Die Autoren empfehlen daher die Boy-Scout-Rule zu beachten: "Always leave the code better than you found it."
 
@@ -1068,17 +1015,12 @@ Mit den ADT hat sich diese Situation nun verändert. Existieren keine automatisi
 
 Die ADT bieten über die Quick Assists (**STRG+1**) folgende Refactorings an:
 
-1.  Rename Identifier -- Umbenennung innerhalb eines Codeblocks oder global
-
-2.  Extract Method -- Extrahieren einer Methode aus dem Source-Code oder aus einem Ausdruck
-
-3.  Extract Constants -- Textliterale in Konstanten umwandeln
-
-4.  Extract Variables -- Variablen extrahieren und konvertieren
-
-5.  Move Member -- Attribute von Klassen verändern und bewegen
-
-6.  Exception Handling -- Automatisiertes Anlegen/Transformieren von Exception-Blöcken
+1. Rename Identifier -- Umbenennung innerhalb eines Codeblocks oder global
+2. Extract Method -- Extrahieren einer Methode aus dem Source-Code oder aus einem Ausdruck
+3. Extract Constants -- Textliterale in Konstanten umwandeln
+4. Extract Variables -- Variablen extrahieren und konvertieren
+5. Move Member -- Attribute von Klassen verändern und bewegen
+6. Exception Handling -- Automatisiertes Anlegen/Transformieren von Exception-Blöcken
 
 Insbesondere die Rename- und die Extract-Method-Funktion unterstützen den Entwickler dabei, den Code sauber zu halten und Code-Redundanzen zu vermeiden bzw. zu reduzieren.
 
@@ -1086,7 +1028,7 @@ Da z. B. die Rename-Funktion Identifier nicht nur innerhalb der Einheit, sondern
 
 Die Extract-Funktion analysiert den markierten Code, bietet Hilfestellung bei der Parametervergabe und ersetzt die Stelle des Codes mit dem Aufruf der neu erstellten Methode. Wenn die zu extrahierende Methode mit einem Kommentar versehen ist, wird dieser als Vorschlag für die Benennung der Methode herangezogen.
 
-Weiterhin empfehlen die Autoren die Verwendung des Plug-ins "ABAP Quick Fix" (https://marketplace.eclipse.org/content/abap-quick-fix) von Lukasz Pegiel, welches im Kapitel 7 - Plug-ins beschrieben wird. Generell bieten die mittels Quick Fixes bereitgestellten Refactoring Tools in ADT sowohl bei der Erstellung als auch bei der Überarbeitung von bestehendem Code eine enorme Hilfe. Die Nutzung dieses hilfreichen Plug-ins verbessert auf diese Weise einerseits den aktuell bearbeiteten Code, hilft aber auch bei der Erstellung von neuem Code, die neueren Sprachkonstrukte selbst anzuwenden, falls man darin noch wenig geübt ist.
+Weiterhin empfehlen die Autoren die Verwendung des Plug-ins [ABAP Quick Fix](https://marketplace.eclipse.org/content/abap-quick-fix) von Lukasz Pegiel, welches im Kapitel 7 - Plug-ins beschrieben wird. Generell bieten die mittels Quick Fixes bereitgestellten Refactoring Tools in ADT sowohl bei der Erstellung als auch bei der Überarbeitung von bestehendem Code eine enorme Hilfe. Die Nutzung dieses hilfreichen Plug-ins verbessert auf diese Weise einerseits den aktuell bearbeiteten Code, hilft aber auch bei der Erstellung von neuem Code, die neueren Sprachkonstrukte selbst anzuwenden, falls man darin noch wenig geübt ist.
 
 ## Versionsverwaltung und Vergleichen
 
@@ -1103,7 +1045,7 @@ Die Local History ermöglicht den Zugriff auf ältere Versionen des aktuellen Qu
 
 Da sich die lokale Versionshistorie nur auf den eigenen Eclipse Workspace bezieht, kann es passieren, dass man Änderungen auch auf einem anderen Gerät hat oder ein Kollege zuletzt Änderungen durchgeführt hat.
 
-### Revision History -- Die Versionsverwaltung des ABAP 
+### Revision History -- Die Versionsverwaltung des ABAP
 
 Unter dem Menüpunkt Revision History erreicht man die "normale" Quelltextverwaltung des ABAP-Servers, die auch schon in der SAP GUI zur Verfügung stand. Hier werden standardmäßig Versionen gezogen, wenn ein Transportauftrag freigegeben wird.
 
@@ -1117,11 +1059,9 @@ Wenn man sich ein Projekt aus der Liste rauspickt, kann man systemübergreifend 
 
 In der Comparsion View kann man links den aktuellen Stand des Quelltextes sehen und rechts die zum Vergleich ausgewählte Version. Die Abweichungen werden hervorgehoben:
 
--   Grün sind die Dinge, die in der aktuellen Version neu sind
-
--   Rot sind die Dinge, die gelöscht wurden und in
-
--   Grau sind die Änderungen hinterlegt
+- Grün sind die Dinge, die in der aktuellen Version neu sind
+- Rot sind die Dinge, die gelöscht wurden und in
+- Grau sind die Änderungen hinterlegt
 
 Mit den Buttons <span class="inline-img">![](./img/image103.png)</span> kann der alte Zustand durch Kopieren von rechts nach links wiederhergestellt werden. Es ist aber auch möglich, dass man direkt in dieser Vergleichs-View auf der linken Seite Änderungen durchführt. Nach dem Speichern wird der Vergleich wiederholt.
 
@@ -1173,8 +1113,6 @@ Die Erstellung der ABAP Doc ist über den Aufruf der Quick Fixes einfach. Dazu m
 Weitergehende Informationen zu ABAP Doc finden sich in der offiziellen SAP-Hilfe (z. B.)
 
 unter [ABAP Doc - ABAP-Schlüsselwortdokumentation (sap.com)](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/de-de/abendoccomment.htm) (7.50), in der Beispielklasse CL_DEMO_ABAP_DOC und im [User-Guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/a7b235922f6944bbaf3b36949e500b12.html).
-
-## 
 
 ## Ausführen von Source-Code
 
@@ -1228,13 +1166,10 @@ Die View führt beim Öffnen unverzüglich die Datenselektion aus und listet dan
 
 Man hat in der View diverse Möglichkeiten, die Selektion anzupassen. Dazu zählen:
 
--   Anzahl der selektierten Zeilen
-
--   Selektierte Spalten
-
--   Filterkriterien
-
--   Sortierung (Anklicken der Spaltenüberschrift)
+- Anzahl der selektierten Zeilen
+- Selektierte Spalten
+- Filterkriterien
+- Sortierung (Anklicken der Spaltenüberschrift)
 
 Außerdem kann man nach einem Muster in den angezeigten Daten suchen (inkl. ? und \* als Joker-Zeichen). Passende Daten werden dann farbig und fett hervorgehoben. Darüber hinaus können die Gesamtanzahl der betroffenen Einträge und ein Log über ausgeführte Aktionen eingesehen werden. Über den Speichern-Button kann man die angezeigten Werte in unterschiedlichen Formaten innerhalb einer Datei speichern. Es ist sogar möglich, ein ABAP Value Statement dadurch zu generieren, was sehr nützlich zur Erstellung von Testdaten sein kann.
 
@@ -1254,13 +1189,10 @@ Ein Highlight des Data Preview Views ist die [SQL Console](https://help.sap.com/
 
 Dieses SQL Statement kann man individuell anpassen, prüfen und ausführen. Dabei gelten folgende Regeln und Einschränkungen:
 
--   Es sind nur SELECT Statements gemäß ABAP Open SQL Syntax erlaubt.
-
--   Es ist möglich, Aggregationen und komplexe Selektionen, wie z. B. mit JOIN und UNION, zu erstellen.
-
--   Es sind nur lesende Zugriffe möglich (keine SQL Statements mit Datenänderung)
-
--   Schlüsselwörter mit Bezug zu internen Tabellen können nicht verwendet werden
+- Es sind nur SELECT Statements gemäß ABAP Open SQL Syntax erlaubt.
+- Es ist möglich, Aggregationen und komplexe Selektionen, wie z. B. mit JOIN und UNION, zu erstellen.
+- Es sind nur lesende Zugriffe möglich (keine SQL Statements mit Datenänderung)
+- Schlüsselwörter mit Bezug zu internen Tabellen können nicht verwendet werden
 
 Man kann die SQL Console auch direkt aufrufen, indem man im Project Explorer das Kontextmenü für das ABAP Projekt öffnet und den Menüpunkt SQL Console auswählt. Der View zeigt das zuletzt verwendete SQL Statement an und führt es unverzüglich aus.
 
@@ -1272,25 +1204,16 @@ Details zum Data Preview sind in der Eclipse-Hilfe für ADT zu finden.
 
 Im Bereich der Core Data Services (CDS) gibt es unterschiedliche [Dateitypen](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/4ed280596e391014adc9fffe4e204223.html), die in den ADT angelegt werden können:
 
--   Data Definitions (DDLS) - Quelltextdateien für Datenmodelle in den folgenden Varianten:
-
-    -   DDIC Based CDS Views
-
-    -   CDS View Entities
-
-    -   Abstrakte CDS-Entitäten
-
-    -   Hierarchien
-
-    -   Erweiterungen der Views
-
-    -   CDS Table Functions
-
--   Access-Control-Dateien (DCLS) - Zugriffs-Definitionen
-
--   Metadata Extensions (DDLX) - Auslagerung von Annotationen aus der CDS-Definition
-
--   Behavior Definitions (BDEF) - Verhaltens-Definitionen für RAP-Business-Objekte
+- Data Definitions (DDLS) - Quelltextdateien für Datenmodelle in den folgenden Varianten:
+  - DDIC Based CDS Views
+  - CDS View Entities
+  - Abstrakte CDS-Entitäten
+  - Hierarchien
+  - Erweiterungen der Views
+  - CDS Table Functions
+- Access-Control-Dateien (DCLS) - Zugriffs-Definitionen
+- Metadata Extensions (DDLX) - Auslagerung von Annotationen aus der CDS-Definition
+- Behavior Definitions (BDEF) - Verhaltens-Definitionen für RAP-Business-Objekte
 
 ![](./img/image79.png)  
 <span class="img-caption" markdown=1>
@@ -1299,11 +1222,9 @@ Im Bereich der Core Data Services (CDS) gibt es unterschiedliche [Dateitypen](ht
 
 Die Quelltext Editoren für die unterschiedlichen Dateitypen der Core Data Services verhalten sich weitgehend wie der Quelltexteditor für ABAP-Code. Unter anderem sind folgende Features enthalten:
 
--   Code Completion (**STRG+SPACE**) - Vorschlagswerte, die im Kontext passen.
-
--   Element Info (**F2**) - Informationen über das Element, auf dem der Cursor steht.
-
--   Pretty Printer (**SHIFT+F1**)
+- Code Completion (**STRG+SPACE**) - Vorschlagswerte, die im Kontext passen.
+- Element Info (**F2**) - Informationen über das Element, auf dem der Cursor steht.
+- Pretty Printer (**SHIFT+F1**)
 
 Ein Unterschied sind die Farben, die im Editor verwendet werden.
 
@@ -1316,11 +1237,9 @@ Ein Grundproblem bei den Core Data Services ist, dass die Eigenschaften eines Ob
 
 Um ein vollständiges Bild eines CDS-Objektes unter Berücksichtigung aller Dateien und Propagationen zu bekommen, sind darum Hilfsmittel notwendig. Dazu gehören:
 
--   Element Info
-
--   Dependency Analyzer
-
--   Active Annotations
+- Element Info
+- Dependency Analyzer
+- Active Annotations
 
 ### Element Info für CDS
 
@@ -1342,21 +1261,21 @@ Der [Dependency Analyzer](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e5456080
 
 Der Dependency Analyzer hat drei Tab-Reiter, die Informationen über eine View anzeigen:
 
--   Der **SQL Dependency Tree** zeigt die hierarchische Struktur in Tabellenform an
+- Der **SQL Dependency Tree** zeigt die hierarchische Struktur in Tabellenform an
 
 ![](./img/image53.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: SQL Dependency Tree*
 </span>
 
--   Der **SQL Dependency Graph** zeigt die gleichen Informationen grafisch an.
+- Der **SQL Dependency Graph** zeigt die gleichen Informationen grafisch an.
 
 ![](./img/image13.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: SQL Dependency Graph*
 </span>
 
--   Der Tab-Reiter **Complexity Metrics** zeigt zusätzliche Informationen zur Gesamtkomplexität des CDS Views an, inklusive aller Quell-Views.\
+- Der Tab-Reiter **Complexity Metrics** zeigt zusätzliche Informationen zur Gesamtkomplexität des CDS Views an, inklusive aller Quell-Views.\
     > Gerade bei Performance-Problemen lohnt hier ein Blick.
 
 ![](./img/image5.png)  
@@ -1368,11 +1287,9 @@ Der Dependency Analyzer hat drei Tab-Reiter, die Informationen über eine View a
 
 Die [View Active Annotations](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/45ba68d3b4924a97ad2dc598e756968e.html) wird ebenfalls über das Kontextmenü in der Navigation aufgerufen. In ihr werden die Werte sämtlicher aktiven Annotationen der Views angezeigt:
 
--   Auf **View-Ebene** sind nur genau die Annotationen sichtbar, die in dem View definiert wurden.
-
--   Auf **Feld-Ebene** sind alle gültigen Annotationen sichtbar. Ihre Herkunft, wie beispielsweise Datenelement, Metadata-Extension oder Datenquelle, wird ebenfalls mit angezeigt.
-
--   Auf **Parameter-Ebene**
+- Auf **View-Ebene** sind nur genau die Annotationen sichtbar, die in dem View definiert wurden.
+- Auf **Feld-Ebene** sind alle gültigen Annotationen sichtbar. Ihre Herkunft, wie beispielsweise Datenelement, Metadata-Extension oder Datenquelle, wird ebenfalls mit angezeigt.
+- Auf **Parameter-Ebene**
 
 Manche Eigenschaften, z. B. Feldtexte, können schon durch die Datenelemente festgelegt und diese dann in die View propagiert werden. Dies ist in folgender Abbildung beispielhaft dargestellt:
 

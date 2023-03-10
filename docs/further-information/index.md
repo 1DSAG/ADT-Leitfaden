@@ -12,14 +12,10 @@ WIP
 # In Kapiteln verwendete Querverweise
 
 <table>
-<colgroup>
-<col style="width: 28%" />
-<col style="width: 71%" />
-</colgroup>
 <thead>
 <tr class="header">
-<th>Kapitel</th>
-<th>Link</th>
+<th style="text-align: left">Kapitel</th>
+<th style="text-align: left">Link</th>
 </tr>
 <tr class="odd">
 <td>Kapitel 3 - Best Practices Eclipse Konfiguration</td>

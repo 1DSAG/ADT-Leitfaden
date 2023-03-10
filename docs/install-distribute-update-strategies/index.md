@@ -5,11 +5,11 @@ permalink: /install-distribute-update-strategies/
 nav_order: 5
 ---
 
+{: .no_toc}
 # Kapitel 5 - Installation, Verteilungs- und Update-Strategien
 
 1. TOC
-{:toc} 
-
+{:toc}
 
 Die ADT basieren auf dem quelloffenen und vor allem in anderen Programmiersprachen sehr bekannten Eclipse Framework. Für die Installation und Verteilung hat das den Vorteil, dass das Rad nicht neu erfunden werden muss. Je nach Unternehmensgröße und Heterogenität der IT-Landschaft eines Unternehmens ist es sogar möglich, dass Eclipse-basierte Entwicklungsumgebungen schon im Unternehmen eingesetzt und verteilt werden. In diesem Fall empfiehlt es sich, die bestehende Infrastruktur weiter zu verwenden. Auch kann dies etwaige Aufwände der ein oder anderen Lösung reduzieren.
 
@@ -159,26 +159,12 @@ In den folgenden Kapiteln wird auf diese Mechanismen im Detail eingegangen. Nebe
 Zunächst sollen die näher betrachteten Varianten jedoch einmal in einer Übersicht verglichen werden. Die dabei verwendeten Symbole *+ (gut)*, ∘ *(mittel)* und *- (schlecht)* sind als Rangfolge zu verstehen und nicht als absolute Werte am Anfang, Mitte und Ende des jeweiligen Spektrums. Grund hierfür ist, dass beispielsweise ein Aufwand sehr individuell wahrgenommen wird. So kann ein mit *-* *(schlecht)* gekennzeichneter hoher Aufwand für eine Person trotzdem akzeptabel sein. Wohl jedoch stellen diese Symbole eine Reihenfolge dar, da messbare Unterschiede existieren.
 
 <table>
-	<colgroup>
-		<col style="width: 26%"/>
-		<col style="width: 23%"/>
-		<col style="width: 25%"/>
-		<col style="width: 25%"/>
-	</colgroup>
 	<thead>
 		<tr class="header">
-			<td>
-				<strong>Kriterium</strong>
-			</td>
-			<td>
-				<strong>Manuelle Installation</strong>
-			</td>
-			<td>
-				<strong>Vorkonfigurierte<br/>Erstinstallation</strong>
-			</td>
-			<td>
-				<strong>Eclipse Installer</strong>
-			</td>
+			<th style="text-align: left">Kriterium</th>
+			<th style="text-align: left">Manuelle Installation</th>
+			<th style="text-align: left">Vorkonfigurierte<br/>Erstinstallation</th>
+			<th style="text-align: left">Eclipse Installer</th>
 		</tr>
 		<tr class="odd">
 			<td>
@@ -324,14 +310,10 @@ In den folgenden Abschnitten wird die Anlage und Anpassung der Oomph-Konfigurati
 Liest man sich die Dokumentation von Oomph durch, so wird man erst einmal mit vielen neuen Begriffen erschlagen. Daher hier vorab die wichtigsten Begriffe, die in den folgenden Abschnitten verwendet werden. Es werden hier bewusst die englischen Originalbegriffe verwendet, um Wiedererkennungswert zu schaffen.
 
 <table>
-<colgroup>
-<col style="width: 30%" />
-<col style="width: 69%" />
-</colgroup>
 <thead>
 <tr class="header">
-<th><strong>Begriff</strong></th>
-<th><strong>Beschreibung</strong></th>
+<th style="text-align: left">Begriff</th>
+<th style="text-align: left">Beschreibung</th>
 </tr>
 <tr class="odd">
 <td><strong>Setup-Model</strong></td>
@@ -355,7 +337,9 @@ Liest man sich die Dokumentation von Oomph durch, so wird man erst einmal mit vi
 </tbody>
 </table>
 
+<span class="table-caption">
 *Tabelle: Begrifflichkeiten in Oomph*
+</span>
 
 Eine Installation mittels Eclipse/Oomph Installer installiert somit immer eine Plattform, die Plug-ins, Oomph Updater, Oomph Recorder und zuletzt die Projekteinstellungen im Workspace.
 
@@ -449,7 +433,7 @@ Der Project-Catalog listet verfügbare Projects. Letztere enthalten Anweisungen 
 
 Die wichtigsten Elemente in einem Project sind:
 
-| **P2 Director** | Gruppiert Requirements und Repositories                                                                                       |
+| P2 Director | Gruppiert Requirements und Repositories                                                                                       |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | **Requirement** | Zu installierende Feature Group                                                                                               |
 | **Repository**  | Update-Site-URL                                                                                                               |
@@ -458,7 +442,9 @@ Die wichtigsten Elemente in einem Project sind:
 | **Eclipse ini** | Veränderungen der Eclipse.ini                                                                                                 |
 | **Preference**  | Voreingestellte Veränderung der Einstellungen (Window → Preferences).                                                         |
 
+<span class="table-caption">
 *Tabelle: Wichtigste Elemente eines Projects*
+</span>
 
 Für eine minimale ADT-Installation wird benötigt:
 

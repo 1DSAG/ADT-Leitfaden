@@ -5,11 +5,11 @@ permalink: /motivation-for-adt/
 nav_order: 2
 ---
 
+{: .no_toc}
 # Kapitel 2 - Motivation für ADT
 
 1. TOC
-{:toc} 
-
+{:toc}
 
 In diesem Kapitel stellen wir Ihnen mehrere Gründe vor, die für den Einsatz der ABAP Development Tools (ADT) als Entwicklungsumgebung sprechen. Am Ende gehen wir auch auf den mitunter größten "Knackpunkt" für langjährige ABAP-Entwickler ein und geben Hinweise, warum dieser manchmal als Nachteil betrachtete Punkt in Wirklichkeit ein Vorteil ist.
 
@@ -109,13 +109,10 @@ Neben der höheren Effizienz der Entwickler, u. a. durch bessere Tool-Unterstüt
 
 Um den Einsatz für den einzelnen Entwickler reibungsfrei zu ermöglichen und um Hemmnisse in Bezug auf einen Umstieg von Anfang an zu vermeiden, und damit einen breiten Einsatz der ADT zu erreichen, müssen folgende Themen zentral geklärt und in Form von allgemein verfügbaren Dokumentationen den Entwicklern bereitgestellt werden:
 
--   Rahmenbedingungen und generelle Informationen zu ADT
-
--   Installation von Eclipse
-
--   Zugriff von Eclipse auf Ressourcen im Internet (Updates und Plug-in-Installationen)
-
--   Berechtigungen der Entwickler für ADT-Objekte im Backend (S_RFC for ADT\*)
+- Rahmenbedingungen und generelle Informationen zu ADT
+- Installation von Eclipse
+- Zugriff von Eclipse auf Ressourcen im Internet (Updates und Plug-in-Installationen)
+- Berechtigungen der Entwickler für ADT-Objekte im Backend (S_RFC for ADT\*)
 
 Dies stellt auch hier wieder zuerst eine Investition dar, die sich aber auszahlt, sobald die Entwickler-Teams einheitlich mit ADT arbeiten und die Vorteile der Entwicklungsumgebung in der täglichen Arbeit voll ausgenutzt werden können.
 
