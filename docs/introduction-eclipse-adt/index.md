@@ -2,14 +2,18 @@
 layout: page
 title: Einführung Eclipse und ADT
 permalink: /introduction-eclipse/
+next_page_link: /motivation-for-adt/
+next_page_title: Motivation für ADT
+prev_page_link: /introduction/
+prev_page_title: Einleitung
 nav_order: 1
 ---
 
-## Einführung Eclipse und ADT
+{: .no_toc}
+# Einführung Eclipse und ADT
 
 1. TOC
-{:toc} 
-
+{:toc}
 
 ## Warum eigentlich Eclipse?
 

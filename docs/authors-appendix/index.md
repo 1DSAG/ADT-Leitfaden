@@ -2,6 +2,8 @@
 layout: page
 title: Autorenvorstellung
 permalink: /authors/
+prev_page_link: /plug-ins/develop-plug-ins/
+prev_page_title: Plug-ins
 nav_order: 9
 ---
 

@@ -2,6 +2,10 @@
 layout: page
 title: Best Practices Eclipse-Konfiguration
 permalink: /best-practices-configuration/
+prev_page_link: /install-distribute-update-strategies/
+prev_page_title: Installation, Verteilungs- und Update-Strategien
+next_page_link: /plug-ins/
+next_page_title: Plug-ins
 nav_order: 6
 ---
 

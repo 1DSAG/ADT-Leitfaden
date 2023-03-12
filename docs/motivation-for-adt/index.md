@@ -2,6 +2,10 @@
 layout: page
 title: Motivation für ADT
 permalink: /motivation-for-adt/
+prev_page_link: /introduction-eclipse-adt/
+prev_page_title: Einleitung Eclipse und ADT
+next_page_link: /working-with-adt/
+next_page_title: Arbeiten mit ADT
 nav_order: 2
 ---
 

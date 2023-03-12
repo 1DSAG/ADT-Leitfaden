@@ -3,9 +3,12 @@ layout: page
 title: Nützliche Open Source ADT Plugins
 parent: Plug-ins
 permalink: /plug-ins/open-source-adt-plugins/
+prev_page_link: /plug-ins/open-source-plug-ins/
+prev_page_title: Nützliche Open-Source-Plug-ins
+next_page_link: /plug-ins/develop-plug-ins/
+next_page_title: Eigene Plug-ins entwickeln
 nav_order: 2
 ---
-
 
 {: .no_toc}
 # Nützliche Open Source ADT Plugins 

@@ -3,6 +3,10 @@ layout: page
 title: Eigene Plug-ins entwickeln
 parent: Plug-ins
 permalink: /plug-ins/develop-plug-ins/
+prev_page_link: /plug-ins/open-source-adt-plugins/
+prev_page_title: Nützliche Open Source ADT Plugins
+next_page_link: /authors/ 
+next_page_title: Autorenvorstellung
 nav_order: 3
 ---
 
