@@ -2,6 +2,10 @@
 layout: page
 title: Plug-ins
 permalink: /plug-ins/
+prev_page_link: /best-practices-configuration/
+prev_page_title: Best Practices Eclipse-Konfiguration
+next_page_link: /plug-ins/open-source-plug-ins/
+next_page_title: Nützliche Open-Source-Plug-ins
 has_children: true
 nav_order: 7
 ---

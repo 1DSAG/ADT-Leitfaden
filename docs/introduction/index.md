@@ -2,6 +2,8 @@
 layout: page
 title: Einleitung
 permalink: /introduction/
+next_page_link: /introduction-eclipse/
+next_page_title: Einführung Eclipse und ADT
 nav_order: 0
 ---
 
