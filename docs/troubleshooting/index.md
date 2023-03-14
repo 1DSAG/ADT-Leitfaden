@@ -12,7 +12,7 @@ has_children: true
 
 # Troubleshooting-Werkzeuge in Eclipse
 
-Dieses Kapitel gibt einen Überblick über die Werkzeuge, die in den ABAP Development Tools zum [Troubleshooting](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecc7d3a6e391014adc9fffe4e204223.html) zur Verfügung stehen. Dazu zählt u. a. Debuggen von Entwicklungsartefakten, Performance-Analyse und weitere Analyse- und Fehlerfindungsmethoden.
+Dieses Kapitel gibt einen Überblick über die Werkzeuge, die in den ABAP Development Tools zum Troubleshooting ([On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecc7d3a6e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/using-troubleshooting-tools)) zur Verfügung stehen. Dazu zählt u. a. Debuggen von Entwicklungsartefakten, Performance-Analyse und weitere Analyse- und Fehlerfindungsmethoden.
 
 Neben der Beschreibung der Tools geben wir Hinweise für den sinnvollen Einsatz. Für detaillierte Funktionsbeschreibungen empfehlen wir die offizielle Dokumentation und geben, sofern vorhanden, hilfreiche Links an.
 
