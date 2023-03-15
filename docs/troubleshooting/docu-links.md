@@ -12,6 +12,6 @@ nav_order: 5
 
 # Doku-Links
 
-- [ABAP-Debugger-Konzept](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec365a66e391014adc9fffe4e204223.html)
+- [ABAP-Debugger-Konzept](https://help.sap.com/docs/btp/sap-abap-development-user-guide/abap-debugger)
 - [Troubleshooting-Tools](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ecc7d3a6e391014adc9fffe4e204223.html)
-- [Syntax für Breakpoint-Bedingungen](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/d878e676fe904eba9f4bb79193154092.html)
+- [Syntax für Breakpoint-Bedingungen](https://help.sap.com/docs/btp/sap-abap-development-user-guide/syntax-for-breakpoint-conditions)
