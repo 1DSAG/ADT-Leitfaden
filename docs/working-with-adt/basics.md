@@ -65,7 +65,7 @@ File → New → ABAP Projekt
 
 angelegt.
 
-![](../img/image75.png)  
+![](./img/image75.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Erstellung eines ABAP-Projekts in Eclipse*
 </span>
@@ -74,7 +74,7 @@ Bei Anlage eines ABAP-Projekts für On-Premise-Systeme wird die Liste der im SAP
 
 Das neu erstellte Projekt und damit das verbundene Entwicklungssystem wird im sogenannten [[Project Explore](#project-explorer)r] dargestellt.
 
-![](../img/image97.png)  
+![](./img/image97.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Der Project Explorer*
 </span>
@@ -83,7 +83,7 @@ Der Project Explorer ist der zentrale Einstiegspunkt und Objektkatalog, nachdem 
 
 Der Hauptarbeitsbereich ist der Knoten [Favorite Packages](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec55bf96e391014adc9fffe4e204223.html). Um das Paket zu den Favorite Packages hinzuzufügen, in das die zu erstellende Klasse eingefügt werden soll, führen Sie den Befehl "Add Package" mittels des Kontextmenüs aus.
 
-![](../img/image35.png)  
+![](./img/image35.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Hinzufügen von Packages zu den Favoriten*
 </span>
@@ -94,28 +94,28 @@ Zur [Erstellung einer neuen ABAP-Klasse](https://help.sap.com/docs/ABAP_PLATFORM
 
 New → ABAP Class
 
-![](../img/image74.png)  
+![](./img/image74.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Erstellen einer neuen ABAP-Klasse im Projekt Explorer*
 </span>
 
 Es öffnet sich ein Fenster, in dem die Daten der Klasse angegeben werden können/müssen.
 
-![](../img/image81.png)  
+![](./img/image81.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Eigenschaftsdialog: Erstellung ABAP-Klasse*
 </span>
 
 Hier können bei Bedarf bereits die Super-Klasse und zu referenzierende Interfaces angegeben werden. Dies kann aber auch später textbasiert direkt im Quellcode erfolgen. Es öffnet sich nach Klick auf "Next" das Fenster zur Auswahl bzw. Anlage des Transportauftrages.
 
-![](../img/image76.png)  
+![](./img/image76.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Transportauftragsdialog*
 </span>
 
 Nach Klick auf "Finish" wird die Klasse angelegt, und diese findet sich sowohl im Project Explorer im Objektbaum als auch im Quellcode-Editor auf der rechten Seite der ADT.
 
-![](../img/image78.png)  
+![](./img/image78.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Anzeige der neuen Klasse in den ADT*
 </span>
@@ -136,7 +136,7 @@ CLASS \<c*lassname\>* DEFINITION
 
 und platziert den Cursor in den Sichtbarkeitsbereich der Klasse, in der die Methode zur Verfügung steht. In unserem Fall soll die Methode für andere Verwender sichtbar sein und daher im Bereich PUBLIC definiert werden. Die Definition der Methode wird mit dem Schlüsselwort METHODS eingeleitet.
 
-![](../img/image98.png)  
+![](./img/image98.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Bearbeiten der Klasse*
 </span>
@@ -149,7 +149,7 @@ Da der Abschlusspunkt nicht vorhanden ist, zeigt ADT sowohl im linken Balken ein
 
 Wir schließen die Methodendefinition mit Erstellung der Parameter und des Abschlusspunkts ab. Durch die Nutzung der Code Completion wird uns die Arbeit dabei sehr erleichtert. Dazu geben wir jeweils nur die ersten zwei bis drei Buchstaben des gewünschten Schlüsselwortes an. Die Tastenkombination **STRG+LEERTASTE** zeigt uns die passenden Schlüsselworte an. Diese können daraufhin mittels **TAB+Pfeiltasten** aus der Vorschlagsliste ausgewählt werden. Zur weiteren Automatisierung der Code-Erstellung bietet sich die Nutzung von Templates an (s. Abschnitt [Code Template](#templates)).
 
-![](../img/image80.png)  
+![](./img/image80.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Beispiel Code Completion für den Import-Parameter*
 </span>
@@ -174,7 +174,7 @@ Dieses "Problem" lässt sich sehr effizient mit Hilfe der Quick Fixes beheben.
 
 Zur Methodenimplementierung nutzen Sie die [Quick-Fix](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec5668b6e391014adc9fffe4e204223.html)-Funktion, die sich über das Kontextmenü oder die Tastenkombination **STRG+1** aufrufen lässt.
 
-![](../img/image87.png)  
+![](./img/image87.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Nutzung des Quick Fix zur Methodenimplementierung*
 </span>
@@ -201,7 +201,7 @@ Auch hier hilft die Verwendung der Code Completion, die mit der Tastenkombinatio
 
 Um den Returning-Parameter "r_f_free_seats" nicht ausschreiben zu müssen und Typinformationen zu bekommen, schreiben wir die Struktur und den Komponentenseparator "-" und bekommen mittels der Tastenkombination **STRG+LEERTASTE** die Komponenten angezeigt, die dann ausgewählt und in den Code eingefügt werden können.
 
-![](../img/image90.png)  
+![](./img/image90.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Auswahl der Komponente mittels Code Completion*
 </span>
@@ -230,21 +230,21 @@ Zur Umbenennung der Parameter wird die Rename-Funktion aus dem Kontextmenü übe
 
 ausgeführt.
 
-![](../img/image100.png)  
+![](./img/image100.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Umbenennung von Methodenparametern*
 </span>
 
 Zuerst muss der Code gespeichert werden. Falls dies nicht erfolgt ist, erscheint eine Abfrage zum Speichern, die bestätigt werden muss.
 
-![](../img/image84.png)  
+![](./img/image84.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Abfragedialog zum Speichern des Code*
 </span>
 
 Es erscheint eine Dialog-Box zur Eingabe des Parameternamens.
 
-![](../img/image85.png)  
+![](./img/image85.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Eingabe neuer Parametername*
 </span>
@@ -252,12 +252,12 @@ Es erscheint eine Dialog-Box zur Eingabe des Parameternamens.
 Sofern das Objekt bereits einem Transport zugeordnet ist, kann mit "Finish" die Umbenennung direkt durchgeführt werden.\
 Mit "Next" können weitere optionale Einstellungen, wie der zu verwendende Transport und die Aktivierungsoption, vorgenommen werden.
 
-![](../img/image86.png)  
+![](./img/image86.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Auswahl des Transports und Optionen*
 </span>
 
-Vor der finalen Durchführung kann eine Vorschau auf die Änderung angezeigt werden.![](../img/image62.png)  
+Vor der finalen Durchführung kann eine Vorschau auf die Änderung angezeigt werden.![](./img/image62.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Vorschau der Umbenennung*
 </span>

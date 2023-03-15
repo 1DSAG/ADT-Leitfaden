@@ -21,7 +21,7 @@ nav_order: 8
 
 [ABAP Doc](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/a7b235922f6944bbaf3b36949e500b12.html) ermöglicht die Code-basierte Dokumentation wie z. B. von Methoden und deren Parametern.
 
-![](../../img/image73.png)  
+![](../img/image73.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: ABAP-Doc Dokumentation der Methode*
 </span>

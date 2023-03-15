@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Debugger
-permalink: /troubleshooting/debugger/
 parent: Troubleshooting-Werkzeuge in Eclipse
 prev_page_link: /troubleshooting/
 prev_page_title: Troubleshooting-Werkzeuge in Eclipse
@@ -17,7 +16,7 @@ has_toc: true
 1. TOC
 {:toc}
 
-Im Eclipse steht für Analysezwecke ein [Debugger](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec30fb66e391014adc9fffe4e204223.html) zur Verfügung. Dieser wird über die Schaltfläche <span class="inline-img">![](../img/image14.png)</span> gestartet. Mit dem Starten wechselt die Perspektive in Eclipse automatisch auf die Perspektive des Debugger.
+Im Eclipse steht für Analysezwecke ein [Debugger](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec30fb66e391014adc9fffe4e204223.html) zur Verfügung. Dieser wird über die Schaltfläche <span class="inline-img">![](./img/image14.png)</span> gestartet. Mit dem Starten wechselt die Perspektive in Eclipse automatisch auf die Perspektive des Debugger.
 
 ## Breakpoints und Soft-Breakpoints
 
@@ -29,14 +28,14 @@ Die ABAP Development Tools bieten neben den normalen Breakpoints die Möglichkei
 
 ## Debugging-Perspektive
 
-![](../img/image24.jpg)  
+![](./img/image24.jpg)  
 <span class="img-caption" markdown=1>
 *Abbildung: Debugging Perspektive in Eclipse*
 </span>
 
 Die Debugging-Perspektive in Eclipse bietet einen schnellen Überblick über den Programm-Code, Call-Stack, Variableninhalte und Inhalte von internen Tabellen. Die Variablen und interne Tabellen können mit Doppelklick im Programm-Code ausgewählt werden. Sie werden auf der rechten Seite angezeigt.
 
-![](../img/image6.jpg)  
+![](./img/image6.jpg)  
 <span class="img-caption" markdown=1>
 *Abbildung: Werte der Variablen in der Debugging Perspektive*
 </span>

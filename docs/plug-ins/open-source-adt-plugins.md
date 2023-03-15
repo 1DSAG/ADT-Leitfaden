@@ -26,14 +26,14 @@ Der Unterschied der beiden Views liegt in den Möglichkeiten zur Erstellung der 
 
 Vergleicht man den "Standard"- mit dem "DevObject"-Ordner liegt neben den auswählbaren Objekttypen der größte Unterschied darin, dass bei "Standard" durch einen Doppelklick die Objekte ausgeführt werden. Ein Doppelklick in einem "DevObject"-Ordner bewirkt das Öffnen des ausgewählten Objekts.
 
-![](../img/image5.png)  
+![](./img/image5.png)  
 <span class="img-caption" markdown="1">
 *Abbildung: ABAP Favorites View*
 </span>
 
 Um neue Objekte den Favoriten hinzuzufügen, können die Kontextmenüs der Favorites View, des ABAP Editors oder des Project Explorers genutzt werden.
 
-![](../img/image8.png)  
+![](./img/image8.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Kontextmenü eines Ordners im ABAP Favorites View*
 </span>
@@ -64,12 +64,12 @@ Das Plug-in stellt folgende Funktionen bereit:
 - Shortcut für abapGit
 - Auslösen von Jenkins aus Eclipse (experimentell)
 
-![](../img/image10.png)  
+![](./img/image10.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Farbige Hervorhebung der Statusleiste pro Projekt + Teststatus*
 </span>
 
-![](../img/image29.png)  
+![](./img/image29.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Verwaltung von Paketen, für die Unittests und/oder ATC-Prüfläufe eingeplant sind*
 </span>
@@ -94,7 +94,7 @@ Dieses Plug-in erweitert die ADT um mehrere zusätzliche Funktionalitäten.
 
 Die Funktionalität "Automatisches Einloggen" ermöglicht dem Entwickler, seine Benutzer/Passwort-Kombinationen innerhalb des Secure Storage von Java zu verwalten. Sicherheitstechnisch sollten diese verschlüsselt werden.
 
-![](../img/image9.png)  
+![](./img/image9.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: View zur Verwaltung der hinterlegten Zugangsdaten von ABAP Systemen*
 </span>
@@ -105,7 +105,7 @@ Abhängig von den Einstellungen des Plug-in kann man sich in jedes der ausgewäh
 
 Durch das Kontextmenü des Project Explorers können für ABAP/BW-Projekte die Projektattribute (Client, User, Sprache) geändert werden. Zudem können die Breakpoint-User gesetzt werden.
 
-![](../img/image27.png)  
+![](./img/image27.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Kontextmenü auf Projekt im Project Explorer*
 </span>
@@ -114,7 +114,7 @@ Durch das Kontextmenü des Project Explorers können für ABAP/BW-Projekte die P
 
 Nach der Installation erscheint in Eclipse im unteren rechten Bereich eine Toolbar mit einem Eingabefeld für Transaktions-Codes. Das Feld kann per Maus oder über den Shortcut **Shift+F8** bedient werden. Nach der Eingabe des Codes und dem Bestätigen per Enter wird die Transaktion im momentan aktiven Projekt ausgeführt.
 
-![](../img/image20.png)  
+![](./img/image20.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Statusleiste im Eclipse-Fenster*
 </span>
@@ -133,7 +133,7 @@ Links:
 
 Dieses Plug-in fügt Ihrer Oberfläche eine neue View namens "Classic Outline" hinzu, die gewissermaßen die SE80-Objektliste abbildet. In den meisten Fällen kann diese Ansicht die eingebaute ADT Outline ersetzen. Die angezeigte Objektliste kann gefiltert werden und erlaubt die Ansicht der Objektattribute, ähnlich der eingebauten ADT Outline. Durch einen Doppelklick (bzw. einfachen Klick abhängig von den Einstellungen) kann in das selektierte Objekt navigiert werden.
 
-![](../img/image13.png)  
+![](./img/image13.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Classic Outline View*
 </span>
@@ -158,12 +158,12 @@ Links:
 
 Quick Fixes sind Teil der Eclipse IDE. Im ADT-Standard werden sie im Backend-System verarbeitet und können vom Nutzer bei Bedarf mittels Shortcut **CTRL+1** verwendet werden. Das ABAP Quick Fix Plug-in bietet zusätzliche Quick Fixes, die direkt von der Eclipse-Umgebung prozessiert werden.
 
-![](../img/image17.png)  
+![](./img/image17.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: ABAP Code vor Quick-Fix-Ausführung*
 </span>
 
-![](../img/image21.png)  
+![](./img/image21.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: ABAP Code nach Quick-Fix-Ausführung*
 </span>
@@ -201,12 +201,12 @@ Dieses Plug-in ist ein sehr schönes Beispiel für die Zusammenarbeit von Entwic
 - Konvertiere SELECT/ENDSELECT in den modernen SQL-Stil
 - Transformiere MOVE_CORRESPONDING nach CORRESPONDING #( )
 
-![](../img/image25.png)  
+![](./img/image25.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Beispiel für Quick-Fix-Verfügbarkeit bei einer SELECT-Anweisung*
 </span>
 
-![](../img/image24.png)  
+![](./img/image24.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: SELECT-Anweisung nach Anwendung des Quick Fix*
 </span>
@@ -226,14 +226,14 @@ Links:
 
 Das ABAP Tags Plug-in ermöglicht es, Tags zu erstellen, welche dann zu beliebigen Entwicklungsobjekten hinzugefügt werden können. Die Tags und deren zugeordneten Objekte werden dabei auf dem jeweiligen ABAP-System persistiert. Dies erleichtert den Zugriff auf getaggte Objekte durch andere Benutzer. Generell erlaubt das Plug-in, Tags entweder im globalen oder im benutzerspezifischen Geltungsbereich anzulegen. Benutzerspezifische Tags können dabei auch mit anderen geteilt werden und dadurch die Zusammenarbeit erleichtern.
 
-![](../img/image28.png)  
+![](./img/image28.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: View "Tag Manager"*
 </span>
 
 Das Taggen von Objekten ist intuitiv über das Kontextmenü aus dem Editor oder dem Project Explorer heraus möglich. Die getaggten Objekte können dann entweder aus dem View "Tag Manager" mittels Kontextmenü-Aktion, oder über die in den "Search"-Dialog integrierten "ABAP Tagged Object Search" gesucht und angezeigt werden.
 
-![](../img/image32.png)  
+![](./img/image32.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Search-Dialog mit Seite "ABAP Object Search"*
 </span>
@@ -263,7 +263,7 @@ Dieses Plug-in erweitert die ADT um weitere Such- und Analysefunktionen für die
 
 Die Suchfunktionen sind in den Eclipse-Search-Dialog integriert (**Strg+H**). Die Bedienung ist dabei ähnlich wie beim Dialog "Open ABAP Development Object" (**Strg+Shift+A**). Den Objekttyp kann man mittels Dropdown ändern. Dieser steuert unter anderem die verfügbaren Filter im Feld "Search Filters".
 
-![](../img/image31.png)  
+![](./img/image31.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Search-Dialog auf Seite "ABAP Object Search"*
 </span>
@@ -277,7 +277,7 @@ Zusätzlich zu den Suchfunktionen stellt das Plug-in noch den View "CDS Analyzer
   - Top-Down (Herkunftsermittlung)
   - Bottom-up (Verwendung eines Feldes in Feldern anderer CDS Views)
 
-![](../img/image26.png)  
+![](./img/image26.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: View "CDS Analyzer" - Top-Down-Analyse*
 </span>
@@ -306,7 +306,7 @@ Dieses Plug-in bringt die bekannte SAP-GUI-Transaktion CODE_SCANNER nach Eclipse
 - Komplette Systemsuche möglich, da auf dem Anwendungs-Server immer nur kleine Pakete verarbeitet werden
 - Tags können zur Objektauswahl verwendet werden → erfordert Installation des ABAP Tags Plug-in
 
-![](../img/image22.png)  
+![](./img/image22.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Search-Dialog mit "ABAP Code Search"-Seite*
 </span>

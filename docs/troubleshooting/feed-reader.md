@@ -26,9 +26,9 @@ Dazu werden die Ereignisse im Pull-Verfahren im Hintergrund abgefragt. Damit die
 
 Daneben können auch beliebige Atom-/RSS-Feeds abonniert werden, das kann beispielsweise der RSS-Feed für die letzten Blog-Posts zu einem Tag auf blogs.sap.com sein:
 
-![](../img/image1.png)
+![](./img/image1.png)
 
-![](../img/image9.png)  
+![](./img/image9.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Abonnieren populärer RSS Feeds*
 </span>
@@ -43,7 +43,7 @@ Sie können Feeds zu Laufzeitfehlern (ST22-Dumps) mit verschiedenen Filtermögli
 
 Ein Beispiel mit mehreren Laufzeitfehlern in einem Feed:
 
-![](../img/image10.png)  
+![](./img/image10.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Mehrere Laufzeitfehler innerhalb eines Feeds*
 </span>
@@ -52,7 +52,7 @@ Dokumentation zu den SAP Gateway Error Log Feeds findet sich im PDF-Dokument aus
 
 Sie können Feeds mit verschiedenen Filtermöglichkeiten ergänzen, u.a. kann auch hier gemäß Benutzer, Service, Namensraum oder Paket gefiltert werden. Um auch mit vielen Einträgen zurechtzukommen, kann ein Blättern (Paging) aktiviert werden. In der Detailanzeige kann direkt in die Transaktion /IWFND/GW_CLIENT zum Replay gesprungen werden. Außerdem kann man direkt in den ADT-Quelltexteditor analog zu den Laufzeitfehlern navigieren, vgl. folgendes Beispiel:
 
-![](../img/image12.png)  
+![](./img/image12.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Ansicht eines SAP Gateway Fehlers aus dem Error Log*
 </span>

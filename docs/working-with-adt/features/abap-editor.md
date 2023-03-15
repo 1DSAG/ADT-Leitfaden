@@ -19,7 +19,7 @@ nav_order: 3
 
 Der [ABAP Editor](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/79d78f0268484b59a1f6a0e7994316d3.html) ist ein einfacher Texteditor, der die rein textuelle Erstellung von ABAP-Artefakten ermöglicht. Über die Kontext-Funktion können dort die wichtigsten Funktionen wie Quick Fixes, Refactoring-Funktionen und Formatierungsfunktionen aufgerufen werden. Der Einstieg in den ABAP Editor ist im Abschnitt [Das Erstellen einer Klasse im Textmodus](#das-erstellen-einer-klasse-im-textmodus) näher beschrieben.
 
-![](../../img/image45.png)  
+![](../img/image45.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: ABAP Editor - Hauptfenster*
 </span>
@@ -28,26 +28,26 @@ Der [ABAP Editor](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f94
 
 Über die Positionierung des Cursors auf einem Objekt und dem Shortcut **F2** erscheint ein Pop-up mit Zusatzinformationen. Hier am Beispiel einer Methode und eines Datenelements:
 
-![](../../img/image7.png)  
+![](../img/image7.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Element Info für eine Methode*
 </span>
 
-![](../../img/image42.png)  
+![](../img/image42.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Element Info für ein Datenelement*
 </span>
 
 In der [Element Info](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec724ce6e391014adc9fffe4e204223.html) sind somit direkt Details ersichtlich, für die man in der alten Welt noch im System navigieren musste. Zusätzlich lässt sich im Element Info weiter navigieren, um Details tieferer Ebenen zu sichten, z. B. die hinterlegte Domäne etc.
 
-Die ABAP Element Info existiert auch als eigenständige View. Diese kann über das Menü Windows → Show View → ABAP Element Info aktiviert werden. Danach wird über "[Link with Selection](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec5bb496e391014adc9fffe4e204223.html)" ![](../../img/image23.png) bei jedem Klick auf ein relevantes Entwicklungsobjekt automatisch dessen Element Info sowie die Dokumentation aus ABAP Doc angezeigt:
+Die ABAP Element Info existiert auch als eigenständige View. Diese kann über das Menü Windows → Show View → ABAP Element Info aktiviert werden. Danach wird über "[Link with Selection](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec5bb496e391014adc9fffe4e204223.html)" ![](../img/image23.png) bei jedem Klick auf ein relevantes Entwicklungsobjekt automatisch dessen Element Info sowie die Dokumentation aus ABAP Doc angezeigt:
 
-![](../../img/image44.png)  
+![](../img/image44.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Anzeige der Element Info nach Auswahl des Objekts*
 </span>
 
-Über "Pin this view" <span class="inline-img">![](../../img/image17.png)</span> wird die Information dauerhaft angezeigt, auch wenn auf ein anderes Element geklickt oder die Element Info per **F2** für ein anderes Entwicklungsobjekt geöffnet wird.
+Über "Pin this view" <span class="inline-img">![](../img/image17.png)</span> wird die Information dauerhaft angezeigt, auch wenn auf ein anderes Element geklickt oder die Element Info per **F2** für ein anderes Entwicklungsobjekt geöffnet wird.
 
 ## Quelltextformatierung mit dem ABAP Formatter
 
@@ -57,7 +57,7 @@ In der SAP GUI heißt das Werkzeug zum Formatieren des Quellcodes Pretty Printer
 
 oder über das Kontextmenü im Quelltext aufgerufen.
 
-![](../../img/image9.png)  
+![](../img/image9.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Kontextmenü für die Formatierung*
 </span>
@@ -68,7 +68,7 @@ Damit der ABAP Formatter seinen Dienst leisten kann, muss er vorab konfiguriert 
 
 Falls die Einstellungen noch nicht vorgenommen wurden, erscheint ein Pop-up-Fenster mit der Meldung, dass dies zuvor erledigt werden muss. In diesem Pop-up-Fenster ist auch ein Link zu den Einstellungen enthalten. Alternativ kann man diese auch direkt über den Kontextmenü-Eintrag *Properties* des entsprechenden Projektes aufrufen. In der folgenden Abbildung sehen Sie die Position in den Einstellungen.
 
-![](../../img/image11.png)  
+![](../img/image11.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Einstellungen für den ABAP Formatter*
 </span>
@@ -84,7 +84,7 @@ Quick Fixes liefern Funktionen für zwei Bereiche:
 - Automatisches Anlegen von nicht vorhandenen Objekten (z. B. Methodenimplementierungen)
 - Automatisches Verändern von bestehenden Objekten ohne Veränderung der Funktionalität (sog. Refactoring, z. B. "Methode extrahieren")
 
-![](../../img/image18.png)  
+![](../img/image18.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Anzeige der Refactoring Optionen*
 </span>

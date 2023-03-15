@@ -20,7 +20,7 @@ nav_order: 1
 
 Bietet eine neue View, die alle geöffneten Editoren in Eclipse anzeigt. Diese View bietet auch die Möglichkeit, die Sortierreihenfolge der Editoren anzupassen.
 
-![](../img/image1.png)  
+![](./img/image1.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Dialog zur Anpassung der Sortierreihenfolge von geöffneten Editoren*
 </span>
@@ -51,7 +51,7 @@ Zusätzlich bietet das Plug-in auch viele Möglichkeiten zum Vergleichen von Tex
 
 Alle möglichen Operationen stehen über das Kontextmenü eines Editors zur Verfügung.
 
-![](../img/image4.png)  
+![](./img/image4.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Beispiele für verfügbare Operationen im Kontextmenü*
 </span>
@@ -78,7 +78,7 @@ Es gibt jedoch Features, die auch außerhalb der Plug-in-Entwicklung hilfreich s
 - Erweiterte Historie der Zwischenablage
 - Direkter Start eines neuen Eclipse-Fensters mit einem bestimmten Workspace
 
-![](../img/image7.png)  
+![](./img/image7.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Historie für Zwischenablage (Tastenkürzel Strg+Shift+V)*
 </span>
