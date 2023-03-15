@@ -35,7 +35,7 @@ Aus diesem Grund empfiehlt SAP den Einsatz der ADT als Standardumgebung für die
 
 Mit den ABAP Development Tools (ADT) können Sie nicht nur für On-Premise Systeme wie beispielsweise SAP-ERP oder S/4HANA entwickeln. Die ADT sind auch die einzige Möglichkeit, Entwicklungen für Cloud-Systeme wie die Business Technology Platform (BTP) durchzuführen.
 
-Dieser Umstand ist insbesondere für ABAP-Entwickler wichtig, die im SAP Cloud ABAP Environment ("Steampunk") entwickeln. In diesem Kontext können klassische, SAP-GUI-orientierte Entwicklungswerkzeuge nicht verwendet werden und Entwicklungen können nur mit den ADT durchgeführt werden.
+Dieser Umstand ist insbesondere für ABAP-Entwickler wichtig, die im Kontext ABAP Cloud (z.B. SAP BTP, ABAP Environment oder S/4HANA Cloud Public Edition, ABAP Environment) entwickeln. In diesem Kontext können klassische, SAP-GUI-orientierte Entwicklungswerkzeuge nicht verwendet werden und Entwicklungen können nur mit den ADT durchgeführt werden.
 
 Eng damit verbunden ist auch die Arbeit mit einigen neuen Entwicklungsartefakten. Die Erstellung bzw. Pflege von [CDS Views](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/978e8e4d8ae14c76b4f6505023f0a019.html) ist nur mit ADT möglich. Und auch das neue Programmiermodell der SAP, das "RESTful Application Programming Model" (RAP) kann nur mit ADT verwendet werden.
 
