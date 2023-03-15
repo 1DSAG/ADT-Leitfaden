@@ -16,11 +16,11 @@ has_toc: true
 1. TOC
 {:toc}
 
-Im Eclipse steht für Analysezwecke ein Debugger (Konzepte: [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec365a66e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/abap-debugger); Doku: [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec33a996e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/debugging-abap-code)) zur Verfügung. Dieser wird über die Schaltfläche <span class="inline-img">![Schaltfläche Debugging-Perspektive](./img/image14.png)</span> gestartet. Mit dem Starten wechselt die Perspektive in Eclipse automatisch auf die Perspektive des Debugger.
+Im Eclipse steht für Analysezwecke ein Debugger (Konzepte: [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec365a66e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/abap-debugger); Doku: [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec33a996e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/debugging-abap-code)) zur Verfügung. Diesern erreichen Sie, ebenso wie für andere Programmiersprachen, über den Wechsel in die Debugging-Perspektive <span class="inline-img">![Schaltfläche Debugging-Perspektive](./img/image14.png)</span>. Des Weiteren wird Ihnen diese Perspektive beim Treffen auf einen Breakpoint (vgl. im folgenden) automatisch angeboten.
 
 ## Breakpoints und Soft-Breakpoints
 
-Breakpoints in Eclipse sind ausschließlich externe Breakpoints. Die Breakpoints werden bei jedem Durchlauf der Software gezogen. Der Ablauf wird an der entsprechenden Stelle unterbrochen.
+Breakpoints in Eclipse sind ausschließlich externe Breakpoints. Die Breakpoints werden bei jedem Durchlauf der Software gezogen (soweit sie nicht deaktiviert sind oder eine nicht zutreffende Bedingung haben). Der Ablauf wird an der entsprechenden Stelle unterbrochen.
 
 Breakpoints können in allen Perspektiven im Editor links neben der Zeilennummer gesetzt werden. Alternativ können Breakpoints über das Kontextmenü gesetzt werden. Gesetzte Breakpoints werden durch einen blauen Punkt neben der Codezeile gekennzeichnet.
 
@@ -53,7 +53,7 @@ Im Debugger der ABAP Development Tools ist es möglich, den Code direkt zu modif
 
 ## Weitere Informationen
 
-Weitere Besonderheiten über Debugging mit den ABAP Development Tools in Eclipse finden sich in den SAP-Blogs. Hervorzuheben sind dabei die folgenden beiden. Sie beschreiben Fälle und Lösungen, die beim Arbeiten mit dem Debugger auftreten können.
+Weitere Besonderheiten über Debugging mit den ABAP Development Tools in Eclipse finden sich in den SAP-Blogs. Hervorzuheben sind dabei die folgenden beiden. Sie beschreiben Fälle und Lösungen, die beim Arbeiten mit dem Debugger auftreten können:
 
 - [ADT ABAP Debugger – What to do if your program does not stop at breakpoints](https://blogs.sap.com/2020/04/21/adt-abap-debugger-what-to-do-if-your-program-does-not-stop-at-breakpoints/)
 - [Breakpoint validity scope, breakpoint activation conflicts and group user debugging in ADT](https://blogs.sap.com/2015/11/02/breakpoint-validity-scope-and-activation-conflicts-in-abap-development-tools-adt/)
