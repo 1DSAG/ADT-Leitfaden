@@ -1,6 +1,5 @@
 # DSAG's ADT-Leitfaden
 
-![GitHub repo size](https://img.shields.io/github/repo-size/1DSAG/ADT-Leitfaden)
 ![GitHub contributors](https://img.shields.io/github/contributors/1DSAG/ADT-Leitfaden)
 ![GitHub](https://img.shields.io/github/license/1DSAG/ADT-Leitfaden)
 ![GitHub stars](https://img.shields.io/github/stars/1DSAG/ADT-Leitfaden?style=social)
@@ -19,7 +18,7 @@ Der Leitfaden ist in `markdown` (Variante `kramdown`) geschrieben und wird mitte
   - [Erste Schritte](#erste-schritte)
     - [Schnellstart mit GitHub Web-Editor](#schnellstart-mit-github-web-editor)
     - [Entwicklung mit Docker-Container](#entwicklung-mit-docker-container)
-      - [Installation Steps Docker Container](#installation-steps-docker-container)
+      - [Installationsschritte für Docker Container](#installationsschritte-für-docker-container)
     - [Lokale Installation](#lokale-installation)
       - [Vorbedingungen für Windows](#vorbedingungen-für-windows)
       - [Installationsschritte für Lokale Installation](#installationsschritte-für-lokale-installation)
@@ -36,7 +35,7 @@ Der Leitfaden ist in `markdown` (Variante `kramdown`) geschrieben und wird mitte
 
 ----
 
-Der [webbasierte Editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor) ist eine IDE, die vollständig in Ihrem Browser ausgeführt wird. Mit dem webbasierten Editor können Sie durch Dateien und Quellcode-Repositories von GitHub navigieren und Codeänderungen vornehmen und übertragen. Sie können jedes Repository, jeden Fork und jede Pull-Anfrage mit dem Editor öffnen.
+Der [webbasierte Editor](https://docs.github.com/de/codespaces/the-githubdev-web-based-editor) ist eine IDE, die vollständig in Ihrem Browser ausgeführt wird. Mit dem webbasierten Editor können Sie durch Dateien und Quellcode-Repositories von GitHub navigieren und Codeänderungen vornehmen und übertragen. Sie können jedes Repository, jeden Fork und jede Pull-Anfrage mit dem Editor öffnen.
 Außerdem können Sie Markdown-Dateien während der Bearbeitung in der Vorschau anzeigen.
 Dies macht den Einstieg sehr einfach, da keine lokale Installation erforderlich ist.
 Sie können das Endergebnis nicht sofort sehen, aber auch das kann GitHub für Sie generieren.
@@ -77,16 +76,15 @@ Von da an wird die Seite nach jedem Commit neu erzeugt.
 
 ### Entwicklung mit Docker-Container
 
-:point_right: Nur Visual Studio Code und Docker werden benötigt
+:point_right: Nur Visual Studio Code und Docker werden benötigt  
 :point_right: Sofortige Vorschau ihrer Änderungen
-:point_right: Run linting before commiting  
 
 ----
 
-This is the easiest way to have your development environment ready in no time.
-You get a ready to use configured Debian Container which is transparently used by Visual Studio Code.
+Dies ist der einfachste Weg, um Ihre Entwicklungsumgebung in kürzester Zeit bereitzustellen.
+Sie erhalten einen gebrauchsfertig konfigurierten Debian-Container, der von Visual Studio Code transparent verwendet wird.
 
-#### Installation Steps Docker Container
+#### Installationsschritte für Docker Container
 
 Install the following programs:
 
@@ -94,18 +92,18 @@ Install the following programs:
 * [Remote Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 * [Docker](https://code.visualstudio.com/docs/remote/containers)
 
-Clone the repository with the command _[Remote-Containers: Clone Repository in Container Volume...](https://code.visualstudio.com/docs/remote/containers-advanced#_use-clone-repository-in-container-volume)_
+Klonen Sie das Repository mit dem Befehl command _[Remote-Containers: Clone Repository in Container Volume...](https://code.visualstudio.com/docs/remote/containers-advanced#_use-clone-repository-in-container-volume)_
 
-This will
+Dadurch werden die folgenden Aufgaben ausgeführt:
 
-* Klonen sie das Repository in einem Container-Volume
-* Erzeugen Sie das Docker Abbild
-* Starten Sie den Docker Container und weisen Sie die erforderlichen Ports zu
-* Mounten Sie das erstellte Container Laufwerk
-* Install the required npm packages
-* Install the required ruby gems
+* Klonen des Repositories in einem Container-Volume
+* Erzeugung des Docker Abbilds
+* Starten des Docker Containers und Zuweisung der die erforderlichen Ports
+* Mounten des erstellten Container Laufwerks
+* Installation der benötigten `npm` Pakete
+* Installation der benötigten `ruby` gems
 
-The only thing left to do is open the console in Visual Studio Code (it is attached to the running Development Container), navigate into the docs folder and start the Development Server:
+Jetzt müssen Sie nur noch die Konsole in Visual Studio Code öffnen (sie ist mit dem laufenden Entwicklungscontainer verbunden), in den Ordner `docs` navigieren und den Entwicklungsserver starten:
 
 ```shell
 cd docs
@@ -121,21 +119,23 @@ bundle exec jekyll serve --livereload
 
 #### Vorbedingungen für Windows
 
-* Install <https://chocolatey.org/>
-* Install MSYS2 `choco install msys2` <https://chocolatey.org/packages/msys2>
-* Install Ruby `choco install ruby` <https://chocolatey.org/packages/ruby>
-* Update Build Toolchain `ridk install 3`
-* see setup local github pages site 😉
+- <https://chocolatey.org/> installieren
+- MSYS2 mit Chocaletey installieren  
+  `choco install msys2` <https://chocolatey.org/packages/msys2>
+- Ruby installieren  
+  `choco install ruby` <https://chocolatey.org/packages/ruby>
+- Build Toolchain aktualisieren:  
+  `ridk install 3`
+- Siehe auch [GitHub Pages-Website lokal mit Jekyll testen](https://docs.github.com/de/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 
 #### Installationsschritte für Lokale Installation
 
-* make sure, `ruby` 2.7 is installed on your system
-* clone the repo
-* switch to the document base
+- Stellen Sie sicher dass `ruby` 2.7 auf Ihrem System installiert ist
+- Klonen Sie das Repository
+- Wechseln Sie Root-Ordner der Seite  
   `$ cd docs`
-* `$ bundle install`  
-  for installing the `github-pages` jekyll incarnation
-* start the local gh-pages instance, including automatic browser live-reload
+- Führen Sie den Befehl `bundle install` im Terminal aus, um alle notwendigen Pakete für Jekyll und GitHub Pages zu installieren
+- Starten Sie die lokale `gh-pages` Instanz, einschließlich des Live-Reloads des Webbrowsers
 
   ```shell
   bundle exec jekyll serve --livereload
@@ -152,7 +152,7 @@ bundle exec jekyll serve --livereload
     Server running... press ctrl-c to stop.
   ```
 
-* point your web browser to <http://localhost:4000>
+- Öffnen Sie die URL <http://localhost:4000> in Ihrem bevorzugten Webbrowser
 
 ## Mitwirken
 
