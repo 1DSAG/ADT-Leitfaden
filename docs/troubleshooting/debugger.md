@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Debugger
+permalink: /troubleshooting/debugger/
 parent: Troubleshooting-Werkzeuge in Eclipse
 prev_page_link: /troubleshooting/
 prev_page_title: Troubleshooting-Werkzeuge in Eclipse
