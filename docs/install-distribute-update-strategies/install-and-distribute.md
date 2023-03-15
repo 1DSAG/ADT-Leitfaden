@@ -242,7 +242,7 @@ Folgend der Aufbau eines Index:
 
 In der erweiterten Ansicht des Eclipse Installer hat man dann auch die Möglichkeit, zwischen mehreren verfügbaren Indizes zu wechseln.
 
-![](../img/image15.png)  
+![](./img/image15.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Wechsel zwischen Indizes*
 </span>
@@ -257,7 +257,7 @@ Ein Product-Catalog listet verschiedene Products. Er enthält darüber hinaus au
 
 Auf allen Ebenen (Product-Catalog, Product und Product-Version) können folgende Eigenschaften hinterlegt werden:
 
-![](../img/image3.png)  
+![](./img/image3.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Hinzufügen und Festlegen von Eigenschaften*
 </span>
@@ -292,7 +292,7 @@ Für eine minimale ADT-Installation wird Folgendes benötigt:
     - [https://download.eclipse.org/releases/2202-03/202203161000](https://download.eclipse.org/releases/2202-03/202203161000) (Link Release-abhängig!)
     - [https://download.eclipse.org/technology/epp/packages/2022-03/202203101200](https://download.eclipse.org/technology/epp/packages/2022-03/202203101200) (Link Release-abhängig!)
 
-![](../img/image7.png)  
+![](./img/image7.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Komponenten einer "minimalen" ADT-Installation*
 </span>
@@ -327,7 +327,7 @@ Für eine minimale ADT-Installation wird benötigt:
     - Alternativ: \${Variable} → z. B. \${sap.repository.url}
 - Einen leeren Stream, standardmäßig "Master"
 
-![](../img/image6.png)  
+![](./img/image6.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Komponenten einer minimalen ADT-Installation*
 </span>
@@ -370,7 +370,7 @@ Nun besteht ein Plug-in aus mindestens einer Feature Group. Im Oomph Project mus
 
 Stand Oktober 2022 sieht die Abfrage der SAP-Update-Site wie folgt aus:
 
-![](../img/image10.png)  
+![](./img/image10.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Bestandteile der SAP Update Site*
 </span>
@@ -383,12 +383,12 @@ Alle zu vergebenden Einstellungen kommen in den Compound/Ordner *User-Preference
 
 Da diese nicht einheitliche Darstellung unpraktisch zu administrieren ist und die Namen der Features in der Regel auch nicht bekannt sind, existieren auch hier Hilfswerkzeuge: In den Einstellungen wird ein Oomph Recorder installiert. Näheres zur Verwendung als Anwender kann dem Abschnitt [Oomph Recorder](#oomph-recorder) entnommen werden. Der Oomph Recorder zeichnet den letzten Stand aller geänderten Einstellungen auf Benutzerebene auf (also übergreifend über Eclipse-Installationen) und fragt nach dem Schließen der Einstellungen, ob diese immer/einmal/nie gespeichert werden sollen. Ebenso wird damit ein Button in der Button-Leiste von Eclipse verfügbar, um sich die bereits gespeicherten Einstellungen anzuschauen.
 
-![](../img/image11.png)  
+![](./img/image11.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Möglichkeit zur Anzeige der bereits gespeicherten Einstellungen*
 </span>
 
-![](../img/image5.png)  
+![](./img/image5.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Bereits gespeicherte Einstellungen*
 </span>
@@ -426,21 +426,21 @@ Das Erzwingen einer Start-Perspective ist eine Startoption in der Eclipse.ini. E
 
 Beim ersten Start des Eclipse Installer kann es sein, dass dieser im einfachen Modus startet. Für die Verwendung eigener Konfigurationen ist jedoch der erweiterte Modus nötig. Über das Menü oben rechts kann in diesen gewechselt werden ("Advanced Mode").
 
-![](../img/image9.png)  
+![](./img/image9.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Wechsel in den "Advanced Mode"*
 </span>
 
 Nun sieht man eine Liste an verfügbaren Products. Dies ist der Inhalt des ersten referenzierten Index in der Indices.xmi. Oben rechts kann zwischen allen gelisteten Indizes gewechselt werden.
 
-![](../img/image16.png)  
+![](./img/image16.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Wechsel zwischen Indizes*
 </span>
 
 Hier wählt man einen passenden Eintrag aus. Sobald dies geschehen ist, wird unten die verfügbare Produktversion auswählbar.
 
-![](../img/image12.png)  
+![](./img/image12.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Auswahl der Product-Version*
 </span>
@@ -449,14 +449,14 @@ Im nächsten Bild sind die Projects auswählbar. Hier können theoretisch mehrer
 
 Zu einem Project muss dann auch zwingend ein Stream gewählt werden. Wurde nur einer definiert, ist dieser bereits vorausgewählt.
 
-![](../img/image1.png)  
+![](./img/image1.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Auswahl des Streams*
 </span>
 
 Nun werden noch definierte und verwendete, aber nicht gefüllte Variablen abgefragt. Dies können beispielsweise die Pfade zu Installation und Workspace sein.
 
-![](../img/image2.png)  
+![](./img/image2.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Abfrage weiterer Variablen*
 </span>

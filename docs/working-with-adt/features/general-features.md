@@ -21,7 +21,7 @@ nav_order: 1
 
 Als Hauptebene der Arbeitsstrukturierung und Ablage der Eclipse- und ADT-Konfiguration dienen die sogenannten Workspaces. Beim ersten Start von Eclipse erscheint die Abfrage, in welchem Verzeichnis der Workspaces abgelegt werden soll.
 
-![](../../img/image91.png)  
+![](../img/image91.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Abfrage des Workspace-Verzeichnisses*
 </span>
@@ -49,12 +49,12 @@ File → Switch Workspace → Other
 
 der Workspace-Dialog aufgerufen.
 
-![](../../img/image92.png)  
+![](../img/image92.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Wechseln des Workspace*
 </span>
 
-![](../../img/image93.png)  
+![](../img/image93.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Der Workspace-Dialog*
 </span>
@@ -69,14 +69,14 @@ Der [Project Explorer](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b8254
 
 Für die tägliche Arbeit empfiehlt es sich, Pakete als Favoriten hinzuzufügen, in denen man regelmäßig tätig ist oder die in die persönliche Zuständigkeit fallen. Damit hat man eine gute Übersicht und findet schnell "seine" Objekte.
 
-![](../../img/image35.png)  
+![](../img/image35.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Hinzufügen von Packages zu den Favoriten*
 </span>
 
 Für eine Ablage und Organisation von Favoriten auf Objektebene kann das Plug-in "ABAP Favorites" empfohlen werden, das über den Plug-in-Installationsmechanismus in Eclipse installiert werden kann, siehe Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins).
 
-![](../../img/image70.png)  
+![](../img/image70.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Detailbild Project Explorer mit Buttonleiste*
 </span>
@@ -92,33 +92,33 @@ Wenn Sie als Entwickler mit mehreren Systemlinien arbeiten, empfehlen wir die Ve
 
 Über das Drei-Punkte-Icon in der rechten oberen Ecke des Project Explorer finden sich diverse Einstellungsmöglichkeiten. Unter anderem können hier die Working Sets erstellt und konfiguriert werden.
 
-![](../../img/image95.png)  
+![](../img/image95.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Working-Sets-Einstellungen*
 </span>
 
 Über den Dialog können nun Working Sets angelegt werden (New) und die Zuordnungen erfolgen (Edit).
 
-![](../../img/image55.png)  
+![](../img/image55.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Anlage und Bearbeitung der Working Sets*
 </span>
 
 Über den Edit-Button können im Folgedialog die gewünschten Projekte dem Working Set zugeordnet werden.
 
-![](../../img/image54.png)  
+![](../img/image54.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Zuordnung Projekt zu Working Set*
 </span>
 
 Diese Funktion ermöglicht eine übersichtliche Strukturierung der Systeme nach Systemlandschaft oder ggf. nach Projekt bzw. Kunde. Abschließend muss noch die Anzeige der Top Level Elements auf Working Sets eingestellt werden.
 
-![](../../img/image56.png)  
+![](../img/image56.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Einstellung der Projekt-Explorer-Anzeige*
 </span>
 
-![](../../img/image57.png)  
+![](../img/image57.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Darstellung Projekte in Working Sets*
 </span>
