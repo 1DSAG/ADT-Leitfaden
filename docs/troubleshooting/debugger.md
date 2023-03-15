@@ -16,7 +16,7 @@ has_toc: true
 1. TOC
 {:toc}
 
-Im Eclipse steht für Analysezwecke ein Debugger (Konzepte: [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec365a66e391014adc9fffe4e204223.html)/[Clpud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/abap-debugger); Doku: [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec33a996e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/debugging-abap-code)) zur Verfügung. Dieser wird über die Schaltfläche <span class="inline-img">![Schaltfläche Debugging-Perspektive](./img/image14.png)</span> gestartet. Mit dem Starten wechselt die Perspektive in Eclipse automatisch auf die Perspektive des Debugger.
+Im Eclipse steht für Analysezwecke ein Debugger (Konzepte: [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec365a66e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/abap-debugger); Doku: [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec33a996e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/debugging-abap-code)) zur Verfügung. Dieser wird über die Schaltfläche <span class="inline-img">![Schaltfläche Debugging-Perspektive](./img/image14.png)</span> gestartet. Mit dem Starten wechselt die Perspektive in Eclipse automatisch auf die Perspektive des Debugger.
 
 ## Breakpoints und Soft-Breakpoints
 
