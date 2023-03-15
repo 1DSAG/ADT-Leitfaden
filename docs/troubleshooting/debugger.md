@@ -17,7 +17,7 @@ has_toc: true
 1. TOC
 {:toc}
 
-Im Eclipse steht für Analysezwecke ein Debugger (Konzepte: [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec365a66e391014adc9fffe4e204223.html)/[Clpud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/abap-debugger); Doku: [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec33a996e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/debugging-abap-code)) zur Verfügung. Dieser wird über die Schaltfläche <span class="inline-img">![Schaltfläche Debugging-Perspektive](../img/image14.png)</span> gestartet. Mit dem Starten wechselt die Perspektive in Eclipse automatisch auf die Perspektive des Debugger.
+Im Eclipse steht für Analysezwecke ein Debugger (Konzepte: [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec365a66e391014adc9fffe4e204223.html)/[Clpud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/abap-debugger); Doku: [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec33a996e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/debugging-abap-code)) zur Verfügung. Dieser wird über die Schaltfläche <span class="inline-img">![Schaltfläche Debugging-Perspektive](./img/image14.png)</span> gestartet. Mit dem Starten wechselt die Perspektive in Eclipse automatisch auf die Perspektive des Debugger.
 
 ## Breakpoints und Soft-Breakpoints
 
@@ -29,21 +29,21 @@ Die ABAP Development Tools bieten neben den normalen Breakpoints die Möglichkei
 
 ## Debugging-Perspektive
 
-![Debugging Perspektive in Eclipse](../img/image24.jpg)  
+![Debugging Perspektive in Eclipse](./img/image24.jpg)  
 <span class="img-caption" markdown=1>
 *Abbildung: Debugging Perspektive in Eclipse*
 </span>
 
 Die Debugging-Perspektive in Eclipse bietet einen schnellen Überblick über den Programm-Code, Call-Stack, Variableninhalte und Inhalte von internen Tabellen. Die Variablen und interne Tabellen können mit Doppelklick im Programm-Code ausgewählt werden. Sie werden auf der rechten Seite angezeigt und die Werte können dort direkt oder über das Kontextmenü auch geändert werden. Alternativ können Sie dort auch den Variablennamen eintippen. Array- und Strukturzugriffe sind als Teil des Variablennamen auch möglich, können aber auch aufgeklappt werden. Komplette Strukturen oder Tabellen können in der Cloud im Kontextmenü als VALUE Ausdrücke kopiert werden, was insbesondere für die Erstellung von Unit Tests sehr hilfreich ist.
 
-![Werte der Variablen in der Debugging Perspektive](../img/image6.jpg)  
+![Werte der Variablen in der Debugging Perspektive](./img/image6.jpg)  
 <span class="img-caption" markdown=1>
 *Abbildung: Werte der Variablen in der Debugging Perspektive*
 </span>
 
 Interne Tabellen können zusätzlich in einem eigenen View angezeigt werden, hier können die anzuzeigenden Spalten konfiguriert werden und es kann die Tabelle gefiltert werden. Die Tabelle kann editiert werden. Auch hier können in der Cloud Tabellenzeilen im Kontextmenü als VALUE Ausdrücke kopiert werden
 
-![Inhalt einer internen Tabelle in der Debugging Perspektive](../img/image_ABAP_Internal_Table_Debugger.png)
+![Inhalt einer internen Tabelle in der Debugging Perspektive](./img/image_ABAP_Internal_Table_Debugger.png)
 <span class="img-caption" markdown=1>
 *Abbildung: Inhalt einer internen Tabelle in der Debugging Perspektive*
 </span>
