@@ -30,7 +30,7 @@ Im Bereich der Core Data Services (CDS) gibt es unterschiedliche [Dateitypen](ht
 - Metadata Extensions (DDLX) - Auslagerung von Annotationen aus der CDS-Definition
 - Behavior Definitions (BDEF) - Verhaltens-Definitionen für RAP-Business-Objekte
 
-![](../../img/image79.png)  
+![](../img/image79.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Objekttypen der CDS in der Navigation*
 </span>
@@ -45,7 +45,7 @@ Ein Unterschied sind die Farben, die im Editor verwendet werden.
 
 Ein Grundproblem bei den Core Data Services ist, dass die Eigenschaften eines Objektes (z. B. einer CDS View Entity) aus mehreren Dateien und den Eigenschaften der Datenquellen zusammengesetzt sind.. Diese Dateien erklären jeweils ihre Zugehörigkeit, und die Datenquellen propagieren ihre Feldeigenschaften (Annotationen). Das ist für das Erweiterungskonzept sehr praktisch. Aber die Transparenz leidet darunter, denn die Dateien liegen nicht notwendigerweise im gleichen Entwicklungspaket.
 
-![](../../img/image83.png)  
+![](../img/image83.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Unterschiedliche Dateien legen die Eigenschaften einer CDS View Entity fest*
 </span>
@@ -60,7 +60,7 @@ Um ein vollständiges Bild eines CDS-Objektes unter Berücksichtigung aller Date
 
 Mit **F2**oder der separaten [Element Info View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/c2ffbc2fee0c4ceda3bb89bd843ee419.html) bekommen Sie für einen CDS View eine gute Übersicht über die Datenstruktur und Assoziationen, unabhängig davon, wo diese definiert wurden. Außerdem werden alle relevanten Erweiterungsdateien angezeigt.
 
-![](../../img/image94.png)  
+![](../img/image94.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Übersicht über ein CDS View Entity mit Hilfe von Element Info*
 </span>
@@ -69,7 +69,7 @@ Mit **F2**oder der separaten [Element Info View](https://help.sap.com/docs/ABAP_
 
 Der [Dependency Analyzer](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/bedc1723e35244e188c5a44a5f4f8340.html) bietet eine gute Übersicht über die Herkunft der Daten. Er wird über das Kontextmenü aufgerufen..
 
-![](../../img/image30.png)  
+![](../img/image30.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Aufruf des Dependency Analyzers über das Kontextmenü*
 </span>
@@ -78,14 +78,14 @@ Der Dependency Analyzer hat drei Tab-Reiter, die Informationen über eine View a
 
 - Der **SQL Dependency Tree** zeigt die hierarchische Struktur in Tabellenform an
 
-![](../../img/image53.png)  
+![](../img/image53.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: SQL Dependency Tree*
 </span>
 
 - Der **SQL Dependency Graph** zeigt die gleichen Informationen grafisch an.
 
-![](../../img/image13.png)  
+![](../img/image13.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: SQL Dependency Graph*
 </span>
@@ -93,7 +93,7 @@ Der Dependency Analyzer hat drei Tab-Reiter, die Informationen über eine View a
 - Der Tab-Reiter **Complexity Metrics** zeigt zusätzliche Informationen zur Gesamtkomplexität des CDS Views an, inklusive aller Quell-Views.\
     > Gerade bei Performance-Problemen lohnt hier ein Blick.
 
-![](../../img/image5.png)  
+![](../img/image5.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Complexity Metrics*
 </span>
@@ -108,7 +108,7 @@ Die [View Active Annotations](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545
 
 Manche Eigenschaften, z. B. Feldtexte, können schon durch die Datenelemente festgelegt und diese dann in die View propagiert werden. Dies ist in folgender Abbildung beispielhaft dargestellt:
 
-![](../../img/image39.png)  
+![](../img/image39.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Aktive Annotationen eines Views*
 </span>

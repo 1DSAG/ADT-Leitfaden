@@ -21,7 +21,7 @@ nav_order: 4
 
 Programme und Funktionsgruppen werden in der Navigation des Project Explorers im Ordner *Source Code Library* angezeigt. Unter den entsprechenden Objekttypen werden alle Komponenten entsprechend der SAP GUI angezeigt.
 
-![](../../img/image77.png)  
+![](../img/image77.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Vergleich Funktionsgruppen im Project Explorer der ADT und in der SE80*
 </span>
