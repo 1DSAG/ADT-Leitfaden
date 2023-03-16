@@ -40,39 +40,27 @@ Außerdem können Sie Markdown-Dateien während der Bearbeitung in der Vorschau 
 Dies macht den Einstieg sehr einfach, da keine lokale Installation erforderlich ist.
 Sie können das Endergebnis nicht sofort sehen, aber auch das kann GitHub für Sie generieren.
 
-1. Fork erstellen
-
-![Fork erstellen](img/00-fork.png)
-
-2. Navigieren Sie zu dem erstellten Fork
-
-![Zu Fork springen](img/01-jump-to-fork.png)
-
+1. Fork erstellen  
+   ![Fork erstellen](img/00-fork.png)
+2. Navigieren Sie zu dem erstellten Fork  
+   ![Zu Fork springen](img/01-jump-to-fork.png)
 3. Drücken sie `.` auf Ihrer Tastatur um in die IDE zu wechseln
+4. Erstellen Sie einen neuen Branch  
+   ![Branch erzeugen](img/02-create-new-branch.png)
+5. Vergeben Sie einen Namen für den Branch  
+   ![Branch Namen vergeben](img/03-branch-name.png)
+6. Fangen sie an zu schreiben  
+   Im Ordner `/docs` ist der Inhalt des Leitfadens abgespeichert. Ändern Sie einfach den Inhalt einer bestehenden Markdown-Seite (`.md`-Datei) oder erstellen Sie ein neues Unterkapitel.
+7. Vorschau der Seite  
+   Sie können sich die finale Seite auch auf GitHub ansehen.
 
-4. Erstellen Sie einen neuen Branch
+   Wechseln Sie einfach in die Einstellungen Ihres Repositories und dann auf `Pages`.
+   Der Link dahin setzt sich wie folgt zusammen <https://github.com/YOURUSERNAME/ ADT-Leitfaden/settings/pages>.
+   Wählen Sie Ihren Branch aus auf dem Sie gerade arbeiten und wählen Sie den `docs` Ordner.
+   Nachdem Sie gespeichert haben, dauert es ein paar Minuten bis die Seite unter der angegeben URL erreichbar ist.
+   Von da an wird die Seite nach jedem Commit neu erzeugt.  
 
-![Branch erzeugen](img/02-create-new-branch.png)
-
-5. Vergeben Sie einen Namen für den Branch
-
-![Branch Namen vergeben](img/03-branch-name.png)
-
-6. Fangen sie an zu schreiben
-
-Under `/docs` is the documentation. Just start editing or create a new folder for a new topic
-
-7. Vorschau der Seite
-
-Sie können sich die finale Seite auch auf GitHub ansehen.
-
-Wechseln Sie einfach in die Einstellungen Ihres Repositories und dann auf `Pages`.
-Der Link dahin setzt sich wie folgt zusammen <https://github.com/YOURUSERNAME/ADT-Leitfaden/settings/pages>.
-Wählen Sie Ihren Branch aus auf dem Sie gerade arbeiten und wählen Sie den `docs` Ordner.
-Nachdem Sie gespeichert haben, dauert es ein paar Minuten bis die Seite unter der angegeben URL erreichbar ist.
-Von da an wird die Seite nach jedem Commit neu erzeugt.
-
-![fork a github project](img/04-publish-branch.png)
+   ![fork a github project](img/04-publish-branch.png)
 
 ### Entwicklung mit Docker-Container
 
@@ -88,20 +76,20 @@ Sie erhalten einen gebrauchsfertig konfigurierten Debian-Container, der von Visu
 
 Install the following programs:
 
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [Remote Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-* [Docker](https://code.visualstudio.com/docs/remote/containers)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Remote Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- [Docker](https://code.visualstudio.com/docs/remote/containers)
 
 Klonen Sie das Repository mit dem Befehl command _[Remote-Containers: Clone Repository in Container Volume...](https://code.visualstudio.com/docs/remote/containers-advanced#_use-clone-repository-in-container-volume)_
 
 Dadurch werden die folgenden Aufgaben ausgeführt:
 
-* Klonen des Repositories in einem Container-Volume
-* Erzeugung des Docker Abbilds
-* Starten des Docker Containers und Zuweisung der die erforderlichen Ports
-* Mounten des erstellten Container Laufwerks
-* Installation der benötigten `npm` Pakete
-* Installation der benötigten `ruby` gems
+- Klonen des Repositories in einem Container-Volume
+- Erzeugung des Docker Abbilds
+- Starten des Docker Containers und Zuweisung der die erforderlichen Ports
+- Mounten des erstellten Container Laufwerks
+- Installation der benötigten `npm` Pakete
+- Installation der benötigten `ruby` gems
 
 Jetzt müssen Sie nur noch die Konsole in Visual Studio Code öffnen (sie ist mit dem laufenden Entwicklungscontainer verbunden), in den Ordner `docs` navigieren und den Entwicklungsserver starten:
 
@@ -112,8 +100,8 @@ bundle exec jekyll serve --livereload
 
 ### Lokale Installation
 
-:point_right: Same as Docker Container  
-:point_right: Complete Control over Enviroment  
+:point_right: Genau wie Docker Container  
+:point_right: Vollständige Kontrolle über Entwicklungsumgebung
 
 ----
 
@@ -132,24 +120,24 @@ bundle exec jekyll serve --livereload
 
 - Stellen Sie sicher dass `ruby` 2.7 auf Ihrem System installiert ist
 - Klonen Sie das Repository
-- Wechseln Sie Root-Ordner der Seite  
+- Wechseln Sie in den Root-Ordner der Seite  
   `$ cd docs`
 - Führen Sie den Befehl `bundle install` im Terminal aus, um alle notwendigen Pakete für Jekyll und GitHub Pages zu installieren
 - Starten Sie die lokale `gh-pages` Instanz, einschließlich des Live-Reloads des Webbrowsers
 
   ```shell
-  bundle exec jekyll serve --livereload
-  Configuration file: /Users/you/ADT-Leitfaden/docs/_config.yml
-              Source: /Users/you/ADT-Leitfaden/docs
-         Destination: /Users/you/ADT-Leitfaden/docs/_site
-   Incremental build: disabled. Enable with --incremental
-        Generating...
-         Jekyll Feed: Generating feed for posts
-                      done in 0.233 seconds.
-   Auto-regeneration: enabled for '/Users/you/ADT-Leitfaden/docs'
-   LiveReload address: http://127.0.0.1:35729
-      Server address: http://127.0.0.1:4000/
-    Server running... press ctrl-c to stop.
+    bundle exec jekyll serve --livereload
+    Configuration file: /Users/you/ADT-Leitfaden/docs/_config.yml
+                Source: /Users/you/ADT-Leitfaden/docs
+           Destination: /Users/you/ADT-Leitfaden/docs/_site
+     Incremental build: disabled. Enable with --incremental
+          Generating...
+           Jekyll Feed: Generating feed for posts
+                        done in 0.233 seconds.
+     Auto-regeneration: enabled for '/Users/you/ADT-Leitfaden/docs'
+     LiveReload address: http://127.0.0.1:35729
+        Server address: http://127.0.0.1:4000/
+      Server running... press ctrl-c to stop.
   ```
 
 - Öffnen Sie die URL <http://localhost:4000> in Ihrem bevorzugten Webbrowser
@@ -160,4 +148,4 @@ Alle Informationen über den Entwicklungsprozess und bewährte Verfahren für di
 
 ## Lizenzierung
 
-Dieses Projekt verwendet die CC BY 4.0 Lizenz : [LICENSE](LICENSE).
+Dieses Projekt verwendet die CC BY 4.0 [Lizenz](LICENSE).
