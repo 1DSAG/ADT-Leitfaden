@@ -114,7 +114,7 @@ Nachdem Sie nun Ihre Änderungen gepusht haben folgt nun die Aufgabe einen Pull-
    ![Pull Request anlegen](img/01-PR-create-pr.png)
 
 2. Verwenden Sie eine sprechende Nachricht für den PR  
-   ![Beschreibugn für PR eintragen](img/02-PR-add-description.png)
+   ![Beschreibugn für PR eintragen](img/02-PR-add-description.png)  
    wenn möglich bzw. zutreffend, verweisen sie auf einen Issue in Ihrem PR (<https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword>)
 
 3. Fügen Sie einen Reviewer zu Ihrem PR hinzu  
@@ -126,5 +126,5 @@ Nachdem Sie nun Ihre Änderungen gepusht haben folgt nun die Aufgabe einen Pull-
    &rarr; stellen Sie den PR auf `draft` bis er bereit für ein Review ist (dann ändern Sie den Status auf `ready for review`)  
    ![PR als Ready for Review markieren](img/04-PR-ready-for-review.png)
 
-5.  PR review process successfully completed?  
-    Der PR wird dann von einem der Maintainer gemerged und es ist Zeit für 🎉
+5. PR review process successfully completed?  
+   Der PR wird dann von einem der Maintainer gemerged und es ist Zeit für 🎉
