@@ -15,7 +15,7 @@
 
 - Seien Sie nicht schüchtern mit neuen Inhalten. Sie werden mindestens eine Rückmeldung erhalten, wenn Sie Ihre PR überprüfen. Hier wird der Inhalt nach und nach aufgebaut.
 
-- Committen Sie oft, wenn etwas funktioniert und ein Schritt in die richtige Richtung ist, machen Sie einen Commit oder PR. Auf diese Weise können andere Mitwirkende die Änderungen sehen, und das Risiko von Konflikten beim Zusammenführen wird minimiert.
+- Committen Sie oft, wenn etwas funktioniert und ein Schritt in die richtige Richtung ist, machen Sie einen Commit oder Pull-Requests (PR). Auf diese Weise können andere Mitwirkende die Änderungen sehen, und das Risiko von Konflikten beim Zusammenführen wird minimiert.
 
 - Machen Sie sich keine Sorgen, wenn Sie auf Probleme stoßen. Wir sind eine Gemeinschaft und werden Ihnen auf jeden Fall helfen.
 
@@ -105,12 +105,12 @@ Wechsel in die Debugging-Perspektive <span class="inline-img">![Schaltfläche De
 
 ## Mitwirken
 
-### Wie verwendet man Pull-Requests in GitHub
+### Wie verwendet man Pull-Requests (PR) in GitHub
 
 Siehe [Schnellstart mit GitHub Web](README.md#schnellstart-mit-github-web-editor).  
-Nachdem Sie nun Ihre Änderungen gepusht haben folgt nun die Aufgabe einen Pull-Request zu erstellen damit die Änderungen in den Haupt-Branch im Originalrepository aufgenommen werden können.
+Nachdem Sie nun Ihre Änderungen gepusht haben folgt nun die Aufgabe einen PR zu erstellen damit die Änderungen in den Haupt-Branch im Originalrepository aufgenommen werden können.
 
-1. Erstellen Sie einen neuen Pull-Request (PR)  
+1. Erstellen Sie einen neuen PR  
    ![Pull Request anlegen](img/01-PR-create-pr.png)
 
 2. Verwenden Sie eine sprechende Nachricht für den PR  
@@ -126,5 +126,5 @@ Nachdem Sie nun Ihre Änderungen gepusht haben folgt nun die Aufgabe einen Pull-
    &rarr; stellen Sie den PR auf `draft` bis er bereit für ein Review ist (dann ändern Sie den Status auf `ready for review`)  
    ![PR als Ready for Review markieren](img/04-PR-ready-for-review.png)
 
-5. PR review process successfully completed?  
+5. Wurde das PR-Review erfolgreich beendet?  
    Der PR wird dann von einem der Maintainer gemerged und es ist Zeit für 🎉

@@ -5,7 +5,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/1DSAG/ADT-Leitfaden?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/1DSAG/ADT-Leitfaden?style=social)
 
-dies ist nicht der Leitfaden selbst (dieser ist über <https://1dsag.github.io/ADT-Leitfaden> erreichbar), sondern das zugehörige Repository mit Anweisungen wie man zum Leitfaden beitragen kann.
+Dies ist nicht der Leitfaden selbst (dieser ist über <https://1dsag.github.io/ADT-Leitfaden> erreichbar), sondern das zugehörige Repository mit Anweisungen wie man zum Leitfaden beitragen kann.
 
 Der DSAG ADT Leitfaden ist ein lebendiges Dokument 👨‍💻 - es lebt von und mit seiner Community 🥳.
 
@@ -74,7 +74,7 @@ Sie erhalten einen gebrauchsfertig konfigurierten Debian-Container, der von Visu
 
 #### Installationsschritte für Docker Container
 
-Install the following programs:
+Installieren Sie die Folgenden Programme
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Remote Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
