@@ -63,7 +63,7 @@ Darüber hinaus wollen wir es nicht verpassen, auch die enge, konstruktive und u
 <p>Senior Consultant Development</p></td>
 <td><p>Programmieren, Konzipieren, Architektur;</p>
 <p>Einsatz von Eclipse (ADT) seit Beginn an;</p>
-<p>Hauptgebiet Odata/fiori elements</p></td>
+<p>Hauptgebiet OData/Fiori Elements</p></td>
 </tr>
 <tr class="odd">
 <td>Armin Junge</td>
