@@ -103,7 +103,7 @@ Um wichtige Schlüsselwörter in Eclipse hervorzuheben, können Sie diese mit zu
 *Abbildung: Farbeinstellungen zur Hervorhebung der Schlüsselworte im Quellcode*
 </span>
 
-#### Farbformatierung von Methoden-Hintergründen
+#### Farbformatierung von Methodenhintergründen
 
 (General → Appearance → Colors and Fonts)
 
