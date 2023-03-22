@@ -92,7 +92,7 @@ Siehe auch:
 
 Möglichkeit zur Festlegung der allgemeinen Debugger-Einstellungen, aber auch Aktivierung ("Enable debugging of system programs") des System-Debuggings.
 
-#### Farbformatierung
+#### Farbformatierung von Schlüsselwörtern
 
 (ABAP Development → Editors → Source Code Editors → ABAP Keyword Colors)
 
@@ -101,6 +101,23 @@ Um wichtige Schlüsselwörter in Eclipse hervorzuheben, können Sie diese mit zu
 ![](./img/image2.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Farbeinstellungen zur Hervorhebung der Schlüsselworte im Quellcode*
+</span>
+
+#### Farbformatierung von Methoden-Hintergründen
+
+(General → Appearance → Colors and Fonts)
+
+Methodenhintergründe können farblich hervorgehoben werden. Einzelne Methoden werden somit visuell stärker mehr voneinander unterscheidbar gemacht.
+Dafür reicht es schon, nur eine geringfügige farbliche Abweichung zu wählen.
+
+![](./img/image24.png)  
+<span class="img-caption" markdown=1>
+*Abbildung: Farbeinstellungen zur Hervorhebung von Methoden im Quellcode*
+</span>
+
+![](./img/image25.png)  
+<span class="img-caption" markdown=1>
+*Abbildung: Quellcode mit hervorgehobenem Methodenhintergrund*
 </span>
 
 #### Code-Vorlagen
