@@ -1,6 +1,6 @@
 {
   "name": "dsag-adt-leitfaden",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "DSAG ADT Leitfaden",
   "main": "--none",
   "repository": {
@@ -8,21 +8,17 @@
     "url": "git+https://github.com/1DSAG/ADT-Leitfaden.git"
   },
   "keywords": [
-    "UI5",
+    "ABAP",
     "DSAG",
-    "SAPUI5",
-    "openUI5"
+    "ADT",
+    "ABAP in Eclipse"
   ],
-  "author": "DSAG UI5 community",
+  "author": "DSAG ABAP community",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/1DSAG/ADT-Leitfaden/issues"
   },
-  "homepage": "https://github.com/1DSAG/ADT-Leitfaden#readme",
-  "scripts": {
-    "addTemplate" : "node ./docs/addtempalte.js",
-    "convert2docx" : "node ./docs/convertdocx2md.js"
-  },
+  "homepage": "https://1dsag.github.io/ADT-Leitfaden/",
   "dependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
