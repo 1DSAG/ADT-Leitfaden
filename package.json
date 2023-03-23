@@ -18,11 +18,7 @@
   "bugs": {
     "url": "https://github.com/1DSAG/ADT-Leitfaden/issues"
   },
-  "homepage": "https://github.com/1DSAG/ADT-Leitfaden#readme",
-  "scripts": {
-    "addTemplate" : "node ./docs/addtempalte.js",
-    "convert2docx" : "node ./docs/convertdocx2md.js"
-  },
+  "homepage": "https://1dsag.github.io/ADT-Leitfaden/",
   "dependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
