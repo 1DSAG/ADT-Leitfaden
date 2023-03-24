@@ -55,7 +55,7 @@ Die Klasse dient als interne Service-Klasse und bietet keine UI bzw. Ausgabe von
 
 Dabei werden die grundlegenden Arbeitsweisen und meistgenutzten Funktionen gezeigt, die zum Effizienzgewinn während der Code-Erstellung und Änderung führen.
 
-## Verbinden des Entwicklungssystems -- Neues Projekt
+## Verbinden des Entwicklungssystems - Neues Projekt
 
 Ein Entwicklungssystem wird in den ADT in Form eines Projekts dargestellt. Um ein Entwicklungssystem mit den ADT zu verknüpfen, müssen wir daher ein neues Projekt anlegen.
 
@@ -72,7 +72,7 @@ angelegt.
 
 Bei Anlage eines ABAP-Projekts für On-Premise-Systeme wird die Liste der im SAP-Logon verknüpften Systeme angezeigt. Die Login-Daten sind zu hinterlegen, sofern kein SSO verwendet wird und im letzten Schritt kann dem Projekt noch ein sprechender Name gegeben werden. Als Default ist die Sprache Englisch gewählt, diese muss ggf. angepasst werden.
 
-Das neu erstellte Projekt und damit das verbundene Entwicklungssystem wird im sogenannten [[Project Explore](#project-explorer)r] dargestellt.
+Das neu erstellte Projekt und damit das verbundene Entwicklungssystem wird im sogenannten [[Project Explorer](https://github.com/ABAP-Pete25/ADT-Leitfaden-WiP/blob/main/docs/working-with-adt/features/general-features.md#project-explorer#project-explorer)] dargestellt.
 
 ![](./img/image97.png)  
 <span class="img-caption" markdown=1>
@@ -147,7 +147,7 @@ Da der Abschlusspunkt nicht vorhanden ist, zeigt ADT sowohl im linken Balken ein
 
 ## Automatische Ergänzung und Formatierung des Codes
 
-Wir schließen die Methodendefinition mit Erstellung der Parameter und des Abschlusspunkts ab. Durch die Nutzung der Code Completion wird uns die Arbeit dabei sehr erleichtert. Dazu geben wir jeweils nur die ersten zwei bis drei Buchstaben des gewünschten Schlüsselwortes an. Die Tastenkombination **STRG+LEERTASTE** zeigt uns die passenden Schlüsselworte an. Diese können daraufhin mittels **TAB+Pfeiltasten** aus der Vorschlagsliste ausgewählt werden. Zur weiteren Automatisierung der Code-Erstellung bietet sich die Nutzung von Templates an (s. Abschnitt [Code Template](#templates)).
+Wir schließen die Methodendefinition mit Erstellung der Parameter und des Abschlusspunkts ab. Durch die Nutzung der Code Completion wird uns die Arbeit dabei sehr erleichtert. Dazu geben wir jeweils nur die ersten zwei bis drei Buchstaben des gewünschten Schlüsselwortes an. Die Tastenkombination **STRG+LEERTASTE** zeigt uns die passenden Schlüsselworte an. Diese können daraufhin mittels **TAB+Pfeiltasten** aus der Vorschlagsliste ausgewählt werden. Zur weiteren Automatisierung der Code-Erstellung bietet sich die Nutzung von Templates an (s. Abschnitt [Code Template](https://github.com/1DSAG/ADT-Leitfaden/blob/main/docs/working-with-adt/features/abap-views.md#templates)).
 
 ![](./img/image80.png)  
 <span class="img-caption" markdown=1>
@@ -212,7 +212,7 @@ Wir haben damit die Klasse mit der ersten Methode in ADT definiert und implement
 
 ## Umbenennung von Parametern -- Refactoring
 
-Die laufende Optimierung von bestehenden Code ist eine wichtige Aufgabe jedes Entwicklers. Dies wird von ADT bestens unterstützt. Die verschiedenen Möglichkeiten des Refactoring werden im Abschnitt: [Refactoring von Code mit ADT](#refactoring-von-code-mit-adt) ausführlich erläutert. Weitere Informationen finden sich auch im [User-Guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec859406e391014adc9fffe4e204223.html).
+Die laufende Optimierung von bestehenden Code ist eine wichtige Aufgabe jedes Entwicklers. Dies wird von ADT bestens unterstützt. Die verschiedenen Möglichkeiten des Refactoring werden im Abschnitt: [Refactoring von Code mit ADT](https://github.com/1DSAG/ADT-Leitfaden/blob/main/docs/working-with-adt/features/refactoring.md) ausführlich erläutert. Weitere Informationen finden sich auch im [User-Guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec859406e391014adc9fffe4e204223.html).
 
 Wir möchten die generelle Vorgehensweise des Refactoring anhand einer Umbenennung im Detail darstellen.
 
