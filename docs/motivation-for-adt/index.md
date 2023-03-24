@@ -159,3 +159,5 @@ Dr. Wolfgang Röckelein: "*Gibt es ABAP Entwicklung ohne ADT?" "Kein Clean Code 
 Uwe Fetzer: "*Schneller, komfortabler, sicherer kann man ABAP Clean Code nicht entwickeln*".
 
 Sebastian Freilinger-Huber: *"Lieber heute als morgen die 'Komfortzone SE80' verlassen - es lohnt sich. Sollten Sie noch zweifeln, finden Sie zahlreiche Argumente für den Umstieg in den folgenden Kapiteln\".*
+ 
+Thomas Foehn: "*Der Umstieg braucht etwas Durchhaltevermögen und das berühmte Verlassen der eigenen Komfortzone. Doch Quickfixes, Refactorings, ElementInfos oder die Möglichkeit, sich leicht systemübergreifend durch die Objekte zu navigieren machen eine Entwicklung ohne ADT für mich mittlerweile unmöglich.*"  
