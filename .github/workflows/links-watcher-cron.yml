@@ -28,7 +28,6 @@ jobs:
         uses: micalevisk/last-issue-action@v2
         if: ${{ steps.lychee.outputs.exit_code }} != 0
         with:
-          title: Link Checker Report
           state: open
           labels: |
             broken link
