@@ -37,7 +37,6 @@ Um neue Objekte den Favoriten hinzuzufügen, können die Kontextmenüs der Favor
 <span class="img-caption" markdown=1>
 *Abbildung: Kontextmenü eines Ordners im ABAP Favorites View*
 </span>
-</span>
 
 Voraussetzungen:
 
