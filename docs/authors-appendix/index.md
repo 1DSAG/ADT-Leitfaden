@@ -132,3 +132,8 @@ Senior Manager/ Entwicklungsleiter/ Agile Technical Coach</td>
 <tbody>
 </tbody>
 </table>
+
+![](./img/team_dsag_TechDays.jpg)  
+<span class="img-caption" markdown=1>
+*Abbildung: Teil des Autorenteams bei den DSAG Technologietagen in Mannheim*
+</span>
