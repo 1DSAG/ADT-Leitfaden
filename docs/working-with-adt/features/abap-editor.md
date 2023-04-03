@@ -17,7 +17,7 @@ nav_order: 3
 1. TOC
 {:toc}
 
-Der [ABAP Editor](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/79d78f0268484b59a1f6a0e7994316d3.html) ist ein einfacher Texteditor, der die rein textuelle Erstellung von ABAP-Artefakten ermöglicht. Über die Kontext-Funktion können dort die wichtigsten Funktionen wie Quick Fixes, Refactoring-Funktionen und Formatierungsfunktionen aufgerufen werden. Der Einstieg in den ABAP Editor ist im Abschnitt [Das Erstellen einer Klasse im Textmodus](#das-erstellen-einer-klasse-im-textmodus) näher beschrieben.
+Der [ABAP Editor](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/79d78f0268484b59a1f6a0e7994316d3.html) ist ein einfacher Texteditor, der die rein textuelle Erstellung von ABAP-Artefakten ermöglicht. Über die Kontext-Funktion können dort die wichtigsten Funktionen wie Quick Fixes, Refactoring-Funktionen und Formatierungsfunktionen aufgerufen werden. Der Einstieg in den ABAP Editor ist im Abschnitt [Das Erstellen einer Klasse im Textmodus](/ADT-Leitfaden/working-with-adt/basics/#das-erstellen-einer-klasse-im-textmodus) näher beschrieben.
 
 ![](../img/image45.png)  
 <span class="img-caption" markdown=1>

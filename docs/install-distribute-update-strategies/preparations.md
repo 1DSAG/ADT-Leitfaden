@@ -20,7 +20,7 @@ Für jede ADT-Installation (teilweise auch Eclipse ohne ADT) gibt es gewisse Vor
 
 ## Java Development Kit und Java Runtime Environment
 
-Wird mit der Installation lediglich ABAP entwickelt (und insbesondere kein Java, d. h. auch keine Plug-in-Entwicklung zur Ergänzung der ADT, siehe Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins)), so ist auch kein Java Development Kit (JDK) notwendig. Ein Java Runtime Environment (JRE) reicht aus. Wird der offizielle Installer von Eclipse als Basis verwendet (siehe Kapitel [Installation, Verteilungs- und Update-Strategien](/ADT-Leitfaden/install-distribute-update-strategies)), kommt dies automatisch mit.
+Wird mit der Installation lediglich ABAP entwickelt (und insbesondere kein Java, d. h. auch keine Plug-in-Entwicklung zur Ergänzung der ADT, siehe Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins)), so ist auch kein Java Development Kit (JDK) notwendig. Ein Java Runtime Environment (JRE) reicht aus. Wird der offizielle Installer von Eclipse als Basis verwendet (siehe [Eclipse Installer](/ADT-Leitfaden/install-distribute-update-strategies/install-and-distribute/#eclipse-installer)), kommt dies automatisch mit.
 
 Zu beachten ist dabei, dass Eclipse mittlerweile standardmäßig als 64-Bit-Anwendung installiert wird (oft auch als *x64* oder *x86_64* bezeichnet). Da das JRE dieselbe Architektur verwenden muss wie die Eclipse-Installation, wird auch eine 64-Bit-JRE installiert.
 

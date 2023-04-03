@@ -39,7 +39,7 @@ Ein wichtiges Merkmal von Eclipse besteht in der Anpassbarkeit. Hierauf wird in 
 
 Eine Sicht (oft auch View genannt) ist ein eigenständiger Programmteil, der entweder bereits in der Basisinstallation enthalten ist oder per Erweiterung Eclipse nachträglich hinzugefügt wurde. Diese Sicht kann vom Benutzer an verschiedenen Positionen innerhalb der Entwicklungsumgebung angeordnet werden.
 
-Eine Perspektive beinhaltet ein spezifisches Layout von Eclipse, also alle angezeigten Sichten und deren Position. Perspektiven geben Ihnen damit den Fokus für eine Tätigkeit mit allen Sichten, die Sie hierfür benötigen. Details hierzu finden Sie im Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt).
+Eine Perspektive beinhaltet ein spezifisches Layout von Eclipse, also alle angezeigten Sichten und deren Position. Perspektiven geben Ihnen damit den Fokus für eine Tätigkeit mit allen Sichten, die Sie hierfür benötigen. Details dazu, wie sie Perspektiven konfigurieren und sinnvoll verwenden können, finden Sie im Kapitel [Best Practices Eclipse-Konfiguration](/ADT-Leitfaden/best-practices-configuration/#views-und-perspektiven).
 
 Die Kenntnis der Begrifflichkeiten ist essentiell, um effizient mit Eclipse arbeiten zu können. Dokumentationen aller Art nutzen diese Terminologie, um Funktionen zu erklären. Das gilt auch für diesen ADT-Leitfaden.
 
