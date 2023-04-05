@@ -279,18 +279,20 @@ Die meist benötigten Elemente sind:
 Für eine minimale ADT-Installation wird Folgendes benötigt:
 
 - Ein Product, z. B. "SAP"
-- Eine Product-Version, z. B. "2022-03 (4.23)"
+- Eine Product-Version, z. B. "2023-03 (4.27)"
 - Ein P2 Director Task mit:
   - Eclipse Platform Packages
-    - epp.package.java (Value-Range beginnt bei gewünschtem Release → 4.23)
-    - org.eclipse.platform (Value-Range beginnt bei gewünschtem Release → 4.23)
-    - org.eclipse.rcp (Value-Range beginnt bei gewünschtem Release → 4.23)
+    - epp.package.java (Value-Range beginnt bei gewünschtem Release → 4.27)
+    - org.eclipse.platform (Value-Range beginnt bei gewünschtem Release → 4.27)
+    - org.eclipse.rcp (Value-Range beginnt bei gewünschtem Release → 4.27)
     - org.eclipse.buildship
     - org.eclipse.tips.feature
     - org.eclipse.epp.mpc
   - Repository-URLs für die Eclipse Platform Packages
-    - [https://download.eclipse.org/releases/2202-03/202203161000](https://download.eclipse.org/releases/2202-03/202203161000) (Link Release-abhängig!)
-    - [https://download.eclipse.org/technology/epp/packages/2022-03/202203101200](https://download.eclipse.org/technology/epp/packages/2022-03/202203101200) (Link Release-abhängig!)
+    - [https://download.eclipse.org/releases/2023-03/](https://download.eclipse.org/releases/2023-03/) (Link Release-abhängig!)
+    - [https://download.eclipse.org/technology/epp/packages/2023-03/](https://download.eclipse.org/technology/epp/packages/2023-03/) (Link Release-abhängig!)
+Die aktuellste Version findet sich jeweils unter: [https://download.eclipse.org/technology/epp/packages/latest/](https://download.eclipse.org/technology/epp/packages/latest/).
+
 
 ![](./img/image7.png)  
 <span class="img-caption" markdown=1>
