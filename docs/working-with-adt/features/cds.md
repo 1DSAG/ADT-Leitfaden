@@ -58,7 +58,7 @@ Um ein vollständiges Bild eines CDS-Objektes unter Berücksichtigung aller Date
 
 ## Element Info für CDS
 
-Mit **F2**oder der separaten [Element Info View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/c2ffbc2fee0c4ceda3bb89bd843ee419.html) bekommen Sie für einen CDS View eine gute Übersicht über die Datenstruktur und Assoziationen, unabhängig davon, wo diese definiert wurden. Außerdem werden alle relevanten Erweiterungsdateien angezeigt.
+Mit **F2** oder der separaten [Element Info View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/c2ffbc2fee0c4ceda3bb89bd843ee419.html) bekommen Sie für einen CDS View eine gute Übersicht über die Datenstruktur und Assoziationen, unabhängig davon, wo diese definiert wurden. Außerdem werden alle relevanten Erweiterungsdateien angezeigt.
 
 ![](../img/image94.png)  
 <span class="img-caption" markdown=1>
