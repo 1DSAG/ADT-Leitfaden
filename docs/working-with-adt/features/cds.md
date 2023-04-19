@@ -17,6 +17,8 @@ nav_order: 11
 1. TOC
 {:toc}
 
+## CDS Dateitypen 
+
 Im Bereich der Core Data Services (CDS) gibt es unterschiedliche [Dateitypen](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/4ed280596e391014adc9fffe4e204223.html), die in den ADT angelegt werden können:
 
 - Data Definitions (DDLS) - Quelltextdateien für Datenmodelle in den folgenden Varianten:
@@ -43,18 +45,21 @@ Die Quelltext Editoren für die unterschiedlichen Dateitypen der Core Data Servi
 
 Ein Unterschied sind die Farben, die im Editor verwendet werden.
 
-Ein Grundproblem bei den Core Data Services ist, dass die Eigenschaften eines Objektes (z. B. einer CDS View Entity) aus mehreren Dateien und den Eigenschaften der Datenquellen zusammengesetzt sind. Diese Dateien erklären jeweils ihre Zugehörigkeit, und die Datenquellen propagieren ihre Feldeigenschaften (Annotationen). Das ist für das Erweiterungskonzept sehr praktisch. Aber die Transparenz leidet darunter, denn die Dateien liegen nicht notwendigerweise im gleichen Entwicklungspaket.
+## Ermittlung der Eigenschaften von Core Data Services
+
+Bei den Core Data Services befinden sich die Eigenschaften eines Objekts nicht an einer zentralen Stelle, sondern sind aus mehreren Dateien und den Eigenschaften der Datenquellen zusammengesetzt (s. Abbildung).
+Diese Dateien erklären jeweils ihre Zugehörigkeit und die Datenquellen propagieren ihre Feldeigenschaften (Annotationen). Das ist für das Erweiterungskonzept sehr praktisch. Darunter kann aber die Transparenz leiden, da die Dateien nicht im selben Entwicklungspaket liegen müssen, sondern sich in verschiedenen Paketen befinden können. 
 
 ![](../img/image83.png)  
 <span class="img-caption" markdown=1>
 *Abbildung: Unterschiedliche Dateien legen die Eigenschaften einer CDS View Entity fest*
 </span>
 
-Um ein vollständiges Bild eines CDS-Objektes unter Berücksichtigung aller Dateien und Propagationen zu bekommen, sind darum Hilfsmittel notwendig. Dazu gehören:
+Um ein vollständiges Bild eines CDS-Objektes unter Berücksichtigung aller Dateien und Propagationen zu bekommen, können folgende Views in ADT verwendet werden:
 
-- Element Info
-- Dependency Analyzer
-- Active Annotations
+- [Element Info View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/c2ffbc2fee0c4ceda3bb89bd843ee419.html)
+- [Dependency Analyzer](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/bedc1723e35244e188c5a44a5f4f8340.html)
+- [Active Annotations View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/45ba68d3b4924a97ad2dc598e756968e.html)
 
 ## Element Info für CDS
 
@@ -98,9 +103,9 @@ Der Dependency Analyzer hat drei Tab-Reiter, die Informationen über eine View a
 *Abbildung: Complexity Metrics*
 </span>
 
-## Active Annotations
+## Active Annotations View
 
-Die [View Active Annotations](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/45ba68d3b4924a97ad2dc598e756968e.html) wird ebenfalls über das Kontextmenü in der Navigation aufgerufen. In ihr werden die Werte sämtlicher aktiven Annotationen der Views angezeigt:
+Die [Active Annotations View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/45ba68d3b4924a97ad2dc598e756968e.html) wird ebenfalls über das Kontextmenü in der Navigation aufgerufen. In ihr werden die Werte sämtlicher aktiven Annotationen der Views angezeigt:
 
 - Auf **View-Ebene** sind nur genau die Annotationen sichtbar, die in dem View definiert wurden.
 - Auf **Feld-Ebene** sind alle gültigen Annotationen sichtbar. Ihre Herkunft, wie beispielsweise Datenelement, Metadata-Extension oder Datenquelle, wird ebenfalls mit angezeigt.
