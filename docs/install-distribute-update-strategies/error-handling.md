@@ -69,3 +69,11 @@ Die Architektur von SAP GUI und Eclipse-Installation sollte grundsätzlich mit d
 [https://launchpad.support.sap.com/#/notes/2369308](https://launchpad.support.sap.com/#/notes/2369308)
 
 Soll ADT offline installiert werden, müssen diverse Abhängigkeiten beachtet werden. Dieser Hinweis gibt einige Möglichkeiten für Abhilfe in diesem Fall.
+
+## Fehler bei Anlage eines ABAP Projekts
+
+In manchen Fällen kann es vorkommen, dass Sie bei einer Anlage eines neuen ABAP Projekts einen Fehler bekommen und die Verbindung nicht hergestellt werden kann. In solchen Fällen können die bereitgestellten Informationen aus den GUI Einstellungen nicht korrekt übernommen werden oder sind unvollständig gepflegt. Dazu sollten Sie die folgenden Dateien prüfen:
+* [SAP UI Landscape XML](https://help.sap.com/docs/sap_gui_for_java/faf5bfb0ed2145e4bec83d73f25449d4/dccc7b2d0f7a432a9dbc38642c5ca309.html)
+* [Message Server](https://help.sap.com/docs/sap_gui_for_java/faf5bfb0ed2145e4bec83d73f25449d4/1feb6e31fa40478ab58d07ecfbca72bc.html)
+
+Hier kann es helfen, wenn Sie fehlende Informationen für den Message Server ergänzen. Sollten die Daten unbekannt sein, können Sie sich an ihren Systemadministrator wenden.
