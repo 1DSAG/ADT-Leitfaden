@@ -57,4 +57,4 @@ Für Cloud:
 
 Für On-Premise:
 
-[Installing ABAP Development Tools](https://help.sap.com/doc/2e9cf4a457d84c7a81f33d8c3fdd9694/Cloud/en-US/inst_guide_abap_development_tools.pdf)
+[List of Development Objects with an Eclipse-based Editor](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/ab03dcd9072f4a2d85c945d05929d3fb.html)
