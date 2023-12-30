@@ -69,6 +69,8 @@ Die Wartbarkeit von Entwicklungsartefakten ist eine zentrale Herausforderung der
 
 Die ADT unterstützen typische Refactoring-Aufgaben mit Hilfe der [Quick Assists](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec1d7ba6e391014adc9fffe4e204223.html)-Funktionen, zu denen auch die Quick Fixes gehören. Die Quick Assists sind kontextsensitiv. Sie können beispielsweise komplexe Quelltextabschnitte in kleinere, neue und vor allem eigenständige Methoden auslagern, was die Verständlichkeit und damit die Wartbarkeit deutlich erhöht. Ohne Unterstützung durch die Quick Assists ist ein solches iteratives Vorgehen deutlich arbeitsintensiver und auch fehleranfälliger.
 
+Refactoring unstertützt auch das seit 2023 erhältlichen Plug-in "[ABAP Cleaner](/ADT-Leitfaden/plug-ins/#ABAPCleaner)". Dieses kann über 60 Regeln des Clean ABAP Styleguides nach Wunsch automatisch, interaktiv oder auch im Read-Only Modus anwenden und damit die Lesbarkeit des Codes verbessern.
+
 Weitere und detailliertere Informationen zum Refactoring und Werkzeugen, die Ihnen in den ADT dafür zur Verfügung gestellt werden, finden Sie in Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt).
 
 ## Sie passen die Darstellung Ihrer Entwicklungsumgebung gerne Ihren Wünschen an.
@@ -88,6 +90,9 @@ Falls Ihnen der Funktionsumfang der von SAP bereitgestellten Funktionen nicht au
 Eine Auswahl dieser Plug-ins wird in Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins) vorgestellt. Mit dem richtigen Know-how können Sie bei Bedarf auch eigene Plug-ins erstellen und der SAP Community zur Verfügung stellen.
 
 In der Vergangenheit haben verschiedene ABAP-Entwickler von dieser Möglichkeit bereits Gebrauch gemacht und eigene Plug-ins entwickelt, die sie der SAP-Community kostenlos zur Verfügung stellen. Ein Beispiel hierfür sind die [ABAP Quick Fix](https://marketplace.eclipse.org/content/abap-quick-fix). Dies ist eine Erweiterung der im Standard der ADT angebotenen Quick Fixes zur Unterstützung der automatischen Konvertierung der klassischen ABAP-Syntax in das jeweilige moderne ABAP-Syntax-Pendant.
+
+Seit 2023 gibt es als neues Eclipse Plugin den [ABAP Cleaner](/ADT-Leitfaden/plug-ins/#ABAPCleaner). Mit diesem Tool ist ein den Clean-ABAP Richtlinien entsprechendes Refactoring (teil-)automatisiert möglich.
+Da der ABAP Cleaner ein rein client-basiertes Tool ist, ist die Nutzung des Tools mit jeder Backend Version möglich. Der ABAP-Cleaner kann auch im Read-Only Modus bzw. als Standalone-Tool verwendet werden. Hierbei kann Code auch importiert, bearbeitet und wieder exportiert werden. Somit können z.B. auch Enhancement-Sections mittels ABAP-Cleaner überarbeitet werden. Mehr Informationen hierzu finden sich in den Kapiteln [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt/#Refactoring) und [Plug-ins](/ADT-Leitfaden/plug-ins/#ABAPCleaner) 
 
 ## Sie kennen Eclipse bereits von anderen Programmiersprachen. Prima!
 
