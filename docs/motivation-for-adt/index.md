@@ -69,7 +69,7 @@ Die Wartbarkeit von Entwicklungsartefakten ist eine zentrale Herausforderung der
 
 Die ADT unterstützen typische Refactoring-Aufgaben mit Hilfe der [Quick Assists](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec1d7ba6e391014adc9fffe4e204223.html)-Funktionen, zu denen auch die Quick Fixes gehören. Die Quick Assists sind kontextsensitiv. Sie können beispielsweise komplexe Quelltextabschnitte in kleinere, neue und vor allem eigenständige Methoden auslagern, was die Verständlichkeit und damit die Wartbarkeit deutlich erhöht. Ohne Unterstützung durch die Quick Assists ist ein solches iteratives Vorgehen deutlich arbeitsintensiver und auch fehleranfälliger.
 
-Refactoring unstertützt auch das seit 2023 erhältlichen Plug-in "[ABAP Cleaner](/ADT-Leitfaden/plug-ins/#ABAPCleaner)". Dieses kann über 60 Regeln des Clean ABAP Styleguides nach Wunsch automatisch, interaktiv oder auch im Read-Only Modus anwenden und damit die Lesbarkeit des Codes verbessern.
+Seit 2023 unterstützt auch das neue Plug-in "[ABAP Cleaner](/ADT-Leitfaden/plug-ins/#ABAPCleaner)" das Refactoring von ABAP-Code. Dieses kann über 60 Regeln des Clean ABAP Styleguides nach Wunsch automatisch, interaktiv oder auch im Read-Only Modus anwenden und damit die Lesbarkeit des Codes verbessern.
 
 Weitere und detailliertere Informationen zum Refactoring und Werkzeugen, die Ihnen in den ADT dafür zur Verfügung gestellt werden, finden Sie in Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt).
 
