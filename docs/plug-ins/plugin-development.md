@@ -61,7 +61,7 @@ Dieses Plug-in erlaubt es, kompilierten Source-Code lesbar anzuzeigen. Es ist so
 
 #### Web Developer Tools
 
-Marketplace Link: [https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0/promo](https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0/promo).
+Marketplace Link: [https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0/](https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0/).
 
 Wenn man für sein Plug-in auch eine Hilfe anbieten möchte, erweitert dieses Plug-in Eclipse um Editoren mit Syntax-Highlighting für die typischen Web-Dateiendungen (css, html etc.).
 
