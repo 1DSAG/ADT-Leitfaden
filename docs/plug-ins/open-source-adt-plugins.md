@@ -16,6 +16,24 @@ nav_order: 2
 1. TOC
 {:toc}
 
+## ABAP Cleaner
+Der ABAP Cleaner ist seit Sommer 2023 verfügbar und unterstützt Entwickler bei der Erstellung von ABAP Code, der den Richtlinien des Clean-ABAP Styleguides entspricht. Das Plugin lässt sich genau wie andere Eclipse Plugins und damit auch wie ADT in Eclipse mittels "Install new Software" einfach installieren. Das Repository findet sich in GitHub unter: 
+[https://sap.github.io/abap-cleaner/updatesite](https://sap.github.io/abap-cleaner/updatesite).
+
+Da der ABAP Cleaner rein Client basiert ist, gibt es keine direkten Abhängigkeiten zu der ABAP Version des Backends. Da manche ABAP Cleaner Regeln nicht auf allen ABAP Releases anwendbar sind, z.B. Inline Deklarationen oder Einsatz neuer ABAP Statements, kann in der ABAP Cleaner Konfiguration das ABAP Release eingestellt werden. Dementsprechend werden auch nur anwendbare Regeln verwendet.
+
+Mittels der "Show Read-Only Preview" Funktion kann auch ABAP Code aus dem SAP-GUI (bei Enhancements) oder aus anderen Systemen per Copy-and-Paste oder als Textdatei eingefügt, bereinigt und anschließend der bereinigte Code exportiert werden.
+Die tatsächlich angewendeten Regeln werden in einem extra Fenster angezeigt.
+
+Für Entwicklerteams besteht die Möglichkeit eigene Profile zu konfigurieren. In den Profilen werden die Regeln ausgewählt, die mit dem Profil angewendet werden sollen. In dieser Konfigurationsansicht wird die Auswirkung des Code Cleanings anhand von Beispielen dargestellt und man erhält so auch einen guten Überblick welche Änderungen die Regeln bewirken.
+Für den Einstieg und für detaillierte Informationen empfehlen sich folgende Blogeinträge:
+[ABAP cleaner project – open, configurable, and automated](https://blogs.sap.com/2023/10/30/abap-cleaner-project-open-configurable-and-automated/)
+[ABAP Tools for Clean ABAP](https://blogs.sap.com/2023/10/09/abap-tools-for-clean-abap/)
+
+Das ABAP Cleaner Plug-in ist ein Tool das unbedingt eingesetzt und bei allen ADT Installationen mitinstalliert werden sollte.
+Warum wurde die Funktion nicht einfach in ADT implementiert wenn diese so grundlegend und wichtig ist?
+Die Auslieferung als separates Plugin durch SAP und damit eine Entkopplung vom Release-Zyklus des ADT-Kerns ermöglicht eine flexiblere und schnellere Auslieferung von neuen Features im ABAP Cleaner Kontext.
+
 ## ABAP Favorites
 
 Das ABAP Favorites Plug-in wurde entwickelt, um die Funktionalität des SAP GUI User Menu abzubilden. In diesem Menü kann jeder Benutzer Transaktionen, Reports oder URLs seinen Favoriten hinzufügen und diese nach seinen persönlichen Vorlieben strukturieren.
