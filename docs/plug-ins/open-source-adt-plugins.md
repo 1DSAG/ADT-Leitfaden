@@ -30,7 +30,7 @@ Für den Einstieg und für detaillierte Informationen empfehlen sich folgende Bl
 [ABAP cleaner project – open, configurable, and automated](https://blogs.sap.com/2023/10/30/abap-cleaner-project-open-configurable-and-automated/)
 [ABAP Tools for Clean ABAP](https://blogs.sap.com/2023/10/09/abap-tools-for-clean-abap/)
 
-Das ABAP Cleaner Plug-in ist ein Tool das unbedingt eingesetzt werden sollte und bei allen ADT Installationen mitinstalliert werden.
+Das ABAP Cleaner Plug-in ist ein Tool das unbedingt eingesetzt und bei allen ADT Installationen mitinstalliert werden sollte.
 Warum wurde die Funktion nicht einfach in ADT implementiert wenn diese so grundlegend und wichtig ist?
 Die Auslieferung als separates Plugin durch SAP und damit eine Entkopplung vom Release-Zyklus des ADT-Kerns ermöglicht eine flexiblere und schnellere Auslieferung von neuen Features im ABAP Cleaner Kontext.
 
