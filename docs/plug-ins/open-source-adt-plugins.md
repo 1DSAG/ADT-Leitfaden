@@ -26,7 +26,10 @@ Mittels der "Show Read-Only Preview" Funktion kann auch ABAP Code aus dem SAP-GU
 Die tatsächlich angewendeten Regeln werden in einem extra Fenster angezeigt.
 
 Für Entwicklerteams besteht die Möglichkeit eigene Profile zu konfigurieren. In den Profilen werden die Regeln ausgewählt, die mit dem Profil angewendet werden sollen. In dieser Konfigurationsansicht wird die Auswirkung des Code Cleanings anhand von Beispielen dargestellt und man erhält so auch einen guten Überblick welche Änderungen die Regeln bewirken.
-Für den Einstieg und für detaillierte Informationen empfehlen sich die Blogeinträge in blogs.sap.com: [ABAP cleaner project – open, configurable, and automated](https://blogs.sap.com/2023/10/30/abap-cleaner-project-open-configurable-and-automated/) und [ABAP Tools for Clean ABAP](https://blogs.sap.com/2023/10/09/abap-tools-for-clean-abap/).<br>
+Für den Einstieg und für detaillierte Informationen empfehlen sich die Blogeinträge in blogs.sap.com:
+
+- [ABAP cleaner project – open, configurable, and automated](https://blogs.sap.com/2023/10/30/abap-cleaner-project-open-configurable-and-automated/)
+- [ABAP Tools for Clean ABAP](https://blogs.sap.com/2023/10/09/abap-tools-for-clean-abap/)
 Eine ausführliche Session, die alle Aspekte von ABAP Cleaner erklärt, finden sie im YouTube Channel von [SAP Developers](https://www.youtube.com/watch?v=0mp0FuJV5_k).
 
 Der ABAP Cleaner sollte genauso selbstverständlich zu den Werkzeugen des modernen ABAP Entwicklers gehören wie der Code Formatter oder der Syntax Check und sollte daher bei keiner ADT Installation fehlen. Dass die Funktionen des ABAP Cleaners nicht direkt in den ADT implementiert wurden, sondern als eigenes Plug-in durch SAP bereitgestellt werden, ermöglicht eine flexible und schnelle Auslieferung neuer Funktionen im ABAP Cleaner Kontext.
