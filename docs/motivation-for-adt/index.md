@@ -71,7 +71,7 @@ Die ADT unterstützen typische Refactoring-Aufgaben mit Hilfe der [Quick Assists
 
 Seit 2023 unterstützt auch das neue Plug-in [ABAP Cleaner](/ADT-Leitfaden//plug-ins/open-source-adt-plugins/#ABAPCleaner) das Refactoring von ABAP-Code. Dieses kann über 60 Regeln des Clean ABAP Styleguides nach Wunsch automatisch, interaktiv oder auch im Read-Only Modus anwenden und damit die Lesbarkeit des Codes verbessern.
 
-Weitere und detailliertere Informationen zum Refactoring und Werkzeugen, die Ihnen in den ADT dafür zur Verfügung gestellt werden, finden Sie in Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt).
+Weitere und detailliertere Informationen zum Refactoring und Werkzeugen, die Ihnen in den ADT dafür zur Verfügung gestellt werden, finden Sie in Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt/features/refactoring).
 
 ## Sie passen die Darstellung Ihrer Entwicklungsumgebung gerne Ihren Wünschen an.
 
