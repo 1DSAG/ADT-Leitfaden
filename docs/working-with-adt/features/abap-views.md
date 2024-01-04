@@ -21,10 +21,10 @@ nav_order: 5
 
 Die [Outline](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/706db06c6bf41014b5040bee4e204223.html) View liefert Informationen zum aktuell fokussierten Entwicklungsobjekt und löst Variablen, lokale Klassen, Typen etc. auf. Die View kann mit der SE80 verglichen werden, zeigt Ihnen aber immer nur den aktuellen Kontext des Objekts an. Im Screenshot sehen Sie eine Klasse, darunter die entsprechenden Methoden und zwei private Attribute der Klasse. Mit einem Klick auf einen Eintrag navigieren Sie an die entsprechende Stelle im Quellcode.
 
-![](../img/image38.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Anzeige der Eigenschaften in den Outlines*
-</span>
+![Anzeige der Eigenschaften in den Outlines](../img/image38.png)
+
+Anzeige der Eigenschaften in den Outlines
+{: .img-caption}
 
 In der Button-Leiste gibt es weitere verschiedene Funktionen für den View:
 
@@ -39,19 +39,19 @@ Die [Problems View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f
 
 Dargestellt werden in der Standardkonfiguration dabei systemübergreifend alle Fehler in den eigenen geöffneten Objekten, nicht nur des aktuell in Bearbeitung befindlichen Objekts.
 
-![](../img/image2.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Anzeige der Meldungen im Problems View*
-</span>
+![Anzeige der Meldungen im Problems View](../img/image2.png)
+
+Anzeige der Meldungen im Problems View
+{: .img-caption}
 
 Durch Doppelklick kann an die entsprechende Stelle im Source-Code navigiert werden.
 
 Über den Button <span class="inline-img">![](../img/image31.png)</span> kann der View weiter konfiguriert werden:
 
-![](../img/image59.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Anzeige der Optionen des Views*
-</span>
+![Anzeige der Optionen des Views](../img/image59.png)
+
+Anzeige der Optionen des Views
+{: .img-caption}
 
 - Unter "Show" kann konfiguriert werden, welche Fehler/Warnungen in der Problems View angezeigt werden, z. B. nur die des aktuell in Bearbeitung befindlichen Entwicklungsobjekts oder alle.
 - "Group by" ermöglicht eine Gruppierung nach verschiedenen Kriterien, üblicherweise wird hier nach "Severity", d. h. Fehler/Warnung/Info gruppiert.
@@ -60,10 +60,10 @@ Durch Doppelklick kann an die entsprechende Stelle im Source-Code navigiert werd
 - "Filters" ermöglicht, die Ergebnisliste noch einmal im Detail bis hinunter auf den Entwicklungsobjekttyp zu filtern.
 - "Configure Columns" ermöglicht es, Spalten ein- und auszublenden sowie die Reihenfolge der Spalten zu ändern.
 
-![](../img/image99.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Konfiguration der angezeigten Punkte*
-</span>
+![Konfiguration der angezeigten Punkte](../img/image99.png)
+
+Konfiguration der angezeigten Punkte
+{: .img-caption}
 
 ## Properties
 
@@ -73,26 +73,26 @@ Die [Properties View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b82542
 - Erstellungs- und Änderungsinformationen
 - Paketzuordnung
 
-![](../img/image36.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Properties View*
-</span>
+![Properties View](../img/image36.png)
+
+Properties View
+{: .img-caption}
 
 Im Bereich "Specific" werden objektspezifische Eigenschaften angezeigt und können dort teilweise geändert werden. Für Klassen ist hier beispielsweise die Festpunktarithmetik einstellbar.
 
 Im Bereich Transport ist eine Historie der Transportaufträge gelistet, in denen das Objekt enthalten ist.
 
-![](../img/image47.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Historie der Transporte*
-</span>
+![Historie der Transporte](../img/image47.png)
+
+Historie der Transporte
+{: .img-caption}
 
 Über das Kontextmenü kann wiederum in den Transportauftrag zur weiteren Analyse verzweigt werden.
 
-![](../img/image66.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Transport View*
-</span>
+![Transport View](../img/image66.png)
+
+Transport View
+{: .img-caption}
 
 Abhängig vom Typ des geöffneten Entwicklungsobjektes existieren weitere Bereiche, die spezifische Informationen zum jeweiligen Objekt enthalten.
 
@@ -111,10 +111,10 @@ Der Properties View hat im Vergleich zur klassischen SAP-GUI-Entwicklung mehrere
 
 Templates werden über einen eigenen View zur Verfügung gestellt (Window → Show View → Templates) und können auch über die Einstellungen angepasst werden (General → ABAP Development → Editors → Source Code Editors → ABAP Templates).
 
-![](../img/image69.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Template View Browser*
-</span>
+![Template View Browser](../img/image69.png)
+
+Template View Browser
+{: .img-caption}
 
 Der View besteht im oberen Bereich aus einer Button-Leiste, einer Liste der Code Templates und im unteren Teil aus einem Preview des Templates.
 
@@ -122,10 +122,10 @@ Der View besteht im oberen Bereich aus einer Button-Leiste, einer Liste der Code
 
 Das [Template](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecd257e6e391014adc9fffe4e204223.html) kann direkt im Quellcode verwendet werden. Beginnen Sie, den Namen zu tippen, und wählen Sie mit Hilfe des "Content Assist" das passende Template aus (hier die ersten beiden Einträge).
 
-![](../img/image52.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Auswahl der Templates im Content Assist*
-</span>
+![Auswahl der Templates im Content Assist](../img/image52.png)
+
+Auswahl der Templates im Content Assist
+{: .img-caption}
 
 Das gesamte Template wird eingefügt, und Sie können damit beginnen, die Platzhalter (Variablen) zu befüllen. Mit dem Tabulator springen Sie zwischen den einzelnen Platzhaltern hin und her.
 
@@ -162,17 +162,17 @@ Der [Verwendungsnachweis](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b8
 
 erreichbar. Das Ergebnis wird im Reiter "Search" dargestellt:
 
-![](../img/image43.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Ergebnis des Verwendungsnachweises/Where-Used-List*
-</span>
+![Ergebnis des Verwendungsnachweises/Where-Used-List](../img/image43.png)
+
+Ergebnis des Verwendungsnachweises/Where-Used-List
+{: .img-caption}
 
 Durch die Verwendung der Filterfunktion mit Hilfe des Filter-Icons kann hierbei auf Pakete, Objekttypen und Benutzer eingeschränkt werden. Auch hier kann per **STRG+SPACE** die automatische Vervollständigung genutzt werden, um Objekte schneller zu finden.
 
-![](../img/image67.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Filter für Where-Used-Search*
-</span>
+![Filter für Where-Used-Search](../img/image67.png)
+
+Filter für Where-Used-Search
+{: .img-caption}
 
 Über **STRG+.** und **STRG+,** lassen sich die Fundstellen komfortabel browsen, d. h. die jeweils nächste oder vorherige Fundstelle anzeigen.
 
@@ -186,31 +186,31 @@ Durch die Verwendung der Filterfunktion mit Hilfe des Filter-Icons kann hierbei 
 
 Bookmarks können durch Rechtsklick auf die Liste neben dem Source-Code erstellt werden:
 
-![](../img/image60.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Menü zur Erstellung des Bookmarks*
-</span>
+![Menü zur Erstellung des Bookmarks](../img/image60.png)
+
+Menü zur Erstellung des Bookmarks
+{: .img-caption}
 
 Als Name wird per Standard das Coding der selektierten Zeile angegeben. Es bietet sich an, einen sprechenden und fachlich sinnvollen Namen zu vergeben, über den das Bookmark dann auch einfach wiedergefunden wird.
 
-![](../img/image8.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Eingabe eines Namens (Bookmark)*
-</span>
+![Eingabe eines Namens (Bookmark)](../img/image8.png)
+
+Eingabe eines Namens (Bookmark)
+{: .img-caption}
 
 Innerhalb des Source-Code-Editors erscheint nun eine kleine blaue Fahne neben der selektierten Zeilennummer:
 
-![](../img/image51.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Darstellung eines Bookmarks im Quellcode*
-</span>
+![Darstellung eines Bookmarks im Quellcode](../img/image51.png)
+
+Darstellung eines Bookmarks im Quellcode
+{: .img-caption}
 
 Das Bookmark ist dann in der Liste verfügbar und kann durch Doppelklick aufgerufen werden. Über <span class="inline-img">![](../img/image31.png)</span> lassen sich zudem die Ansicht anpassen und Filterungen durchführen. Über das Kontextmenü ist ein Löschen des Bookmarks sowie das Editieren der Beschreibung möglich.
 
-![](../img/image32.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Bookmarks View*
-</span>
+![Bookmarks View](../img/image32.png)
+
+Bookmarks View
+{: .img-caption}
 
 ## Teilen von ADT-Links
 
@@ -218,15 +218,15 @@ Im Entwickler-Alltag kommt es oft vor, dass gemeinsam über Code gesprochen werd
 
 ADT bietet die Möglichkeit, einen Link zu versenden, der den Empfänger direkt an die passende Code-Stelle führt, wenn er auf diesen klickt. Hierzu muss ein Bereich im Source-Code markiert und dann im Kontextmenü "Share Link" ausgewählt werden.
 
-![](../img/image82.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Teilen des Quellcodes als Link (Kontextmenü)*
-</span>
+![Teilen des Quellcodes als Link (Kontextmenü)](../img/image82.png)
 
-![](../img/image49.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Dialog zum Teilen des Links*
-</span>
+Teilen des Quellcodes als Link (Kontextmenü)
+{: .img-caption}
+
+![Dialog zum Teilen des Links](../img/image49.png)
+
+Dialog zum Teilen des Links
+{: .img-caption}
 
 Der entsprechend generierte Link kann dann an den Kollegen per Mail versendet oder in die Zwischenablage kopiert und beispielsweise über ein Chat-Programm versendet werden. Man hat die Auswahl zwischen HTTP-Link und ADT-Link. HTTP-Links werden direkt im Browser geöffnet, ADT-Links verzweigen in die ADT (Eclipse).
 
@@ -240,17 +240,17 @@ Mehr Details sind im [User-Guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c2
 
 Die View [Type Hierarchy](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4eccd9066e391014adc9fffe4e204223.html) dient dazu, die Vererbungshierarchie von Klassen und Interfaces darzustellen. Um die View zu nutzen, braucht man nur den Cursor auf die Klasse oder das Interface zu setzen und den Shortcut **F4** zu drücken. Alternativ kann man über das Kontextmenü die ABAP Type Hierarchy öffnen.
 
-![](../img/image22.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Öffnen der ABAP Type Hierarchie*
-</span>
+![Öffnen der ABAP Type Hierarchie](../img/image22.png)
+
+Öffnen der ABAP Type Hierarchie
+{: .img-caption}
 
 Die View zeigt die Hierarchie in einer Baumstruktur an.
 
-![](../img/image3.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Anzeige der Type Hierarchy im View*
-</span>
+![Anzeige der Type Hierarchy im View](../img/image3.png)
+
+Anzeige der Type Hierarchy im View
+{: .img-caption}
 
 Per Doppelklick kann man das markierte Objekt im ABAP Editor öffnen. Über **STRG+T** lässt sich auch inline im Code die [Quick Type Hierarchy](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/aafadb177a1a4cac8117b7b079c2596b.html) öffnen.
 
@@ -258,10 +258,10 @@ Per Doppelklick kann man das markierte Objekt im ABAP Editor öffnen. Über **ST
 
 Der [Transport Organizer](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecc6dd96e391014adc9fffe4e204223.html) zeigt eine Übersicht der geöffneten ABAP-Projekte. Unter den Systemen finden Sie die aktuellen Transporte im System. In der Standardeinstellung sehen Sie alle eigenen Transporte. Über einen Rechtsklick auf ein System und den Punkt "Configure Tree ..." können diese Einstellungen überschrieben und auch Transporte von anderen Entwicklern eingesehen werden.
 
-![](../img/image68.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Transport Organizer View*
-</span>
+![Transport Organizer View](../img/image68.png)
+
+Transport Organizer View
+{: .img-caption}
 
 Es stehen alle Funktionen des Transport Organizer (SE09/SE10) aus der SAP GUI zur Verfügung:
 
@@ -276,15 +276,15 @@ Der [Feed Reader](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f94
 - Laufzeitfehler für Objekte, für die der eigene User verantwortlich ist
 - Systemmeldungen
 
-![](../img/image6.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Darstellung eines Laufzeitfehlers*
-</span>
+![Darstellung eines Laufzeitfehlers](../img/image6.png)
 
-![](../img/image12.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Beispiel für Systemmeldung*
-</span>
+Darstellung eines Laufzeitfehlers
+{: .img-caption}
+
+![Beispiel für Systemmeldung](../img/image12.png)
+
+Beispiel für Systemmeldung
+{: .img-caption}
 
 Über den Button "Add feed..." kann man weitere Benachrichtigungen konsumieren. Welche Art von Benachrichtigung zur Verfügung steht, hängt vom Release-Stand des verknüpften SAP-Systems ab. Bei den meisten Benachrichtigungen kann man verschiedene Filterkriterien angeben. Zusätzlich kann man auch einen normalen Atom- oder RSS-Feed per URL hinzufügen und somit konsumieren.
 
@@ -294,31 +294,31 @@ Details dazu findet man im User-Guide in den Hilfefunktionen von Eclipse. Der Ar
 
 Die View [ABAP Unit](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/08c60b52cb85444ea3069779274b43db.html) öffnet sich nach dem Ausführen von ABAP Unit Tests und listet die ausgeführten Testmethoden sowie deren Status auf. Die ABAP Unit Tests können per Shortcut **STRG+SHIFT+F10** oder über das Kontextmenü im ABAP Editor mit dem Menüpunkt *"Run As"* gestartet werden.
 
-![](../img/image40.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Ausführung des ABAP Unit Test über das Kontextmenü*
-</span>
+![Ausführung des ABAP Unit Test über das Kontextmenü](../img/image40.png)
+
+Ausführung des ABAP Unit Test über das Kontextmenü
+{: .img-caption}
 
 Innerhalb der View kann man die Liste nach Status filtern, Testfälle erneut ausführen und sich Details zu fehlerhaften Läufen anzeigen lassen. Letzteres erscheint durch Anklicken der betroffenen Testmethode.
 
-![](../img/image37.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Ergebnisanzeige des ABAP Unit Test*
-</span>
+![Ergebnisanzeige des ABAP Unit Test](../img/image37.png)
+
+Ergebnisanzeige des ABAP Unit Test
+{: .img-caption}
 
 Den Umfang der auszuführenden Testmethoden kann man über verschiedene Möglichkeiten bestimmen. Zum einen hängt dies vom Kontext ab. Hat man zum Beispiel den Fokus auf einer einzelnen Testmethode, so wird auch nur diese Methode ausgeführt. Sitzt der Fokus auf der zu testenden Klasse, dann werden alle Testklassen (und Testmethoden) dazu ausgeführt. Man kann das Ganze sogar auf ein komplettes Paket ausweiten, indem man das Paket im Projekt Explorer markiert und die Unit Tests ausführt. Außerdem kann man in der View per Kontextmenü einzelne oder alle Tests erneut ausführen - je nachdem, welche Ebene man wählt. Zum Beispiel könnte man alle Testmethoden nur einer Testklasse ausführen. Diese Möglichkeit ist besonders hilfreich, wenn ein Testfall nicht erfolgreich ist und man das Verhalten analysieren muss.
 
-![](../img/image89.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Neustart der Ausführung*
-</span>
+![Neustart der Ausführung](../img/image89.png)
+
+Neustart der Ausführung
+{: .img-caption}
 
 Zum anderen kann man über "ABAP Unit Test With..." festlegen, welche Art von Tests durchgeführt werden sollen.
 
-![](../img/image15.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Dialog zur Einstellung der Ausführung von ABAP Unit Tests*
-</span>
+![Dialog zur Einstellung der Ausführung von ABAP Unit Tests](../img/image15.png)
+
+Dialog zur Einstellung der Ausführung von ABAP Unit Tests
+{: .img-caption}
 
 Somit könnte man zum Beispiel nur die Testmethoden in einem Paket ausführen, die das Risk-Level "Dangerous" und die Duration "Medium" haben.
 
@@ -328,17 +328,17 @@ Die View [ABAP Coverage](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b82
 \
 Diese Art der Ausführung kann per Shortcut **STRG+Shift+F11** oder über das Kontextmenü mit dem Menüpunkt "Coverage As" gestartet werden.
 
-![](../img/image71.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Durchführung der Abdeckungsmessung*
-</span>
+![Durchführung der Abdeckungsmessung](../img/image71.png)
+
+Durchführung der Abdeckungsmessung
+{: .img-caption}
 
 Die View stellt den durchlaufenen Code in einer Baumstruktur dar und gibt Auskunft darüber, wie viele Statements absolut und relativ durch die ausgeführten Testmethoden ausgeführt wurden. Zusätzlich wird im ABAP Editor farblich markiert, welche Statements genau ausgeführt wurden (mit grün) und welche nicht (mit rot).
 
-![](../img/image72.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Farbliche Hervorhebung von Quellcode nach Unit Test*
-</span>
+![Farbliche Hervorhebung von Quellcode nach Unit Test](../img/image72.png)
+
+Farbliche Hervorhebung von Quellcode nach Unit Test
+{: .img-caption}
 
 Ist die farbliche Ansicht im Source-Code nicht sichtbar, so kann diese über das Icon <span class="inline-img">![](../img/image34.png)</span> aktiviert werden.
 
@@ -352,26 +352,26 @@ Das [ABAP Test Cockpit](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825
 
 Nach Ausführung der Prüfungen erhalten Sie die View für die "ATC Problems", also die Rückmeldungen über die gefundenen Meldungen durch die eingestellten Prüfungen.
 
-![](../img/image20.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Anzeige der Ergebnisse des ATC-Laufs*
-</span>
+![Anzeige der Ergebnisse des ATC-Laufs](../img/image20.png)
+
+Anzeige der Ergebnisse des ATC-Laufs
+{: .img-caption}
 
 Auf der linken Seite werden die Meldungen sortiert nach der Schwere des Fehlers angezeigt. Rechts erhalten Sie Informationen zum gewählten Eintrag. Hier wird für Sie noch einmal erklärt, was geprüft wurde und wie eine Korrektur aussehen kann. In der Button-Leiste im oberen Bereich der View kann das Ergebnis auch wieder gelöscht werden. Auf diese Weise verschwinden die Markierungen im Quellcode.
 
 Mit einem Rechtsklick auf die Meldung kann über den Menü-Eintrag "Request Exemption" auch eine Ausnahme beantragt werden.
 
-![](../img/image19.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Beantragung von Ausnahmen über den ATC View*
-</span>
+![Beantragung von Ausnahmen über den ATC View](../img/image19.png)
+
+Beantragung von Ausnahmen über den ATC View
+{: .img-caption}
 
 Das Formular entspricht von den Informationen her der SAP GUI und leitet Sie durch den Freigabeprozess. Am Ende kann die Anfrage wie gewohnt über das ATC Cockpit bearbeitet werden.
 
-![](../img/image24.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Dialog zur Klassifizierung der Ausnahme*
-</span>
+![Dialog zur Klassifizierung der Ausnahme](../img/image24.png)
+
+Dialog zur Klassifizierung der Ausnahme
+{: .img-caption}
 
 ## ABAP Language Help
 
@@ -381,26 +381,26 @@ In jedem Quelltexteditor, beispielsweise für ABAP, CDS oder BDL, kann für das 
 
 Damit kann man jederzeit Unterstützung bekommen, falls man sich der exakten Syntax einer Anweisung nicht sicher ist.
 
-![](../img/image48.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Aufruf der ABAP-Sprachhilfe über das Kontextmenü*
-</span>
+![Aufruf der ABAP-Sprachhilfe über das Kontextmenü](../img/image48.png)
+
+Aufruf der ABAP-Sprachhilfe über das Kontextmenü
+{: .img-caption}
 
 ## Der ABAP Language Help View
 
 Die entsprechende Dokumentation wird im ABAP Language Help View als HTML-Dokument angezeigt. Damit ist eine Vorwärtsnavigation über Hyperlinks möglich.
 
-![](../img/image4.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: ABAP Language Help View*
-</span>
+![ABAP Language Help View](../img/image4.png)
+
+ABAP Language Help View
+{: .img-caption}
 
 Wie in vielen Views in Eclipse sind hier einige nützliche Standard-Buttons vorhanden.
 
-![](../img/image102.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Button-Leiste des Views*
-</span>
+![Button-Leiste des Views](../img/image102.png)
+
+Button-Leiste des Views
+{: .img-caption}
 
 - Der gelbe Doppelpfeil koppelt die View mit dem aktiven Editor. Damit zeigt die View stets die passende Hilfe für eine Anweisung an, auf der der Cursor momentan steht.
 - Der grüne Pin hält den Inhalt des Views fest. Wenn ein weiteres Mal mit F1 eine Hilfe angefordert wird, öffnet sich eine neue View für die ABAP Language Help.
@@ -417,37 +417,37 @@ Neben der ABAP Keyword Documentation (bzw. ABAP Language Help) stellt SAP für j
 
 in der Menüleiste, um den Hilfe-Browser zu öffnen.
 
-![](../img/image41.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Navigation zum Help Content*
-</span>
+![Navigation zum Help Content](../img/image41.png)
+
+Navigation zum Help Content
+{: .img-caption}
 
 Sie erkennen die Help Plug-ins von SAP an dem gelben Buch-Icon. Momentan gibt es die folgenden Help Plug-ins:
 
-![](../img/image96.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Übersicht der verfügbaren Hilfen und Dokumentationen*
-</span>
+![Übersicht der verfügbaren Hilfen und Dokumentationen](../img/image96.png)
+
+Übersicht der verfügbaren Hilfen und Dokumentationen
+{: .img-caption}
 
 Mit Hilfe der Suche (Search) können Sie nach Stichworten suchen. Mittels Scope können Sie die Suche auf ein oder mehrere Help Plug-ins eingrenzen.
 
-![](../img/image25.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Suche in der Hilfe*
-</span>
+![Suche in der Hilfe](../img/image25.png)
+
+Suche in der Hilfe
+{: .img-caption}
 
 In Wizards, die die ?-Ikone anbieten, können sie die kontextsensitive Hilfe öffnen. Diese führt Sie direkt zu dem jeweiligen Hilfeinhalt, den es für den Wizard gibt.
 
-![](../img/image10.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Weiterführende Hilfen und Dokumentationen*
-</span>
+![Weiterführende Hilfen und Dokumentationen](../img/image10.png)
+
+Weiterführende Hilfen und Dokumentationen
+{: .img-caption}
 
 Sie können so genannte Active Links in einer Hilfeseite klicken, um aus der Hilfe heraus ein Eclipse-UI zu öffnen. Sie erkennen Active Links an der grünen Ikone mit dem weißen Pfeil.
 
-![](../img/image29.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Darstellung der Navigationspfade*
-</span>
+![Darstellung der Navigationspfade](../img/image29.png)
+
+Darstellung der Navigationspfade
+{: .img-caption}
 
 Der identische Hilfeinhalt, wie er Ihnen im ADT Client zur Verfügung steht, ist auch online auf dem [SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4b190c90ceba4d02a99e0a2286b89358.html) verfügbar.

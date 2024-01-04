@@ -137,7 +137,8 @@ Zunächst sollen die näher betrachteten Varianten jedoch einmal in einer Übers
 </tbody>
 </table>
 
-*Tabelle: Vergleich unterschiedlicher Installationsmöglichkeiten*
+Vergleich unterschiedlicher Installationsmöglichkeiten
+{: .table-caption}
 
 ## Manuelle Installation
 
@@ -207,9 +208,8 @@ Liest man sich die Dokumentation von Oomph durch, so wird man erst einmal mit vi
 </tbody>
 </table>
 
-<span class="table-caption">
-*Tabelle: Begrifflichkeiten in Oomph*
-</span>
+Begrifflichkeiten in Oomph
+{: .table-caption}
 
 Eine Installation mittels Eclipse/Oomph Installer installiert somit immer eine Plattform, die Plug-ins, Oomph Updater, Oomph Recorder und zuletzt die Projekteinstellungen im Workspace.
 
@@ -242,10 +242,10 @@ Folgend der Aufbau eines Index:
 
 In der erweiterten Ansicht des Eclipse Installer hat man dann auch die Möglichkeit, zwischen mehreren verfügbaren Indizes zu wechseln.
 
-![](./img/image15.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Wechsel zwischen Indizes*
-</span>
+![Wechsel zwischen Indizes](./img/image15.png)
+
+Wechsel zwischen Indizes
+{: .img-caption}
 
 ##### Product-Catalog und Product
 
@@ -257,10 +257,10 @@ Ein Product-Catalog listet verschiedene Products. Er enthält darüber hinaus au
 
 Auf allen Ebenen (Product-Catalog, Product und Product-Version) können folgende Eigenschaften hinterlegt werden:
 
-![](./img/image3.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Hinzufügen und Festlegen von Eigenschaften*
-</span>
+![Hinzufügen und Festlegen von Eigenschaften](./img/image3.png)
+
+Hinzufügen und Festlegen von Eigenschaften
+{: .img-caption}
 
 Die meist benötigten Elemente sind:
 
@@ -274,7 +274,8 @@ Die meist benötigten Elemente sind:
 | **P2 Director**     | Liste der zu installierenden Feature Groups.                                                                                                                   |
 | **Repository**      | Stellt eine Installationsquelle für Feature Groups                                                                                                             |
 
-*Tabelle: Wichtigste Elemente*
+Wichtigste Elemente
+{: .table-caption}
 
 Für eine minimale ADT-Installation wird Folgendes benötigt:
 
@@ -293,11 +294,10 @@ Für eine minimale ADT-Installation wird Folgendes benötigt:
     - [https://download.eclipse.org/technology/epp/packages/2023-03/](https://download.eclipse.org/technology/epp/packages/2023-03/) (Link Release-abhängig!)
 Die aktuellste Version findet sich jeweils unter: [https://download.eclipse.org/technology/epp/packages/latest/](https://download.eclipse.org/technology/epp/packages/latest/).
 
+![Komponenten einer "minimalen" ADT-Installation](./img/image7.png)
 
-![](./img/image7.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Komponenten einer "minimalen" ADT-Installation*
-</span>
+Komponenten einer "minimalen" ADT-Installation
+{: .img-caption}
 
 ##### Project-Catalog und Project
 
@@ -314,9 +314,8 @@ Die wichtigsten Elemente in einem Project sind:
 | **Eclipse ini** | Veränderungen der Eclipse.ini                                                                                                 |
 | **Preference**  | Voreingestellte Veränderung der Einstellungen (Window → Preferences).                                                         |
 
-<span class="table-caption">
-*Tabelle: Wichtigste Elemente eines Projects*
-</span>
+Wichtigste Elemente eines Projects
+{: .table-caption}
 
 Für eine minimale ADT-Installation wird benötigt:
 
@@ -329,10 +328,10 @@ Für eine minimale ADT-Installation wird benötigt:
     - Alternativ: \${Variable} → z. B. \${sap.repository.url}
 - Einen leeren Stream, standardmäßig "Master"
 
-![](./img/image6.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Komponenten einer minimalen ADT-Installation*
-</span>
+![Komponenten einer minimalen ADT-Installation](./img/image6.png)
+
+Komponenten einer minimalen ADT-Installation
+{: .img-caption}
 
 Zu beachten ist, dass ein Plug-in für Eclipse aus mehreren Feature Groups bestehen kann. Wie man diese herausfinden kann, wird im Abschnitt [Zusätzliches Plug-in installieren](#zusätzliches-plug-in-installieren) erklärt.
 
@@ -372,10 +371,10 @@ Nun besteht ein Plug-in aus mindestens einer Feature Group. Im Oomph Project mus
 
 Stand Oktober 2022 sieht die Abfrage der SAP-Update-Site wie folgt aus:
 
-![](./img/image10.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Bestandteile der SAP Update Site*
-</span>
+![Bestandteile der SAP Update Site](./img/image10.png)
+
+Bestandteile der SAP Update Site
+{: .img-caption}
 
 ##### Vorgeben von Einstellungen
 
@@ -385,15 +384,15 @@ Alle zu vergebenden Einstellungen kommen in den Compound/Ordner *User-Preference
 
 Da diese nicht einheitliche Darstellung unpraktisch zu administrieren ist und die Namen der Features in der Regel auch nicht bekannt sind, existieren auch hier Hilfswerkzeuge: In den Einstellungen wird ein Oomph Recorder installiert. Näheres zur Verwendung als Anwender kann dem Abschnitt [Oomph Recorder](#oomph-recorder) entnommen werden. Der Oomph Recorder zeichnet den letzten Stand aller geänderten Einstellungen auf Benutzerebene auf (also übergreifend über Eclipse-Installationen) und fragt nach dem Schließen der Einstellungen, ob diese immer/einmal/nie gespeichert werden sollen. Ebenso wird damit ein Button in der Button-Leiste von Eclipse verfügbar, um sich die bereits gespeicherten Einstellungen anzuschauen.
 
-![](./img/image11.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Möglichkeit zur Anzeige der bereits gespeicherten Einstellungen*
-</span>
+![Möglichkeit zur Anzeige der bereits gespeicherten Einstellungen](./img/image11.png)
 
-![](./img/image5.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Bereits gespeicherte Einstellungen*
-</span>
+Möglichkeit zur Anzeige der bereits gespeicherten Einstellungen
+{: .img-caption}
+
+![Bereits gespeicherte Einstellungen](./img/image5.png)
+
+Bereits gespeicherte Einstellungen
+{: .img-caption}
 
 Hierbei handelt es sich wieder um setup-Dateien. Somit können auch hier wieder die aufgezeichneten Einstellungen mit Drag-and-drop oder **STRG+C** und **STRG+V** in das Oomph Project übernommen werden.
 
@@ -428,40 +427,40 @@ Das Erzwingen einer Start-Perspective ist eine Startoption in der Eclipse.ini. E
 
 Beim ersten Start des Eclipse Installer kann es sein, dass dieser im einfachen Modus startet. Für die Verwendung eigener Konfigurationen ist jedoch der erweiterte Modus nötig. Über das Menü oben rechts kann in diesen gewechselt werden ("Advanced Mode").
 
-![](./img/image9.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Wechsel in den "Advanced Mode"*
-</span>
+![Wechsel in den "Advanced Mode"](./img/image9.png)
+
+Wechsel in den "Advanced Mode"
+{: .img-caption}
 
 Nun sieht man eine Liste an verfügbaren Products. Dies ist der Inhalt des ersten referenzierten Index in der Indices.xmi. Oben rechts kann zwischen allen gelisteten Indizes gewechselt werden.
 
-![](./img/image16.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Wechsel zwischen Indizes*
-</span>
+![Wechsel zwischen Indizes](./img/image16.png)
+
+Wechsel zwischen Indizes
+{: .img-caption}
 
 Hier wählt man einen passenden Eintrag aus. Sobald dies geschehen ist, wird unten die verfügbare Produktversion auswählbar.
 
-![](./img/image12.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Auswahl der Product-Version*
-</span>
+![Auswahl der Product-Version](./img/image12.png)
+
+Auswahl der Product-Version
+{: .img-caption}
 
 Im nächsten Bild sind die Projects auswählbar. Hier können theoretisch mehrere Projects für eine Installation gewählt werden. Jedoch kann es passieren, dass diese Projects dann konkurrierende Einstellungen vornehmen, und es kommt zu Problemen.
 
 Zu einem Project muss dann auch zwingend ein Stream gewählt werden. Wurde nur einer definiert, ist dieser bereits vorausgewählt.
 
-![](./img/image1.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Auswahl des Streams*
-</span>
+![Auswahl des Streams](./img/image1.png)
+
+Auswahl des Streams
+{: .img-caption}
 
 Nun werden noch definierte und verwendete, aber nicht gefüllte Variablen abgefragt. Dies können beispielsweise die Pfade zu Installation und Workspace sein.
 
-![](./img/image2.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Abfrage weiterer Variablen*
-</span>
+![Abfrage weiterer Variablen](./img/image2.png)
+
+Abfrage weiterer Variablen
+{: .img-caption}
 
 Zuletzt wird noch eine Bestätigungsseite angezeigt, die aber in der Regel keine neuen Informationen enthält.
 

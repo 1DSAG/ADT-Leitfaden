@@ -29,24 +29,24 @@ Die ABAP Development Tools bieten neben den normalen Breakpoints die Möglichkei
 
 ## Debugging-Perspektive
 
-![](./img/image24.jpg)  
-<span class="img-caption" markdown=1>
-*Abbildung: Debugging Perspektive in Eclipse*
-</span>
+![Debugging Perspektive in Eclipse](./img/image24.jpg)
+
+Debugging Perspektive in Eclipse
+{: .img-caption}
 
 Die Debugging-Perspektive in Eclipse bietet einen schnellen Überblick über den Programm-Code, Call-Stack, Variableninhalte und Inhalte von internen Tabellen. Die Variablen und interne Tabellen können mit Doppelklick im Programm-Code ausgewählt werden. Sie werden auf der rechten Seite angezeigt und die Werte können dort direkt oder über das Kontextmenü auch geändert werden. Alternativ können Sie dort auch den Variablennamen eintippen. Array- und Strukturzugriffe sind als Teil des Variablennamen auch möglich, können aber auch aufgeklappt werden. Komplette Strukturen oder Tabellen können in der Cloud im Kontextmenü als VALUE Ausdrücke kopiert werden, was insbesondere für die Erstellung von Unit Tests sehr hilfreich ist.
 
-![](./img/image6.jpg)  
-<span class="img-caption" markdown=1>
-*Abbildung: Werte der Variablen in der Debugging Perspektive*
-</span>
+![Werte der Variablen in der Debugging Perspektive](./img/image6.jpg)
+
+Werte der Variablen in der Debugging Perspektive
+{: .img-caption}
 
 Interne Tabellen können zusätzlich in einem eigenen View angezeigt werden, hier können die anzuzeigenden Spalten konfiguriert werden und es kann die Tabelle gefiltert werden. Die Tabelle kann editiert werden. Auch hier können in der Cloud Tabellenzeilen im Kontextmenü als VALUE Ausdrücke kopiert werden
 
 ![Inhalt einer internen Tabelle in der Debugging Perspektive](./img/image_ABAP_Internal_Table_Debugger.png)
-<span class="img-caption" markdown=1>
-*Abbildung: Inhalt einer internen Tabelle in der Debugging Perspektive*
-</span>
+
+Inhalt einer internen Tabelle in der Debugging Perspektive
+{: .img-caption}
 
 ## Besonderes Verhalten im Debugger
 

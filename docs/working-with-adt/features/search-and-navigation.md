@@ -24,10 +24,10 @@ Die Suche nach Objekten in Eclipse ist zentraler Bestandteil der täglichen Arbe
 Um ein Objekt im System zu suchen bzw. zu öffnen, können Sie den Dialog\
 "Open ABAP Development Object" nutzen (erreichbar über die Tastenkombination **STRG+SHIFT+A**).
 
-![](../img/image101.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Dialog zur Objektsuche*
-</span>
+![Dialog zur Objektsuche](../img/image101.png)
+
+Dialog zur Objektsuche
+{: .img-caption}
 
 Im Dialog haben Sie die Möglichkeit, im oberen Teil das ABAP-Projekt zu ändern und damit zu entscheiden, auf welchem System Sie nach dem Objekt suchen möchten. Wurde im Suchfeld nichts eingegeben, erhalten Sie eine Historie der zuletzt geöffneten Objekte. Über das *Fragezeichen* im unteren Bereich erhalten Sie weitere Informationen, Tipps und Tricks zur Nutzung der Suche. Detaillierte Informationen zur Objektsuche finden Sie im [User-Guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec7eed86e391014adc9fffe4e204223.html).
 
@@ -35,24 +35,24 @@ Im Dialog haben Sie die Möglichkeit, im oberen Teil das ABAP-Projekt zu ändern
 
 In der Objektsuche haben Sie nun die Möglichkeit, mit Such-Strings und Pattern zu arbeiten, um die Ergebnismenge weiter einzuschränken. Das Feld unterstützt den "Content Assist" (**STRG+LEERTASTE**), um weitere Einschränkungen und Filter zu verwenden. Eine einfache Suche könnte wie folgt aussehen:
 
-![](../img/image63.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Ergebnis der Suche*
-</span>
+![Ergebnis der Suche](../img/image63.png)
+
+Ergebnis der Suche
+{: .img-caption}
 
 Allerdings werden mehr als 50 Ergebnisse (Standardeinstellung) angezeigt und wahrscheinlich ist das gewünschte Ergebnis nicht mit in der Ergebnismenge erhalten. In diesem Fall können Sie den "Content Assist" aufrufen, um weitere Optionen zum Filtern zu erhalten.
 
-![](../img/image58.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Anzeige weiterer Suchoptionen*
-</span>
+![Anzeige weiterer Suchoptionen](../img/image58.png)
+
+Anzeige weiterer Suchoptionen
+{: .img-caption}
 
 Wenn Sie zum Beispiel nun auf Tabellentypen einschränken möchten, dann würden Sie weiter nach dem Typ (TYPE) einschränken. Der "Content Assist" schlägt weiterhin auch die verschiedenen Typen von Objekten vor, sodass Sie auch den Tabellentyp (TTYP) finden.
 
-![](../img/image65.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Ergebnis mit Objekt- und Typfilter*
-</span>
+![Ergebnis mit Objekt- und Typfilter](../img/image65.png)
+
+Ergebnis mit Objekt- und Typfilter
+{: .img-caption}
 
 Die weiteren Filter und Typen können frei miteinander kombiniert werden, um die gewünschte Zielmenge oder das Zielobjekt zu finden. Mit einem Doppelklick auf den gewünschten Eintrag wird das Objekt dann im Editor angezeigt.
 
@@ -73,19 +73,19 @@ Das Objekt wird in einem neuen Tab innerhalb des Editors geöffnet, das Quellobj
 
 Dies kann analog auch mit den Pfeiltasten im Bereich der Drucktastenleiste durchgeführt werden. Im Bereich der Drucktastenleiste gibt es dafür auch verschiedene Optionen, um zum letzten verwendeten Tab (**ALT+Pfeil links**) zu gelangen.
 
-![](../img/image64.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Navigations-Ikonen*
-</span>
+![Navigations-Ikonen](../img/image64.png)
+
+Navigations-Ikonen
+{: .img-caption}
 
 ## ABAP Repository Tree anzeigen
 
 Nachdem Sie ein Objekt gefunden haben, möchten Sie in vielen Fällen in diesem Paket weiter arbeiten oder recherchieren. Dazu können Sie sich den Objektbaum laden lassen, indem Sie im Project Explorer den doppelten Pfeil ("Link with Editor") aktivieren.
 
-![](../img/image88.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Aktionen für den Project Explorer*
-</span>
+![Aktionen für den Project Explorer](../img/image88.png)
+
+Aktionen für den Project Explorer
+{: .img-caption}
 
 In diesem Fall wird die Pakethierarchie zu dem im Editor fokussierten Objekt geladen. Im Anschluss können Sie im Project Explorer über die weiteren Objekte und Strukturen navigieren.
 

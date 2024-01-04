@@ -65,28 +65,28 @@ File → New → ABAP Projekt
 
 angelegt.
 
-![](./img/image75.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Erstellung eines ABAP-Projekts in Eclipse*
-</span>
+![Erstellung eines ABAP-Projekts in Eclipse](./img/image75.png)
+
+Erstellung eines ABAP-Projekts in Eclipse
+{: .img-caption}
 
 Bei Anlage eines ABAP-Projekts für On-Premise-Systeme wird die Liste der im SAP-Logon verknüpften Systeme angezeigt. Die Login-Daten sind zu hinterlegen, sofern kein SSO verwendet wird und im letzten Schritt kann dem Projekt noch ein sprechender Name gegeben werden. Als Default ist die Sprache Englisch gewählt, diese muss ggf. angepasst werden.
 
 Das neu erstellte Projekt und damit das verbundene Entwicklungssystem wird im sogenannten [Project Explorer](/ADT-Leitfaden/working-with-adt/features/general-features#project-explorer) dargestellt.
 
-![](./img/image97.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Der Project Explorer*
-</span>
+![Der Project Explorer](./img/image97.png)
+
+Der Project Explorer
+{: .img-caption}
 
 Der Project Explorer ist der zentrale Einstiegspunkt und Objektkatalog, nachdem das entsprechende Entwicklungssystem geöffnet wurde. Die Objekte werden basierend auf den Paketen in hierarchischer Form dargestellt, wie man es bereits aus der SE80 kennt. In der täglichen Arbeit werden die zu bearbeitenden Objekte hieraus geöffnet.
 
 Der Hauptarbeitsbereich ist der Knoten [Favorite Packages](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec55bf96e391014adc9fffe4e204223.html). Um das Paket zu den Favorite Packages hinzuzufügen, in das die zu erstellende Klasse eingefügt werden soll, führen Sie den Befehl "Add Package" mittels des Kontextmenüs aus.
 
-![](./img/image35.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Hinzufügen von Packages zu den Favoriten*
-</span>
+![Hinzufügen von Packages zu den Favoriten](./img/image35.png)
+
+Hinzufügen von Packages zu den Favoriten
+{: .img-caption}
 
 ## Das Erstellen einer Klasse im Textmodus
 
@@ -94,31 +94,31 @@ Zur [Erstellung einer neuen ABAP-Klasse](https://help.sap.com/docs/ABAP_PLATFORM
 
 New → ABAP Class
 
-![](./img/image74.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Erstellen einer neuen ABAP-Klasse im Projekt Explorer*
-</span>
+![Erstellen einer neuen ABAP-Klasse im Projekt Explorer](./img/image74.png)
+
+Erstellen einer neuen ABAP-Klasse im Projekt Explorer
+{: .img-caption}
 
 Es öffnet sich ein Fenster, in dem die Daten der Klasse angegeben werden können/müssen.
 
-![](./img/image81.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Eigenschaftsdialog: Erstellung ABAP-Klasse*
-</span>
+![Eigenschaftsdialog: Erstellung ABAP-Klasse](./img/image81.png)
+
+Eigenschaftsdialog: Erstellung ABAP-Klasse
+{: .img-caption}
 
 Hier können bei Bedarf bereits die Super-Klasse und zu referenzierende Interfaces angegeben werden. Dies kann aber auch später textbasiert direkt im Quellcode erfolgen. Es öffnet sich nach Klick auf "Next" das Fenster zur Auswahl bzw. Anlage des Transportauftrages.
 
-![](./img/image76.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Transportauftragsdialog*
-</span>
+![Transportauftragsdialog](./img/image76.png)
+
+Transportauftragsdialog
+{: .img-caption}
 
 Nach Klick auf "Finish" wird die Klasse angelegt, und diese findet sich sowohl im Project Explorer im Objektbaum als auch im Quellcode-Editor auf der rechten Seite der ADT.
 
-![](./img/image78.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Anzeige der neuen Klasse in den ADT*
-</span>
+![Anzeige der neuen Klasse in den ADT](./img/image78.png)
+
+Anzeige der neuen Klasse in den ADT
+{: .img-caption}
 
 Alle weiteren Operationen an der Klasse werden nun im Quellcode durchgeführt, d. h. alle Typen, Datendefinitionen und Methoden werden textbasiert als Quellcode in der Klasse geschrieben. Dies erscheint anfangs kompliziert und ungewohnt, die ADT bieten aber einige Funktionen an, die die Ausarbeitung der Klasse sehr effizient gestalten.
 
@@ -136,10 +136,10 @@ CLASS \<c*lassname\>* DEFINITION
 
 und platziert den Cursor in den Sichtbarkeitsbereich der Klasse, in der die Methode zur Verfügung steht. In unserem Fall soll die Methode für andere Verwender sichtbar sein und daher im Bereich PUBLIC definiert werden. Die Definition der Methode wird mit dem Schlüsselwort METHODS eingeleitet.
 
-![](./img/image98.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Bearbeiten der Klasse*
-</span>
+![Bearbeiten der Klasse](./img/image98.png)
+
+Bearbeiten der Klasse
+{: .img-caption}
 
 Bereits zu diesem Zeitpunkt zeigt sich einer der Hauptvorteile von ADT gegenüber der SE80. Sobald Code eingeben wurde, läuft automatisch der Syntax-Check und zeigt an, ob der Code syntaktisch korrekt ist.
 
@@ -149,10 +149,10 @@ Da der Abschlusspunkt nicht vorhanden ist, zeigt ADT sowohl im linken Balken ein
 
 Wir schließen die Methodendefinition mit Erstellung der Parameter und des Abschlusspunkts ab. Durch die Nutzung der Code Completion wird uns die Arbeit dabei sehr erleichtert. Dazu geben wir jeweils nur die ersten zwei bis drei Buchstaben des gewünschten Schlüsselwortes an. Die Tastenkombination **STRG+LEERTASTE** zeigt uns die passenden Schlüsselworte an. Diese können daraufhin mittels **TAB+Pfeiltasten** aus der Vorschlagsliste ausgewählt werden. Zur weiteren Automatisierung der Code-Erstellung bietet sich die Nutzung von Templates an (s. Abschnitt [Code Template](/ADT-Leitfaden/working-with-adt/features/abap-views#templates)).
 
-![](./img/image80.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Beispiel Code Completion für den Import-Parameter*
-</span>
+![Beispiel Code Completion für den Import-Parameter](./img/image80.png)
+
+Beispiel Code Completion für den Import-Parameter
+{: .img-caption}
 
 Nachdem die Import-Parameter und der Return-Parameter definiert sind, wird der Cursor im Textbereich des Codes positioniert und die Formatierung des Codes mittels des Kontextmenüs\
 Rechte Maustaste → Source Code → Format bzw. der Tastenkombination\
@@ -174,10 +174,10 @@ Dieses "Problem" lässt sich sehr effizient mit Hilfe der Quick Fixes beheben.
 
 Zur Methodenimplementierung nutzen Sie die [Quick-Fix](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec5668b6e391014adc9fffe4e204223.html)-Funktion, die sich über das Kontextmenü oder die Tastenkombination **STRG+1** aufrufen lässt.
 
-![](./img/image87.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Nutzung des Quick Fix zur Methodenimplementierung*
-</span>
+![Nutzung des Quick Fix zur Methodenimplementierung](./img/image87.png)
+
+Nutzung des Quick Fix zur Methodenimplementierung
+{: .img-caption}
 
 Sie wählen "Add Implementation for ..." aus und bestätigen mit ENTER. Zum Ausführen der Quick-Fix-Befehle sollte der Code gespeichert und fehlerfrei sein, da manche Quick Fixes (automatische Code-Korrekturen/Refactorings) dies als Voraussetzungen haben.
 
@@ -201,10 +201,10 @@ Auch hier hilft die Verwendung der Code Completion, die mit der Tastenkombinatio
 
 Um den Returning-Parameter "r_f_free_seats" nicht ausschreiben zu müssen und Typinformationen zu bekommen, schreiben wir die Struktur und den Komponentenseparator "-" und bekommen mittels der Tastenkombination **STRG+LEERTASTE** die Komponenten angezeigt, die dann ausgewählt und in den Code eingefügt werden können.
 
-![](./img/image90.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Auswahl der Komponente mittels Code Completion*
-</span>
+![Auswahl der Komponente mittels Code Completion](./img/image90.png)
+
+Auswahl der Komponente mittels Code Completion
+{: .img-caption}
 
 Diese Möglichkeiten der Vorwärtsnavigation und Inline-Anzeige weitergehender Elementinformationen sind in dieser Form in SE80 nicht vorhanden und ein weiterer Baustein zur Steigerung der Entwicklereffizienz in ADT.
 
@@ -230,37 +230,39 @@ Zur Umbenennung der Parameter wird die Rename-Funktion aus dem Kontextmenü übe
 
 ausgeführt.
 
-![](./img/image100.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Umbenennung von Methodenparametern*
-</span>
+![Umbenennung von Methodenparametern](./img/image100.png)
+
+Umbenennung von Methodenparametern
+{: .img-caption}
 
 Zuerst muss der Code gespeichert werden. Falls dies nicht erfolgt ist, erscheint eine Abfrage zum Speichern, die bestätigt werden muss.
 
-![](./img/image84.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Abfragedialog zum Speichern des Code*
-</span>
+![Abfragedialog zum Speichern des Code](./img/image84.png)
+
+Abfragedialog zum Speichern des Code
+{: .img-caption}
 
 Es erscheint eine Dialog-Box zur Eingabe des Parameternamens.
 
-![](./img/image85.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Eingabe neuer Parametername*
-</span>
+![Eingabe neuer Parametername](./img/image85.png)
 
-Sofern das Objekt bereits einem Transport zugeordnet ist, kann mit "Finish" die Umbenennung direkt durchgeführt werden.\
+Eingabe neuer Parametername
+{: .img-caption}
+
+Sofern das Objekt bereits einem Transport zugeordnet ist, kann mit "Finish" die Umbenennung direkt durchgeführt werden.  
 Mit "Next" können weitere optionale Einstellungen, wie der zu verwendende Transport und die Aktivierungsoption, vorgenommen werden.
 
-![](./img/image86.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Auswahl des Transports und Optionen*
-</span>
+![Auswahl des Transports und Optionen](./img/image86.png)
 
-Vor der finalen Durchführung kann eine Vorschau auf die Änderung angezeigt werden.![](./img/image62.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Vorschau der Umbenennung*
-</span>
+Auswahl des Transports und Optionen
+{: .img-caption}
+
+Vor der finalen Durchführung kann eine Vorschau auf die Änderung angezeigt werden:
+
+![Vorschau der Umbenennung](./img/image62.png)
+
+Vorschau der Umbenennung
+{: .img-caption}
 
 Nach Klick auf "Finish" sind sowohl die Parameter in der Definition, die Verwendung in der Methode als auch die Parameternamen an den Stellen, an denen die Methode verwendet wird, passend abgeändert. Die hier gezeigte Umbenennung funktioniert in gleicher Weise für Variablen, Methoden und sogar Klassennamen.
 

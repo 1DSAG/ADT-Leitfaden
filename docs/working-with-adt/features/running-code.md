@@ -19,22 +19,22 @@ nav_order: 9
 
 Auch in den ADT kann geöffneter Source-Code weiterhin komfortabel ausgeführt werden. Über F8 wird eine SAP-GUI-Instanz des jeweiligen Systems initialisiert und das geöffnete Entwicklungsobjekt ausgeführt. Bei Klassen entspricht dies beispielsweise der Funktion "Testen Klasse X", bei Reports wird normal der Report ausgeführt.
 
-![In Eclipse ausgeführte Klasse](../img/image46.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Ausführung einer Klasse in SAP GUI*
-</span>
+![In Eclipse ausgeführte Klasse](../img/image46.png)
 
-![](../img/image1.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Ergebnis der Ausführung*
-</span>
+Ausführung einer Klasse in SAP GUI
+{: .img-caption}
+
+![Ergebnis der Ausführung](../img/image1.png)
+
+Ergebnis der Ausführung
+{: .img-caption}
 
 Soll ein beliebiges Entwicklungsobjekt ausgeführt werden, so kann mit **ALT+F8** ein Objekt über den Object Finder gesucht werden. Dabei kann ein beliebiges Projekt ausgewählt werden, d. h. ein an ADT angebundenes SAP-System. Dies muss nicht das System sein, in dem gerade entwickelt wird -- es kann auch ein Qualitätssicherungssystem sein. Wichtig ist hierbei, dass die ADT-Funktionen für dieses System freigeschaltet sind bzw. die entsprechenden Berechtigungen existieren.
 
-![](../img/image21.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Auswahl des Projekts*
-</span>
+![Auswahl des Projekts](../img/image21.png)
+
+Auswahl des Projekts
+{: .img-caption}
 
 Über den Menüpunkt "Run → Run History" stehen zusätzlich Informationen über bereits ausgeführte Objekte zur Verfügung, so dass deren Ausführung komfortabel wiederholt werden kann.
 
@@ -42,7 +42,7 @@ Klassen, die das Interface if_oo_adt_classrun implementieren, können ebenfalls 
 
 Reports, die eine Write-Ausgabe erzeugen, können über F9 ausgeführt werden. Die WRITE-Ausgabe wird dann ebenfalls in die Konsole umgeleitet.
 
-![](../img/image16.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Ausgabe in die Console*
-</span>
+![Ausgabe in die Console](../img/image16.png)
+
+Ausgabe in die Console
+{: .img-caption}

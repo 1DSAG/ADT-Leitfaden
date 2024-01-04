@@ -24,10 +24,10 @@ In Eclipse gibt es zahlreiche Einstellungsmöglichkeiten, die das Leben als Entw
 
 Nach dem Öffnen der Einstellungen über das Menü (Window → Preferences) sehen Sie alle Einstellungen für Eclipse. Im Fenster auf der linken Seite befindet sich die Struktur mit Unterknoten für die Navigation, darüber ein Suchfeld, um nach Knoten oder Einstellungen zu suchen. Auf der rechten Seite befinden sich die Einstellungen zum gewählten Punkt.
 
-![](./img/image1.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Einstieg in die globalen Einstellungen*
-</span>
+![Einstieg in die globalen Einstellungen](./img/image1.png)
+
+Einstieg in die globalen Einstellungen
+{: .img-caption}
 
 In den folgenden Abschnitten zeigen wir unseren Vorschlag für diese Einstellungen, den Pfad innerhalb der Einstellungen, um diese zu finden und eine kurze Erklärung der Auswirkungen.
 
@@ -37,10 +37,10 @@ In den folgenden Abschnitten zeigen wir unseren Vorschlag für diese Einstellung
 
 Viele Entwicklungsumgebungen bieten mittlerweile die Möglichkeit, mit einem hellen oder dunklen Theme zu arbeiten, um die Augen zu schonen oder einfach nur dem persönlichen Geschmack zu entsprechen.
 
-![](./img/image23.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Einstellung für das Dark-Theme*
-</span>
+![Einstellung für das Dark-Theme](./img/image23.png)
+
+Einstellung für das Dark-Theme
+{: .img-caption}
 
 #### Einrückung
 
@@ -48,10 +48,10 @@ Viele Entwicklungsumgebungen bieten mittlerweile die Möglichkeit, mit einem hel
 
 Beim Schreiben von ABAP Quellcode wird oft mit einer Tabulatorweite von 2 Leerzeichen gearbeitet, standardmäßig ist sie in Eclipse aber auf 4 eingestellt ("Displayed tab width"). Außerdem können Sie einstellen, ob statt einem Tabulator Leerzeichen eingefügt werden ("Insert spaces for tabs") und ob beim Löschen gleich ein ganzer Tabulator entfernt werden soll ("Remove multiple spaces on backspace/delete").
 
-![](./img/image17.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Einstellung zur Einrückung des Quellcodes*
-</span>
+![Einstellung zur Einrückung des Quellcodes](./img/image17.png)
+
+Einstellung zur Einrückung des Quellcodes
+{: .img-caption}
 
 #### Fehlermeldung im Code
 
@@ -59,15 +59,15 @@ Beim Schreiben von ABAP Quellcode wird oft mit einer Tabulatorweite von 2 Leerze
 
 Fehlermeldungen tauchen als Ikonen links neben dem Quellcode auf. Um die Information zum Fehler zu erhalten, müssen Sie mit der Maus über die Ikone gehen. Über die Option „Show code minings for problem annotations" können Sie sich die gesamte Fehlermeldung auch direkt im Code anzeigen lassen. Wählen Sie dazu die Art der Meldung aus.
 
-![](./img/image11.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Beispiel für die Einstellung*
-</span>
+![Beispiel für die Einstellung](./img/image11.png)
 
-![](./img/image18.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Ergebnisbild im Quellcode*
-</span>
+Beispiel für die Einstellung
+{: .img-caption}
+
+![Ergebnisbild im Quellcode](./img/image18.png)
+
+Ergebnisbild im Quellcode
+{: .img-caption}
 
 #### Rechtschreibprüfung: Kommentare
 
@@ -98,10 +98,10 @@ Möglichkeit zur Festlegung der allgemeinen Debugger-Einstellungen, aber auch Ak
 
 Um wichtige Schlüsselwörter in Eclipse hervorzuheben, können Sie diese mit zusätzlichen Farbkombinationen hervorheben. Dazu können Sie einzelne Schlüsselwörter hervorheben oder alle ("Select all"). Damit lassen sich im Quellcode wichtige Passagen leichter identifizieren.
 
-![](./img/image2.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Farbeinstellungen zur Hervorhebung der Schlüsselworte im Quellcode*
-</span>
+![Farbeinstellungen zur Hervorhebung der Schlüsselworte im Quellcode](./img/image2.png)
+
+Farbeinstellungen zur Hervorhebung der Schlüsselworte im Quellcode
+{: .img-caption}
 
 #### Farbformatierung von Methodenhintergründen
 
@@ -110,15 +110,15 @@ Um wichtige Schlüsselwörter in Eclipse hervorzuheben, können Sie diese mit zu
 Methodenhintergründe können farblich hervorgehoben werden. Einzelne Methoden werden somit visuell stärker mehr voneinander unterscheidbar gemacht.
 Dafür reicht es schon, nur eine geringfügige farbliche Abweichung zu wählen.
 
-![](./img/image24.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Farbeinstellungen zur Hervorhebung von Methoden im Quellcode*
-</span>
+![Farbeinstellungen zur Hervorhebung von Methoden im Quellcode](./img/image24.png)
 
-![](./img/image25.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Quellcode mit hervorgehobenem Methodenhintergrund*
-</span>
+Farbeinstellungen zur Hervorhebung von Methoden im Quellcode
+{: .img-caption}
+
+![Quellcode mit hervorgehobenem Methodenhintergrund](./img/image25.png)
+
+Quellcode mit hervorgehobenem Methodenhintergrund
+{: .img-caption}
 
 #### Code-Vorlagen
 
@@ -126,15 +126,15 @@ Dafür reicht es schon, nur eine geringfügige farbliche Abweichung zu wählen.
 
 Für häufig verwendete Code-Fragmente liefert SAP Vorlagen aus, die man nach Belieben an eigene Bedürfnisse anpassen kann. Auch neue Vorlagen sind möglich. Die Vorlagen werden im Coding durch Eingabe des Vorlagennamens und Autocomplete (**STRG+SPACE**) eingefügt.
 
-![](./img/image5.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Verwaltung der ABAP Templates in den Einstellungen*
-</span>
+![Verwaltung der ABAP Templates in den Einstellungen](./img/image5.png)
 
-![](./img/image7.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Einfügen des Templates in den Quellcode*
-</span>
+Verwaltung der ABAP Templates in den Einstellungen
+{: .img-caption}
+
+![Einfügen des Templates in den Quellcode](./img/image7.png)
+
+Einfügen des Templates in den Quellcode
+{: .img-caption}
 
 #### Alias für CDS-Felder
 
@@ -158,10 +158,10 @@ Hier können Sie Einstellungen am Suchdialog (**STRG+SHIFT+A**) vornehmen, z. B.
 
 Sie finden die systemspezifischen Einstellungen mit einem Rechts-Klick auf das ABAP-Projekt unter "Properties". Der Aufbau des Fensters ist dem der globalen Einstellungen ähnlich und lässt sich gleich bedienen.
 
-![](./img/image4.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Einstieg in die projektspezifischen Einstellungen*
-</span>
+![Einstieg in die projektspezifischen Einstellungen](./img/image4.png)
+
+Einstieg in die projektspezifischen Einstellungen
+{: .img-caption}
 
 #### Externes Debugging
 
@@ -177,10 +177,10 @@ Breakpoints in Eclipse sind automatisch für alle Zugriffsarten (SAP GUI, ABAP U
 
 Wie bei Pretty Printer nehmen Sie hier die Einstellungen der Formatierung vor, wenn der Code Formatter (**SHIFT+F1**) ausgeführt wird. Ein Standard hierfür wäre zum Beispiel:
 
-![](./img/image13.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Mögliche Einstellungen für den Pretty Printer / ABAP Formatter*
-</span>
+![Mögliche Einstellungen für den Pretty Printer / ABAP Formatter](./img/image13.png)
+
+Mögliche Einstellungen für den Pretty Printer / ABAP Formatter
+{: .img-caption}
 
 (Einstellungen abhängig von der Backend-System-Version, z. B. ist "Keep Camel Case Identifiers" erst in S/4HANA vorhanden)
 
@@ -194,17 +194,17 @@ Arbeiten mit den unterschiedlichen Views: siehe Kapitel [Arbeiten mit ADT](/ADT-
 
 Alle Informationen, die Sie sehen und mit denen Sie arbeiten, werden in Views ("Unterbilder" des Bildschirms) dargestellt, z. B. der Project Explorer oder der Editor. Views können dabei beliebig auf den Bildschirm verschoben werden, indem Sie den Tabellenreiter der View anfassen (Maustaste halten, "Drag") und ziehen.
 
-![](./img/image6.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Verschieben des Views über die Bezeichnung/Reiter*
-</span>
+![Verschieben des Views über die Bezeichnung/Reiter](./img/image6.png)
+
+Verschieben des Views über die Bezeichnung/Reiter
+{: .img-caption}
 
 Während des Verschiebens wird eine Vorschau des neuen Layouts angezeigt.
 
-![](./img/image21.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Die Markierungen deuten die Platzierbarkeit des Fensters an*
-</span>
+![Die Markierungen deuten die Platzierbarkeit des Fensters an](./img/image21.png)
+
+Die Markierungen deuten die Platzierbarkeit des Fensters an
+{: .img-caption}
 
 Nach dem Loslassen ("Drop") wird die View an diese Stelle verschoben.
 
@@ -212,40 +212,40 @@ Views können auch außerhalb des Eclipse-Bildschirms platziert werden und dort 
 
 Wenn Sie die View neben einen anderen Tabellenreiter ziehen, werden die Views gestapelt, das heißt in einer View-Gruppe zusammengefasst.
 
-![](./img/image8.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Darstellung von gestapelten Views*
-</span>
+![Darstellung von gestapelten Views](./img/image8.png)
+
+Darstellung von gestapelten Views
+{: .img-caption}
 
 View-Gruppen können gemeinsam minimiert und wiederhergestellt werden.
 
-![](./img/image3.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Minimieren von View-Gruppen*
-</span>
+![Minimieren von View-Gruppen](./img/image3.png)
+
+Minimieren von View-Gruppen
+{: .img-caption}
 
 Ergebnis ist, dass die View-Gruppe minimiert am Rand des Bildschirms angezeigt wird. Über den Druckknopf "Restore" können Sie die View-Gruppe wiederherstellen.
 
-![](./img/image12.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Wiederherstellung der View-Gruppen*
-</span>
+![Wiederherstellung der View-Gruppen](./img/image12.png)
+
+Wiederherstellung der View-Gruppen
+{: .img-caption}
 
 Nach einem Doppelklick auf einen Tabellenreiter wird die View im Vollbild angezeigt. Dies ist vor allem bei Editor-Views oder großen Dynpros, die im SAP GUI View angezeigt werden, sehr nützlich. Ein erneuter Doppelklick auf den Tabellenreiter verkleinert den View wieder.
 
 Nicht mehr benötigte Views können über das Schließen-Symbol geschlossen werden -- so zum Beispiel auch der Feature-Explorer, nachdem Sie das Tutorial durchgearbeitet haben.
 
-![](./img/image9.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Schließen eines Views*
-</span>
+![Schließen eines Views](./img/image9.png)
+
+Schließen eines Views
+{: .img-caption}
 
 Neue oder versehentlich geschlossene Views können Sie nachträglich zu einer Perspektive hinzufügen.
 
-![](./img/image19.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Einblenden einer View*
-</span>
+![Einblenden einer View](./img/image19.png)
+
+Einblenden einer View
+{: .img-caption}
 
 So können auch Nicht-ABAP-Views (s. "Empfohlene zusätzliche Views") der ABAP-Perspektive zugeordnet werden.
 
@@ -255,38 +255,38 @@ Die Anordnung aller Views auf dem Bildschirm wird in einer Perspektive gespeiche
 
 In den ABAP Development Tools werden hauptsächlich die Perspektiven ABAP und Debugging verwendet, zwischen den man beliebig wechseln kann.
 
-![](./img/image16.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Wechseln zwischen verschiedenen Perspektiven*
-</span>
+![Wechseln zwischen verschiedenen Perspektiven](./img/image16.png)
+
+Wechseln zwischen verschiedenen Perspektiven
+{: .img-caption}
 
 *Tipp: Gerade in den ersten Wochen der ADT-Nutzung wird nach einer Debugging-Session gerne vergessen, zur ABAP-Perspektive zurückzukehren.*
 
 Wenn Sie Ihre Perspektive "zu sehr" angepasst haben, können Sie über das Menü den Auslieferungszustand der Perspektive wiederherstellen.
 
-![](./img/image22.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Zurücksetzen einer Perspektive*
-</span>
+![Zurücksetzen einer Perspektive](./img/image22.png)
+
+Zurücksetzen einer Perspektive
+{: .img-caption}
 
 #### Eigene Perspektiven
 
 Sie können auch eigene Perspektiven definieren. Dies ist vor allem dann sinnvoll, wenn Sie mit verschiedenen Monitor-Konfigurationen arbeiten (z. B. zwei Monitoren). Dadurch kann die Größe und Anordnung der Views angepasst werden. Eine eigene Perspektive kann über "Save Perspektive As..." gespeichert werden.
 
-![](./img/image14.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Speichern einer Perspektive*
-</span>
+![Speichern einer Perspektive](./img/image14.png)
 
-![](./img/image15.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Benennung der neuen Perspektive*
-</span>
+Speichern einer Perspektive
+{: .img-caption}
 
-![](./img/image10.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Neu Perspektive mit Name*
-</span>
+![Benennung der neuen Perspektive](./img/image15.png)
+
+Benennung der neuen Perspektive
+{: .img-caption}
+
+![Neu Perspektive mit Name](./img/image10.png)
+
+Neu Perspektive mit Name
+{: .img-caption}
 
 ## Empfohlene zusätzliche Views
 
@@ -303,12 +303,12 @@ Sie können auch eigene Perspektiven definieren. Dies ist vor allem dann sinnvol
 
 Die Einrichtung eines virtuellen Arbeitsplatzes ist so individuell wie die eines realen. Neben den persönlichen Vorlieben kommt es z. B. auch auf die Größe des Monitors an, wie viele Views gleichzeitig sinnvoll angezeigt werden können. Es können deshalb hier nur sehr subjektive Vorschläge gemacht werden.
 
-![](./img/abap_perspective.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Mögliche Einstellung der ABAP Perspektive*
-</span>
+![Mögliche Einstellung der ABAP Perspektive](./img/abap_perspective.png)
 
-![](./img/debugger_perspective.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Mögliche Einstellung der Debugger Perspektive*
-</span>
+Mögliche Einstellung der ABAP Perspektive
+{: .img-caption}
+
+![Mögliche Einstellung der Debugger Perspektive](./img/debugger_perspective.png)
+
+Mögliche Einstellung der Debugger Perspektive
+{: .img-caption}

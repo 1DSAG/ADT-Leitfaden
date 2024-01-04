@@ -43,6 +43,12 @@ Schriftarten sind Geschmackssache, und die Installation benötigt einmalig Admin
 
 Beispiel
 
-![](./img/image1.png)
+![Font Beispiel in ABAP](./img/image1.png)
 
-![](./img/image2.png)
+Font Beispiel in ABAP
+{: .img-caption}
+
+![Weiteres Font Beispiel](./img/image2.png)
+
+Weiteres Font Beispiel
+{: .img-caption}

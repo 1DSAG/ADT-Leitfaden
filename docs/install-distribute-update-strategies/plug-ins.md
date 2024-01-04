@@ -22,17 +22,17 @@ Plug-ins wie die ADT können über die Angabe der Update-Site im Dialog Help →
 
 Der Eclipse Marketplace ist im Help-Menü versteckt.
 
-![](./img/image8.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Einstieg in den Eclipse Marketplace*
-</span>
+![Einstieg in den Eclipse Marketplace](./img/image8.png)
+
+Einstieg in den Eclipse Marketplace
+{: .img-caption}
 
 Hier kann dann nach Plug-ins gesucht werden. Das Suchwort *ABAP* lieferte Stand 2022 in diesem Beispiel 11 Treffer.
 
-![](./img/image13.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Exemplarische Suche nach Plug-ins im Eclipse Marketplace*
-</span>
+![Exemplarische Suche nach Plug-ins im Eclipse Marketplace](./img/image13.png)
+
+Exemplarische Suche nach Plug-ins im Eclipse Marketplace
+{: .img-caption}
 
 Jedes Plug-in besitzt auf der rechten Seite einen eigenen *Install*-Button. Gegebenenfalls müssen noch eine Lizenz bestätigt und Zertifikaten vertraut werden. Abschließend ist ein Neustart von Eclipse notwendig.
 
@@ -40,16 +40,16 @@ Jedes Plug-in besitzt auf der rechten Seite einen eigenen *Install*-Button. Gege
 
 Kennt man die Update-Site eines Plug-ins oder ist es nicht auf dem Eclipse Marketplace gelistet, kann auch der klassische Installationsweg verwendet werden.
 
-![](./img/image4.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Installation neuer Software über das Kontextmenü*
-</span>
+![Installation neuer Software über das Kontextmenü](./img/image4.png)
+
+Installation neuer Software über das Kontextmenü
+{: .img-caption}
 
 Im Feld *Work with* wird die Update-Site eingetragen. Ist diese gültig, werden unten die dort verfügbaren Plug-ins angezeigt. Neben Webseiten kann auch eine heruntergeladene Version des Plug-ins in einer zip-Datei eine Update-Site sein. In letzterem Fall müssen Updates jedoch händisch mit einem weiteren Download durchgeführt werden.
 
-![](./img/image14.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Eintragen der Update-Site*
-</span>
+![Eintragen der Update-Site](./img/image14.png)
+
+Eintragen der Update-Site
+{: .img-caption}
 
 Auch hier müssen gegebenenfalls Lizenzen akzeptiert und Zertifikaten vertraut werden. Nach einem Neustart steht das Plug-in zur Verfügung.

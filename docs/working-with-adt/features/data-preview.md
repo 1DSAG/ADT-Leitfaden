@@ -19,19 +19,19 @@ nav_order: 10
 
 Die View [Data Preview](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/2fd1241b187b4d6c989e1ff8b1f00ba1.html) kann man nutzen, um sich Daten von Datenbanktabellen und (CDS-)Views anzeigen zu lassen. Die View öffnet sich, indem man entweder im Project Explorer ein entsprechendes Objekt markiert und den Shortcut **F8** drückt, oder das Kontextmenü nutzt.
 
-![](../img/image61.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Starten des Data Preview über die Tabelle*
-</span>
+![Starten des Data Preview über die Tabelle](../img/image61.png)
 
-Der Shortcut **F8** funktioniert auch, wenn man ein entsprechendes Objekt geöffnet hat und der Fokus auf dem Objekt liegt.
+Starten des Data Preview über die Tabelle
+{: .img-caption}
+
+Der Shortcut <kbd>F8</kbd> funktioniert auch, wenn man ein entsprechendes Objekt geöffnet hat und der Fokus auf dem Objekt liegt.
 
 Die View führt beim Öffnen unverzüglich die Datenselektion aus und listet dann die selektierten Daten in Tabellenform auf. Zusätzlich zeigt sie die Anzahl der selektierten Zeilen und die benötigte Zeit dafür an.
 
-![](../img/image33.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Anzeige des Data Preview*
-</span>
+![Anzeige des Data Preview](../img/image33.png)
+
+Anzeige des Data Preview
+{: .img-caption}
 
 Man hat in der View diverse Möglichkeiten, die Selektion anzupassen. Dazu zählen:
 
@@ -44,17 +44,17 @@ Außerdem kann man nach einem Muster in den angezeigten Daten suchen (inkl. ? un
 
 Bei [CDS-Views mit Associations](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/d70c7d8e6e81438e836c96f1aa61a259.html) ist es möglich, den Associations zu folgen und somit die verknüpften Daten anzuzeigen. Dazu markiert man einen der Datensätze und wählt oben über den Pfeil die gewünschte Association aus.
 
-![](../img/image28.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Navigation über Assoziationen*
-</span>
+![Navigation über Assoziationen](../img/image28.png)
+
+Navigation über Assoziationen
+{: .img-caption}
 
 Ein Highlight des Data Preview Views ist die [SQL Console](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/c672ec1c94964bb8837075f4f4ecea66.html). Anhand der selektierten Spalten, angegebenen Filtern und der Sortierung wird ein SQL Select Statement generiert, welches dann zur Selektion der Daten verwendet wird.
 
-![](../img/image26.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: SQL Console*
-</span>
+![SQL Console](../img/image26.png)
+
+SQL Console
+{: .img-caption}
 
 Dieses SQL Statement kann man individuell anpassen, prüfen und ausführen. Dabei gelten folgende Regeln und Einschränkungen:
 

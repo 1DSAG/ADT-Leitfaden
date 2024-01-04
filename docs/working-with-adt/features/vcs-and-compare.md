@@ -19,10 +19,10 @@ nav_order: 7
 
 Hinter dem Kontextmenüpunkt "[Compare with](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/3fbf95542e784e4d9e01ce75386b642b.html)" verstecken sich einige der wichtigsten Features für die tägliche Arbeit. Diese funktionieren bei allen Quelltexteditoren in den ADT, nicht nur bei der Entwicklung von ABAP-Code.
 
-![](../img/image27.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Kontextmenü zum Vergleichen von Versionen*
-</span>
+![Kontextmenü zum Vergleichen von Versionen](../img/image27.png)
+
+Kontextmenü zum Vergleichen von Versionen
+{: .img-caption}
 
 ## Local History -- Die lokale Versionsverwaltung
 
@@ -50,14 +50,14 @@ In der Comparsion View kann man links den aktuellen Stand des Quelltextes sehen 
 
 Mit den Buttons <span class="inline-img">![](../img/image103.png)</span> kann der alte Zustand durch Kopieren von rechts nach links wiederhergestellt werden. Es ist aber auch möglich, dass man direkt in dieser Vergleichs-View auf der linken Seite Änderungen durchführt. Nach dem Speichern wird der Vergleich wiederholt.
 
-![](../img/image14.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Comparison View* -- *Vergleich von zwei Versionen*
-</span>
+![Comparison View - Vergleich von zwei Versionen](../img/image14.png)
+
+Comparison View - Vergleich von zwei Versionen
+{: .img-caption}
 
 Wenn man eine alte Version vollständig übernehmen will, kann man aus dem Kontextmenü mittels *Replace With → Local History* direkt die passende Version auswählen.
 
-![](../img/image50.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Kontextmenü zum kompletten Übernehmen einer Version aus der lokalen Versionsverwaltung*
-</span>
+![Kontextmenü zum kompletten Übernehmen einer Version aus der lokalen Versionsverwaltung](../img/image50.png)
+
+Kontextmenü zum kompletten Übernehmen einer Version aus der lokalen Versionsverwaltung
+{: .img-caption}

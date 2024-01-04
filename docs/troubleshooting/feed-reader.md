@@ -26,12 +26,15 @@ Dazu werden die Ereignisse im Pull-Verfahren im Hintergrund abgefragt. Damit die
 
 Daneben können auch beliebige Atom-/RSS-Feeds abonniert werden, das kann beispielsweise der RSS-Feed für die letzten Blog-Posts zu einem Tag auf blogs.sap.com sein:
 
-![](./img/image1.png)
+![Beispiel für RSS Feed](./img/image1.png)
 
-![](./img/image9.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Abonnieren populärer RSS Feeds*
-</span>
+Beispiel für RSS Feed
+{: .img-caption}
+
+![Abonnieren populärer RSS Feeds](./img/image9.png)
+
+Abonnieren populärer RSS Feeds
+{: .img-caption}
 
 Mit einem Links-Klick auf den Titel in der Detailanzeige bzw. Rechts-Klick in der Liste und den Kontextmenüpunkt Open können Sie den Blog-Artikel öffnen (dafür ist es sinnvoll, in Eclipse einen externen Browser einzustellen, weil der Eclipse-interne Browser sich als IE11 für die Webseite ausgibt).
 
@@ -43,19 +46,19 @@ Sie können Feeds zu Laufzeitfehlern (ST22-Dumps) mit verschiedenen Filtermögli
 
 Ein Beispiel mit mehreren Laufzeitfehlern in einem Feed:
 
-![](./img/image10.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Mehrere Laufzeitfehler innerhalb eines Feeds*
-</span>
+![Mehrere Laufzeitfehler innerhalb eines Feeds](./img/image10.png)
+
+Mehrere Laufzeitfehler innerhalb eines Feeds
+{: .img-caption}
 
 Dokumentation zu den SAP Gateway Error Log Feeds findet sich im PDF-Dokument aus dem Hinweis [1797736 - SAP Gateway Troubleshooting Guide](https://me.sap.com/notes/1797736) und im Blog [How to use the SAP Gateway Error Log in ADT](https://blogs.sap.com/2020/07/22/how-to-use-the-sap-gateway-error-log-in-adt/).
 
 Sie können Feeds mit verschiedenen Filtermöglichkeiten ergänzen, u.a. kann auch hier gemäß Benutzer, Service, Namensraum oder Paket gefiltert werden. Um auch mit vielen Einträgen zurechtzukommen, kann ein Blättern (Paging) aktiviert werden. In der Detailanzeige kann direkt in die Transaktion /IWFND/GW_CLIENT zum Replay gesprungen werden. Außerdem kann man direkt in den ADT-Quelltexteditor analog zu den Laufzeitfehlern navigieren, vgl. folgendes Beispiel:
 
-![](./img/image12.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Ansicht eines SAP Gateway Fehlers aus dem Error Log*
-</span>
+![Ansicht eines SAP Gateway Fehlers aus dem Error Log](./img/image12.png)
+
+Ansicht eines SAP Gateway Fehlers aus dem Error Log
+{: .img-caption}
 
 Im Kontext von Enterprise Events können Sie Feeds zu Fehlern aus der Event Verarbeitung hinzufügen, z. B. um Fehler beim Weiterreichen der Events an den Event Mesh zu sehen. Dazu können Sie Kanal und Benutzer filtern.
 

@@ -1,3 +1,8 @@
+body {
+  counter-reset: img-caption-num;
+  counter-reset: tab-caption-num;
+}
+
 .goodExample {
   color: #22863a;
   background-color: #f0fff4;
@@ -26,7 +31,25 @@ a:hover {
 
 .img-caption,
 .table-caption {
+  margin-top: -1em;
   font-size: 0.8em;
+  font-style: italic;
+}
+
+.table-caption {
+  counter-increment: tab-caption-num 1;
+}
+
+.img-caption {
+  counter-increment: img-caption-num 1;
+}
+
+.img-caption::before {
+  content: "Abbildung " counter(img-caption-num) ": ";
+}
+
+.table-caption::before {
+  content: "Tabelle " counter(tab-caption-num) ": ";
 }
 
 :not([class="inline-img"]) {

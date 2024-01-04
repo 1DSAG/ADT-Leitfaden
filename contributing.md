@@ -92,9 +92,9 @@ Für Bilder sollte außerdem immer eine Bildunterschrift hinzugefügt werden. Ü
 
 ```markdown
 ![Einstieg in globale Einstellungen](./img/image1.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Einstieg in die globalen Einstellungen*
-</span>
+
+Einstieg in die globalen Einstellungen
+{: .img-caption}
 ```
 
 Sollen kleinere Bilder (siehe 1. Absatz im Kapitel [Debugger](docs/troubleshooting/debugger.md)) direkt im Absatz eingefügt werden, sollte die folgende Syntax verwendet werden

@@ -26,10 +26,10 @@ Da Plug-ins für Eclipse in Java zu entwickeln sind, empfiehlt es sich, dort sch
 
 Um Plug-ins für Eclipse zu entwickeln, benötigt man eine bestimmte Variante der Eclipse-Plattform: *Eclipse IDE for RCP and RAP Developers* (RAP = Remote Application Platform). Diese Variante bietet ein vollständiges Toolset, um sowohl Plug-ins für Eclipse als auch Rich-Client-Anwendungen (RCP) auf Basis von Eclipse zu entwickeln. Sie kann direkt von [eclipse.org](https://www.eclipse.org/downloads/packages/) bezogen werden.
 
-![](./img/image2.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Eclipse Bundle "Eclipse IDE for RCP and RAP Developers"*
-</span>
+![Eclipse Bundle "Eclipse IDE for RCP and RAP Developers"](./img/image2.png)
+
+Eclipse Bundle "Eclipse IDE for RCP and RAP Developers"
+{: .img-caption}
 
 Des Weiteren wird eine Installation des Java Development Kits (JDK) benötigt. Dieses kann z. B. von den folgenden Quellen bezogen werden:
 
@@ -89,10 +89,10 @@ Update-Sites werden verwendet, um Features zu organisieren und zu exportieren, d
 
 Ein neues Plug-in-Projekt kann über File → New → Plug-in Project erstellt werden. Daraufhin öffnet sich der Plug-in Project Wizard:
 
-![](./img/image6.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Plug-in Project Wizard - Einstieg*
-</span>
+![Plug-in Project Wizard - Einstieg](./img/image6.png)
+
+Plug-in Project Wizard - Einstieg
+{: .img-caption}
 
 Hier muss zunächst ein Name für das Projekt vergeben werden. Beim Namen wird die sog. *Reverse-Naming-Domain-Notation* empfohlen (z. B. com.company.myplugin), jedoch kann hier auch jede beliebige andere Namenskonvention gewählt werden.
 
@@ -102,10 +102,10 @@ Da in diesem Guide explizit auf die Plug-in-Entwicklung für Eclipse eingegangen
 
 Durch den Klick auf *Next* geht es auf die nächste Seite des Wizards.
 
-![](./img/image11.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Plug-in Project Wizard - Inhalt*
-</span>
+![Plug-in Project Wizard - Inhalt](./img/image11.png)
+
+Plug-in Project Wizard - Inhalt
+{: .img-caption}
 
 Hier werden die Plug-in-spezifischen Eigenschaften erfasst. Für die ID wird empfohlen, den Projektnamen zu verwenden, verpflichtend ist dies jedoch nicht. Die Version muss dem Muster *major.minor.micro.qualifier* folgen. Der *.qualifier*-Teil ist dabei optional. Er wird beim Build durch einen Zeitstempel ersetzt (z. B. 1.3.0.202205011550).
 
@@ -123,10 +123,10 @@ Nach Abschluss des Wizard mittels *Finish* wird das Plug-in-Projekt an der ausge
 
 Ein Plug-in-Projekt hat immer den folgenden Aufbau. Die Datei *plugin.xml* und der Ordner *OSGI-INF* sind dabei optional und existieren nur, wenn die Notwendigkeit besteht.
 
-![](./img/image15.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Plug-in-Projekt im Project Explorer View*
-</span>
+![Plug-in-Projekt im Project Explorer View](./img/image15.png)
+
+Plug-in-Projekt im Project Explorer View
+{: .img-caption}
 
 Die wichtigsten Dateien sind *manifest.mf*, *build.properties* und *plugin.xml*. Öffnet man eine dieser drei Dateien, wird standardmäßig der Plug-in-Manifest-Editor geöffnet. Dieser Editor ermöglicht die Pflege aller Metadaten eines Plug-in, welcher der Editor in folgende Bereiche untergliedert:
 
@@ -153,19 +153,19 @@ Die wichtigsten Dateien sind *manifest.mf*, *build.properties* und *plugin.xml*.
 
 Ein neues Feature-Projekt kann über File → New → Feature Project erstellt werden. Daraufhin öffnet sich der Feature Project Wizard:
 
-![](./img/image19.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Feature Project Wizard - Einstieg*
-</span>
+![Feature Project Wizard - Einstieg](./img/image19.png)
+
+Feature Project Wizard - Einstieg
+{: .img-caption}
 
 Die Eigenschaften bei einem Feature-Projekt sind ähnlich wie beim Plug-in-Projekt, und somit gelten auch die gleichen Regeln für z. B. *ID*, *Name* oder *Version*.
 
 Nun kann der Wizard beendet werden oder man navigiert zur nächsten Seite, auf der man gleich die Plug-ins selektieren kann, die in diesem Feature enthalten sein sollen:
 
-![](./img/image23.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Feature Project Wizard - Plug-in-Auswahl*
-</span>
+![Feature Project Wizard - Plug-in-Auswahl](./img/image23.png)
+
+Feature Project Wizard - Plug-in-Auswahl
+{: .img-caption}
 
 Nach Abschluss wird das Feature-Projekt generiert und im Workbench angezeigt.
 
@@ -197,10 +197,10 @@ Dieser ist in die folgenden Sektionen unterteilt:
 
 Ein neues Update-Site-Projekt kann über File → New → Project... → Plug-in Development →\> Update Site Project erstellt werden. Daraufhin öffnet sich der Update Site Project Wizard:
 
-![](./img/image14.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Update Site Wizard*
-</span>
+![Update Site Wizard](./img/image14.png)
+
+Update Site Wizard
+{: .img-caption}
 
 Der Wizard enthält nur eine Seite, auf der man dem Projekt einen Namen gibt und den Ablageort auswählen kann. Nach Abschluss des Wizard sollte sich im Workspace ein Ordner mit dem gewählten Projektnamen befinden. In diesem Ordner befindet sich die Manifestdatei der Update-Site, genannt *site.xml*.
 
@@ -228,10 +228,10 @@ Zusätzlich kann auch noch ein Archiv mit dem Namen *logs.zip* erstellt worden s
 
 Bevor die erstellte Site nun auf einem Webserver hochgeladen wird, möchte man diese vorher eventuell noch testen. Dazu sollte man sich eine neue Eclipse-Installation besorgen. Hierfür ist die Variante *Eclipse IDE for Java Developers* völlig ausreichend. In dieser Installation werden nun erst die ADT installiert, nach einem Neustart fügt man jetzt die neue -- bis jetzt noch lokale -- Update-Site über Help → Install New Software... → Add*...* hinzu:
 
-![](./img/image30.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Dialog zum Hinzufügen einer Update-Site*
-</span>
+![Dialog zum Hinzufügen einer Update-Site](./img/image30.png)
+
+Dialog zum Hinzufügen einer Update-Site
+{: .img-caption}
 
 Über den Button "Local...*"* wählt man dann das Verzeichnis des Update-Site-Projekts aus. Nach Klick auf den Button "Add" sollten die Kategorien und die zugewiesenen Features der Update-Site aufgelistet und installierbar sein.
 
@@ -239,10 +239,10 @@ Bevor die erstellte Site nun auf einem Webserver hochgeladen wird, möchte man d
 
 Wenn der Test der Update-Site erfolgreich war, kann diese nun auf einem Webserver hochgeladen werden, um die Artefakte für andere bereitzustellen. Sollte man die Kosten für einen eigenen Webserver scheuen, gibt es zum Beispiel über GitHub Pages eine kostenlose Möglichkeit, seine Update-Site bereitzustellen. Dazu initialisiert man im Projektverzeichnis der Update-Site ein neues Git Repository und veröffentlicht dieses in einem öffentlichen Repository auf GitHub. Im Anschluss kann in den Repository-Einstellungen auf GitHub die Option "GitHub Pages" aktiviert werden:
 
-![](./img/image3.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: GitHub-Repository-Einstellungen für GitHub Pages*
-</span>
+![GitHub-Repository-Einstellungen für GitHub Pages](./img/image3.png)
+
+GitHub-Repository-Einstellungen für GitHub Pages
+{: .img-caption}
 
 Nachdem das Erstellen der GitHub-Pages-Seite durch GitHub abgeschlossen ist, kann diese mit der URL *https://\<username\>.github.io/\<repository-name\>* in Eclipse als Update-Site eingetragen werden.
 
@@ -256,17 +256,17 @@ Somit steht es jedem offen, entweder, wie im Guide beschrieben, eigene RESTful A
 
 Vor allem bei kleineren Plug-ins mag die BAdI-Methode als ziemlicher Overhead wirken, sowohl auf ABAP- als auch auf Java-Seite. Jedoch hat der BAdI-Ansatz auch seine Vorteile. Vor allem durch den Einsatz von EMF (Eclipse Modelling Framework) besteht die Möglichkeit, einen von ABAP nach XML serialisierten String ganz einfach in Objekte in Java umzuwandeln. Einfach beschrieben benötigt man dafür auf der ABAP-Seite eine "Simple Transformation" (Objekttyp XSLT), um ABAP-Daten nach XML zu transformieren.
 
-![](./img/image18.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Beispiel für eine Simple Transformation zur Transformation von ABAP \<-\> XML*
-</span>
+![Beispiel für eine Simple Transformation zur Transformation von ABAP \<-\> XML](./img/image18.png)
+
+Beispiel für eine Simple Transformation zur Transformation von ABAP \<-\> XML
+{: .img-caption}
 
 Und seitens Java ist ein EMF-Modell notwendig.
 
-![](./img/image16.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Beispiel für EMF-Modell zur Serialisierung von XML- \<-\> Java-Objekt*
-</span>
+![Beispiel für EMF-Modell zur Serialisierung von XML- \<-\> Java-Objekt](./img/image16.png)
+
+Beispiel für EMF-Modell zur Serialisierung von XML- \<-\> Java-Objekt
+{: .img-caption}
 
 Durch diesen Ansatz lässt sich die Datentransformation sehr generisch bauen, und man spart auch wieder Entwicklungszeit ein.
 

@@ -133,7 +133,7 @@ Senior Manager/ Entwicklungsleiter/ Agile Technical Coach</td>
 </tbody>
 </table>
 
-![](./img/team_dsag_TechDays.jpg)  
-<span class="img-caption" markdown=1>
-*Abbildung: Teil des Autorenteams bei den DSAG Technologietagen 2023 in Mannheim*
-</span>
+![Teil des Autorenteams bei den DSAG Technologietagen 2023 in Mannheim](./img/team_dsag_TechDays.jpg)
+
+Teil des Autorenteams bei den DSAG Technologietagen 2023 in Mannheim
+{: .img-caption}
