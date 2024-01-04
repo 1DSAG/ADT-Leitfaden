@@ -80,7 +80,7 @@ Es gibt jedoch Features, die auch außerhalb der Plug-in-Entwicklung hilfreich s
 
 ![Historie für Zwischenablage (Tastenkürzel Strg+Shift+V)](./img/image7.png)
 
-Historie für Zwischenablage (Tastenkürzel Strg+Shift+V)
+Historie für Zwischenablage (Tastenkürzel <kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd>)
 {: .img-caption}
 
 Links:

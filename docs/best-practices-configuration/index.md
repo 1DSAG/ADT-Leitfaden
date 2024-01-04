@@ -174,7 +174,7 @@ Breakpoints in Eclipse sind automatisch für alle Zugriffsarten (SAP GUI, ABAP U
 
 (ABAP Development → Editors → Source Code Editors → ABAP Formatter)
 
-Wie bei Pretty Printer nehmen Sie hier die Einstellungen der Formatierung vor, wenn der Code Formatter (**SHIFT+F1**) ausgeführt wird. Ein Standard hierfür wäre zum Beispiel:
+Wie bei Pretty Printer nehmen Sie hier die Einstellungen der Formatierung vor, wenn der Code Formatter (<kbd>Shift</kbd>+<kbd>F1</kbd>) ausgeführt wird. Ein Standard hierfür wäre zum Beispiel:
 
 ![Mögliche Einstellungen für den Pretty Printer / ABAP Formatter](./img/image13.png)
 

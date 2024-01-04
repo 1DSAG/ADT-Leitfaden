@@ -175,7 +175,7 @@ Zur Methodenimplementierung nutzen Sie die [Quick-Fix](https://help.sap.com/docs
 Nutzung des Quick Fix zur Methodenimplementierung
 {: .img-caption}
 
-Sie wählen "Add Implementation for ..." aus und bestätigen mit ENTER. Zum Ausführen der Quick-Fix-Befehle sollte der Code gespeichert und fehlerfrei sein, da manche Quick Fixes (automatische Code-Korrekturen/Refactorings) dies als Voraussetzungen haben.
+Sie wählen "Add Implementation for ..." aus und bestätigen mit <kbd>Enter</kbd>. Zum Ausführen der Quick-Fix-Befehle sollte der Code gespeichert und fehlerfrei sein, da manche Quick Fixes (automatische Code-Korrekturen/Refactorings) dies als Voraussetzungen haben.
 
 Die Methodenimplementierung bedeutet hier, dass automatisiert die Sektion
 
