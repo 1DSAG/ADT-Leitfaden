@@ -39,9 +39,9 @@ Objekttypen der CDS in der Navigation
 
 Die Quelltext Editoren für die unterschiedlichen Dateitypen der Core Data Services verhalten sich weitgehend wie der Quelltexteditor für ABAP-Code. Unter anderem sind folgende Features enthalten:
 
-- Code Completion (**STRG+SPACE**) - Vorschlagswerte, die im Kontext passen.
-- Element Info (**F2**) - Informationen über das Element, auf dem der Cursor steht.
-- Pretty Printer (**SHIFT+F1**)
+- Code Completion (<kbd>Strg</kbd>+<kbd>Space</kbd>) - Vorschlagswerte, die im Kontext passen.
+- Element Info (<kbd>F2</kbd>) - Informationen über das Element, auf dem der Cursor steht.
+- Pretty Printer (<kbd>Shift</kbd>+<kbd>F1</kbd>)
 
 Ein Unterschied sind die Farben, die im Editor verwendet werden.
 
@@ -63,7 +63,7 @@ Um ein vollständiges Bild eines CDS-Objektes unter Berücksichtigung aller Date
 
 ## Element Info für CDS
 
-Mit **F2** oder der separaten [Element Info View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/c2ffbc2fee0c4ceda3bb89bd843ee419.html) bekommen Sie für einen CDS View eine gute Übersicht über die Datenstruktur und Assoziationen, unabhängig davon, wo diese definiert wurden. Außerdem werden alle relevanten Erweiterungsdateien angezeigt.
+Mit <kbd>F2</kbd> oder der separaten [Element Info View](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/c2ffbc2fee0c4ceda3bb89bd843ee419.html) bekommen Sie für einen CDS View eine gute Übersicht über die Datenstruktur und Assoziationen, unabhängig davon, wo diese definiert wurden. Außerdem werden alle relevanten Erweiterungsdateien angezeigt.
 
 ![Element Info für CDS](../img/image94.png)
 

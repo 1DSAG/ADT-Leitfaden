@@ -21,8 +21,7 @@ Die Suche nach Objekten in Eclipse ist zentraler Bestandteil der täglichen Arbe
 
 ## Objekte suchen
 
-Um ein Objekt im System zu suchen bzw. zu öffnen, können Sie den Dialog\
-"Open ABAP Development Object" nutzen (erreichbar über die Tastenkombination **STRG+SHIFT+A**).
+Um ein Objekt im System zu suchen bzw. zu öffnen, können Sie den Dialog "Open ABAP Development Object" nutzen (erreichbar über die Tastenkombination <kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>).
 
 ![Dialog zur Objektsuche](../img/image101.png)
 
@@ -33,7 +32,7 @@ Im Dialog haben Sie die Möglichkeit, im oberen Teil das ABAP-Projekt zu ändern
 
 ## Objekte filtern
 
-In der Objektsuche haben Sie nun die Möglichkeit, mit Such-Strings und Pattern zu arbeiten, um die Ergebnismenge weiter einzuschränken. Das Feld unterstützt den "Content Assist" (**STRG+LEERTASTE**), um weitere Einschränkungen und Filter zu verwenden. Eine einfache Suche könnte wie folgt aussehen:
+In der Objektsuche haben Sie nun die Möglichkeit, mit Such-Strings und Pattern zu arbeiten, um die Ergebnismenge weiter einzuschränken. Das Feld unterstützt den "Content Assist" (<kbd>Strg</kbd>+<kbd>Space</kbd>), um weitere Einschränkungen und Filter zu verwenden. Eine einfache Suche könnte wie folgt aussehen:
 
 ![Ergebnis der Suche](../img/image63.png)
 
@@ -63,15 +62,15 @@ Um die Suche zu beschleunigen, empfiehlt es sich, den Typ des gewünschten Objek
 In der ABAP Workbench funktioniert die [Navigation](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/ec2da130ce43409fbb2f6a072f9ba07c.html) zum nächsten Objekt über einen Doppelklick auf den entsprechenden Ausdruck im Quellcode. In Eclipse wird hier lediglich der Quelltext markiert. Um die Vorwärtsnavigation auszulösen, gibt es drei Möglichkeiten:
 
 - Cursor auf dem Objekt platzieren, F3 drücken
-- Mit gedrückter **STRG**-Taste das Objekt anklicken
+- Mit gedrückter <kbd>Strg</kbd>-Taste das Objekt anklicken
 - In der Oberfläche wird ein klickbarer Link angeboten (z. B. Datenelement → Domäne)
 
 Das Objekt wird in einem neuen Tab innerhalb des Editors geöffnet, das Quellobjekt bleibt weiterhin geöffnet und Sie können zwischen den zuletzt geänderten Objekten sehr einfach über die Tastenkombinationen navigieren:
 
-- **ALT+Pfeil rechts**: vorwärts
-- **ALT+Pfeil links**: rückwärts
+- <kbd>Alt</kbd>+<kbd>Pfeil rechts</kbd>: vorwärts
+- <kbd>Alt</kbd>+<kbd>Pfeil links</kbd>: rückwärts
 
-Dies kann analog auch mit den Pfeiltasten im Bereich der Drucktastenleiste durchgeführt werden. Im Bereich der Drucktastenleiste gibt es dafür auch verschiedene Optionen, um zum letzten verwendeten Tab (**ALT+Pfeil links**) zu gelangen.
+Dies kann analog auch mit den Pfeiltasten im Bereich der Drucktastenleiste durchgeführt werden. Im Bereich der Drucktastenleiste gibt es dafür auch verschiedene Optionen, um zum letzten verwendeten Tab (<kbd>Alt</kbd>+<kbd>Pfeil links</kbd>) zu gelangen.
 
 ![Navigations-Ikonen](../img/image64.png)
 

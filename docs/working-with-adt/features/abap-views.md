@@ -156,25 +156,21 @@ Templates stehen innerhalb eines Eclipse-Workspace zur Verfügung, sind im Gegen
 
 ## Verwendungsnachweis/Where-Used-List
 
-Der [Verwendungsnachweis](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecc9bf86e391014adc9fffe4e204223.html) findet alle statischen Verwendungen eines Entwicklungsobjektes im Source-Code des aktuellen Projektes. Der Verwendungsnachweis ist über die Tastenkombination
-
-**STRG+SHIFT+G** (Get-Where-Used-List)
-
-erreichbar. Das Ergebnis wird im Reiter "Search" dargestellt:
+Der [Verwendungsnachweis](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ecc9bf86e391014adc9fffe4e204223.html) findet alle statischen Verwendungen eines Entwicklungsobjektes im Source-Code des aktuellen Projektes. Der Verwendungsnachweis ist über die Tastenkombination <kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd> (Get-Where-Used-List) erreichbar. Das Ergebnis wird im Reiter "Search" dargestellt:
 
 ![Ergebnis des Verwendungsnachweises/Where-Used-List](../img/image43.png)
 
 Ergebnis des Verwendungsnachweises/Where-Used-List
 {: .img-caption}
 
-Durch die Verwendung der Filterfunktion mit Hilfe des Filter-Icons kann hierbei auf Pakete, Objekttypen und Benutzer eingeschränkt werden. Auch hier kann per **STRG+SPACE** die automatische Vervollständigung genutzt werden, um Objekte schneller zu finden.
+Durch die Verwendung der Filterfunktion mit Hilfe des Filter-Icons kann hierbei auf Pakete, Objekttypen und Benutzer eingeschränkt werden. Auch hier kann per <kbd>Strg</kbd>+<kbd>Space</kbd> die automatische Vervollständigung genutzt werden, um Objekte schneller zu finden.
 
 ![Filter für Where-Used-Search](../img/image67.png)
 
 Filter für Where-Used-Search
 {: .img-caption}
 
-Über **STRG+.** und **STRG+,** lassen sich die Fundstellen komfortabel browsen, d. h. die jeweils nächste oder vorherige Fundstelle anzeigen.
+Über <kbd>Strg</kbd>+<kbd>.</kbd> und <kbd>Strg</kbd>+<kbd>,</kbd> lassen sich die Fundstellen komfortabel browsen, d. h. die jeweils nächste oder vorherige Fundstelle anzeigen.
 
 ## Bookmarks
 
@@ -238,7 +234,7 @@ Mehr Details sind im [User-Guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c2
 
 ## ABAP Type Hierarchy
 
-Die View [Type Hierarchy](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4eccd9066e391014adc9fffe4e204223.html) dient dazu, die Vererbungshierarchie von Klassen und Interfaces darzustellen. Um die View zu nutzen, braucht man nur den Cursor auf die Klasse oder das Interface zu setzen und den Shortcut **F4** zu drücken. Alternativ kann man über das Kontextmenü die ABAP Type Hierarchy öffnen.
+Die View [Type Hierarchy](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4eccd9066e391014adc9fffe4e204223.html) dient dazu, die Vererbungshierarchie von Klassen und Interfaces darzustellen. Um die View zu nutzen, braucht man nur den Cursor auf die Klasse oder das Interface zu setzen und den Shortcut <kbd>F4</kbd> zu drücken. Alternativ kann man über das Kontextmenü die ABAP Type Hierarchy öffnen.
 
 ![Öffnen der ABAP Type Hierarchie](../img/image22.png)
 
@@ -252,7 +248,7 @@ Die View zeigt die Hierarchie in einer Baumstruktur an.
 Anzeige der Type Hierarchy im View
 {: .img-caption}
 
-Per Doppelklick kann man das markierte Objekt im ABAP Editor öffnen. Über **STRG+T** lässt sich auch inline im Code die [Quick Type Hierarchy](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/aafadb177a1a4cac8117b7b079c2596b.html) öffnen.
+Per Doppelklick kann man das markierte Objekt im ABAP Editor öffnen. Über <kbd>Strg</kbd>+<kbd>T</kbd> lässt sich auch inline im Code die [Quick Type Hierarchy](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/aafadb177a1a4cac8117b7b079c2596b.html) öffnen.
 
 ## Transport Organizer
 
@@ -292,7 +288,7 @@ Details dazu findet man im User-Guide in den Hilfefunktionen von Eclipse. Der Ar
 
 ## ABAP Unit
 
-Die View [ABAP Unit](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/08c60b52cb85444ea3069779274b43db.html) öffnet sich nach dem Ausführen von ABAP Unit Tests und listet die ausgeführten Testmethoden sowie deren Status auf. Die ABAP Unit Tests können per Shortcut **STRG+SHIFT+F10** oder über das Kontextmenü im ABAP Editor mit dem Menüpunkt *"Run As"* gestartet werden.
+Die View [ABAP Unit](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/08c60b52cb85444ea3069779274b43db.html) öffnet sich nach dem Ausführen von ABAP Unit Tests und listet die ausgeführten Testmethoden sowie deren Status auf. Die ABAP Unit Tests können per Shortcut <kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>F10</kbd> oder über das Kontextmenü im ABAP Editor mit dem Menüpunkt *"Run As"* gestartet werden.
 
 ![Ausführung des ABAP Unit Test über das Kontextmenü](../img/image40.png)
 
@@ -324,9 +320,9 @@ Somit könnte man zum Beispiel nur die Testmethoden in einem Paket ausführen, d
 
 ## ABAP Coverage
 
-Die View [ABAP Coverage](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec487046e391014adc9fffe4e204223.html) erscheint, wenn man ABAP Unit Tests mit Coverage (Testabdeckung) ausführt. Die Test-Coverage bietet einen Hinweis darauf, welcher Code nicht durch automatisierte Tests abgedeckt ist. Die dortige Testabdeckung kann eine bewusste Entscheidung sein, da eine Testabdeckung von hundert Prozent auf Dauer sehr viel Aufwand in der Entwicklung macht. Coverage kann auch Hinweise darauf liefern, wo mehr Testabdeckung nötig sein könnte. Eine pauschale Empfehlung für eine Testabdeckung kann nicht gegeben werden und ist gegebenenfalls auch abhängig von der Kritikalität der Anwendung.\
-\
-Diese Art der Ausführung kann per Shortcut **STRG+Shift+F11** oder über das Kontextmenü mit dem Menüpunkt "Coverage As" gestartet werden.
+Die View [ABAP Coverage](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec487046e391014adc9fffe4e204223.html) erscheint, wenn man ABAP Unit Tests mit Coverage (Testabdeckung) ausführt. Die Test-Coverage bietet einen Hinweis darauf, welcher Code nicht durch automatisierte Tests abgedeckt ist. Die dortige Testabdeckung kann eine bewusste Entscheidung sein, da eine Testabdeckung von hundert Prozent auf Dauer sehr viel Aufwand in der Entwicklung macht. Coverage kann auch Hinweise darauf liefern, wo mehr Testabdeckung nötig sein könnte. Eine pauschale Empfehlung für eine Testabdeckung kann nicht gegeben werden und ist gegebenenfalls auch abhängig von der Kritikalität der Anwendung.
+
+Diese Art der Ausführung kann per Shortcut <kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>F11</kbd> oder über das Kontextmenü mit dem Menüpunkt "Coverage As" gestartet werden.
 
 ![Durchführung der Abdeckungsmessung](../img/image71.png)
 
@@ -346,7 +342,7 @@ Ist die farbliche Ansicht im Source-Code nicht sichtbar, so kann diese über das
 
 Das [ABAP Test Cockpit](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec5711c6e391014adc9fffe4e204223.html) kann in ADT ebenso wie in der SAP GUI ausgeführt werden. Dabei haben Sie verschiedene Möglichkeiten, wie Sie die Prüfung starten können:
 
-- Über die Tastenkombination **STRG+SHIFT+F2**
+- Über die Tastenkombination <kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>F2</kbd>
 - Rechtsklick im Projekt Explorer unter dem Punkt "Run As"
 - Im Menüband oben, unter dem Button zum Starten des Objekts
 

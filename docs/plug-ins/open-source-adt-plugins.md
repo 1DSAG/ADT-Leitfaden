@@ -278,7 +278,7 @@ Dieses Plug-in erweitert die ADT um weitere Such- und Analysefunktionen für die
 - Datenbanktabelle/-view
 - CDS View
 
-Die Suchfunktionen sind in den Eclipse-Search-Dialog integriert (**Strg+H**). Die Bedienung ist dabei ähnlich wie beim Dialog "Open ABAP Development Object" (**Strg+Shift+A**). Den Objekttyp kann man mittels Dropdown ändern. Dieser steuert unter anderem die verfügbaren Filter im Feld "Search Filters".
+Die Suchfunktionen sind in den Eclipse-Search-Dialog integriert (<kbd>Strg</kbd>+<kbd>H</kbd>). Die Bedienung ist dabei ähnlich wie beim Dialog "Open ABAP Development Object" (<kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>). Den Objekttyp kann man mittels Dropdown ändern. Dieser steuert unter anderem die verfügbaren Filter im Feld "Search Filters".
 
 ![Search-Dialog auf Seite "ABAP Object Search"](./img/image31.png)
 

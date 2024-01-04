@@ -26,7 +26,7 @@ ABAP Editor - Hauptfenster
 
 ## Element Info
 
-Über die Positionierung des Cursors auf einem Objekt und dem Shortcut **F2** erscheint ein Pop-up mit Zusatzinformationen. Hier am Beispiel einer Methode und eines Datenelements:
+Über die Positionierung des Cursors auf einem Objekt und dem Shortcut <kbd>F2</kbd> erscheint ein Pop-up mit Zusatzinformationen. Hier am Beispiel einer Methode und eines Datenelements:
 
 ![Element Info für eine Methode](../img/image7.png)
 
@@ -47,15 +47,11 @@ Die ABAP Element Info existiert auch als eigenständige View. Diese kann über d
 Anzeige der Element Info nach Auswahl des Objekts
 {: .img-caption}
 
-Über "Pin this view" <span class="inline-img">![](../img/image17.png)</span> wird die Information dauerhaft angezeigt, auch wenn auf ein anderes Element geklickt oder die Element Info per **F2** für ein anderes Entwicklungsobjekt geöffnet wird.
+Über "Pin this view" <span class="inline-img">![](../img/image17.png)</span> wird die Information dauerhaft angezeigt, auch wenn auf ein anderes Element geklickt oder die Element Info per <kbd>F2</kbd> für ein anderes Entwicklungsobjekt geöffnet wird.
 
 ## Quelltextformatierung mit dem ABAP Formatter
 
-In der SAP GUI heißt das Werkzeug zum Formatieren des Quellcodes Pretty Printer. Das Pendant in ADT ist der [ABAP Formatter](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec799106e391014adc9fffe4e204223.html). Er wird entweder über die Tastenkombination
-
-**SHIFT+F1**
-
-oder über das Kontextmenü im Quelltext aufgerufen.
+In der SAP GUI heißt das Werkzeug zum Formatieren des Quellcodes Pretty Printer. Das Pendant in ADT ist der [ABAP Formatter](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec799106e391014adc9fffe4e204223.html). Er wird entweder über die Tastenkombination <kbd>Shift</kbd>+<kbd>F1</kbd> oder über das Kontextmenü im Quelltext aufgerufen.
 
 ![Kontextmenü für die Formatierung](../img/image9.png)
 

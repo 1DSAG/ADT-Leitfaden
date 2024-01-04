@@ -6,8 +6,9 @@
     - [Struktur eines Kapitels](#struktur-eines-kapitels)
     - [Metadaten einer Seite](#metadaten-einer-seite)
     - [Bilder hinzufügen](#bilder-hinzufügen)
+    - [Tastaturkürzel einfügen](#tastaturkürzel-einfügen)
   - [Mitwirken](#mitwirken)
-    - [Wie verwendet man Pull-Requests in GitHub](#wie-verwendet-man-pull-requests-in-github)
+    - [Wie verwendet man Pull-Requests (PR) in GitHub](#wie-verwendet-man-pull-requests-pr-in-github)
 
 ## Allgemeine Tips
 
@@ -102,6 +103,18 @@ Sollen kleinere Bilder (siehe 1. Absatz im Kapitel [Debugger](docs/troubleshooti
 ```markdown
 Wechsel in die Debugging-Perspektive <span class="inline-img">![Schaltfläche Debugging-Perspektive](./img/image14.png)</span>.
 ```
+
+### Tastaturkürzel einfügen
+
+Um schöne und lesbare Tastaturkürzel im Text einzufügen gibt es das HTML Tag `kbd`.
+
+Beispiel:
+
+```markdown
+Zum Öffnen der ADT Quicksearch gibt es das Kürzel <kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>.
+```
+
+Zum Öffnen der ADT Quicksearch gibt es das Kürzel <kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>.
 
 ## Mitwirken
 

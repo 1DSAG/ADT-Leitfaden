@@ -35,7 +35,7 @@ Entwickler, die bereits den Einstieg geschafft haben und sich einen Überblick �
 
 Im Gegensatz zu den SAP-GUI-basierten Transaktionen wie SE80 oder SE24 findet sich in ADT kein formularbasierter Editor. Die Erstellung von Klassen (und auch Funktionsbausteinen etc.) erfolgt in ADT rein textbasiert. Für Entwicklungswerkzeuge, die abhängig von ADT und Backend-Version noch nicht in Eclipse zur Verfügung stehen, kann aus Eclipse auf diese Transaktionen integriert zugegriffen werden.
 
-Gewöhnungsbedürftig ist auch der Tausch der Tasten **F2** und **F3**. Während im SAP-GUI die F3-Taste als Zurück-Taste verwendet wird, dient die F3-Taste in den ADT zur Vorwärtsnavigation, die F2-Taste zur kontextsensitiven Hilfe.
+Gewöhnungsbedürftig ist auch der Tausch der Tasten <kbd>F2</kbd> und <kbd>F3</kbd>. Während im SAP-GUI die <kbd>F3</kbd>-Taste als Zurück-Taste verwendet wird, dient die <kbd>F3</kbd>-Taste in den ADT zur Vorwärtsnavigation, die <kbd>F2</kbd>-Taste zur kontextsensitiven Hilfe.
 
 Dies stellt für den Einstieg mitunter auch die größte Hürde dar, da lang eingeübte Praxis und gewohnte Arbeitsprozesse sich mit dem Umstieg auf ADT ändern. Und wenn es schnell gehen soll, greift man gerne auf gewohnte und bestens vertraute Arbeitsweisen zurück.
 
@@ -147,7 +147,7 @@ Da der Abschlusspunkt nicht vorhanden ist, zeigt ADT sowohl im linken Balken ein
 
 ## Automatische Ergänzung und Formatierung des Codes
 
-Wir schließen die Methodendefinition mit Erstellung der Parameter und des Abschlusspunkts ab. Durch die Nutzung der Code Completion wird uns die Arbeit dabei sehr erleichtert. Dazu geben wir jeweils nur die ersten zwei bis drei Buchstaben des gewünschten Schlüsselwortes an. Die Tastenkombination **STRG+LEERTASTE** zeigt uns die passenden Schlüsselworte an. Diese können daraufhin mittels **TAB+Pfeiltasten** aus der Vorschlagsliste ausgewählt werden. Zur weiteren Automatisierung der Code-Erstellung bietet sich die Nutzung von Templates an (s. Abschnitt [Code Template](/ADT-Leitfaden/working-with-adt/features/abap-views#templates)).
+Wir schließen die Methodendefinition mit Erstellung der Parameter und des Abschlusspunkts ab. Durch die Nutzung der Code Completion wird uns die Arbeit dabei sehr erleichtert. Dazu geben wir jeweils nur die ersten zwei bis drei Buchstaben des gewünschten Schlüsselwortes an. Die Tastenkombination <kbd>Strg</kbd>+<kbd>Space</kbd> zeigt uns die passenden Schlüsselworte an. Diese können daraufhin mittels <kbd>TAB</kbd>+<kbd>Pfeiltasten</kbd> aus der Vorschlagsliste ausgewählt werden. Zur weiteren Automatisierung der Code-Erstellung bietet sich die Nutzung von Templates an (s. Abschnitt [Code Template](/ADT-Leitfaden/working-with-adt/features/abap-views#templates)).
 
 ![Beispiel Code Completion für den Import-Parameter](./img/image80.png)
 
@@ -155,13 +155,9 @@ Beispiel Code Completion für den Import-Parameter
 {: .img-caption}
 
 Nachdem die Import-Parameter und der Return-Parameter definiert sind, wird der Cursor im Textbereich des Codes positioniert und die Formatierung des Codes mittels des Kontextmenüs\
-Rechte Maustaste → Source Code → Format bzw. der Tastenkombination\
-**Shift+F1**\
-ausgeführt. Dies entspricht dem Pretty Printer in den GUI-Transaktionen. Anschließend wird der Code mittels\
-**STRG+S**\
-gespeichert.
+Rechte Maustaste → Source Code → Format bzw. der Tastenkombination <kbd>Shift</kbd>+<kbd>F1</kbd> ausgeführt. Dies entspricht dem Pretty Printer in den GUI-Transaktionen. Anschließend wird der Code mittels <kbd>Strg</kbd>+<kbd>S</kbd> gespeichert.
 
-Sollte ein Syntaxfehler vorliegen, zeigt das Problem-View und die farbliche Markierung im Code den Fehler an. Ist der Code syntaktisch korrekt, kann das Artefakt anschließend mittels **STRG+F3** aktiviert werden.
+Sollte ein Syntaxfehler vorliegen, zeigt das Problem-View und die farbliche Markierung im Code den Fehler an. Ist der Code syntaktisch korrekt, kann das Artefakt anschließend mittels <kbd>Strg</kbd>+<kbd>F3</kbd> aktiviert werden.
 
 Nach Einübung der neuen, vor allem Tastatur-basierten, Arbeitsweise entsteht nach kurzer Zeit ein Automatismus, der nach dem Schreiben einiger Codezeilen und anschließender Abfolge der o.g. Tastenkombinationen einen formatierten, geprüften und gesicherten Code als Ergebnis hat. Zeitraubende Überraschungen in Form von Syntaxfehlern beim Aktivieren, wie es in den GUI-Tools vorkommen kann, bleiben dadurch erspart.
 
@@ -172,7 +168,7 @@ Die Methode ist nun definiert, aufgrund der fehlenden Implementierung zeigt ADT 
 
 Dieses "Problem" lässt sich sehr effizient mit Hilfe der Quick Fixes beheben.
 
-Zur Methodenimplementierung nutzen Sie die [Quick-Fix](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec5668b6e391014adc9fffe4e204223.html)-Funktion, die sich über das Kontextmenü oder die Tastenkombination **STRG+1** aufrufen lässt.
+Zur Methodenimplementierung nutzen Sie die [Quick-Fix](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec5668b6e391014adc9fffe4e204223.html)-Funktion, die sich über das Kontextmenü oder die Tastenkombination <kbd>Strg</kbd>+<kbd>1</kbd> aufrufen lässt.
 
 ![Nutzung des Quick Fix zur Methodenimplementierung](./img/image87.png)
 
@@ -191,15 +187,15 @@ ENDMETHOD
 
 im Bereich der "Class Implementation\" durch ADT erstellt wird und somit eine leere Methodenimplementierung vorhanden ist. Die Ausprägung der Methodenlogik innerhalb dieses Bereiches ist dann Ihre Aufgabe als Entwickler.
 
-Zwischen Definition und Implementierung kann einfach durch Drücken der **F3**-Taste hin und her gesprungen werden.
+Zwischen Definition und Implementierung kann einfach durch Drücken der <kbd>F3</kbd>-Taste hin und her gesprungen werden.
 
-Mit Platzierung des Cursors auf den Methodenname und **F2** kann man sich die Parameter der Methoden anzeigen lassen. Dies erleichtert das Schreiben des Codes und erspart umständliches Navigieren in den Definitionsbereich. Alternativ steht hierfür die View [ABAP Element Info](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/a8c361f8cc6040f79f52375fb6a9d333.html?q=abap%20element%20inf#loiof7c8d6d10279483ebb625e2e3e31c3d0) zur Verfügung.
+Mit Platzierung des Cursors auf den Methodenname und <kbd>F2</kbd> kann man sich die Parameter der Methoden anzeigen lassen. Dies erleichtert das Schreiben des Codes und erspart umständliches Navigieren in den Definitionsbereich. Alternativ steht hierfür die View [ABAP Element Info](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/a8c361f8cc6040f79f52375fb6a9d333.html?q=abap%20element%20inf#loiof7c8d6d10279483ebb625e2e3e31c3d0) zur Verfügung.
 
 In unserem Übungsbeispiel verwenden wir die Import-Parameter, um mittels eines SELECT-Befehls den gewünschten Datensatz zu lesen. Anschließend werden die Anzahl der freien Sitze kalkuliert und als Returning-Parameter an den Verwender zurückgegeben.
 
-Auch hier hilft die Verwendung der Code Completion, die mit der Tastenkombination **STRG+LEERTASTE** aufgerufen wird, um den Code effizient und frei von Tippfehlern zu erstellen.
+Auch hier hilft die Verwendung der Code Completion, die mit der Tastenkombination <kbd>Strg</kbd>+<kbd>Space</kbd> aufgerufen wird, um den Code effizient und frei von Tippfehlern zu erstellen.
 
-Um den Returning-Parameter "r_f_free_seats" nicht ausschreiben zu müssen und Typinformationen zu bekommen, schreiben wir die Struktur und den Komponentenseparator "-" und bekommen mittels der Tastenkombination **STRG+LEERTASTE** die Komponenten angezeigt, die dann ausgewählt und in den Code eingefügt werden können.
+Um den Returning-Parameter "r_f_free_seats" nicht ausschreiben zu müssen und Typinformationen zu bekommen, schreiben wir die Struktur und den Komponentenseparator "-" und bekommen mittels der Tastenkombination <kbd>Strg</kbd>+<kbd>Space</kbd> die Komponenten angezeigt, die dann ausgewählt und in den Code eingefügt werden können.
 
 ![Auswahl der Komponente mittels Code Completion](./img/image90.png)
 
@@ -222,13 +218,8 @@ Während eine solche Aktion sich im SAP-GUI-Umfeld u. U. sehr aufwendig und fehl
 
 Somit sind Code Cleaning und Refactoring mit ADT sehr effizient durchzuführen, und das Risiko von dadurch entstehenden Fehlern ist gegenüber der manuellen Methode deutlich reduziert.
 
-Zur Umbenennung der Parameter wird die Rename-Funktion aus dem Kontextmenü über rechte Maustaste → Source-Code → Rename oder die Tastenkombination
-
-**ALT+SHIFT+R** oder per Quickfix-Auswahl über
-
-**STRG+1**
-
-ausgeführt.
+Zur Umbenennung der Parameter wird die Rename-Funktion aus dem Kontextmenü über rechte Maustaste → Source-Code → Rename oder die Tastenkombination <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> oder per Quickfix-Auswahl über
+<kbd>Strg</kbd>+<kbd>1</kbd> ausgeführt.
 
 ![Umbenennung von Methodenparametern](./img/image100.png)
 

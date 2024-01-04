@@ -124,7 +124,7 @@ Quellcode mit hervorgehobenem Methodenhintergrund
 
 (ABAP Development → Editors → Source Code Editors → ABAP Templates)
 
-Für häufig verwendete Code-Fragmente liefert SAP Vorlagen aus, die man nach Belieben an eigene Bedürfnisse anpassen kann. Auch neue Vorlagen sind möglich. Die Vorlagen werden im Coding durch Eingabe des Vorlagennamens und Autocomplete (**STRG+SPACE**) eingefügt.
+Für häufig verwendete Code-Fragmente liefert SAP Vorlagen aus, die man nach Belieben an eigene Bedürfnisse anpassen kann. Auch neue Vorlagen sind möglich. Die Vorlagen werden im Coding durch Eingabe des Vorlagennamens und Autocomplete (<kbd>Strg</kbd>+<kbd>Space</kbd>) eingefügt.
 
 ![Verwaltung der ABAP Templates in den Einstellungen](./img/image5.png)
 
@@ -152,7 +152,7 @@ Standardmäßig ergänzt Eclipse Klammern und Anführungsstriche am Ende eines A
 
 (ABAP Development → Search)
 
-Hier können Sie Einstellungen am Suchdialog (**STRG+SHIFT+A**) vornehmen, z. B. ob das alte Such-Pattern weiterverwendet wird ("Use pattern from previous search") oder auch die Anzahl der angezeigten Treffer ("Maximum number of results"). Wichtig ist aber auch der Typ des Objektes ("Display object types") und in welchem Paket ("Display packages") es sich befindet.
+Hier können Sie Einstellungen am Suchdialog (<kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>) vornehmen, z. B. ob das alte Such-Pattern weiterverwendet wird ("Use pattern from previous search") oder auch die Anzahl der angezeigten Treffer ("Maximum number of results"). Wichtig ist aber auch der Typ des Objektes ("Display object types") und in welchem Paket ("Display packages") es sich befindet.
 
 ### Projektspezifische Einstellungen
 

@@ -36,8 +36,9 @@ In der Vergangenheit war dies mit der SE80 meist mit hohem Aufwand verbunden. Du
 
 Mit den ADT hat sich diese Situation nun verändert. Existieren keine automatisierten Tests als doppelter Boden, so ist es immer noch möglich, sogenannte Save Refactorings durchzuführen, die wir an dieser Stelle beschreiben möchten. Ein Save Refactoring kennzeichnet sich dadurch, dass es Tool-gestützt, d. h. durch Funktionen der IDE oder auch mit zusätzlichen Plug-ins, durchgeführt wird. Dadurch entfällt das Risiko, durch manuelle Änderungen neue Fehler in den Code einzubauen. Durch die Automatisierung können Refactorings leicht durchgeführt werden und damit zum Bestandteil der täglichen Arbeit werden.
 
-## Refactoring mit Quick Assists 
-Die ADT bieten über die Quick Assists (**STRG+1**) folgende Refactorings an:
+## Refactoring mit Quick Assists
+
+Die ADT bieten über die Quick Assists (<kbd>Strg</kbd>+<kbd>1</kbd>) folgende Refactorings an:
 
 1. Rename Identifier -- Umbenennung innerhalb eines Codeblocks oder global
 2. Extract Method -- Extrahieren einer Methode aus dem Source-Code oder aus einem Ausdruck
