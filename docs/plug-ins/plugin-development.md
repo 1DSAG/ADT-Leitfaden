@@ -37,7 +37,8 @@ Des Weiteren wird eine Installation des Java Development Kits (JDK) benötigt. D
 - [https://openjdk.org/](https://openjdk.org/)
 - [https://sap.github.io/SapMachine/](https://sap.github.io/SapMachine/)
 
-**Hinweis**: In den aktuelleren Eclipse-Versionen wird dieses bereits mitgeliefert.
+{: .note}
+In den aktuelleren Eclipse-Versionen wird dieses bereits mitgeliefert.
 
 #### Welche Java-Version?
 
@@ -208,12 +209,10 @@ Bei Doppelklick auf diese Datei öffnet sich der Manifest-Editor für die Update
 
 Nachdem der Inhalt der Update-Site fertig konfiguriert ist, kann diese über den Button *Build all* im Editor erstellt werden. Es ist auch möglich, nur einzelne bzw. ausgewählte Features zu erstellen.
 
-**WICHTIG**: Bevor man nun die Update-Site erstellt, sollte man nochmal die Java-Compiler-Einstellungen über Window → Preferences → Java → Compiler prüfen. Diese sollten auf die gleiche Java-Version eingestellt sein, die bei den Plug-ins als minimale Voraussetzung definiert wurde:
-
-![](./img/image12.png)  
-<span class="img-caption" markdown=1>
-*Abbildung: Compiler-Einstellungen im Eclipse-Einstellungsdialog*
-</span>
+{: .important}
+Bevor man nun die Update-Site erstellt, sollte man nochmal die Java-Compiler-Einstellungen über Window → Preferences → Java → Compiler prüfen. Diese sollten auf die gleiche Java-Version eingestellt sein, die bei den Plug-ins als minimale Voraussetzung definiert wurde:  
+![Compiler-Einstellungen im Eclipse-Einstellungsdialog](./img/image12.png)  
+<span class="img-caption">Compiler-Einstellungen im Eclipse-Einstellungsdialog</span>
 
 Wenn die Erstellung erfolgreich war, befinden sich die folgenden Dateien/Ordner im Anschluss im Projektordner der Update-Site:
 

@@ -31,7 +31,8 @@ In der Button-Leiste gibt es weitere verschiedene Funktionen für den View:
 - "Sort" -- Sortierung der Einträge nach Alphabet oder nach Typ und Alphabet
 - "Hide Non-Public Members" -- Es werden nur Attribute und Methoden angezeigt, die auch von außen verwendbar sind (Thema Sichtbarkeit)
 
-Hinweis: Im Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins) finden Sie weitere Informationen zum Plug-in "[Classic Outlines](/ADT-Leitfaden/plug-ins/open-source-adt-plugins#adt-classic-outline)", welches die Outlines erweitert.
+{: .note}
+Im Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins) finden Sie weitere Informationen zum Plug-in "[Classic Outlines](/ADT-Leitfaden/plug-ins/open-source-adt-plugins#adt-classic-outline)", welches die Outlines erweitert.
 
 ## Problems
 

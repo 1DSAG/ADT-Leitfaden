@@ -38,6 +38,22 @@ plugins:
   - jemoji
   - jekyll-remote-theme
 
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Wichtig
+    color: blue
+  new:
+    title: Neu
+    color: green
+  note:
+    title: Hinweis
+    color: purple
+  warning:
+    title: Warnung
+    color: red
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

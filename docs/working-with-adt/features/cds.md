@@ -95,8 +95,10 @@ SQL Dependency Tree
 SQL Dependency Graph
 {: .img-caption}
 
-- Der Tab-Reiter **Complexity Metrics** zeigt zusätzliche Informationen zur Gesamtkomplexität des CDS Views an, inklusive aller Quell-Views.\
-    > Gerade bei Performance-Problemen lohnt hier ein Blick.
+- Der Tab-Reiter **Complexity Metrics** zeigt zusätzliche Informationen zur Gesamtkomplexität des CDS Views an, inklusive aller Quell-Views.
+  
+  {: .note}
+  > Gerade bei Performance-Problemen lohnt hier ein Blick.
 
 ![Complexity Metrics](../img/image5.png)
 
