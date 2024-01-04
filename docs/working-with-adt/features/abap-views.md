@@ -372,7 +372,7 @@ Dialog zur Klassifizierung der Ausnahme
 
 ## ABAP Language Help
 
-In jedem Quelltexteditor, beispielsweise für ABAP, CDS oder BDL, kann für das Schlüsselwort, auf dem der Cursor ist, mit der Taste F1 direkt die jeweilige [Sprachhilfe](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/640a9cf3278e45b49076370f092cdd1f.html) (nicht nur ABAP!) aufgerufen werden. Alternativ kann man diese auch über das Kontextmenü per Rechtsklick auf die entsprechende Anweisung bekommen:
+In jedem Quelltexteditor, beispielsweise für ABAP, CDS oder BDL, kann für das Schlüsselwort, auf dem der Cursor ist, mit der Taste <kbd>F1</kbd> direkt die jeweilige [Sprachhilfe](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/640a9cf3278e45b49076370f092cdd1f.html) (nicht nur ABAP!) aufgerufen werden. Alternativ kann man diese auch über das Kontextmenü per Rechtsklick auf die entsprechende Anweisung bekommen:
 
 *Source Code → Show ABAP Language Help*
 
@@ -400,7 +400,7 @@ Button-Leiste des Views
 {: .img-caption}
 
 - Der gelbe Doppelpfeil koppelt die View mit dem aktiven Editor. Damit zeigt die View stets die passende Hilfe für eine Anweisung an, auf der der Cursor momentan steht.
-- Der grüne Pin hält den Inhalt des Views fest. Wenn ein weiteres Mal mit F1 eine Hilfe angefordert wird, öffnet sich eine neue View für die ABAP Language Help.
+- Der grüne Pin hält den Inhalt des Views fest. Wenn ein weiteres Mal mit <kbd>F1</kbd> eine Hilfe angefordert wird, öffnet sich eine neue View für die ABAP Language Help.
 - Die gelben Pfeile nach rechts und links dienen der Navigation (analog eines Web-Browsers).
 - Mit Hilfe des Drucker-Symbols kann man mit entsprechender Hardware eine papierhafte Kopie der ABAP-Hilfe anfertigen.
 - Die beiden Symbole A mit den Pfeilen nach oben und unten sind für die Änderung der Schriftgröße zuständig.

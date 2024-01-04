@@ -61,7 +61,7 @@ Um die Suche zu beschleunigen, empfiehlt es sich, den Typ des gewünschten Objek
 
 In der ABAP Workbench funktioniert die [Navigation](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/ec2da130ce43409fbb2f6a072f9ba07c.html) zum nächsten Objekt über einen Doppelklick auf den entsprechenden Ausdruck im Quellcode. In Eclipse wird hier lediglich der Quelltext markiert. Um die Vorwärtsnavigation auszulösen, gibt es drei Möglichkeiten:
 
-- Cursor auf dem Objekt platzieren, F3 drücken
+- Cursor auf dem Objekt platzieren, <kbd>F3</kbd> drücken
 - Mit gedrückter <kbd>Strg</kbd>-Taste das Objekt anklicken
 - In der Oberfläche wird ein klickbarer Link angeboten (z. B. Datenelement → Domäne)
 
