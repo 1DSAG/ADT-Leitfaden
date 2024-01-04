@@ -65,7 +65,7 @@ Links
 - Source-Code auf [GitHub](https://github.com/iloveeclipse/anyedittools)
 - [Eclipse Marketplace](https://marketplace.eclipse.org/content/anyedit-tools)
 
-## PDE Tools 
+## PDE Tools
 
 Dieses Plug-in erweitert Eclipse um nützliche Tools für Plug-in-Entwickler:
 

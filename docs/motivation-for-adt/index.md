@@ -19,7 +19,7 @@ In diesem Kapitel stellen wir Ihnen mehrere Gründe vor, die für den Einsatz de
 
 Wir freuen uns, wenn wir Sie mit diesem Kapitel vom Nutzen der ADT überzeugen können oder zumindest Ihre Neugier geweckt haben, diesen Leitfaden zu studieren.
 
-## Sie möchten modernes ABAP anwenden und umsetzen.
+## Sie möchten modernes ABAP anwenden und umsetzen
 
 Der erste und naheliegendste Grund für eine umfassende Nutzung der ABAP Development Tools in Eclipse ist die strategische Ausrichtung seitens SAP. Die ABAP Development Tools wurden 2012 eingeführt und haben sich in diesen zehn Jahren zu einer stabilen Entwicklungsumgebung mit einem großen Funktionsumfang entwickelt.
 
@@ -29,9 +29,9 @@ Dies ist vielleicht kurzfristig nicht der motivierendste Grund, allerdings wird 
 
 Aus diesem Grund empfiehlt SAP den Einsatz der ADT als Standardumgebung für die ABAP-Entwicklung, um mit jedem Release von neuen Funktionen und Korrekturen zu profitieren. Der tatsächlich vorhandene Funktionsumfang hängt vom Release-Stand des ABAP-Stacks der verwendeten SAP-Systeme ab. Eine grobe Übersicht und weitere Informationen hierzu finden sich im Abschnitt: [Einführung in Eclipse](/ADT-Leitfaden/introduction-eclipse).
 
-## Sie möchten eine Entwicklungsumgebung für alles nutzen.
+## Sie möchten eine Entwicklungsumgebung für alles nutzen
 
-### Technologischer Aspekt 
+### Technologischer Aspekt
 
 Mit den ABAP Development Tools (ADT) können Sie nicht nur für On-Premise Systeme wie beispielsweise SAP-ERP oder S/4HANA entwickeln. Die ADT sind auch die einzige Möglichkeit, Entwicklungen für Cloud-Systeme wie die Business Technology Platform (BTP) durchzuführen.
 
@@ -43,7 +43,7 @@ Eng damit verbunden ist auch die Arbeit mit einigen neuen Entwicklungsartefakten
 
 Eine Entwicklungsumgebung für alles gilt bei den ADT aber auch für den Fall, dass Sie auf mehreren Entwicklungssystemen arbeiten dürfen oder müssen. In der Eclipse-Umgebung sind verschiedene Systeme als Projekte aufgeführt, und Sie können hierüber sehr komfortabel und übersichtlich auf diese zugreifen. Mittels der Working Sets (siehe Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt)) können die Systeme in Überbegriffen gruppiert und sogar mittels zusätzlichen Plug-ins (siehe Kapitel [Plug-ins](/ADT-Leitfaden/plug-ins)) farblich gekennzeichnet werden. Das Öffnen der Systeme aus dem SAP Logon Pad, Anmelden am System und Öffnen der SE80, entfällt. Daraus ergeben sich zahlreiche weitere Synergien bei der Arbeit, die in diesem Leitfaden beschrieben werden.
 
-## Sie möchten sich von technischen Einschränkungen des SAP GUI lösen.
+## Sie möchten sich von technischen Einschränkungen des SAP GUI lösen
 
 ### Ihnen sind sechs Sessions in einem System zu wenig
 
@@ -55,7 +55,7 @@ Wenn Sie als Entwickler mit unterschiedlichen Systemen gleichzeitig arbeiten, pr
 
 Darüber hinaus ist auf diese Weise auch ein einfacher Code-Vergleich zwischen verschiedenen Systemen, auch zwischen Systemen ohne bestehende RFC-Verbindung, möglich. Die Anzeige mehrerer SAP-GUI-Fenster wie in früheren Zeiten entfällt.
 
-### Sie möchten durch Netzwerkunterbrechungen keinen Code verlieren.
+### Sie möchten durch Netzwerkunterbrechungen keinen Code verlieren
 
 Aufgrund technischer Gegebenheiten der SAP GUI ist es erforderlich, dass die Netzwerkverbindung stabil und unterbrechungsfrei läuft. Gibt es Netzwerkunterbrechungen, während Sie in einem GUI-Fenster Code erstellen, kann es vorkommen, dass die Arbeit der letzten Minuten vergebens war, da SAP GUI die Verbindung zum Server verloren hat und das Fenster schließt.
 
@@ -63,7 +63,7 @@ Mit den ADT ist eine Netzwerkunterbrechung kein Problem mehr. Das Eclipse-Fenste
 
 Sollten größere Probleme im Netzwerk auftreten, kann der Code notfalls einfach komplett als Text per Copy-and-paste in einem alternativen Texteditor zwischengespeichert werden, bis das SAP-System wieder verfügbar ist.
 
-## Sie verbessern Ihren ABAP-Code gerne durch Refactoring.
+## Sie verbessern Ihren ABAP-Code gerne durch Refactoring
 
 Die Wartbarkeit von Entwicklungsartefakten ist eine zentrale Herausforderung der Software-Entwicklung. Um eine gute Wartbarkeit zu erreichen, orientiert sich das Vorgehen beim Entwickeln häufig an Clean-Code-Prinzipien (vgl. Clean ABAP). Zur Einhaltung der Clean-Code-Prinzipien ist ein wiederholtes Überarbeiten von Entwicklungsartefakten, auch Refactoring genannt, unabdingbar.
 
@@ -73,7 +73,7 @@ Seit 2023 unterstützt auch das neue Plug-in [ABAP Cleaner](/ADT-Leitfaden//plug
 
 Weitere und detailliertere Informationen zum Refactoring und Werkzeugen, die Ihnen in den ADT dafür zur Verfügung gestellt werden, finden Sie in Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt/features/refactoring).
 
-## Sie passen die Darstellung Ihrer Entwicklungsumgebung gerne Ihren Wünschen an.
+## Sie passen die Darstellung Ihrer Entwicklungsumgebung gerne Ihren Wünschen an
 
 Die ADT basieren auf Eclipse, einer weit verbreiteten Open-Source-Entwicklungsumgebung. Stärken dieser Entwicklungsumgebung sind u. a. die vielfältigen Anpassungsmöglichkeiten wie bspw. an der Darstellung (vgl. Views und Perspektiven in Kapitel [Arbeiten mit ADT](/ADT-Leitfaden/working-with-adt)) oder an den Shortcuts ([Tastaturkürzel](/ADT-Leitfaden/introduction-eclipse/#die-macht-der-tastenkürzel)) und der Unterstützung durch hilfreiche Funktionen wie bspw. einer umfassenden Suche.
 
@@ -100,7 +100,7 @@ Eclipse als Grundlage der ADT ist in verschiedenen Unternehmen bereits im Einsat
 
 Es besteht also eine gewisse Wahrscheinlichkeit, dass Entwickler und Unternehmen bereits Vorkenntnisse im Umgang mit Eclipse als Entwicklungsumgebung besitzen. Hierdurch gelingt der erweiterte Einsatz auf Basis der ADT einfacher und schneller, als wenn auf ein vollständig neues, möglicherweise gänzlich unbekanntes Entwicklungswerkzeug gesetzt wird.
 
-## Sie haben Interesse an Neuem.
+## Sie haben Interesse an Neuem
 
 Zu guter Letzt möchten wir noch auf das Interesse vieler Menschen an Neuem und der damit verbundenen Attraktivität als Motivationsfaktor für den Umstieg hinweisen. Handelte es sich bei den Gründen zum Umstieg in den vorherigen Abschnitten um eher sachliche Aspekte, geht es hier um im Menschen tief verankerte Emotionen und Werte: das Interesse an etwas Neuem und die Attraktivität, die etwas Neues hat. Oder kurz: um Fortschritt und Veränderung.
 
@@ -149,10 +149,10 @@ Florian Henninger: "*Refactoring ohne ADT ist so ein bisschen wie zu versuchen, 
 
 Bärbel Winkler: "*Durch die Mitarbeit bei der Erstellung dieses Leitfadens habe ich viele gute Gründe kennengelernt, in Zukunft häufiger als bisher mit den ADT zu arbeiten.*"
 
-Jens Zähringer: \"*Obwohl die ABAP Development Tools bereits seit über 10 Jahren zur Verfügung stehen, habe ich erst kürzlich den Umstieg von ABAP Workbench zu ADT für mich vollzogen. Die Umstellung war nicht ohne Herausforderungen, aber am Ende hat es sich definitiv gelohnt!"*
+Jens Zähringer: "*Obwohl die ABAP Development Tools bereits seit über 10 Jahren zur Verfügung stehen, habe ich erst kürzlich den Umstieg von ABAP Workbench zu ADT für mich vollzogen. Die Umstellung war nicht ohne Herausforderungen, aber am Ende hat es sich definitiv gelohnt!"*
 
-Peter Luz: *"Mittels des Verwendungsnachweises schnell ermitteln, wo eine Methode verwendet und wie sie dort aufgerufen wird. Dann diese mehrfach verwendete Methode umbenennen. Anschließend ein Stück Code daraus in eine eigene Methode extrahieren. Dann noch zum Abschluss den Code auf dem zentralen Entwicklungssystem mit der Version auf der Q-Maschine einer Systemlinie vergleichen.\
-In ADT nur ein paar Tastenkombinationen entfernt und in Sekundenschnelle durchgeführt. So macht das Erstellen und Überarbeiten von Software Spaß und hilft, die Qualität der Software maßgeblich durch Nutzung der hier im Leitfaden beschriebenen Werkzeuge zu verbessern.\
+Peter Luz: *"Mittels des Verwendungsnachweises schnell ermitteln, wo eine Methode verwendet und wie sie dort aufgerufen wird. Dann diese mehrfach verwendete Methode umbenennen. Anschließend ein Stück Code daraus in eine eigene Methode extrahieren. Dann noch zum Abschluss den Code auf dem zentralen Entwicklungssystem mit der Version auf der Q-Maschine einer Systemlinie vergleichen.  
+In ADT nur ein paar Tastenkombinationen entfernt und in Sekundenschnelle durchgeführt. So macht das Erstellen und Überarbeiten von Software Spaß und hilft, die Qualität der Software maßgeblich durch Nutzung der hier im Leitfaden beschriebenen Werkzeuge zu verbessern.  
 Für mich ist das Erstellen von ABAP-Software ohne ADT inzwischen undenkbar."*
 
 Michael Biber: *"Ja, SE80 ist mittlerweile ganz gut. Jedoch sehe ich dies wie mit dem Umstieg auf Objektorientierung: Am Anfang fragt man sich ‚Warum?' und sieht vorhandene Stolpersteine. Sobald man jedoch mal die andere Seite (Objektorientierung, ADT ...) erlebt hat, möchte man nicht mehr zurück. Die Vorteile der besseren Übersichtlichkeit (Element Info), theoretisch unendlich parallel geöffneten Sourcen, Live-Syntaxprüfung und viele mehr überwiegen für mich, über alle kleinen Medienbrüche (→ ältere SAP-Releases) und andere Denkansätze hinweg."*
@@ -163,6 +163,6 @@ Dr. Wolfgang Röckelein: "*Gibt es ABAP Entwicklung ohne ADT?" "Kein Clean Code 
 
 Uwe Fetzer: "*Schneller, komfortabler, sicherer kann man ABAP Clean Code nicht entwickeln*".
 
-Sebastian Freilinger-Huber: *"Lieber heute als morgen die 'Komfortzone SE80' verlassen - es lohnt sich. Sollten Sie noch zweifeln, finden Sie zahlreiche Argumente für den Umstieg in den folgenden Kapiteln\".*
- 
+Sebastian Freilinger-Huber: *"Lieber heute als morgen die 'Komfortzone SE80' verlassen - es lohnt sich. Sollten Sie noch zweifeln, finden Sie zahlreiche Argumente für den Umstieg in den folgenden Kapiteln".*
+
 Thomas Foehn: "*Der Umstieg braucht etwas Durchhaltevermögen und das berühmte Verlassen der eigenen Komfortzone. Doch Quickfixes, Refactorings, ElementInfos oder die Möglichkeit, sich leicht systemübergreifend durch die Objekte zu navigieren machen eine Entwicklung ohne ADT für mich mittlerweile unmöglich.*"  

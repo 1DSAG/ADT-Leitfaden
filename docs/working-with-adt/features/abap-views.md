@@ -410,7 +410,7 @@ Button-Leiste des Views
 
 Neben der ABAP Keyword Documentation (bzw. ABAP Language Help) stellt SAP für jedes Entwicklungsszenario sogenannte Eclipse Help Plug-ins zur Verfügung. Klicken Sie hierfür
 
-**Help → Help Contents**
+*Help → Help Contents*
 
 in der Menüleiste, um den Hilfe-Browser zu öffnen.
 

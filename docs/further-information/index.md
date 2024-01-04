@@ -9,7 +9,9 @@ nav_exclude: true
 WIP
 {: .label .label-red }
 
-# In Kapiteln verwendete Querverweise
+# Weiterführende Informationen
+
+## In Kapiteln verwendete Querverweise
 
 <table>
 <thead>
@@ -33,15 +35,15 @@ WIP
 </tbody>
 </table>
 
-# Zusätzliche Ressourcen
+## Zusätzliche Ressourcen
 
 ### Fonts
 
-**(General → Appearance → Colors and Fonts → Text Font)**
+(General → Appearance → Colors and Fonts → Text Font)
 
 Schriftarten sind Geschmackssache, und die Installation benötigt einmalig Administratorrechte. Ein sehr schöner Font, der sogenannte "Ligatures" verwendet, bei dem mehrere Zeichen zu einem vereint werden, ist "Fira Code" (siehe [GitHub - tonsky/FiraCode: Free monospaced font with programming ligatures](https://github.com/tonsky/FiraCode)).
 
-Beispiel
+#### Beispiel
 
 ![Font Beispiel in ABAP](./img/image1.png)
 

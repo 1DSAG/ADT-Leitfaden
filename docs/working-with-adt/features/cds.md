@@ -17,7 +17,7 @@ nav_order: 11
 1. TOC
 {:toc}
 
-## CDS Dateitypen 
+## CDS Dateitypen
 
 Im Bereich der Core Data Services (CDS) gibt es unterschiedliche [Dateitypen](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/4ed280596e391014adc9fffe4e204223.html), die in den ADT angelegt werden können:
 

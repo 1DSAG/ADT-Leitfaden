@@ -13,8 +13,7 @@ nav_order: 6
 # Best Practices Eclipse-Konfiguration
 
 1. TOC
-{:toc} 
-
+{:toc}
 
 ## Einstellungen in Eclipse
 
@@ -165,7 +164,7 @@ Einstieg in die projektspezifischen Einstellungen
 
 #### Externes Debugging
 
-**(ABAP Development → Debug)**
+(ABAP Development → Debug)
 
 Mit dieser Option können Sie einstellen, für welchen User das Debugging aktiv ist. Das kann der aktuelle Anwender ("Logon User") oder ein anderer Anwender ("User") sein, wenn Sie ein externes Debugging durchführen möchten.
 

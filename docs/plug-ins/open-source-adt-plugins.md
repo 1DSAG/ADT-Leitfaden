@@ -17,7 +17,7 @@ nav_order: 2
 {:toc}
 
 ## ABAP Cleaner
-Der ABAP Cleaner ist seit Sommer 2023 verfügbar und unterstützt Entwickler bei der Erstellung von ABAP Code, der den Richtlinien des Clean-ABAP Styleguides entspricht. Das Plugin lässt sich genau wie andere Eclipse Plugins und damit auch wie ADT in Eclipse mittels "Install new Software" einfach installieren. Das Repository findet sich in GitHub unter: 
+
 [https://sap.github.io/abap-cleaner/updatesite](https://sap.github.io/abap-cleaner/updatesite).
 
 Da der ABAP Cleaner rein Client basiert ist, gibt es keine direkten Abhängigkeiten zu der ABAP Version des Backends. Da manche ABAP Cleaner Regeln nicht auf allen ABAP Releases anwendbar sind, z.B. Inline Deklarationen oder Einsatz neuer ABAP Statements, kann in der ABAP Cleaner Konfiguration das ABAP Release eingestellt werden. Dementsprechend werden auch nur anwendbare Regeln verwendet.
@@ -30,6 +30,7 @@ Für den Einstieg und für detaillierte Informationen empfehlen sich die Blogein
 
 - [ABAP cleaner project – open, configurable, and automated](https://blogs.sap.com/2023/10/30/abap-cleaner-project-open-configurable-and-automated/)
 - [ABAP Tools for Clean ABAP](https://blogs.sap.com/2023/10/09/abap-tools-for-clean-abap/)
+
 Eine ausführliche Session, die alle Aspekte von ABAP Cleaner erklärt, finden sie im YouTube Channel von [SAP Developers](https://www.youtube.com/watch?v=0mp0FuJV5_k).
 
 Der ABAP Cleaner sollte genauso selbstverständlich zu den Werkzeugen des modernen ABAP Entwicklers gehören wie der Code Formatter oder der Syntax Check und sollte daher bei keiner ADT Installation fehlen. Dass die Funktionen des ABAP Cleaners nicht direkt in den ADT implementiert wurden, sondern als eigenes Plug-in durch SAP bereitgestellt werden, ermöglicht eine flexible und schnelle Auslieferung neuer Funktionen im ABAP Cleaner Kontext.
