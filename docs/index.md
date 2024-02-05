@@ -13,4 +13,9 @@ Wenn Sie einen Beitrag leisten möchten, besuchen Sie das GitHub Repository:
 
 Der DSAG ADT Leitfaden ist ein lebendiges Dokument 👨‍💻 - es lebt von und mit seiner Community 🥳.
 
-Der offizielle DSAG Leitfaden kann als PDF (Version 1.0) über das [DSAGNet](https://dsag.de/leistungen/wissen/sap-leitfaeden/) heruntergeladen werden. Den zu jederzeit aktuellen Stand des Leitfadens finden sie im Folgenden.
+Der offizielle DSAG Leitfaden kann als PDF (Version 1.0) über das [DSAGNet](https://dsag.de/leistungen/wissen/sap-leitfaeden/) heruntergeladen werden.
+
+{: .note}
+An English version can also be downloaded as a PDF (version 1.0) from [DSAGNet](https://dsag.de/leistungen/wissen/sap-leitfaeden/handbook-abap-development-tools/).
+
+Den zu jederzeit aktuellen Stand des Leitfadens finden sie im Folgenden.
