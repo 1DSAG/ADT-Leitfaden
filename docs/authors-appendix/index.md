@@ -37,8 +37,8 @@ Darüber hinaus wollen wir es nicht verpassen, auch die enge, konstruktive und u
 </tr>
 <tr class="odd">
 <td>Uwe Fetzer</td>
-<td><p>Silesia Gerhard Hanke GmbH &amp; Co. KG</p>
-<p>Team Lead Global SAP Development &amp; Analytics</p></td>
+<td><p>Neptune Software GmbH</p>
+<p>Principal Development Consultant</p></td>
 <td>Seit Anfang an ADT privat im Einsatz (Co-Autor SAPLink-Erweiterung für Eclipse), seit fünf Jahren exklusiver ADT-Einsatz bei Arbeitgebern</td>
 </tr>
 <tr class="header">
