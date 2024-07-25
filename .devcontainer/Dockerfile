@@ -1,21 +1,36 @@
-# See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.183.0/containers/javascript-node/.devcontainer/base.Dockerfile
+# Use the official Node.js 20 image as the base
+FROM node:20-bullseye
 
-# [Choice] Node.js version: 16, 14, 12
-ARG VARIANT="16-buster"
-FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
+# Set the working directory
+WORKDIR /workspace
 
-# [Optional] Uncomment this section to install additional OS packages.
-# gh install taken straight from https://github.com/cli/cli/blob/trunk/docs/install_linux.md
-RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg \
-    && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
-    && apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends ruby-full gh
+# Install necessary packages
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+    && apt-get -y install --no-install-recommends curl gnupg ruby-full
 
-# [Optional] Uncomment if you want to install an additional version of node using nvm
-# ARG EXTRA_NODE_VERSION=10
-# RUN su node -c "source /usr/local/share/nvm/nvm.sh && nvm install ${EXTRA_NODE_VERSION}"
+# Install GitHub CLI
+RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg \
+    && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+    && apt-get update \
+    && apt-get -y install gh
+
+# Install global npm packages and bundler as root
+RUN npm install -g npm@latest && gem install bundler
+
+# Create a non-root user
+RUN useradd -m devuser -s /bin/bash
+
+# Set up directories for gem installation
+RUN mkdir -p /home/devuser/.gem \
+    && chown -R devuser:devuser /home/devuser/.gem /var/lib/gems/2.7.0 \
+    && chmod -R 775 /home/devuser/.gem /var/lib/gems/2.7.0
+
+# Switch to the non-root user
+USER devuser
+
+# Configure gem to install to user's home directory
+ENV GEM_HOME=/home/devuser/.gem
+ENV PATH=$GEM_HOME/bin:$PATH
 
 # [Optional] Uncomment if you want to install more global node modules
-# RUN su node -c "npm install -g <your-package-list-here>"
-# Grant write permission to the gem cache directory
-RUN mkdir -p /var/lib/gems/2.7.0/cache/ && chmod -R 777 /var/lib/gems/2.7.0/cache/
+# RUN npm install -g <your-package-list-here>
