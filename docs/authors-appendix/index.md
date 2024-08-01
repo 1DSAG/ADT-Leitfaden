@@ -117,7 +117,7 @@ Senior Manager/ Entwicklungsleiter/ Agile Technical Coach</td>
 <tr class="header">
 <td>Ludwig Stockbauer-Muhr</td>
 <td><p>msg systems ag</p>
-<p>Senior IT Consultant</p></td>
+<p>Lead IT Consultant</p></td>
 <td><p>Architektur, Design, Implementierung</p>
 <p>ADT seit vielen Jahren im Einsatz</p>
 <p>Leidenschaftlicher Add-on-Entwickler für ADT</p></td>
