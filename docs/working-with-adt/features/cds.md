@@ -39,7 +39,7 @@ In den Data Definitions können unterschiedliche Statements / Entitätstypen ent
 - Erweiterungen der Views
 - CDS Table Functions
 
-Diese List ist nicht vollständig und ist abhängig vom Release des Backends.
+Diese Liste ist nicht vollständig und ist abhängig vom Release des Backends.
 Seit ADT Version 3.32 in Verbindung mit den Backend Versionen "SAP BTP ABAP environment 2302" bzw "SAP S/4HANA Cloud ABAP Environment 2302" wird der Source Type einer Data Defintion in ADT transparenter dargestellt. Man kann den Source Type:
 
 - Im "Properties" view sehen
