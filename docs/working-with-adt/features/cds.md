@@ -31,7 +31,7 @@ Im Bereich der Core Data Services (CDS) gibt es unterschiedliche [Dateitypen](ht
 Objekttypen der CDS in der Navigation
 {: .img-caption}
 
-In den Data Definitions können unterschiedliche Statements / Entitätstypen enthalten sind. Diese werden "Source Types" genannt. Diese sind z.B.:
+In den Data Definitions können unterschiedliche Statements / Entitätstypen enthalten sein. Diese werden "Source Types" genannt. Diese sind z.B.:
 - DDIC Based CDS Views
 - CDS View Entities
 - Abstrakte CDS-Entitäten
@@ -47,7 +47,7 @@ Seit ADT Version 3.32 in Verbindung mit den Backend Versionen "SAP BTP ABAP envi
 - Im "Project Explorer" den "Data Definitions" Knoten ad-hoc nach "Source Type" expandieren
 - Im "Project Explorer" eigene "Repository Trees" mit Hilfe der "Source Type" Facette definieren.
 
-Mehr Details zur Anzeige des Source Types findet sich in der SAPs [ADT Release Notes](https://help.sap.com/docs/SAP_S4HANA_CLOUD/53b14a3c9f7d4837a9c1f271ee3b24a4/193d4583c30f40a0a562dc200e0b0c41.html?locale=en-US#loio193d4583c30f40a0a562dc200e0b0c41__section_sourcetype_ddls).  
+Mehr Details zur Anzeige des Source Types finden Sie in den SAP [ADT Release Notes](https://help.sap.com/docs/SAP_S4HANA_CLOUD/53b14a3c9f7d4837a9c1f271ee3b24a4/193d4583c30f40a0a562dc200e0b0c41.html?locale=en-US#loio193d4583c30f40a0a562dc200e0b0c41__section_sourcetype_ddls).  
 
 Die Quelltext Editoren für die unterschiedlichen Dateitypen der Core Data Services verhalten sich weitgehend wie der Quelltexteditor für ABAP-Code. Unter anderem sind folgende Features enthalten:
 
