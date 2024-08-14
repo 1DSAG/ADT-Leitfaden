@@ -22,12 +22,6 @@ nav_order: 11
 Im Bereich der Core Data Services (CDS) gibt es unterschiedliche [Dateitypen](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f2e545608079437ab165c105649b89db/4ed280596e391014adc9fffe4e204223.html), die in den ADT angelegt werden können:
 
 - Data Definitions (DDLS) - Quelltextdateien für Datenmodelle in den folgenden Varianten:
-  - DDIC Based CDS Views
-  - CDS View Entities
-  - Abstrakte CDS-Entitäten
-  - Hierarchien
-  - Erweiterungen der Views
-  - CDS Table Functions
 - Access-Control-Dateien (DCLS) - Zugriffs-Definitionen
 - Metadata Extensions (DDLX) - Auslagerung von Annotationen aus der CDS-Definition
 - Behavior Definitions (BDEF) - Verhaltens-Definitionen für RAP-Business-Objekte
@@ -36,6 +30,24 @@ Im Bereich der Core Data Services (CDS) gibt es unterschiedliche [Dateitypen](ht
 
 Objekttypen der CDS in der Navigation
 {: .img-caption}
+
+In den Data Definitions können unterschiedliche Statements / Entitätstypen enthalten sein. Diese werden "Source Types" genannt. Diese sind z.B.:
+- DDIC Based CDS Views
+- CDS View Entities
+- Abstrakte CDS-Entitäten
+- Hierarchien
+- Erweiterungen der Views
+- CDS Table Functions
+
+Diese Liste ist nicht vollständig und ist abhängig vom Release des Backends.
+Seit ADT Version 3.32 in Verbindung mit den Backend Versionen "SAP BTP ABAP environment 2302" bzw "SAP S/4HANA Cloud ABAP Environment 2302" wird der Source Type einer Data Defintion in ADT transparenter dargestellt. Man kann den Source Type:
+
+- Im "Properties" view sehen
+- Beim Suchen (z.B. im "Open ABAP Development Object" Dialog) als Suchkriterium mitgeben
+- Im "Project Explorer" den "Data Definitions" Knoten ad-hoc nach "Source Type" expandieren
+- Im "Project Explorer" eigene "Repository Trees" mit Hilfe der "Source Type" Facette definieren.
+
+Mehr Details zur Anzeige des Source Types finden Sie in den SAP [ADT Release Notes](https://help.sap.com/docs/SAP_S4HANA_CLOUD/53b14a3c9f7d4837a9c1f271ee3b24a4/193d4583c30f40a0a562dc200e0b0c41.html?locale=en-US#loio193d4583c30f40a0a562dc200e0b0c41__section_sourcetype_ddls).  
 
 Die Quelltext Editoren für die unterschiedlichen Dateitypen der Core Data Services verhalten sich weitgehend wie der Quelltexteditor für ABAP-Code. Unter anderem sind folgende Features enthalten:
 
