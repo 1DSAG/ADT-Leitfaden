@@ -28,7 +28,7 @@ WIP
 <tr class="header">
 <td>Sonstige</td>
 <td><p>Blog Post <a href="https://blogs.sap.com/2013/06/05/adt-feature-availability-matrix-for-as-abap-releases/">ADT Feature Availability Matrix for AS ABAP Releases</a></p>
-<p>Blog Posts <a href="https://people.sap.com/thomasfiedler#content:blogposts">ADT Product Owner</a></p></td>
+<p>Blog Posts <a href="https://community.sap.com/t5/user/viewprofilepage/user-id/4266">Beiträge SAP Community von Thomas Fiedler</a></p></td>  
 </tr>
 </thead>
 <tbody>
