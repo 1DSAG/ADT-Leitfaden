@@ -153,6 +153,19 @@ Standardmäßig ergänzt Eclipse Klammern und Anführungsstriche am Ende eines A
 
 Hier können Sie Einstellungen am Suchdialog (<kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>) vornehmen, z. B. ob das alte Such-Pattern weiterverwendet wird ("Use pattern from previous search") oder auch die Anzahl der angezeigten Treffer ("Maximum number of results"). Wichtig ist aber auch der Typ des Objektes ("Display object types") und in welchem Paket ("Display packages") es sich befindet.
 
+#### Icon-Größe
+
+Bei hochauflösenden Monitoren kann es sein, dass Ihnen die Icons und Tabreiter zu klein erscheinen. Dies kann mittels Parametern in der eclipse.ini-Datei, die sich im Eclipse-Stammverzeichnis befindet, nach eigenen Wünschen angepasst werden.
+
+Beispiel - vergrößert die Icons und Tabreiter auf 130%:
+~~~
+-Dswt.enable.autoScale=true
+-Dswt.autoScale=130
+-Dswt.autoScale.method=nearest
+~~~
+
+Diese Zeilen können an beliebiger Stelle in der Datei eingefügt werden.
+
 ### Projektspezifische Einstellungen
 
 Sie finden die systemspezifischen Einstellungen mit einem Rechts-Klick auf das ABAP-Projekt unter "Properties". Der Aufbau des Fensters ist dem der globalen Einstellungen ähnlich und lässt sich gleich bedienen.
