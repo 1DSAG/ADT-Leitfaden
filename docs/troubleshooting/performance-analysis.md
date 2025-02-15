@@ -17,6 +17,8 @@ has_toc: true
 1. TOC
 {:toc}
 
+## ABAP Profiler
+
 Für eine integrierte und graphische Performance-Analyse bieten Ihnen die ADT einen komfortablen Zugang zum ABAP Profiler ([On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/4ec41bbe6e391014adc9fffe4e204223.html)/[Cloud](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec41bbe6e391014adc9fffe4e204223.html)) als Nachfolger u.a. der Transaktion SAT. Zum Starten des Profiler gibt es verschiedene Möglichkeiten:
 
 Wenn Sie ein ausführbares Programm (nur On-Premise), eine Konsolenanwendung (nur ABAP Cloud) oder ein Artefakt mit zugeordneten Unit-Tests geöffnet haben, können Sie den Profiler direkt über das Kontextmenü "Profile as" starten. Alternativ dazu kann auch der Wizard verwendet werden, der über das Run-Menü erreichbar ist.
@@ -50,6 +52,8 @@ Insbesondere die graphische Analyse der Timeline ist nur in den ADT verfügbar u
 
 Aggregierte Übersicht eines Trace-Verlaufs
 {: .img-caption}
+
+## SQL-Trace
 
 Der SQL-Trace, der insbesondere bei HANA als Datenbank die PLV-Dateien für eine visuelle Analyse der Query-Pläne liefert, kann im Kontextmenü eines Systems im Project Explorer gestartet werden (funktioniert auch im ABAP Environment). Die Ergebnisdarstellung erfolgt dann aber in einer Webanwendung außerhalb der ADT (oder in der Transaktion ST05).
 
@@ -100,6 +104,8 @@ Eclipse startet dann automatisch die richtige View, und im Tab-Executed-Plan ist
 
 Anzeige des Abfrage-Ausführungsplans
 {: .img-caption}
+
+## Cross Trace
 
 Für die Entwicklung mit dem RAP (ABAP RESTful Application Programming Model) gibt es ein spezielles Trace-Werkzeug namens Cross Trace (Doku [On-Premise](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/290647b75cea46f491907889251ad067.html)/[Cloud](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-abap-cross-trace)), mit dem Sie Anfragen von Fiori-Apps über den RAP Softwarestack (SAP Gateway, BO Behavior, SADL, ABAP Core) hinweg analysieren können. Zur Benutzung ist eine entsprechende gesonderte Berechtigung nötig.
 
