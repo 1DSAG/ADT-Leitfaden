@@ -21,6 +21,7 @@ jobs:
         with:
           args: --verbose --no-progress --max-concurrency 2 --exclude-mail --exclude-loopback './**/*.md'
           output: ./lychee/out.md
+          fail: false
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Find existing issue
