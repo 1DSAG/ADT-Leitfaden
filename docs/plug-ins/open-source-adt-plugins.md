@@ -265,20 +265,26 @@ Voraussetzungen Eclipse:
 Voraussetzungen ABAP:
 
 - SAP NetWeaver 7.40 SP08 oder neuer
-- abapGit repository [abap-tags-backend](https://github.com/stockbal/abap-tags-backend) muss installiert sein
+- abapGit repository [abap-tags-backend](https://github.com/DevEpos/abap-tags-backend) muss installiert sein
 
 Links:
 
-- Source-Code auf [GitHub](https://github.com/stockbal/abap-tags-ui)
+- Source-Code auf [GitHub](https://github.com/DevEpos/eclipse-adt-plugins/tree/main/features/tags)
 - [Eclipse Marketplace](https://marketplace.eclipse.org/content/abap-tags) (Marketplace Client muss installiert sein)
 
 ## ABAP Search and Analysis Tools
 
 Dieses Plug-in erweitert die ADT um weitere Such- und Analysefunktionen für die folgenden Objekttypen:
 
-- Klasse/Interface
-- Datenbanktabelle/-view
 - CDS View
+- Datenbanktabelle
+- Datenbankview
+- Struktur
+- Datenelement
+- Domäne
+- Klasse/Interface
+- Methode
+- Nachricht (in Nachrichtenklasse)
 
 Die Suchfunktionen sind in den Eclipse-Search-Dialog integriert (<kbd>Strg</kbd>+<kbd>H</kbd>). Die Bedienung ist dabei ähnlich wie beim Dialog "Open ABAP Development Object" (<kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>). Den Objekttyp kann man mittels Dropdown ändern. Dieser steuert unter anderem die verfügbaren Filter im Feld "Search Filters".
 
@@ -309,11 +315,11 @@ Voraussetzungen Eclipse:
 Voraussetzungen ABAP:
 
 - SAP NetWeaver 7.40 SP08 oder neuer
-- abapGit repository [abap-search-tools](https://github.com/stockbal/abap-search-tools) muss installiert sein
+- abapGit repository [abap-search-tools](https://github.com/DevEpos/abap-search-tools) muss installiert sein
 
 Links:
 
-- Source-Code auf [GitHub](https://github.com/stockbal/abap-search-tools-ui)
+- Source-Code auf [GitHub](https://github.com/DevEpos/eclipse-adt-plugins/tree/main/features/search-tools)
 - [Eclipse Marketplace](https://marketplace.eclipse.org/content/abap-search-and-analysis-tools) (Marketplace Client muss installiert sein)
 
 ## ABAP Code Search
@@ -338,11 +344,11 @@ Voraussetzungen Eclipse:
 Voraussetzungen ABAP:
 
 - SAP NetWeaver 7.40 SP08 oder neuer
-- abapGit repository [abap-code-search-tools](https://github.com/stockbal/abap-code-search-tools) muss installiert sein
+- abapGit repository [abap-code-search-tools](https://github.com/DevEpos/abap-code-search-tools) muss installiert sein
 
 Links:
 
-- Source-Code auf [GitHub](https://github.com/stockbal/abap-code-search-tools)
+- Source-Code auf [GitHub](https://github.com/DevEpos/abap-code-search-tools)
 - [Eclipse Marketplace](https://marketplace.eclipse.org/content/abap-code-search) (Marketplace Client muss installiert sein)
 
 ## abapGit Eclipse Plug-in
